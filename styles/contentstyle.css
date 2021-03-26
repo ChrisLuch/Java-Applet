@@ -1,0 +1,61 @@
+A:link {
+	text-decoration: ;
+	}
+A:visited {
+	text-decoration: ;
+	}
+A:hover {
+	text-decoration: underline;
+	}
+
+BODY {
+   background-color: white; 
+   font-family:Arial,Helvetica;
+   padding: 8px 8px 0em 8px; 
+   border: 0em;
+  }
+
+.title {
+   color:blue;
+   text-align: center; 
+   font-size: 14pt;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.subtitle {
+   text-align: center;
+   color: blue;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.sectionheading {
+   text-align: left;
+   color: blue;
+   font-weight: bold;
+   text-transform: ;
+  }
+
+.subsectionheading {
+   text-align: left;
+   color: black;
+   font-weight: bold;
+   text-transform: ;
+  }
+
+UL {
+   list-style-type: disc;
+  }
+
+.equation {
+   text-align: center;
+  }
+
+.normal {
+   color: black;
+   font-size: 12pt;
+   font-family: Arial, Helvetica;
+  }
+/*hint definition*/
+

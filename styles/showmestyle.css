@@ -1,0 +1,55 @@
+A:link {
+	text-decoration: ;
+	}
+A:visited {
+	text-decoration: ;
+	}
+A:hover {
+	text-decoration: ;
+	}
+
+BODY {
+   background-color:white; 
+   font-family:Arial,Helvetica;
+   padding: 8px 8px 0em 8px; 
+   border: 0em;
+  }
+
+.title {
+   color: maroon;
+   text-align: left; 
+   font-size: 24pt;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.subtitle {
+   text-align: left;
+   color: maroon;
+	font-size: 18pt;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.sectionheading {
+  
+   color: maroon;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+UL {
+   list-style-type: disc;
+  }
+
+.equation {
+   text-align: center;
+  }
+
+.normal {
+   color: black;
+   font-size: 12pt;
+   font-family: Arial, Helvetica;
+  }
+/*hint definition*/
+

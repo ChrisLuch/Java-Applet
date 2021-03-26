@@ -1,0 +1,45 @@
+BODY {
+   background-color:blue; 
+   font-family:Arial,Helvetica;
+   position: absolute;  left: 50px;  top: 50px;
+   margin: 0em 0em 0em 0em; 
+   padding: 8px 8px 0em 8px; 
+   border: 0em;
+   color: white;
+  }
+
+.title {
+   text-align: center; 
+   font-size: 14pt;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.subtitle {
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+.sectionheading {
+   text-align: left;
+   color: black;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+UL {
+   list-style-type: disc;
+  }
+
+.equation {
+   text-align: center;
+  }
+
+.normal {
+   color: black;
+   font-size: 24pt;
+   font-family: Times;
+  }
+/*hint definition*/
