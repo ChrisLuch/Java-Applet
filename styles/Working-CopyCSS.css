@@ -1,0 +1,125 @@
+body{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cheerpjApplet{
+    /* background-color: red; */
+    z-index: inherit;
+    display: flex;
+}
+
+param {
+    background-color: aqua;
+}
+
+/* .cheerpjLoading:before {
+    background-image: url("http://localhost/main/brand/phet/images/logo-on-white.png");
+    background-color: aqua;
+  } */
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+@media all and (min-width:960px) and (max-width: 1024px) {
+    body{
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:801px) and (max-width: 959px) {
+    body{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:769px) and (max-width: 800px) {
+    body{
+    background-color: green;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:569px) and (max-width: 768px) {
+    body{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:481px) and (max-width: 568px) {
+    body{
+    background-color:red;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:321px) and (max-width: 480px) {
+    body{
+    background-color: green;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
+  
+@media all and (min-width:0px) and (max-width: 320px) {
+    body{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+}
