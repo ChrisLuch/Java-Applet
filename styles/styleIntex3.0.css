@@ -1,23 +1,22 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #333;
-    text-align: center ;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #333;
+  text-align: center;
 }
-.applet{
-    background-color: lightblue;
-    height: 53em;
-    padding: 1em; 
-    
+.applet {
+  background-color: lightblue;
+  height: 53em;
+  padding: 1em;
 }
-.page1{
-    background-color: lightgreen;
-    padding: 1em; 
+.page1 {
+  background-color: lightgreen;
+  padding: 1em;
 }
-.browsers{
-    background-color: lightcoral;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    height: 2em;
-    padding: 1em; 
+.browsers {
+  background-color: lightcoral;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2em;
+  padding: 1em;
 }
