@@ -1,17 +1,32 @@
+/* changes the background color of all vector pages that will be put into the index */
+html{
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: #333;
+    min-height: 100vh;
+    /* border-radius: 10px; */
 }
 
 .main {
-    background-color: white;
+    background-color: #333;
     border-radius: 1em;
-    padding:1em;
+    padding: 1em;
+    margin-top: 40%;
+    /* min-height: 100vh; */
+    color: white;
+        
 }
+
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    border-radius: 5px;
-    
+    border-radius: 2px;
+    padding: 1rem;
+    background-color: white;
+    color:black;
+    text-decoration: underline overline;
 }
 
 /* .title {
@@ -25,14 +40,11 @@ h1, h2 {
 
 
 
-
 /* ------------------------------------------------ Page 2 ----------------------------------------------------- */
 
 
 
-
 /* ------------------------------------------------ Page 3 ----------------------------------------------------- */
-
 
 
 
