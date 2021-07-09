@@ -3,14 +3,32 @@
     <title>Yarnspool</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   </head>
-    <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO"> 
+    <!-- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO"> 
     <frame src="page1.html" name = "MAIN">
     <frame src="pagebrowser.html" noresize scrolling = "NO">
     </frameset>
-    <noframes>
+    <noframes> -->
 
   <body bgcolor="#F0F0EA">
-    Your browser does not support frames... Too Bad...
+    <!-- Your browser does not support frames... Too Bad... -->
+    <div class="container">
+      <iframe 
+        src="page1.html" 
+        name="MAIN" 
+        frameborder="0"
+        width="100%"
+        height="95%"
+        >
+      </iframe>
+      <iframe 
+        src="pagebrowser.html" 
+        frameborder="0"
+        width="100%"
+        height="5%"
+        >
+      </iframe>
+    </div>
+
   </body>
 
   </noframes>

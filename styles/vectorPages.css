@@ -13,7 +13,7 @@ body {
     background-color: #333;
     border-radius: 1em;
     padding: 1em;
-    margin-top: 40%;
+    margin-top: 30%;
     /* min-height: 100vh; */
     color: white;
         
@@ -22,19 +22,17 @@ body {
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    border-radius: 2px;
-    padding: 1rem;
     background-color: white;
     color:black;
     text-decoration: underline overline;
 }
 
-/* .title {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    border-radius: 5px;
-    font-size: large;
-} */
+.title {
+    border-radius: 2px;
+    padding: 10px;
+    background-color: white;
+    color:black;
+}
 
 /* ------------------------------------------------ Page 1 ----------------------------------------------------- */
 
