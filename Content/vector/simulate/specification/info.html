@@ -1,0 +1,198 @@
+<HTML>
+ <HEAD>
+  <TITLE>Help - Vector Specification</TITLE>
+  <meta http-equiv="Content-Type" content="text/html;
+charset=iso-8859-1">
+  <LINK REL=stylesheet TYPE="text/css" HREF="../../../../../styles/infostyle.css">
+ </HEAD>
+ <BODY>
+
+<div class="title">Help - Vector Specification</div>
+
+<p>
+
+<div class="sectionheading">The applet draws a two-dimensional vector
+that has been specified numerically</div>
+
+<hr noshade color="#C0C0C0">
+
+<a name="Top"></a>
+
+<div align="center">
+
+</div>
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <p align="left">
+<font face="Arial,Helvetica">
+
+<map name="Map0">
+ <area href="#Vector" shape="rect" coords="197, 82, 221, 106">
+ <area href="#Refline" shape="rect" coords="79, 153, 103, 177">
+ <area href="#Format" shape="rect" coords="170, 312, 194, 336">
+ <area href="#DataFields" shape="rect" coords="18, 274, 42, 298">
+</map>
+
+<img border="0" src="VectorSpecsHelp.jpg" usemap="#Map0"></a><br></font></td>
+    </tr>
+  </table>
+</div>
+
+<p><b>Click on a number to view the explanation of the corresponding item.</b>
+
+<hr noshade color="#C0C0C0">
+
+<p><ol>
+
+  <div class="sectionheading">
+  <li><a name="Vector">Changing the Vector</a></div>
+
+  <p>When the applet is loaded, it will already display a vector.  You
+  can change the vector either by changing the arrow or by changing
+  the values in the data field at the bottom of the applet. 
+
+  <p>To change the arrow, click either on its tip or tail and drag.
+  To move the arrow without changing its magnitude or direction,
+  click near the middle of the arrow and drag.
+
+  <p>The two data fields in the control panel display the magnitude of
+  the vector and the angle between the vector and the dotted reference
+  line.  (This is assuming you are still in the default display mode.
+  See Point 3 below for the other modes.)
+
+<p align="center"><img src="VectorSpecsvector.jpg"></p>
+
+<p>Instead of changing the vector by dragging the arrow, you can
+change it by typing a different pair of values in the two data entry
+fields, followed by pressing ENTER on the keyboard.  </li>
+
+<p align="right"><a href="#Top"><img src="top.gif"
+border="0"></a></p>
+
+<p>
+
+  <div class="sectionheading">
+  <li><a name="Refline">Reference Line </a></div>
+
+  <p>The dotted line is a reference line relative to which the angle
+  specifying the vector is measured.  The angle is indicated by an
+  arc.</li>
+
+<p align="right"><a href="#Top"><img src="top.gif"
+border="0"></a></p>
+
+<p>
+
+  <div class="sectionheading">
+  <li><a name="Format">Four Ways of Specifying a Vector</a></div>
+
+<p>The applet works with vectors in two dimensions.  Two numbers are
+needed to specify a vector in two dimensions.  The applet lets you
+choose from four different kinds of pairs of numbers to specify a
+vector.</p>
+
+<ul>
+
+<li><u>Polar (positive)</u>.  
+
+<p align="center"><img src="VectorSpecsPolar.jpg"></p>
+
+
+<p>The vector is specified by its polar coordinates: magnitude and
+direction angle.  The direction angle is taken between the vector and
+the 'East' direction, indicated by a dotted line.  All angles are
+positive between 0 and 360<sup>0</sup>, increasing in the positive
+(counter-clockwise) sense starting at the reference line.
+
+<p>The magnitude of the vector is in pixels, in all four methods.</li>
+
+<p>
+
+<li><u>Polar (pos & neg)</u>. 
+
+<p align="center"><img src="VectorSpecsPolarneg.jpg"></p>
+
+<p>Same as Polar (positive), but the angles are taken to be in the
+range from -180<sup>0</sup> to 180<sup>0</sup>.  The angle is negative
+if the vector points to a point below the horizontal axis, as in the
+example above.  It is positive if the vector points to a point above
+the horizontal axis.</li>
+
+<p>
+
+<li><u>Navigational</u>.  
+
+<p align="center"><img src="VectorSpecsNav.jpg"></p>
+
+<p>Same as for Polar (positive), but the angles are taken relative to
+one of the four compass directions, either in the clockwise or
+counter-clockwise sense.  In the present example, the angle is
+specified by "N of W", which means the angle is measured between West
+(dotted line) and the vector, the angle being defined as going in the
+direction from West to North, i.e., clockwise.
+
+<p>There are eight such modes of specifying an angle, from east of
+north (E of N), north of east (N of E), all the way to west of north
+(W of N).
+
+<p>The mode can be selected from a drop-down menu that becomes
+available when the Navigational method is chosen.  All angles range
+from 0 to 360<sup>0</sup>.</li>
+
+<p>
+
+<li><u>Cartesian (<i>v<sub>x</sub></i>,<i>v<sub>y</sub></i>)</u>.  
+
+<p align="center"><img src="VectorSpecsCart.jpg"></p>
+
+<p>The vector <img src="v.gif" align="bottom"> is specified by its
+<i>x</i> and <i>y</i> (scalar) components
+(<i>v<sub>x</sub></i>,<i>v<sub>y</sub></i>) relative to a pair of
+horizontal (<i>x</i>) and vertical (<i>y</i>) axes.  The
+<i>x</i>-component is shown in green, and the <i>y</i>-component in
+yellow.</li>
+
+</ul>
+
+<p align="right"><a href="#Top"><img src="top.gif"
+border="0"></a></p>
+
+<p>
+
+  <div class="sectionheading">
+  <li><a name="DataFields">Data Fields</a></div>
+
+  <p align="center"><img src="VectorSpecsDatafields.jpg"></p>
+
+  <p>The two data fields show the number pair that specifies the
+  vector.  A given vector is specified by a different number pair in
+  each of the four modes described in Point 3 above.  The way the two
+  numbers in each pair are to be interpreted is indicated by the
+  preceding symbolic description.  E.g., in the present example, the
+  symbolic expression (<i>v</i>,<i><font face="symbol">q</font></i>)
+  precedes the two data fields.  Thus, in this case, the first entry
+  is equal to <i>v</i> and the second entry equal to <i><font
+  face="symbol">q</font></i>.
+
+  <p>You can change the vector by typing new values into the data
+  fields, followed by pressing ENTER on the keyboard, or by dragging
+  the tip or tail of the vector.  In the latter case, the data entry
+  fields are updated automatically as you change the vector.</li>
+
+  </ol>
+
+<p align="right"><a href="#Top"><img src="top.gif"
+border="0"></a></p>
+
+<p>
+
+<hr>
+
+</body>
+
+</html>
+
+
