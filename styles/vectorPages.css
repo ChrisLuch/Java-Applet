@@ -24,7 +24,7 @@ h1, h2 {
     text-align: center;
     background-color: white;
     color:black;
-    text-decoration: underline overline;
+    text-decoration: underline;
 }
 
 .title {
