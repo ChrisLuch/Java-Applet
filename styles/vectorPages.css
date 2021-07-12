@@ -1,0 +1,52 @@
+/* changes the background color of all vector pages that will be put into the index */
+html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    min-height: 100vh;
+    /* border-radius: 10px; */
+}
+
+.main {
+    background-color: #333;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 30%;
+    /* min-height: 100vh; */
+    color: white;
+        
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: white;
+    color:black;
+    text-decoration: underline overline;
+}
+
+.title {
+    border-radius: 2px;
+    padding: 10px;
+    background-color: white;
+    color:black;
+}
+
+/* ------------------------------------------------ Page 1 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 2 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 3 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 4 ----------------------------------------------------- */
+
+
+
