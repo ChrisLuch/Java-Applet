@@ -12,9 +12,11 @@ body {
     background-color: #333;
     border-radius: 1em;
     padding: 1em;
-    margin-top: 30%;
+    /* margin-top: 30%; */
     /* min-height: 100vh; */
     color: white;
+    /* max-width: 600px;
+    overflow: scroll; */
         
 }
 
@@ -28,7 +30,7 @@ h1, h2 {
 
 .title {
     border-radius: 2px;
-    padding: 10px;
+    padding: 5px;
     background-color: white;
     color:black;
 }
