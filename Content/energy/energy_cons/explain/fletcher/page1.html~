@@ -1,0 +1,30 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Hans Laue">
+   <title>Energy Conservation: Fletcher's Trolley</title>
+   <LINK REL=stylesheet TYPE="text/css"HREF="../../../../../styles/contentstyle.css">
+</head>
+<body>
+
+<div class="title">Energy Conservation in Fletcher's Trolley</div>
+
+<p><b>Preparation</b>: Energy/Potential Energy/Explain It.</p>
+
+<p>The Fletcher Trolley apparatus shown on the left is frictionless.
+Therefore the mechanical energy of the system consisting of this
+apparatus and the earth is conserved.  The mechanical energy is the
+sum of the kinetic energies of all moving parts and the gravitational
+potential energy.  As always, the earth's kinetic energy can be
+ignored.</p>
+
+<p><b>Question</b>. Drag block 1 to the left until block 2 is raised
+to a height of h = 2.5 m.  Then run the simulation until block 1
+reaches h = 0.  Can you predict, using energy conservation, what the
+speed of the two blocks will be at this moment?  Try it.</p>
+
+
+
+</FONT>
+</body>
+</html>

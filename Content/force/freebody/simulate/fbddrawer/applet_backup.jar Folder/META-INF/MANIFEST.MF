@@ -1,0 +1,211 @@
+Manifest-Version: 1.0
+Created-By: 1.4.1_03-b02 (Sun Microsystems Inc.)
+Ant-Version: Apache Ant 1.5.3 
+
+Name: AppletBundle_forces_actionreaction_nl.properties
+SHA1-Digest: 4qSz3ZYs/tcWC6msRaj+oZJFYCE=
+
+Name: forces/actionreaction/applet/AppletPanel$ARProjectSelectCommand.
+ class
+SHA1-Digest: 5CcOl433xNCfv3zyGVKXuWN+ZVs=
+
+Name: AppletBundle_forces_actionreaction_fr.properties
+SHA1-Digest: A/gYb/tv+cSif7Pdp1zd9AvqTqI=
+
+Name: forces/actionreaction/applet/AppletPanel$3.class
+SHA1-Digest: 36galz0Y2HCjfjvRt/K0dzij8TM=
+
+Name: forces/actionreaction/applet/AppletControlPanel.class
+SHA1-Digest: f5RzRuzhy+/R4V99PqlgZWwpQWU=
+
+Name: forces/actionreaction/editor/EditorPreviewPanel.class
+SHA1-Digest: yA45fy30RnZpdz1TTOeAlbs01pU=
+
+Name: forces/actionreaction/FBDDiagram.class
+SHA1-Digest: DjT8ZCIqK3WrYf8LqCOBzDwkNWQ=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_4.gif
+SHA1-Digest: eyhFSqbiu3T8XbpeNJ+wTVm1Fek=
+
+Name: forces/actionreaction/projects/ProjectLink.class
+SHA1-Digest: AvqvyKtWRfhVntYUnv4qhoa9ElY=
+
+Name: forces/actionreaction/editor/EditorPanel$1.class
+SHA1-Digest: rJsaVJkzqiZBZzNaFZm0tleh+nI=
+
+Name: AppletBundle_forces_actionreaction_en.properties
+SHA1-Digest: EbjP5FL7coKDTGVHaL1+Do4qD8E=
+
+Name: forces/actionreaction/projects/project_2
+SHA1-Digest: uHTJkxWon0T4JuCJiiw1yNuY1TE=
+
+Name: forces/actionreaction/editor/EditorPanel$10.class
+SHA1-Digest: E0dr6sw6JFaHRvJJnsqzuGmqpKA=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_7.gif
+SHA1-Digest: ymM4lWd8PsMi8hWxKs7TqfTGXqM=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_6.gif
+SHA1-Digest: YjkUHoPGMLHmsTvKXk2wdnoHpp8=
+
+Name: forces/actionreaction/applet/AppletPanel$4.class
+SHA1-Digest: qDifyFg95PvJQQl1xJmQTAThhmM=
+
+Name: forces/actionreaction/applet/AppletProjectFrame$OverListener.cla
+ ss
+SHA1-Digest: 04kfF1srfpJsAD1dkafM3fUOH54=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_5.gif
+SHA1-Digest: Q+zL5s7Mhc9K+X4vmzMkT0jiYr4=
+
+Name: forces/actionreaction/editor/EditorPanel$7.class
+SHA1-Digest: egHL0NbQxeoZGFxSQhbxc8EUzr8=
+
+Name: forces/actionreaction/editor/EditorPanel$3.class
+SHA1-Digest: xBlZeGAwMuPrU8ZxuDcZmKljQKo=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_7.gif
+SHA1-Digest: ymM4lWd8PsMi8hWxKs7TqfTGXqM=
+
+Name: forces/actionreaction/applet/AppletProjectFrame$1.class
+SHA1-Digest: wIc7T70rN4vZ5dsr3yhQRPQKxwE=
+
+Name: forces/actionreaction/applet/AppletImagePanel$1.class
+SHA1-Digest: LjwFyxirQpnNEZThp1wzAKOeIxc=
+
+Name: forces/actionreaction/editor/EditorPanel$8.class
+SHA1-Digest: LaiLR4LNkQMdtuWyxYYddXkRvJQ=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_2.gif
+SHA1-Digest: Z9RcO02OUPweSuIPRu9yMc69RFg=
+
+Name: forces/actionreaction/editor/EditorPanel$6.class
+SHA1-Digest: oLm8v2TZhlbCjvk1A8hc0ZwljRY=
+
+Name: forces/actionreaction/VectorDrawPanel.class
+SHA1-Digest: WOIlqQaId3KE5QspfZa1+ddJKDM=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_6.gif
+SHA1-Digest: YjkUHoPGMLHmsTvKXk2wdnoHpp8=
+
+Name: forces/actionreaction/editor/EditorPanel$5.class
+SHA1-Digest: 3qUW6ZaA74pj0WpRH/HwRu+y3aY=
+
+Name: forces/actionreaction/MasterPanel$1.class
+SHA1-Digest: fopQ7d2IP0YiMz7tQJOopLWHFcE=
+
+Name: forces/actionreaction/MasterPanel$4.class
+SHA1-Digest: bYqqsGY4LMW1pU+Em+oXHCOc1hs=
+
+Name: forces/actionreaction/MasterPanel$2.class
+SHA1-Digest: Ll6FImlSxlFgRcQo96JE1THelA0=
+
+Name: forces/actionreaction/MasterPanel$6.class
+SHA1-Digest: JlmzNsmajIepmoSRKlqX+HNr7+o=
+
+Name: forces/actionreaction/editor/EditorPanel$11.class
+SHA1-Digest: +GEiw/r5R5J+EBjj7EVWVoFBE9A=
+
+Name: forces/actionreaction/projects/project_1
+SHA1-Digest: 1ammmhRui4TmS2H5rjbE8e/XQLM=
+
+Name: forces/actionreaction/FBDProject.class
+SHA1-Digest: TKF1s37JRvJvWnUoERAG5Z5XE80=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_4.gif
+SHA1-Digest: eyhFSqbiu3T8XbpeNJ+wTVm1Fek=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_3.gif
+SHA1-Digest: r+NgNLRZCBr/Wf8XxyMohHe/40k=
+
+Name: forces/actionreaction/applet/AppletDisplayFrame.class
+SHA1-Digest: mpnikbe/PE2HYycbx0a0rRQFT7U=
+
+Name: forces/actionreaction/applet/AppletDisplayFrame$DrawPanel.class
+SHA1-Digest: yyhHvVYQTar/0BWK4v6yTOKDQjI=
+
+Name: forces/actionreaction/MasterPanel$5.class
+SHA1-Digest: qUX3qAiUXJWII7jQoDDX8/t3DjY=
+
+Name: forces/actionreaction/applet/AppletDisplayFrame$1.class
+SHA1-Digest: ihmvvFU7N7KfiaX8hmiZ/rDWxME=
+
+Name: forces/actionreaction/editor/EditorGroupPanel.class
+SHA1-Digest: xRJoyorSyMXOVbCD8xv6W92UCYI=
+
+Name: forces/actionreaction/applet/AppletImagePanel.class
+SHA1-Digest: L9hQfFlUB0TRYBc4wmFKPJS0Fes=
+
+Name: forces/actionreaction/editor/EditorPanel$9.class
+SHA1-Digest: wvDO1ixA82BfiJwocZKiSPSZNCM=
+
+Name: forces/actionreaction/applet/AppletMain.class
+SHA1-Digest: zOwgnsaP9fffuNfUzlwB+lJ1uYM=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_2.gif
+SHA1-Digest: Z9RcO02OUPweSuIPRu9yMc69RFg=
+
+Name: forces/actionreaction/applet/AppletProjectFrame$MenuButton.class
+SHA1-Digest: 6CRpSz8JNSmEgRs1i7pXNCsZIj0=
+
+Name: forces/actionreaction/editor/EditorPanel$4.class
+SHA1-Digest: 7jweP45j5vTgIzTFCForb0UM14I=
+
+Name: forces/actionreaction/editor/EditorPanel$12.class
+SHA1-Digest: 0+4Ws004/KQeH/jdFsIEd5PnC6k=
+
+Name: forces/actionreaction/editor/EditorApplet.class
+SHA1-Digest: B7GnsdMWuaQeaeOzaNP8OH7u7bU=
+
+Name: forces/actionreaction/applet/AppletProjectFrame.class
+SHA1-Digest: 9ubk8xTk9CLhgQsXPNdiunkpBwM=
+
+Name: forces/actionreaction/MasterPanel.class
+SHA1-Digest: CIwp4kUwZ+2gfgpl4Y2kA+PoAhA=
+
+Name: forces/actionreaction/applet/AppletPanel$2.class
+SHA1-Digest: icyRV08/xJYY/FYQh/kAo+ZVpKY=
+
+Name: forces/actionreaction/MasterPanel$3.class
+SHA1-Digest: 9ql6R6MZasW/CILzoBH2I7DFroM=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_5.gif
+SHA1-Digest: Q+zL5s7Mhc9K+X4vmzMkT0jiYr4=
+
+Name: forces/actionreaction/VectorEditPanel.class
+SHA1-Digest: Q9sJNK4QtmtSboqHQMDlBjOwXGI=
+
+Name: forces/actionreaction/projects/project_1_images/fbd_1.gif
+SHA1-Digest: d33QmHtNzWEQPbOJPQYbmqW1CYo=
+
+Name: forces/actionreaction/applet/AppletPanel.class
+SHA1-Digest: iRdh3mcyKypiG4O7zMRXF1HDSTA=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_1.gif
+SHA1-Digest: d33QmHtNzWEQPbOJPQYbmqW1CYo=
+
+Name: forces/actionreaction/ProjectLoader.class
+SHA1-Digest: 1xJdpEZ8QcVvo/hWSwgIjDd8kls=
+
+Name: forces/actionreaction/projects/project_2_images/fbd_3.gif
+SHA1-Digest: r+NgNLRZCBr/Wf8XxyMohHe/40k=
+
+Name: forces/actionreaction/applet/AppletImagePanel$CreationModel.clas
+ s
+SHA1-Digest: 6iMl5SwzLr2KBEny8b7HY/ZvWfc=
+
+Name: forces/actionreaction/MasterPanel$7.class
+SHA1-Digest: W1YNmTPua+vhR+1+1K3PTgb443E=
+
+Name: forces/actionreaction/editor/EditorPanel.class
+SHA1-Digest: Wq6b9YrpF5jhuXkHkXSl1IHCsnI=
+
+Name: forces/actionreaction/applet/AppletProjectFrame$Listener.class
+SHA1-Digest: fx2EtGImZelmYlVuAAjft1/sDY8=
+
+Name: forces/actionreaction/applet/AppletPanel$1.class
+SHA1-Digest: whto1+jdEYmuNiWUf7J3NXcJAQg=
+
+Name: forces/actionreaction/editor/EditorPanel$2.class
+SHA1-Digest: Q+tB/Ewrp6XMK620Qk+iZ5KAxPc=
+
