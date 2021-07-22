@@ -1,0 +1,75 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Michael Boonstra">
+   <title>Kirchhoff Explain Page 11</title>
+
+   <LINK REL=stylesheet TYPE="text/css" HREF="../../../../styles/contentstyle.css">
+
+</head>
+<body>
+
+<div class="title">The Wheatstone Bridge</div>
+
+<p><b>Answer</b>.  Set <i>R<sub>4</sub></i> to 4 <font
+face="symbol">W</font> in the simulation and you will find the cross
+current to be zero.  Check it with an ammeter.  Is there an easy way
+to obtain this value?</p>
+
+<p>Yes.  Let's start with the general expression for
+<i>I<sub>5</sub></i>,<p>
+
+<div class="equation"><i>I<sub>5</sub></i> = <i>V<sub>0</sub></i>
+(<i>R<sub>2</sub>R<sub>3</sub></i> -
+<i>R<sub>1</sub>R<sub>4</sub></i>)/D .</div>
+
+<p>This gives the condition for zero current <i>I<sub>5</sub></i> as
+
+<div class="equation"><i>R<sub>2</sub>R<sub>3</sub></i> =
+<i>R<sub>1</sub>R<sub>4</sub></i> </div>
+
+<div>or</div>
+
+<div class="equation"><i>R<sub>1</sub></i>/<i>R<sub>3</sub></i> =
+<i>R<sub>2</sub></i>/<i>R<sub>4</sub></i> .</div>
+
+<p>Substituting the given values for <i>R<sub>1</sub></i> to
+<i>R<sub>3</sub></i> gives <i>R<sub>4</sub></i> = 4 <font
+face="symbol">W</font>.</p>
+
+<p>One can understand the above ratio-condition for zero cross current
+without using the explicit expression above for <i>I<sub>5</sub></i>.
+Consider a modified circuit that does not have the cross bridge.  That
+circuit consists of two parallel branches, each with two resistors in
+series.  These branches are voltage dividers, each dividing the 12-V
+potential difference that exists between points A and C.  The
+potentials at the junction points B and D will be in between the
+potentials at A and C.</p>
+
+<p>The ratio-condition <i>R<sub>1</sub></i>/<i>R<sub>3</sub></i> =
+<i>R<sub>2</sub></i>/<i>R<sub>4</sub></i> for zero cross current is
+just the condition under which points B and D divide the 12 V in the
+same manner in the two branches, so that the potentials at B and D are
+equal.  If the potentials are equal at B and D, then reconnecting the
+cross bridge between these points will not cause a current in the
+bridge.</p>
+
+<p>Finally some comments about the <b>Wheatstone Bridge</b>.  The
+Wheatstone bridge lets you measure a resistance by comparing it
+against other resistances.</p>  
+
+<p>In a Wheatstone Bridge, the series combination of resistors
+<i>R<sub>2</sub></i> and <i>R<sub>4</sub></i> consists of a single
+resistance wire with a sliding contact at point D.  By sliding this
+contact point, one changes the ratio
+<i>R<sub>2</sub></i>/<i>R<sub>4</sub></i>.  The ratio can be measured
+by simply measuring the lenghts of resistance wire on either side of
+point D.  Suppose resistance <i>R<sub>3</sub></i> is unknown and
+<i>R<sub>1</sub></i> is known.  One adjusts the contact point D so
+that the cross current is zero, measures the ratio
+<i>R<sub>2</sub></i>/<i>R<sub>4</sub></i>, and then calculates
+<i>R<sub>3</sub></i> from the ratio-condition.</p>
+
+</body>
+
+</html>

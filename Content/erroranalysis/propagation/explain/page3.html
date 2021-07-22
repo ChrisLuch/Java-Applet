@@ -1,0 +1,86 @@
+<HTML>
+
+ <HEAD>
+
+ <TITLE>Error Propagation Explain Page3</TITLE>
+
+ <meta
+ http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+ <LINK REL=stylesheet
+ TYPE="text/css"HREF="../../../../styles/contentstyle.css">
+
+ </HEAD>
+
+ <BODY>
+
+ <div class="title">Propagation of Error</div>
+
+ <div class="title">Max/Min Method</div>
+
+ <p>Let's practise the Max/Min Method with one more example.  
+
+ <p><b>Question</b>. The distance between two mountain tops is known
+ to be 32.86 km.  For the purpose of the present question, let's take
+ this result to have negligible uncertainty.  The angle <font
+ face="symbol">q</font> between the line of sight from one top to the
+ other has been measured to be 20.0<sup>o</sup> &plusmn;
+ 0.6<sup>o</sup>.  What is the horizontal distance between the two
+ mountain tops and the absolute and relative uncertainty in this
+ distance?
+
+ <p align="center"><img src="Mountaintops.gif"></p>
+
+ <p><b>Answer</b>.  Let <i>x</i> denote the unknown horizontal
+ distance between the two mountain tops and <i>d</i> the 32.86-km
+ distance from top to top.  Then, since <i>d</i> is the hypotenuse in
+ a right-angle triangle,
+
+ <p align="center"><i>x</i> = <i>d cos</i> <font
+ face="symbol">q</font>.</p>
+
+ <p>Since the cosine is a decreasing function of <font
+ face="symbol">q</font> around <font face="symbol">q</font> =
+ 20<sup>o</sup>, the maximum value of <i>x</i> is obtained for the
+ mininum value of <font face="symbol">q</font>.  Thus,
+
+ <p align="center"><i>x<sub>max</sub></i> = 32.86 <i>cos</i>
+ 19.4<sup>o</sup> = 30.99 km .</p>
+
+ <p>Similarly, the minimum value of <i>x</i> is obtained for the
+ maximum value of <font face="symbol">q</font>.  Thus,
+
+ <p align="center"><i>x<sub>min</sub></i> = 32.86 <i>cos</i>
+ 20.6<sup>o</sup> = 30.76 km .</p>
+
+ <p>Thus the horizontal distance between the two mountain tops is in
+ the range
+
+ <p align="center">30.76 km &lt; <i>x</i> &lt; 30.99 km .</p>
+
+ <p>One can also write this result in the form
+
+ <p align="center"><i>x</i> &plusmn; <font
+ face="symbol">D</font><i>x</i> = 30.88 km &plusmn; 0.12 km .</p>
+
+ <p><p><u>Comment</u>.  The uncertainty <font
+ face="symbol">D</font><i>x</i> is equal to the (absolute value of
+ the) change in the value of the function <i>d cos</i> <font
+ face="symbol">q</font> as <font face="symbol">q</font> increases from
+ 20<sup>o</sup> to 20<sup>o</sup> + <font face="symbol">Dq</font>,
+ where in our case <font face="symbol">Dq</font> = 0.6<sup>o</sup>.
+ We need to take the absolute value of the change because an
+ uncertainty, by definition, is a positive quantity.  In the present
+ case, the change of the function would be negative because the cosine
+ is decreasing around <font face="symbol">q</font> = 20<sup>o</sup>.
+
+ <p>There is a quick way of finding the change in the value of a
+ function as the argument of the function changes.  Although this
+ quick way involves an approximation, the so-called <i>linear
+ approximation</i> to a function, this approximation is good enough
+ for the purposes of error propagation unless the error is very large.
+ This method will be used on Page 4 to determine the propagation of
+ uncertainties in the preceding two examples once more.
+
+</body>
+</html>

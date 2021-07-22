@@ -1,0 +1,2799 @@
+<html>
+  <head>
+    <title>MAP Bugs 1</title> 
+  </head>
+
+  <body>
+    <div align=center>
+      <font size=+3> 
+		   Modular Approach to Physics <br>
+		</font>
+		BUG Tracking Page 1 - Arend<br>
+		&amp <br>
+		Requests for Enhancement <br>
+	 </div>
+
+	 <br>
+	 <br>
+
+
+	 <!-- Sections -->
+	 <a name="sections"><hr></a>
+
+	 <font size=+1> Sections: </font> <br>
+	 <li> <a href="#accel">Acceleration</a> <font size=-1 color = red>Unresolved </font></li>
+	 <li> <a href="#angle">Angle</a><!-- <font size=-1 color = red>Unresolved </font> --> </li>
+	 <li> <a href="#angmomtm">Angular Momentumm</a><!-- <font size=-1 color = red>Unresolved </font> --> </li>
+	 <li> <a href="#angvel">Angular Velocity</a><!-- <font size=-1 color = red>Unresolved </font> --> </li>
+	 <li> <a href="#basicmath">Basic Math</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#distance">Distance</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#dsplcmnt">Displacement</a>  <font size=-1 color = red>Unresolved </font></li>
+	 <li> <a href="#circuitbuilder">Electric Circuits</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#energy">Energy</a> <font size=-1 color = red>Unresolved </font></li>
+	 <li> <a href="#erroranalysis">Error Analysis</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#force">Force</a> <font size=-1 color = red>Unresolved </font> </li>
+	 <li> <a href="#function">Functions (Mathematical)</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#kinematics">Kinematics</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#mass">Mass</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#math">Math</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#momentofinertia">Moment of Inertia</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#momentum">Momentum</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#planetary">Planetary Motion</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#position">Position</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#power">Power</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#refframe">Reference Frame</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#shm">Simple Harmonic Motion</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#speed">Speed</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#statequl">State Qul?</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#time">Time</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 <li> <a href="#torque">Torque</a>  <!-- --> <font size=-1 color = red>Unresolved </font> <!-- --></li>
+	 <li> <a href="#vectors">Vectors</a> <!-- --> <font size=-1 color = red>Unresolved </font> <!-- --></li>
+	 <li> <a href="#velocity">Velocity</a>  <font size=-1 color = red>Unresolved </font> </li>
+	 <li> <a href="#work">Work</a> <!-- <font size=-1 color = red>Unresolved </font> --></li>
+	 
+
+<!-- Entry Template -->
+
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+		  STATUS: OPEN
+
+        </font> <!-- brief description -->
+        <p>
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+
+        <!-- a longer explanation of the problem or request -->
+        <p>Details:<br>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+<!-- End of Entry Template -->
+
+	 <!-- accel -->
+	 <a name="accel"><hr></a>
+	 <font size=+3> Acceleration </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="accel/">content/accel</a> <br>
+	 <br>
+	 <blockquote>
+
+	       <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+		  RFE 2001.08.07.001
+
+        </font> <!-- brief description -->
+        <p>
+		  In Two-Balls, varying the acceleration due to gravity affects
+		  both balls equally while air resistance and ball mass affects
+		  only ball 2 (the yellow one).  Similarly, let varying the
+		  acceleration due to gravity affect only ball 2.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+		  multiple urls here)--> 
+
+		  <p>url: <a
+		  href="accel/duegravity/simulate/oneball/index.html">Acceleration/Due
+		  to Gravity/Simulate It/One Ball</a></p>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001-08-07 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.08.31.001 STATUS: OPEN
+
+        </font> <!-- brief description -->
+
+        <p>
+         Two-Balls Applet:
+
+
+			<b>BUG</b>: The units and the label for the x-axis are
+			covered up by the control panel, as a result of adding the
+			logo bar.  This has been fixed for the One-Ball applet, but
+			not for the Two-Balls applet.  Do the same for the Two-Balls
+			applet.<br>
+
+			 2001.08.31 Hans Laue <br>
+
+     </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+        </p>
+
+<br>
+<br>
+<br>
+
+
+      <li>
+        <!-- request or bug number --> <font color=green>
+        RFE 2001.06.10.001
+
+        </font> <!-- brief description -->
+
+        <p>
+		   Two-Balls Applet: 
+
+			<br> <b>RFE</b>: Add a button that when clicked will superimpose
+			ball 2 on ball 1.<br>
+			Done, DoubleClicking on the background anywhere switches between ball 1 and ball2 being in front. <br>
+			2001.09.19 Arend Meetsma<br>
+			<br>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)-->
+
+        url: <a
+        href="accel/duegravity/simulate/twoballs/">Acceleration/Due to
+        Gravity/Simulate It/Two Balls</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+
+		  <p>RFE: It is often of interest to start both balls at exactly the
+		  same position, in order to compare differences in their
+		  subsequent orbits, e.g., when one ball has air resistance and
+		  the other one does not, or when the two balls start with
+		  different velocities.  It is tedious to manipulate one ball
+		  into exactly the same position as the other.  So it would be
+		  good to be able to accomplish this upon clicking a button.  Or
+		  maybe instead of a button one could double-click on the
+		  ball. Maybe double-clicking is preferable because it would
+		  save a button.  Also one could make both balls
+		  double-clickable.  Whichever ball is double-clicked gets moved
+		  on top of the other one.  Right now, it is always ball 1 that
+		  is on top, even if ball 2 has been moved last.  It is sometimes
+		  desirable to have a choice in which ball is the one that is
+		  movable (and whose velocity vector can be dragged) when they
+		  are superimposed.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.06.10 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  Double Clicking on the background will swap ball1 behind ball two. Double click again and it will sap back in front.
+
+           <br>
+           <!-- The Date, and commenter -->
+		  2001.09.19 Arend Meetsma
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+<br>
+<br>
+<br>
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --><font color=green>
+        RFE 2001.07.04.001
+
+		  STATUS: FIXED
+
+        </font><!-- brief description -->
+
+        <p>
+		   A number of small changes in the Acceleration/Basic
+		   Facts/Explain It session.  The text is already in place, and an
+		   applet on p.3.  Other applets need to be added.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)-->
+
+        url: <a
+        href="accel/basic/explain/">Acceleration/Basic Facts/Explain It</a>
+
+        <p>
+        url: <a
+        href="torque/aboutanaxis/apply/physicalpendulum">Torque/About
+        An Axis/Apply It/Physical Pendulum</a>
+
+		  <p>
+		  url: <a href="kinematics/basic/glimpse/">Interaction/Basic Facts/Get A Glimpse</a>
+
+    <br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>The Acceleration/Basic Facts/Explain It session has eight
+         pages.  I will describe what needs to be done on each page.
+
+		  <ul>
+
+		  <li>Page 1.  There will only be the existing text.</li>
+
+		  <li>Page 2.  On the left-hand side place the applet from
+		  Torque/About An Axis/Apply It/Physical Pendulum.  Set the
+		  radius of the bob to 0.4 m and the length of the pendulum to 5
+		  m.  Select button 2 so that the velocity and acceleration
+		  vectors are displayed.  Make all other buttons inactive,
+		  including the START/PAUSE button.  The pendulum should be
+		  swinging as soon as the applet has loaded.  It should be
+		  swinging between -120 deg and 120 deg.  Text is on the
+		  right-hand side.</li>
+
+		  <li>Page 3.  Place the 4-motions applet from
+		  Interactions/Basic Facts/Get A Glimpse on the left and text on
+		  the right, as has already been arranged.  There are a couple
+		  of problems with the 4-motions applet.  (a) When one selects
+		  choice (d), the response page has a 1-page pagebrowser at the
+		  bottom.  Get rid of this.  (b) Some of the applet is chopped
+		  off at the bottom because space is taken up for both the page
+		  navigator and the choice button navigator.  Is there anything
+		  one can do about this?  I could live with the way things are
+		  at present, although not ideal.</li>
+
+		  <li>Page 4.  There will be only text on this page.  No changes
+		  required.</li>
+
+		  <li>Pages 5-7.  Divide the content area into an upper and a
+		  lower portion, about 2/3 for the upper and 1/3 for the lower
+		  portion.  The new applet in which a velocity vector will be
+		  steered by means of an acceleration vector (Acceleration/Basic
+		  Facts/Simulate It/Accel. Vs. Veloc.) will be in the upper
+		  portion and the existing text in the lower portion. The full
+		  applet will be available on all three pages.</li>
+
+		  <li>Page 8.  Existing text only.</li>
+
+		  </ul>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.07.04.001) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+			  2001.08.30 DONE Jeremiah
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+
+	 </blockquote>
+
+
+
+	 <!-- angle -->
+	 <a name="angle"><hr></a>
+	 <font size=+3> Angle </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="angle/">content/angle</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+	 <!-- angmomtm -->
+	 <a name="angmomtm"><hr></a>
+	 <font size=+3> Angular Momentum </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="angmomtm/">content/angmomtm</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+
+	 <!-- angvel -->
+	 <a name="angvel"><hr></a>
+	 <font size=+3> Angular Velocity </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="angvel/">content/angvel</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+
+	 <!-- basicmath -->
+	 <a name="basicmath"><hr></a>
+	 <font size=+3> Basic Math </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="basicmath/">content/basicmath</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+	 
+	 <!-- distance -->
+	 <a name="distance"><hr></a>
+	 <font size=+3> Distance </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="distance/">content/distance</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+	 
+	 <!-- dsplcmnt -->
+	 <a name="dsplcmnt"><hr></a>
+	 <font size=+3> Displacement </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="/dsplcmnt">content/dsplcmnt</a> <br>
+	 <br>
+	 <blockquote>
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+		  RFE 2001.07.24.001
+
+        </font> <!-- brief description -->
+        <p>
+		  A number of alterations of the existing displacement applet
+		  are requested.  These were worked out together with Gary Raab.
+		  I think they will significantly improve the applet.
+        </p>
+
+		  <p>The average velocity applet will have corresponding
+		  alterations.  See under Velocity below.
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+		  <p>
+		  url: <a
+		  href="http://pulse.phas.ucalgary.ca/map/content/dsplcmnt/basic/simulate">Displacement/Basic
+		  Facts/Simulate It/</a>
+
+		  <p>
+		  url: <a
+		  href="http://pulse.phas.ucalgary.ca/map/content/velocity/average/simulate">Velocity/Average/Simulate
+		  It</a>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+		  <ol>
+
+		  <li>Add another button to the applet.  The button is titled
+		  'Initial Position'.  Until this button is clicked and
+		  depressed, one can do nothing with the applet.  When it is
+		  depressed, one can click anywhere on the screen to place the
+		  ball at that point.  One can then drag the ball elsewhere as
+		  long as the mouse button stays depressed.  As soon as the
+		  mouse button is released, the ball's position is set and the
+		  Initial-Position button is raised.  The button could be
+		  clicked again and the ball's initial position could then be
+		  set somewhere else.  When the button is clicked and one clicks
+		  on the ball itself while it is still at the origin, the ball's
+		  position does not get changed, unless one drags the ball.</li>
+
+		  <p>
+
+		  <li>After clicking the Initial-Position button, if one drags
+		  the ball with the shift key depressed, the ball moves along a
+		  horizontal, vertical or 45<sup>0</sup> direction, whichever is
+		  closest to the direction in which one is dragging.</li>
+
+		  <p>
+
+		  <li>Add a button labeled 'Position Vectors'.  When clicked,
+		  this button will draw position vectors to the initial and
+		  final ball positions.  These vectors will be labeled
+		  <b>r</b><sub>i</sub> and <b>r</b><sub>f</sub>, respectively.
+		  The <b>r</b> will have an arrow above it.</li>
+
+		  <p>
+
+		  <li>Add a 'grid' toggle button that will extend the x,y axes
+		  to a grid, to make it easier to set the position of the ball
+		  to a grid point.</li>
+
+		  <p>
+
+		  <li>To make it easier to set the ball to a grid point, replace
+		  the ball by a 'hollow' one (transparent may be a better word)
+		  with a pair of horizontal and vertical diameters inside the
+		  ball to define the center point of the ball, which then can be
+		  aimed towards a grid point.</li>
+
+		  <p>
+
+		  <li>Enhance the tip of the green displacement arrow so that
+		  one can see clearly in which direction the arrow is
+		  pointing.</li>
+
+		  <p>
+
+		  <li>Change the display of the numerical values as follows.  In
+		  the top left corner, create a column headed 'distance
+		  traveled' and in the top right corner a column titled
+		  'displacement'.  To the left of the title 'distance traveled'
+		  draw a small red square color-coded with the red curve traced
+		  out by the ball.  To the left of the title 'displacement' draw
+		  a small green square color-coded with the green displacement
+		  vector.
+
+		  <p>The only entry under 'distance traveled' is 's =
+		  ... m'. This is currently the last entry on the right.</p>
+
+		  <p>The only entry under 'displacement' is <b>d</b> =
+		  (<i>d</i>,<font face="symbol">q</font>) = (... m,
+		  ... deg). The <b>d</b> should have an arrow above it, as
+		  should all boldface symbols listed in the following
+		  paragraph.</p>
+
+		  <p>Add a toggle button titled 'More Data'.  When that button
+		  is depressed, the following additional entries are placed in
+		  the displacement column on the right underneath the one entry
+		  described in the preceding paragraph:</p>
+
+		  <p><b>r</b><sub>i</sub> = (<i>x</i>,<i>y</i>)<sub>i</sub> = (...,...) m
+
+		  <br><spacer type="horizontal" size="13">= (<i>r</i>,<font
+		  face="symbol">q</font>)<sub>i</sub> = (... m, ... deg)
+
+        <p><b>r</b><sub>f</sub> = (<i>x</i>,<i>y</i>)<sub>f</sub> = (...,...) m
+
+        <br><spacer type="horizontal" size="13">= (<i>r</i>,<font
+        face="symbol">q</font>)<sub>f</sub> = (... m, ... deg)
+
+		  <p><b>d</b> = <font face="symbol">D</font><b>r</b> = (<font
+		  face="symbol">D</font><i>x</i>,<font
+		  face="symbol">D</font><i>y</i>) = (..., ...) m
+
+		  <br><spacer type="horizontal" size="50">= (<i>d</i>,<font
+        face="symbol">q</font>) = (... m, ... deg)</li>
+
+		  </ol>
+
+		  
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.07.24) Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+	 
+
+	 </blockquote>
+
+	 
+	 <!-- circuitbuilder -->
+	 <a name="circuitbuilder"><hr></a>
+	 <font size=+3> Electric Circuits </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="circuitbuilder/">content/circuitbuilder</a> <br>
+	 <br>
+    <blockquote>
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.01.001 <br>
+
+        </font> <!-- brief description -->
+        
+		  <p>
+         In two questions of the listed item, the Submit and Give Up
+         buttons on the Question Navigator do not show the button
+         labels properly.  Also, the numerical entry down arrow in the
+         first of the two questions does not get fully displayed.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)--> 
+
+		  url: <a
+        href="circuitbuilder/potentials/test/question3/">Electric
+        Circuits/Potential/Test Yourself/Pot'l Divider 1/</a> <br>
+
+        url: <a
+        href="circuitbuilder/potentials/test/question4/">Electric
+        Circuits/Potential/Test Yourself/Pot'l Divider 2/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        
+		  <p>
+          In the Potential Divider 1 Question, when one submits an
+          incorrect answer, the Back-To-The-Question button does not
+          show the last 'n', but shows an empty rectangle before
+          'Question'.</p>
+        <p>
+			 In the Potential Divider 2 Question, the Give-Up button does
+			 not show the final 'p' but shows an empty rectangle before
+			 'Up'.<p>
+		  
+		  <p>
+		    In both questions, the tool tip in the Location Tracker that
+		    goes with Test Yourself extends beyond the left edge of the
+		    screen.  It is probably silly to have tool tip info here
+		    anyway, but in general this problem should not exist.  What
+		    determines the location of the tool tip rectangle?</p>
+
+		 <p>In the Potential Divider 1 Question, only the top portion of
+		    the down arrow of the numerical entry field is displayed.
+		    It should be visible in its entirety.</p>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.01) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+
+	 
+	 </blockquote>
+
+
+
+	 <!-- energy -->
+	 <a name="energy"><hr></a>
+	 <font size=+3> Energy  </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="/energy">content/energy</a> <br>
+	 <br>
+	 <blockquote>
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+	   <li>
+		  <!-- request or bug number --> <font color=red> 
+		  RFE 2001.05.03.001 <br>
+
+		  </font> <!-- brief description -->
+		  <p>
+		    Add energy meter and h-scale to double-incline, Atwood, and
+		    block-and-pulley applets, as in Fletcher Trolley.  Also,
+		    implement the other features, i.e., fbd's, with stippled
+		    tensions when blocks are being dragged, question marks where
+		    appropriate, printouts like "Animation paused" as
+		    appropriate, etc.
+		  </p>
+		  
+		  <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+		  url: <a href="energy/energy_cons/simulate/dbl_incline/">content/energy/energy_cons/simulate/dbl_incline/</a> <br>
+		  url: <a href="energy/energy_cons/simulate/atwood/">content/energy/energy_cons/simulate/atwood/</a> <br>
+		  url: <a href="energy/energy_cons/simulate/single/">content/energy/energy_cons/simulate/block and pulley/</a> <br>
+
+		  <!-- a longer explanation of the problem or request -->
+		  <p>
+		  	 The same things as done in the fletcher applet apply also to
+			 the double incline applet, the Atwood machine applet, and
+			 the block suspended from pulley applet (i.e., completing
+			 Shane's work)
+		  <br>
+			  <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.05.03) Hans Laue <br>
+		  </p>
+
+		  <!-- Other Comments (there may be lots of these) -->
+		  <p>
+
+		     <br>
+			  <!-- The Date, and commenter -->
+
+           <br>
+		  </p>
+
+		</li>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE 2001.05.30.002 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          Replace Edmonton library animation with our own in Potential
+          Energy/Explain It/Uniform Force on p.4.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="energy/potential/explain/uniform/">Energy/Potential
+Energy/Explain It/Uniform Force/</a> <br>
+
+        <p>
+          On p.4 - 12 of Energy/Potential Energy/Explain It/Uniform
+          Force the applet requires the Edmonton library, while the
+          similar applets on earlier pages don't require this
+          library. I think the only thing the Edmonton library is used
+          for is the animation.  It is our applet.  It would be good
+          if we could replace the animation with our own routine,
+          unless a lot of work is required.  Use the same routine as
+          in Acceleration/Due to Gravity/Simulate It/One Ball.  We are
+          dealing with projectile motion in the present applet, as we
+          are in One Ball.  (The energy bar needs to be animated too,
+          of course.)
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.30) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+<p>
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG/RFE 2001.06.10.001 <br>
+
+        </font> <!-- brief description -->
+
+        <p>Some small adjustments and rfe's need to be made.  See below.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)-->
+
+        url: <a
+        href="energy/energy_cons/simulate/fletcher/">Energy/Energy
+        Conservation/Simulate It/Fletcher</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+		  <p>
+			When block 2 is resting on the platform (either after
+			lowering block 2 or raising the platform), the vectors F and
+			T1 in the fbd for block 1 should be absent (because there
+			will be no force needed to hold block 1 at rest and because
+			the string will be slack), and the tension T2 in the fbd for
+			block 2 should be replaced by an upward normal force vector
+			labeled 'N' and equal in magnitude to W2.  The normal force
+			vector should be in blue (0,0,255).  Just use the color
+			constant for normal force.  There should be a comment on the
+			screen saying "String is slack".  This comment will be in the
+			same place where the other comments are placed, e.g., "Blocks
+			held at rest".</p>
+
+		   <p>However, as soon as block 1 is being moved left, the
+			applet should behave as at present, except that the tensions
+			should be shown stippled (like F) rather than greyed out.
+			The symbols F and T1 and T2 should have question marks behind
+			them as at present, but not be greyed out (to make them
+			easier to see).  The color of the force vector F should be
+			red (constant color for friction), and so should be the label
+			'F'.  The tip of F vector should be the same as the tips of
+			the other vectors.</p>
+
+		 <p>
+		   There should be a black dot at the center of each fbd, to
+		   symbolize the object the forces are acting on.
+
+	    <p>Raise fbd 1 slightly so that the F vector when extended is
+	    above the value for KE1.  When the mass of block 1 increases,
+	    the label T1 of the tension jumps from below the vector to
+	    above the vector.  Keep it below the vector at all times.</p>
+
+		 <p>Write all variables in italics, including <i>KE</i> and
+		 <i>h</i>.</p>
+	
+       <p>
+		   The motion is still a bit jerky, particularly evident in the
+		   speedometer.  Is there anything one can do to make it
+		   smoother?  Low priority for this request and can be ignored.
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.06.10 Hans Laue, updated on 2001.08.15 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+		  RFE 2001.08.15.001 STATUS: OPEN
+
+        </font> <!-- brief description -->
+        <p>
+		  In the energy race, do not convert the potential energy blocks
+		  to kinetic energy blocks randomly, but linearly, starting at
+		  top left for TK (translational kinetic energy) and at bottom
+		  right for RK (rotational kinetic energy).
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+		  multiple urls here)--> 
+
+		  <p>url: <a
+		  href="energy/energy_cons/simulate/race/index.html">Energy/Energy
+		  Conservation/Simulate It/Energy Race</a>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>Details:<br> It will be easier to compare the amounts of TK
+        and RK if they are grouped in blocks.  The left/middle/right
+        ordering of the colored blocks agrees with the ordering of the
+        TK/PE/RK labels underneath.</p>
+
+		  <p>Also, stop the motion when all the PE is used up for one of the two objects.
+        </p>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001.08.15 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+		  BUG 2001.08.15.001 STATUS: OPEN
+
+        </font> <!-- brief description -->
+        <p>
+		  Several small bugs are listed here.  ('Small' in the sense of
+		  not causing major functionality problems.)
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+		  <p>url: <a
+        href="energy/energy_cons/simulate/race/index.html">Energy/Energy
+        Conservation/Simulate It/Energy Race</a>
+        
+		  <!-- a longer explanation of the problem or request -->
+        <p>Details:<br>
+		  <ol>
+
+		  <li>When the applet first comes on (default state), both
+		  inclines are frictionless.  However, the friction buttons both
+		  read "Turn Friction Off".  They should read "Turn Friction
+		  On".  The buttons do function properly, i.e., when clicked
+		  they turn the friction on and then read "Turn Friction Off".</li>
+
+		  <li>When an object is selected, the button for that object
+		  should indicate that the object is on the incline.  At
+		  present, when one object is selected, the button does acquire
+		  a green rectangular frame.  However, when the second object is
+		  selected, the first button becomes unselected.  Both buttons
+		  should stay selected.</li>
+
+		  <li>At present, one has to click the START button twice to get
+		  the motion going.  The motion should start on the first
+		  click.</li>
+
+		  <li>Replace the RESET icon by the REPLAY icon, because this is
+		  the functionality of the button.  We don't need a RESET button
+		  here.</li>
+
+		  <li>Add the logo bar and remove the question mark button.
+		  Space for the bar can come out of the white space at the
+		  bottom of the area showing the colored blocks and out of the
+		  grey divider between the top and bottom halves of the applet
+		  window.</li>
+
+		  </ol>
+        </p>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001.08.15 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+
+	 </blockquote>
+	 
+	 <!-- erroranalysis -->
+	 <a name="erroranalysis"><hr></a>
+	 <font size=+3> Error Analysis </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="erroranalysis/">content/erroranalysis</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 <!-- force -->
+	 <a name="force"><hr></a>
+	 <font size=+3> Force </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="force/">content/force</a> <br>
+	 <br>
+	 <blockquote>
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE/BUG 2001.09.12.001 <br>
+
+        </font> <!-- brief description --> <p>There are several
+        changes and enhancements required as detailed below.  In
+        addition, Gary wants a version with only a single particle (no
+        2 or 12 particle options).  Let's call this 'Particle in
+        Electric Field (Reduced)'.  Otherwise, this applet is like the others.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/electric">Force/Electromagnetic/Simulate/Electric</a> <br>
+
+        </p>
+
+		  <p>Details:<br>
+
+		  <ul>
+
+		  <li>The data table at top right should have the colon
+          immediately after the variable symbol, not just before the
+          value.  At present, there are two colons in the line for the
+          time t.  Delete the second one.  Add a space before m/s^2
+          after the acceleration value.</li>
+
+			 <p>
+
+			 <li>Change the color of the velocity vector from green to
+			 magenta.  Change the color of the velocity components from
+			 black to the new official color.</li>
+
+			 <p>
+
+			 <li>For Gary's one-particle applet, provide separate sliders
+			 for q and m, not a single q/m slider.  The q-slider should
+			 let you set values of the charge in integer steps from -5 C
+			 to 5 C.  The m-slider should let you enter mass values in
+			 integer steps from 1 to 5 kg.  The value of q/m should be
+			 printed out in C/kg in the control box area, somewhere near
+			 the two sliders in a logical place.</li>
+
+			 <p>
+
+			 <li>The charge sign toggle button should be deleted, because
+			 we can set the sign now with the q-slider.</li>
+
+
+			 <p>
+
+			 <li>Try to re-arrange the various items on the control panel
+			 in a more logical and pleasing manner.  E.g., the two
+			 buttons controlling the velocity and its components should
+			 be added to the collection of the other buttons on the
+			 left.</li>
+
+			 <p>
+
+			 <li>Delete the question-mark Help button, and add a MAP logo
+			 bar with drop-down menu and Info file.</li>
+
+
+			 <p>The following changes affect only the 2-particle and
+			 12-particle modes and can be implemented later.  Maybe it
+			 would be easiest to make a totally separate 1-particle
+			 applet for Gary, starting with a copy of the existing applet
+			 and stripping everything that is not needed.</p>
+
+			 <li>In the 2-particle mode, there should be two velocity
+			 vectors visible initially.  Currently there is only one
+			 vector visible and adjustable.  When one runs the simulation
+			 and clicks REPLAY, a second mustard vector becomes visible.
+			 It should be visible and adjustable right from the
+			 start.
+
+			 <p>In this mode, de-activate the velocity-components button,
+			 and let the display-velocity button act on both velocity
+			 vectors, so that either both of them are displayed or
+			 hidden.  (At present, the button does not do anything in
+			 this mode.)  If both are displayed, keep them displayed
+			 during the motion.  (At present, only the velocity vector of
+			 particle 1 moves along with the particle.)</li>
+
+			 <p>
+
+			 <li>In the 12-particle mode, de-activate both the
+			 display-velocity and velocity-components buttons.</li>
+
+			 <p>
+
+			 <li>In the 12-particle mode, REPLAY does not work properly.
+			 It does not move the particle back to the origin and, if one
+			 changes the field direction, the new motion is not oriented
+			 relative to the new direction.</li>
+		  </ul>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.09.12 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+	 <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.06.002 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          In the E-applet, the animation is incorrect when <E> is
+          something other then the default value.
+        </p>
+
+		  <p>The motion does not respond to settings of the |q|/m slider.</p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/electric">Force/Electromagnetic/Simulate/Electric</a> <br>
+
+        <p>
+         When the <E>-vector is set to a vector that is rotated
+         counter-clockwise a bit and the velocity vector is changed to
+         be perpendicular to the new <E>, and the charge is negative,
+         the trajectory is not a parabola with the field direction at
+         its axis.  It crosses over the field direction.  Perhaps the
+         value of <E> is not properly implemented in the animation.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.06.06 and 2001.09.12 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE 2001.06.06.002 STATUS: OPEN<br>
+
+        </font> <!-- brief description -->
+        <p>
+          In the B-applet, re-arrange the sliders so that they suggest
+          the ratio m*v/(q*B).</p>
+
+<p>
+
+			 Delete the unit 'C' with the q-slider.  Relable the Mass
+			 slider with 'm'.  Change the 'r' prinout.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a> <br>
+
+        <p>
+		   Move the v-slider to the right of the m-slider.  Move the
+		   B-slider to the right of the q-slider.  This way the
+		   arrangement of the 4 sliders is in the order of the ratio
+		   m*v/(q*B) that is equal to the radius r that is printed out
+		   above.</p>
+
+			<p>
+			Make sure that this arrangement works also for the
+			small-scale version of the applet in the Explain It item.  It
+			may be useful to move the B and the 1X buttons underneath the
+			other buttons.</p>
+
+			<p>
+			Delete the unit 'C' in the q-slider.  None of the other
+			sliders have units.</p>
+  
+			<p>
+			Change the printout of 'r' to reflect the way 'r' is
+			calculated.  Thus, write</p>
+
+			<p>
+			
+			r = (m*v)/(q*B) = ...</p>
+
+			<p>Don't write any of the multiplication signs or
+			parentheses. Write 9 in front of a fraction that is written
+			with a real horizontal fraction bar and has 'mv' on top and
+			'qB' on the bottom.</p>
+
+			<p>Instead of the label 'Mass' for the m-slider use 'm', to
+			be consistent with what is done for the other sliders and to
+			introduce the symbols.
+
+			
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.06) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.09.12 STATUS: OPEN
+
+        </font> <!-- brief description --> <p>Changing values with the
+        sliders does not always lead to correct values of r as printed
+        out at top right.</p>
+
+		  <p>Delete the question mark button for Help and add the MAP
+		  logo bar and link it to an info page.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+         <p>url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a>
+
+<!-- a longer explanation of the problem or request -->
+
+       <p>Details:<br> The default values of m, v, q, B are 1, 1, 3,
+		 2.  Change m to 2, v to 3, and observe the corresponding
+		 changes for r.  At this point, you should have r = 9.  Now just
+		 click on the q-slider without moving it.  The applet changes
+		 the value of r to 4.5.  Of course, the value should stay at 9.
+		 I have not checked if the animation displays a radius equal to
+		 4.5 or 9.</p>
+
+		 <p>The values of r that should be displayed are given by the
+		 equation in the preceding RFE, namely, r = (m*v)/(q*B).
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001.09.12 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.06.004 <br>
+
+        </font> <!-- brief description -->
+        <p>
+         In the B-applet, it can happen that clicking on the slider
+         when q = 3 will produce a change in r-value, both the printed
+         r-value and the simulated r-value.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a> <br>
+
+        <p>
+		   When m=2, v=3, q=3, B=2, an r-value of 9 is displayed, which
+		   is correct.  If one now clicks on the q slider, the slider
+		   tab, the r-value changes to 4.5 while the q value remains at
+		   9.  If one now changes the q-value to 1, the r-value
+		   increases by a factor of 3 to 13.5.  Thus, things are
+		   consistent from this point on, if one takes 4.5 as correct.
+		   The system behaves as if the scale factor of 9 in front of
+		   the formula m*v/(q*B) has become reset.
+
+			This effect does not occur for other settings of m, v, q, B.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.06) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUGS/RFES 2001.06.14.001 <br>
+
+        </font> <!-- brief description -->
+        <p>
+		    This is a copy of an email message dated 01-05-25 requesting
+		    a number of changes to the ExB applet.  I am reproducing the
+		    email message below.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/exb">Force/Electromagnetic/Simulate/ExB Drift</a> <br>
+
+        <p>
+		  Here are my thoughts on the ExB applet.  I am assuming that
+things are programmed via a Galilean transformation to the drift
+frame.  The steps should be as follows.
+
+<p>I will use the &#60...&#62 notation to denote a vector, e.g.,
+&#60v&#62 to denote a velocity and v the magnitude of the velocity.
+
+<p>I will use vp to denote the numerical value of the variable v expressed in
+pixels and vu to denote the numerical value of v expressed in some given
+unit of v.  ('u' stands for unit.)  Similarly, Ep and Eu for the numerical
+values of E in pixels and in E-units, etc.
+
+<p>
+
+<ol>
+
+<li>One gets &#60vin&#62 in pixels from the green arrow.  This yields vinp and
+the angle of &#60vin#62.</li>
+
+<p>
+
+<li>One calculates the drift velocity &#60u&#62 = &#60E&#62X&#60B&#62
+in whatever units E and B may be given.  First, one obtains Ep from
+the red arrow and then transforms Ep by means of a scale factor to a
+new Eu.  Let the maximum value of this new Eu be 0.001, say.  (I think
+the program has 0.5 at present.)  And let the minimum value of Bu be
+1.  Then this would give a maximum value of uu = 0.001.  (The reason I
+am choosing these funny values is that u must be much less than the
+speed of light for the equations to be physically accurate, and I am
+taking the speed of light equal to 1, in u-units.  It would not matter
+if in the simulation we chose uu to be much bigger than 0.001, but it
+helps me in visualising things if I use uumax = 0.001.)</li>
+
+<p> 
+
+<li>Before going to the next step one must now invent a scale factor
+that translates the pixel units of &#60vin&#62 to u-units.  Suppose we
+want uumax = 0.001 to be represented by 50 pixels.  Then vu = 1
+corresponds to 50,000 vp and 1 vp corresponds to 2x10^-5 vu.  Thus, if
+&#60vin&#62 is 100 pixels long, then vinp = 100 and vinu = 0.002.</li>
+
+<p>
+
+<li>In the following, let us work with a velocity scale factor such that a
+numerical value of vp = 1 corresponds to vu = 0.00002 and with an E-field
+scale factor such that an Ep = 120 (or some value like this) corresponds
+to Eu = 0.001.</li>
+
+<p>
+
+<li>Now calculate &#60v'in&#62 = &#60v&#62 - &#60u&#62, where
+&#60v'in&#62 is the initial velocity in the drift frame.  Here v and u
+must be in the same units, either pixel units or u-units.  v'in will
+then be in these units as well.</li>
+
+<p>
+
+<li>Now calculate the orbit in the drift frame.  This is done by
+calculating &#60v'(t)&#62 rotating the vector by 90 deg, and multiplying it by
+a suitable scale factor C to get a display that fits on the screen.  The
+resulting vector is denoted <r'(t)>.  It is the position vector in the
+drift frame.  The scale factor C used here is unrelated to the other scale
+factors and is quite arbitrary because it simply determines the scale of
+the representation in position space.  One cannot make a 'mistake' by
+choosing C incorrectly, other than that the circle in which the particle
+moves might be too large or too small for inspection.</li>
+
+<p>To calculate &#60v'(t)&#62, one can use closed expressions of the
+form v'x = v'in*cos w*t and v'y = v'in*sin w*t, where v'in = const
+(calculated in Step 3) and w = (q/m)*B. w too needs to have a scale
+factor D which will determine the speed of the animation, i.e., the
+rate at which the particle is performing one revolution.
+
+<p>Did Jonathan use closed expressions like these or did he use a
+numerical integration?  If one does a numerical integration, one must
+use for the acceleration <a> the vector product (q/m)
+&#60v&#62X&#60B&#62, i.e., ax = (q/m)*B*v*y and ay = -(q/m)*B*v*x.
+Again, there needs to be a scale factor introduced into these
+equations that will determine the speed of the animation.  (Varying
+the scale factor is equivalent to varying the size of the integration
+time step dt because the expressions for ax and ay are multiplied by
+dt.)
+
+<p>Step 4 yields &#60r'(t)&#62, the position vector of the particle in
+the drift frame, e.g.,
+
+<p>x'(t) = C*v'in*sin D*w*t.  
+
+<p>It is assumed here that w is calculated in u-units for q/m and B and v'in
+is calculated in u-units as well.  C is chosen so that x' and y' are in
+pixel units.</li>
+
+<p>
+
+<li>Now calculate &#60r(t)&#62 = &#60r'(t)&#62 + &#60u&#62*t, the
+position vector in the lab frame.  We want &#60r(t)&#62 in pixel units
+and must make sure that the two terms &#60r'(t)&#62 and &#60u&#62*t are
+both in pixel units.  We already have &#60r'(t)&#62 in pixel units.
+
+<p>The speed of a point on the &#60r'&#62-circle in pixels per time unit is
+C*v'inu*D*wu.  We must introduce a scale factor F that translates uu to up
+= F*uu such that
+
+<p>C*v'inu*D*wu/up = v'inu/uu.
+
+<p>Thus, 
+
+<p>C*v'inu*D*wu/(F*uu) = (v'inu/uu) * (C*D*wu/F) = v'inu/uu
+
+<p>whence
+
+<p>C*D*wu/F = 1 or F = C*D*wu.
+
+<p>Thus, we get &#60r(t)&#62p = &#60r'(t)&#62p + F*&#60u&#62u*t.</li>
+
+</ol>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.14) Hans Laue <br>
+        </p>
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+		  BUG 2001.08.15.001 STATUS: CLOSED
+
+        </font> <!-- brief description -->
+        <p>
+		  The vector colors in the Block-on-Spring-Scale applet need to
+		  be changed, and the labels on the two sliders require more
+		  room.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+		  multiple urls here)--> 
+
+		  <p>url: <a
+		  href="force/normfrce/explain/quantitative/index.html">Force/Normal
+		  Force/Explain It/Quantitative</a>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>Details:<br> Change the normal force, weight, and
+        acceleration vectors to the color constants (blue, dark green,
+        orange).</p>
+
+		  <p>Add a space between "2.00" and "kg" in the mass label for
+		  the block.</p>
+
+		  <p>Label the acceleration slider as "Accel." so that there is
+		  enough room to display the value of the acceleration and its
+		  unit.  Similarly, label the velocity slider as "Vel." so that
+		  there is enough room to show the entire unit.</p>
+
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  <p>2001.08.15.001 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+			  Arend was here
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+		  RFE 2001.08.15.001 STATUS: CLOSED
+
+        </font> <!-- brief description -->
+        <p>
+		   Change the spring compression animation and change the default position of the table.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+		  multiple urls here)--> 
+
+		  <p>url: <a
+		  href="force/normfrce/explain/quantitative/index.html">Force/Normal
+		  Force/Explain It/Quantitative</a>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>Details:<br> In the default setting, the table top is just
+        below the 19.60 N text for the weight.  When the acceleration
+        is then made unequal to zero, the springs get compressed or
+        expanded around their mid level.  Thus, upon contraction of
+        the springs, the top of the springs and the block come down
+        and the bottom of the springs and the table come up an equal
+        amount.
+
+        </p>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001.08.15 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+			  I did this some time ago - Arend
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+
+	 </blockquote>
+
+	 
+
+	 <!-- function -->
+	 <a name="function"><hr></a>
+	 <font size=+3> Functions (mathematical) </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="function/">content/function</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- kinematics -->
+	 <a name="kinematics"><hr></a>
+	 <font size=+3> Kinematics </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="kinematics/">content/kinematics</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- mass -->
+	 <a name="mass"><hr></a>
+	 <font size=+3> Mass </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="mass/">content/mass</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- math -->
+	 <a name="math"><hr></a>
+	 <font size=+3> Math </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="math/">content/math</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- momentofinertia -->
+	 <a name="momentofinertia"><hr></a>
+	 <font size=+3> Moment of Inertia </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="momentofinertia/">content/momentofinertia</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- momentum -->
+	 <a name="momentum"><hr></a>
+	 <font size=+3> Momentum </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="momentum/">content/momentum</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- planetary -->
+	 <a name="planetary"><hr></a>
+	 <font size=+3> Planetary </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="planetary/">content/planetary</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- position -->
+	 <a name="position"><hr></a>
+	 <font size=+3> Position </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="position/">content/position</a> <br>
+	 <br>
+
+	 
+
+	 <!-- power -->
+	 <a name="power"><hr></a>
+	 <font size=+3> Power </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="power/">content/power</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- refframe -->
+	 <a name="refframe"><hr></a>
+	 <font size=+3> Reference Frame </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="refframe/">content/refframe</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- shm -->
+	 <a name="shm"><hr></a>
+	 <font size=+3> Simple Harmonic Motion  </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="shm/">content/shm</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- speed -->
+	 <a name="speed"><hr></a>
+	 <font size=+3> Speed </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="speed/">content/speed</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- statequl -->
+	 <a name="statequl"><hr></a>
+	 <font size=+3> State Qul? </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="statequl/">content/statequl</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- time -->
+	 <a name="time"><hr></a>
+	 <font size=+3> Time </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="time/">content/time</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+	 
+
+	 <!-- torque -->
+	 <a name="torque"><hr></a>
+	 <font size=+3> Torque </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="torque/">content/torque</a> <br>
+	 <br>
+	 <blockquote>
+<p>
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ RFE 2001.05.28.001 <br>
+
+        </font> <!-- brief description -->
+        <p>
+         Torque/Basic Facts/Explain It/
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+On p.1 - 7, draw the trace of the CM as a continuous curve, not by
+means of dots that do not correspond to equal time intervals.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+
+</li>
+
+<p>
+
+<li>
+       <!-- request or bug number --> <font color=red>
+        BUG 2001.05.28.001 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          On p.1-7 of lesson, make STEP button active immediately.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+On p.1 - 7, the STEP button only becomes active after clicking PLAY
+and PAUSE.  It should be active right away.
+
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+
+      </li>
+
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.05.28.002 <br>
+
+        </font> <!-- brief description -->
+        <p>
+         CM of pendulum on p.8 or 9 cannot be dragged at first.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+		    On p.8 and 9, the CM of the pendulum cannot be dragged when
+		    the applet is first loaded.  One must first play the
+		    animation and then reset it before one can move the CM by
+		    dragging.  One should be able to drag the CM right away.
+
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+
+<p>
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ BUG 2001.05.28.003 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          RESET does not work properly in physical pendulum.  There also should be a RESTART button.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+          
+On p.8 and 9, when one clicks RESET after pausing the pendulum, the
+pendulum is not restored to its default position, but stays where it
+is.  Only when one clicks on the pendulum, after clicking RESET, is
+the pendulum restored to its default position.  However, even clicking
+will not return the pendulum's default settings.  E.g., the pendulum's
+size will not be restored to the default value.  Also, the buttons
+will not become deselected.
+
+There should also be a RESTART button that is distinguished from the
+RESET button in the usual way.
+
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+</li>
+	 
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ BUG 2001.05.28.004 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          In physical pendulum on p.8, PLAY and RESET don't act properly.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+On p.8 and 9, PLAY acts like a RESTART button after RESET.  RESET does
+not restore the applet, but PLAY following RESET causes the applet to
+restart the motion from the previous starting point.  This should not
+be so.  PLAY should start the motion at the point at which the
+pendulum is at rest.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+</li>
+
+<p>
+
+<li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.05.28.005 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          In pendulum applet on p.8 or 9, display constraint force before clicking PLAY. 
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+          On p.8 and 9, when button 1 is selected, only the
+          gravitational force is shown before the start of the motion.
+          When the motion is started, also the constraint force is
+          shown.  The constraint force should be shown whenever the
+          gravitational force is shown.  Basically, the display should
+          correspond to reality in a state of frozen animation.  At
+          the instant of frozen animation when the pendulum is at
+          rest, the constraint force is not zero.  It may be quite
+          small for certain pendulum settings.  Set the radius of the
+          disk to 4 m, and the constraint force will be significant,
+          even when the velocity of the CM is momentarily zero.
+
+
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ BUG 2001.05.29.006 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          On p.2 (and other pages), there should not be any motion upon PLAY when the net torque is printed as 0.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+          On p.2 and other pages, when one adjusts the force vector so
+          that the net torque is 0 and then clicks PLAY, there is a
+          slight rotation of the square object, or sometimes not so
+          slight.  The applet should not show any motion whatsoever
+          when the net torque is printed out as zero.  There should be
+          a small, but finite-sized 'bin' of settings at which the net
+          torque is printed out as zero.  In all of these settings,
+          there should be no motion upon PLAY.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.29) Hans Laue <br>
+        </p>
+</li>
+
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ BUG 2001.05.29.007 <br>
+
+        </font> <!-- brief description -->
+        <p>
+         RESET DEMONSTRATION tool tip on Reset button after running animation stays on too long.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/basic/explain/">Torque/Basic Facts/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+
+         Go to p.3, say, and point the mouse over the RESET button.
+         The tooltip displayed is RESET DEMONSTRATION.  It remains
+         visible way too long after moving the mouse pointer off the
+         button.
+
+			This may or may not be related: When one returns to the
+			Presenter after typing this bug report in Secure Shell, it
+			takes the Presenter forever to regenerate the various applets
+			on p.3 with buttons and pagebrowser buttons.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.29) Hans Laue <br>
+        </p>
+</li>
+
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=red>
+
+ BUG 2001.05.31.008 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          Very slow restoration of applet after using another
+          application, e.g., Secure Shell to edit text.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="torque/aboutanaxis/explain/">Torque/About An Axis/Explain It/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+          Suppose you are on p.4 of this item and then use Secure
+          Shell to edit some of the text and then return to page 4, it
+          takes a very long time for page 4 to get restored: the
+          pagebrowser is missing at first, and so are the buttons
+          under the applet.  These items get restored one by one very
+          slowly and may never get completely restored.  It seems to
+          help to move the mouse pointer over the places where the
+          buttons are supposed.  Some buttons come on when one is
+          doing this.
+      
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.31) Hans Laue <br>
+        </p>
+</li>
+
+	 </blockquote>
+
+	 
+
+	 <!-- vectors -->
+	 <a name="vectors"><hr></a>
+	 <font size=+3> Vectors </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="vectors/">content/vectors</a> <br>
+	 <br>
+	 <blockquote>
+
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+	   <li>
+		  <!-- request or bug number --> <font color=green> 
+		  RFE 2001.05.03.001 . . . . CLOSED (2001.05.24) ... REOPENED (2001.06.11) CLOSED (2001.08.10)<br>
+
+		  </font> <!-- brief description -->
+		  <p>
+		   Enhance cursors and endpoints of vectors.
+		  </p>
+		  
+		  <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+		  url: <a href="vectors/addition/simulate/twomethods/">content/vectors/addition/simulate/twomethods/</a> <br>
+		  url: <a href="vectors/addition/simulate/threevec/">content/vectors/addition/simulate/threevec/</a> <br>
+		  url: <a href="vectors/subtract/simulate/">content/vectors/subtract/simulate/</a> <br>
+
+		  <!-- a longer explanation of the problem or request -->
+		  <p>
+		     Modify existing Add Vectors applets (2 or 3 vectors) to enhance user interface: 
+			  special vector drawing cursor, require button selection before enabling certain 
+			  draw modes, have endpoints of vectors better defined, etc.
+			<p>
+
+			  <br>
+			  <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.05.03) Hans Laue <br>
+		  </p>
+
+		  <!-- Other Comments (there may be lots of these) -->
+		  <p>
+			  Done. <br>
+			  <!-- The Date, and commenter-->
+			  (2001.05.24) Arend Meetsma <br>
+		  <p>
+		     Remove the black outline from the vectors to make the dots
+		     at the two ends of the vectors stand out more.  Do this
+		     also in the vector subtraction applet.<br>
+			  (2001.06.11) Hans Laue
+			</p>
+	  <p>
+			  Done. For subtraction and addition and scalar and all applets deriving from VectorPanel.java<br>
+			  <!-- The Date, and commenter-->
+			  (2001.08.10) Arend Meetsma <br>
+	
+		</li>
+		<br>
+		<br>
+		<br>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+
+
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+	   <li>
+		  <!-- request or bug number --> <font color=green> 
+		  RFE 2001.05.03.002 . . . . CLOSED (2001.06.08) <br>
+
+		  </font> <!-- brief description -->
+		  <p>
+		   New Applet
+		  </p>
+		  
+		  <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+		  url: <a href="vectors/basic/explain/2">content/vectors/basic/explain/2</a> <br>
+		  url: <a href="vectors/basic/simulate/2">content/vectors/basic/simulate/2</a> <br>
+
+		  <!-- a longer explanation of the problem or request -->
+		  <p>
+		     Simulate vectors in three modes that illustrate three ways of specifying vectors
+			  <br>
+			  <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.05.03) Hans Laue <br>
+		  </p>
+
+		  <!-- Other Comments (there may be lots of these) -->
+		  <p>
+		     These two applets have been added, they are called '2' in the directory structure. <br>
+			  The explain it item has four pages and forces the student to look at each way of specifying a vector. <br>
+			  The Simulate it item lets the student switch between the modes with the radio buttons on the control bar. <br>
+		     <br>
+			  <!-- The Date, and commenter -->
+			  (2001.06.08) Arend Meetmsa
+           <br>
+		  </p>
+
+		</li>
+		<br>
+		<br>
+		<br>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+
+
+
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+	   <li>
+		  <!-- request or bug number --> <font color=green> 
+		  RFE 2001.05.03.003  . . . . CLOSED (2001.08.10)<br>
+
+		  </font> <!-- brief description -->
+		  <p>
+		   New Applet
+		  </p>
+		  
+		  <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+		  url: None yet <br>
+
+		  <!-- a longer explanation of the problem or request -->
+		  <p>
+		      Applet that allows adding an unspecified number of vectors and that
+adds vectors automatically on screen after vector coordinates (either
+polar or cartesian) have been entered
+
+			  <br>
+			  <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.05.03) Hans Laue <br>
+		  </p>
+
+		  <!-- Other Comments (there may be lots of these) -->
+		  <p>
+		   This applet could use the same
+			functionality as the Specifications Applet as far as vector specification
+			is concerned.  Before a vector is added, the student selects one of the 4
+			modes for specifying the vector, then adds the vector.  The resultant
+			vector too can be displayed in any of the four modes.<br>
+
+			Start the applet with a small cross in the middle of the screen to mark
+			the point at which the tail end of the first vector will be placed.  This
+			cross can be dragged at any time, to allow better placement in case the
+			sum of the vectors should extend beyond the edges of the window.<br>
+
+			Then, when the first vector has been specified, the system will display it
+			when an ADD button is clicked.  Then when the next vector is specified,
+			the system will join it tip-to-tail to the first vector when and ADD
+			button is clicked.<br>
+
+			There is a RESULTANT button that will display the resultant on the screen
+			when clicked and will display its coordinates, in any of the four forms
+			chosen.<br>
+
+			The vectors don't need to be labeled.<br>
+
+			One can add as many vectors as one likes, but the magnitudes of the
+			vectors that one can add are restricted so that the sum of three vectors
+			can always be made to fit on the screen.  Say, let the magnitude of a
+			vector be restricted to 100 pixels.  The system could display magnitudes
+			directly in pixels (or perhaps pixels/10 and show one decimal point).
+
+
+		     <br>
+			  <!-- The Date, and commenter -->
+			  (2001.06.08) Hans Laue 
+           <br>
+		  </p>
+
+		  <p>
+		   This applet is finished. <- that's a period.<br>
+			Any bugs found are hereby declared 'features'<br>
+		  	  <!-- The Date, and commenter -->
+			  (2001.08.10) Arend Meetsma 
+           <br>
+
+		</li>
+		<br>
+		<br>
+		<br>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+
+
+
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+        BUG 2001.05.28.001 . . . . CLOSED (2001.05.30)<br>
+
+        </font> <!-- brief description -->
+        <p>
+            On p.2, do not change cursor when moving onto vector.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="vectors/basic/explain">Vectors/Basic Facts/Explain It</a>
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>On p.2, when the cursor is moved onto the vector, it
+        changes to a crossed double arrow cursor.  However, no special
+        action is available and none is required.  The cursor should
+        not change in this case.  (It should on a later page, where is
+        required to be able to drag the vector.)
+		         <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.05.28) Hans Laue <br>
+       </p>
+
+		  <!-- Other Comments (there may be lots of these) -->
+		  <p>
+		   Fixed, cursor works as it should now.
+		     <br>
+			  <!-- The Date, and commenter -->
+			  (2001.05.30) Arend Meetsma <br>
+		  </p>
+</li>
+		<br>
+		<br>
+		<br>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+
+
+
+	   <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.01.001 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          On pages 3 to 5, show vectors with some orientation as is chosen by student on p.2.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+        url: <a href="vectors/sclmult/explain">Vectors/Scalar Multiplication/Explain It</a>
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>On p.2, a student can arrange the magnitude and direction
+        of the vector.  On p. 3 this vector is maintained and a second
+        vector equal to the first one is added.  This is as it should
+        be and should not be changed.</p>  
+
+		  <p>On p.4, the vectors a and b are shown with different
+        magnitudes than the default value on p.2.  The vectors on p. 4
+        should be as follows: for <a> it should be the vector chosen
+        by the student on p. 2, and for _b_ it should be the negative
+        of this vector.  Also, the minus sign in front of _b_ should
+        be more visible.</p>
+
+		  <p>On p.5, there should be <a> with the direction and
+		  magnitude chosen on p.2 and the corresponding b = - a.</p>
+
+		  <p>If students randomly jump around between pages 2 and 5,
+		  after having chosen a vector on p.2 initially, the system
+		  should always use as the default the vector chosen by the
+		  student on p.2.  Only on p.2 can the direction of this vector
+		  be changed by the student.</p>
+
+		  <p>If students directly jump to one of the pages 3-5
+		  initially, from p.1, without ever going to p.2, the default
+		  vector should be the vector presently used by the system.</p>
+
+           <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.01) Hans Laue <br>
+        </p>
+		  </li>
+		<br>
+		<br>
+		<br>
+      <!--      ... to here.            -->
+	   <!-- **************************** -->
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+        RFE 2001.06.12.001  CLOSED (2001.09.19)<br> 
+
+        </font> <!-- brief description -->
+        <p>
+		   This is a new applet.  It is a modification of the existing
+		   2-vector addition applet, but will be used as a separate
+		   applet in addition to the existing one.  The new applet has
+		   all the action on one page while the existing applet spreads
+		   the action out over several pages.  Gary Raab has requested
+		   this applet.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)--> url: <a
+        href="vectors/addition/simulate/twomethods">Vectors/Addition/Simulate
+        It/Two Methods</a>
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>
+		    The present applet has three buttons.  The new applet will
+		    five buttons.  I am describing the five buttons one by one
+		    in the order from left to right.  The present DELETE button
+		    will exist no longer and will be replaced by a RESET button
+		    that deletes everything and resets the applet to the initial
+		    state.
+		 <ul>
+		    <li>Button 1 (old): Draw-Vector button that lets you draw a
+		    vector after the button has been clicked.  At the beginning,
+		    this is the only button that is active.  The button must be
+		    clicked again before the second vector can be drawn.  After
+		    the second vector has been drawn, the button becomes
+		    inactive.  Both vectors can be changed and moved around
+		    freely.  The two vectors are labeled 'a' and 'b'.</li>
+
+			 <li>Button 2 (new): Draw-Resultant button.  When clicked,
+			 the system will draw the correct resultant if more than one
+			 vector is on the screen.  The resultant will be drawn in
+			 green off to one side as on p.4 of the existing applet and
+			 labeled 'a + b'.  If there is only one vector on the
+			 screen, the Resultant button is inactive.  The icon for the
+			 Resultant button is a double vector slanted like the single
+			 vector on button 1.</li>
+
+			 <li>Button 3 (old): Dotted-Line button that works as at
+			 present and lets you draw a dotted line at any time.</li>
+
+			 <li>Button 4 (new): Reset.  Restores applet to its initial
+			 state with an empty window and only button 1 active.</li>
+
+			 <li>Button 5 (new): My-Answer button.  When this button is
+			 pressed, the student can draw his sum of the two vectors on
+			 the screen.  The vector will be labeled 'my sum' as at
+			 present.  After the vector has been drawn it can be modified
+			 an moved around, so there is no need for an Eraser button.
+			 It would be nice to have an icon for this button, but maybe
+			 'My Answer' as a label is clearest.</li>
+		 </ul>			 
+
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.12) Hans Laue <br>
+       </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  Done<br>
+		  2001.09.19 Arend
+        </p>
+</li>
+      <br>
+      <br>
+      <br>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+        BUG 2001.06.12.001 IMPORTANT and easy to fix! CLOSED (2001.08.10)<br>
+
+        </font> <!-- brief description -->
+        <p>
+		   In the Vector Addition/Explain It/Tip-To-Tail applet, there
+		   is a rapid flicker on p.1 and subsequent pages when one moves
+		   the mouse pointer over the Next Page arrow without clicking
+		   on the arrrow.  The flicker does not stop right away when one
+		   moves the mouse pointer off the arrow.  The tooltip never
+		   appears.</p>
+
+		 <p>I would suggest to remove the tool tip for the forward and
+		 back arrows and for the page number buttons.  I think this is
+		 what is causing the trouble, and the function of these items is
+		 obvious anyway.</p>
+
+		 <p>DO THIS EVERYWHERE, NOT ONLY IN THIS ONE ITEM.  THE TOOLTIPS
+		 ARE NOT NEEDED FOR THE PAGE NAVIGATOR AND HAVE BEEN REMOVED IN
+		 THE AUTOMATED PAGEBROWSER.</p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)--> url: <a
+        href="vectors/addition/explain/tiptail">Vectors/Addition/Explain
+        It/Tip To Tail</a>
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>The same problem also occurs with some other applets in the
+        Vector area.  I have not made a systematic chekc of it.  When
+        done, please report below what the cause of the problem was.
+        Then we will know when we find the next applet with the same
+        problem.
+
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.12) Hans Laue <br>
+       </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  It seems that the tooltips would not load up properly if the pagebrowser was not tall enough. This was only reproducable on windows boxes. Tooltips have been shut off on the pagebrowser.
+		  (2001.08.10) Arend Meetsma
+        </p>
+</li>
+      <br>
+      <br>
+      <br>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+        RFE 2001.06.12.002  . . . . CLOSED (2001.08.10)<br>
+
+        </font> <!-- brief description -->
+        <p>
+         In the Vector Addition/Explain It/ applets, and also in the
+         Simulate It and corresponding Vector Subtraction Applets,
+         remove the black outline of the arrows so that the dots at
+         the ends of the vectors become more distinguishable.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)--> 
+
+		  url: <a
+        href="vectors/addition/explain/tiptail">Vectors/Addition/Explain
+        It/Tip To Tail</a>
+
+		  <p>There are several more URL's in the areas of Vector
+		  Addition and Vector Subtraction that all should be treated the
+		  same way.
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>
+
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.12) Hans Laue <br>
+       </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  	  Done. For subtraction and addition and scalar and all applets deriving from VectorPanel.java<br>
+			  <!-- The Date, and commenter-->
+			  (2001.08.10) Arend Meetsma <br>
+
+        </p>
+</li>
+
+<p>
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+        RFE/BUG 2001.06.12.003   . . . CLOSED 2001.08.10<br>
+
+        </font> <!-- brief description -->
+        <p>
+         In the Vectors/Basic Facts/Explain It/Vector Specific's
+         applet, make a number of enhancements and changes as detailed
+         below.  Apply these also to the Simulate It version of the
+         applet.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)-->
+
+        url: <a href="vectors/basic/simulate/2/">Vectors/Basic
+        Facts/Simulate It/Vector Specific's</a>
+		  <p>
+        url: <a
+        href="vectors/basic/explain/2/">Vectors/Basic Facts/Explain It/Vector Specific's</a>
+
+		  
+
+<br>
+
+        <!-- a longer explanation of the problem or request -->
+
+<p>
+
+<ol>
+
+<li>In the Cartesian mode, indicate the components vx and vy in terms of
+colored bars on the axes, as is done in Vectors/Scalar Components/Explain
+It/ p.2, and label these components vx and vy.  Otherwise one does not
+know where these pieces are.</li>
+
+<li>Can you move the v-label of the vector a bit closer to the middle of
+the vector?</li>
+
+<li>In the grey controls area, can you put an arrow over the v-symbol?</li>
+
+<li>The word "Cartesian" needs to be moved left close to the radiio
+button.</li>
+
+<li>You already told me that in the Navigational mode there needs to be a
+compass with the four basic directions in one corner.</li>
+
+<li>The word 'degrees' should be abbreviated to 'deg' everywhere.</li>
+
+</ol>
+
+        <p>
+
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.12) Hans Laue <br>
+       </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  I'm calling this one closed. It's done except for a few ComplexString issues in the cartesian label. 
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.08.10) Arend Meetsma <br>
+
+        </p>
+</li>
+
+<p>
+
+  <li>
+        <!-- request or bug number --> <font color=green>
+
+ BUG 2001.07.12.001 . . . . CLOSED (2001.08.10)<br>
+
+        </font> <!-- brief description -->
+        <p>
+		   In Vector Specification applet, in the positive angle mode,
+		   one can enter negative angles.  This should not be possible.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)--> url: <a
+        href="vectors/basic/simulate/2/index.html">Vectors/Basic
+        Facts/Simulate It/Vector Specifica'n/</a> <br>
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+		  If one enters a negative angle, the angle is displayed
+		  correctly as a negative angle.  This should not be allowed.
+		  At present, if one enters something like a80, the computer
+		  pings and does not respond otherwise.  The same should happen
+		  if one enters -80.
+		  
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.07.12) Hans Laue <br>
+        </p>
+
+		  <p> DONE. The applet beeps whenover these values are entered.<br>
+		  (2001.08.10) Arend Meetsma<br>
+		  
+</li>
+
+<p>
+      <!-- **************************** -->
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=green>
+		  BUG 2001.07.24.001  . . . . CLOSED (2001.07.31)
+
+        </font> <!-- brief description -->
+        <p>
+		  This is not really a bug, but an alteration.  It concerns the
+		  list of 8 navigation possibilities in the Vector Specification
+		  and Multiple-Vector Addition applets.  It was requested by
+		  Gary R. and is quite reasonable and systematic.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+		  url: <a
+		  href="http://pulse.phas.ucalgary.ca/map/content/vectors/basic/simulate/2/">Vectors/Basic
+		  Facts/Simulate It/Vector Specifica'n</a>
+		  <p>
+		  url: <a
+        href="http://pulse.phas.ucalgary.ca/map/content/vectors/addition/simulate/arbitrarynumber">Vectors/Addition/Simulate
+        It/Numerical/</a>
+
+
+        <!-- a longer explanation of the problem or request -->
+        <p>
+		  At present the list starts with WofN and then goes on to EofN,
+		  relating angles to north.  We would like to bump the first
+		  item, WofN, to the end of the list and keep the sequence of
+		  the other items unchanged.  Thus, the new list will be, in
+		  sequence, EofN, NofE, SofE, EofS, WofS, SofW, NoW, WofN.  This
+		  way the first two pairs will give vectors in the first
+		  quadrant if the angle is less than 90 degrees, which is what
+		  students will want to do most, and each subsequent pair
+		  involves the same pair of geographic directions, i.e., E/N,
+		  S/E, W/S, N/W.
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  (2001.07.24) Hans Laue
+
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+		  Done
+           <br>
+           <!-- The Date, and commenter -->
+			  (2001.07.31) Arend Meetsma
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+
+
+	 </blockquote>
+
+	 <!-- velocity -->
+	 <a name="velocity"><hr></a>
+	 <font size=+3> Velocity </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="velocity/">content/velocity</a> <br>
+	 <br>
+	 <blockquote>
+
+      <!-- copy and paste from here.... -->
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE 2001.07.25.001<br>
+
+        </font> <!-- brief description -->
+       
+		  <p>
+		  This applet needs several enhancements that are parallel to
+		  those suggested in RFE 2001.07.24.001 under Displacement.
+		  Compare the items listed there while reading through the
+		  details below.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be
+        multiple urls here)-->
+
+        url: <a
+        href="velocity/average/explain/">Velocity/Average/Explain It</a>
+		 
+		  <P>
+
+		  url: <a href="velocity/average/simulate/">Velocity/Average/Simulate It</a>
+
+		  <p>
+
+        url: <a
+        href="http://pulse.phas.ucalgary.ca/map/content/dsplcmnt/basic/simulate">Displacement/Basic
+        Facts/Simulate It/</a>
+
+
+	 <br>
+
+        <!-- a longer explanation of the problem or request -->
+
+        <p>
+		  Items 1 - 6 from the Displacement applet should be implemented
+		  here as well.  
+
+		  <p>Add a new item 1a:
+
+		  <p>1a. After the ball has been set (or the ball may still be
+        sitting at the origin without anything having been done to
+        it), it should be possible to drag the ball to another
+        location, as at present.  In order to do so, one must click on
+        the ball and drag it.  Clicking outside the ball should not
+        produce a movement.  When clicking on the ball one should be
+        able to click anywhere inside the ball without affecting the
+        starting position.  The entire ball should be the handle by
+        which one can drag the ball.  This is implemented already, I
+        believe.</p>
+
+        <p>The clock should start running the instant one clicks on
+        the ball.  This is NOT implemented at present.  At present,
+        the clock starts running when one is actually moving the ball.
+        As implemented at present, the clock should stop running when
+        one releases the mouse button, not when one stops dragging the
+        ball.</p>
+
+        <p>One should be able to click on the ball again and drag it
+        to another place, to be able to carry out a number of
+        displacements in succession with the clock being paused in
+        between.  The displacement vector will be the overall
+        displacement vector.  These things are already implemented.</p>
+
+		  <p>Item 7, the data display, needs to be modified
+		  as follows.</p>
+
+		  <p>The headings in the top left and right corners should be
+		  changed to 'average speed' and 'average velocity',
+		  respectively, color-coded as the corresponding items in the
+		  Displacement applet.  Under 'average speed' there are three
+		  entries, in the following order:</p>
+
+		  <i>s</i>:<spacer type="horizontal" size="30"> ... m
+		  <br>
+
+		  <i>t</i>:<spacer type="horizontal" size="32"> ... s
+		  <br>
+
+		  <i>v<sub>av</sub></i>:<spacer type="horizontal" size="15"> ... m/s</p>
+
+		  <p>Under 'average velocity' there are three entries, in the following order:</p>
+
+		  <b>d</b> = (<i>d</i>,<font face="symbol">q</font>):<spacer
+        type="horizontal" size="40"> (... m, ... deg)
+        <br>
+
+        t:<spacer type="horizontal" size="95"> ... s
+        <br>
+
+        <b>v</b><sub>av</sub> = (<i>d</i>/<i>t</i>,<font
+        face="symbol">q</font>):<spacer type="horizontal" size="27">
+        (... m/s, ,,, deg)</p>
+
+		  <P>The toggle button 'More Data' adds to the three items under
+		  'average velocity' the same set of extra items as in the
+		  Displacement applet, plus the following additional one at the
+		  end of that list:</p>
+
+		  <b>v</b><sub>av</sub> = <font
+        face="symbol">D</font><b>r</b>/<i>t</i> = (<font
+        face="symbol">D</font><i>x</i>/<i>t</i>,<font
+        face="symbol">D</font><i>y</i>/<i>t</i>):<spacer type="horizontal" size="13"> (..., ...) m/s
+
+		  <br><b>v</b><sub>av</sub> = (<i>d</i>/<i>t</i>,<font
+        face="symbol">q</font>):<spacer type="horizontal" size="78">
+        (... m/s, ... deg)</p>
+
+               <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.07.25) Hans Laue <br>
+       </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+        </p>
+</li>
+
+<p>
+
+
+	 </blockquote>
+
+	 
+
+	 <!-- work -->
+	 <a name="work"><hr></a>
+	 <font size=+3> Work </font> <a href="#sections">Back to Top</a> <br>
+	 url: <a href="work/">content/work</a> <br>
+	 <br>
+	 <blockquote>
+
+	 
+
+	 </blockquote>
+
+
+
+	 
+	 <hr>
+
+
+
+  </body>
+
+
+</html>
