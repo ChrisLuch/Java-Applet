@@ -1,0 +1,1069 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Circuit Builder
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Circuit Builder
+    </div>
+    <div class="sectionheading">
+      The applet lets you build an electric circuit containing
+      batteries, resistors, light bulbs, switches, ammeters,
+      voltmeters, and calculates currents, potentials, and powers
+      dissipated in the circuit
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be familiar with the concepts of electric
+      potential, electric potential difference (voltage), current,
+      and resistance.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will be able to explore different circuit
+      configurations and will acquire an understanding of the
+      behaviour of resistors, light bulbs, batteries, switches,
+      voltmeters, and ammeters in electric circuits in terms of
+      basic concepts and laws pertaining to electric circuits.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Laws">Terminology, Definitions, Theorems,
+      Laws</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Terminology">Terminology</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Ohm">Definition of Resistance and Ohm's
+      Law</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Power">Power</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Series_Parallel">In-Series and
+      In-Parallel</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Junction">Kirchhoff's Junction Rule (Current
+      Law)</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Loop">Kirchhoff's Loop Rule (Voltage Law)</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Resistance">Potential Difference, Current,
+      Power, and Resistance</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Exercise1">Exercise 1 (A Simple
+      Circuit)</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Exercise2">Exercise 2 (A Circuit With Two
+      Parallel Branches)</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Exercise3">Exercise 3 (In-series and
+      In-parallel)</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Exercise4">Exercise 4 (Challenge
+      Questions)</a> <a name="Laws"></a>
+    </p>
+    <div class="sectionheading">
+      Terminology, Definitions, Theorems, Laws<img src="small.gif"
+      alt="space" height="30" width="1" align="bottom">
+    </div><a name="Terminology"></a> 
+    <p>
+      <b>Terminology</b>
+    </p>
+    <ul>
+      <li>
+        Distinguish between <i>electric potential</i> and
+        <i>electric potential difference</i>. In the context of
+        electric circuits, one often emits "electric" and speaks
+        more briefly of <i>potential</i> and <i>potential
+        difference</i>.
+      </li>
+      <li>
+        <p>
+          <b>Electric potential</b> is a quantity that is defined
+          at any given point in a circuit. It is analogous to
+          elevation when walking in the mountains. Just as every
+          point on a trail has a specific elevation, so does every
+          point in a circuit have a specific electric potential.
+        </p>
+      </li>
+      <li>
+        <p>
+          <b>Electric potential difference</b> is the difference
+          between the values of the electric potential at two
+          points in a circuit. E.g., if the potential is equal to
+          20 V at point A and equal to 12 V at point B, then the
+          potential difference between the two points is 20 V - 12
+          V = 8 V. Another word for electric potential difference
+          is <i>voltage</i>.
+        </p>
+        <p>
+          The notation for potential difference used in this Lesson
+          is <font face="symbol">D</font><i>V</i>. In many books,
+          you will find that the symbol <i>V</i> is used for
+          potential difference. However, using just <i>V</i> does
+          not make it clear that a difference is involved, so here
+          <font face="symbol">D</font><i>V</i> will be used. Of
+          course, "V" also denotes the SI-unit "volt" of potential
+          and potential difference.
+        </p>
+        <p>
+          We will use the symbol <font face=
+          "symbol">D</font><i>V</i> to denote the <b>absolute
+          value</b> of the potential difference, i.e., a positive
+          quantity. Sometimes a change in potential can be
+          negative. E.g., if one goes from a point A where the
+          potential is 20 V to a point B where the potential is 8
+          V, then the <b>change</b> in potential (later value minus
+          earlier value) is 8 V - 20 V = -12 V. We will refer to
+          this as <b>change in potential</b> and denote it by
+          <i>V<sub>B</sub></i> - <i>V<sub>A</sub></i> = -12 V which
+          leaves no uncertainty about the ordering.
+        </p>
+      </li>
+      <li>
+        <p>
+          One talks about the potential difference (voltage)
+          <b>across</b> a circuit element, e.g., across a light
+          bulb, and the current <b>in</b> in the circuit element.
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top" border="0"></a>
+    </p><a name="Ohm"></a> 
+    <p>
+      <b>Definition of Resistance and Ohm's Law</b>
+    </p>
+    <ul>
+      <li>
+        <p>
+	  <u>Definition of Resistance</u>. The <i>resistance R</i> of
+        a circuit element (resistor, segment of wire, light bulb,
+        etc.) is defined by the ratio
+        </p> 
+        <div class="equation">
+          <i>R</i> = <font face="symbol">D</font><i>V</i> /
+          <i><font face="symbol">I</font></i> <img src="small.gif"
+          alt="space" height="1" width="50"> (1)
+        </div>
+        <p>
+          where <font face="symbol">D</font><i>V</i> is the
+          potential difference across the circuit element and
+          <i><font face="symbol">I</font></i> is the current in the
+          circuit element. Here, one takes both <font face=
+          "symbol">D</font><i>V</i> and <i><font face=
+          "symbol">I</font></i> to be positive so that resistance
+          is by definition a positive quantity.
+        </p>
+        <p>
+          The SI-unit of resistane is the <i>ohm</i> (symbol:
+          <font face="symbol">W</font>; this is the capital Greek
+          letter 'omega', but it is pronounced 'ohm' in this case).
+        </p>
+        <p>
+          <u>Example</u>: The resistance of a circuit element that
+          has a potential difference of 100 V across it and a
+          current of 2 A in it is
+        </p>
+        <div class="equation">
+          <i>R</i> = 100/2 = 50 <font face="symbol">W</font>.
+          <img src="small.gif" alt="space" height="1" width="50">
+          (2)
+        </div>
+        <p>
+          <u>Comment</u>. Often the equation <font face=
+          "symbol">D</font><i>V</i> / <i><font face=
+          "symbol">I</font></i> = <i>R</i> is referred to as Ohm's
+          Law. This equation, however, is merely the definition of
+          resistance, <b>not</b> Ohm's Law. Ohm's Law is the
+          statement that <i>R</i> as given by this equation is a
+          constant under specified conditions. See below. The
+          definition of <i>R</i> by this equation applies whether
+          or not <i>R</i> is a constant.
+        </p>
+      </li>
+      <li>
+        <u>Ohm's Law</u>. At a fixed temperature, the resistance of
+        a metal is independent of the current. 
+        <p>
+          <u>Comment 1</u>. One says that a circuit element obeys
+          Ohm's Law if the potential difference across the element
+          and the current in the element are proportional to each
+          other. In other words, a circuit element obeys Ohm's Law
+          if its resistance is independent of the current in the
+          element.
+        </p>
+        <p>
+          <u>Comment 2</u>. The resistance of a light bulb varies a
+          great deal with the current in the bulb, because the
+          temperature of the tungsten filament in the bulb
+          increases a great deal as the current increases. In the
+          accompanying applet, it is assumed that the resistance of
+          any light bulb (or of any resistor) is the same under all
+          conditions. In other words, it is assumed that the light
+          bulbs in the applet obey Ohm's law. This is quite
+          unrealistic, but to do anything else would only introduce
+          an unnessary complication for the purpose at hand.
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p><a name="Power"></a> 
+    <div class="sectionheading">
+      <b>Power</b>
+    </div>
+    <ul>
+      <li>
+        The power <i>P</i> dissipated by a circuit element of
+        resistance <i>R</i> is equal to 
+        <p align="center">
+          <i>P</i> = <font face="symbol">D</font><i>V</i>
+          <i><font face="symbol">I</font></i> = (<font face=
+          "symbol">D</font><i>V</i>)<sup>2</sup> / <i>R</i> =
+          <i><font face="symbol">I</font></i><sup>2</sup> <i>R</i>
+          . <img src="small.gif" alt="space" height="1" width=
+          "30">(3a)
+        </p>
+        <p>
+          where <font face="symbol">D</font><i>V</i> is the
+          potential difference across the circuit element and
+          <i><font face="symbol">I</font></i> <img src="small.gif"
+          alt="space" height="1" width="3"> the current in the
+          element.
+        </p>
+        <p>
+          The second and third equation in the sequence of
+          equations (3) are obtained from the first equation by
+          using Definition (1) of resistance.
+        </p>
+      </li>
+      <li>
+        The power <i>P</i> delivered by a battery to a circuit is
+        given by 
+        <p align="center">
+          <i>P</i> = <i>V<sub>0</sub> <font face=
+          "symbol">I</font></i> <img src="small.gif" alt="space"
+          height="1" width="50">(3b)
+        </p>
+        <p>
+          where <i>V<sub>0</sub></i> is the emf of the battery and
+          <i><font face="symbol">I</font></i> <img src="small.gif"
+          alt="space" height="1" width="2"> the current in the
+          battery.
+        </p>
+        <p>
+          <u>Note about the emf and internal resistance of a
+          battery</u>. The emf of a battery is equal to the voltage
+          between the battery's terminals when there is no current
+          in the battery. When a battery is fully charged and the
+          current in the battery is not excessive, the battery's
+          terminal voltage will be very close to the battery's emf.
+          In this Lesson we will assume that this is always the
+          case. The difference between the emf and the terminal
+          voltage depends on the internal resistance of the
+          battery. As a battery gets more and more discharged, its
+          internal resistance increases (its emf remains unchanged)
+          and, as a result, its terminal voltage decreases for a
+          given current in the battery.
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p><a name="Series_Parallel"></a> 
+    <p>
+      <b>In-Series and In-Parallel</b>
+    </p>
+    <ul>
+      <li>
+        <u>Circuit elements in series</u> 
+        <p>
+          Two circuit elements connected one after the other, e.g.,
+          the two resistors in Figure 1 below, are said to be <i>in
+          series</i>.
+        </p>
+        <p align="center">
+          <img src="in_series.gif" alt="In Series">
+        </p>
+        <p align="center">
+          <b>Figure 1</b>
+        </p>
+        <p>
+          The total resistance <i>R</i> of an arrangement of two
+          circuit elements in series, where the two circuit
+          elements have resistances <i>R<sub>1</sub></i> and
+          <i>R<sub>2</sub></i>, respectively, is equal to
+        </p>
+        <div class="equation">
+          <i>R</i> = <i>R<sub>1</sub></i> + <i>R<sub>2</sub></i> .
+          <img src="small.gif" alt="space" height="1" width=
+          "30">(4)
+        </div>
+      </li>
+      <li>
+        <u>Circuit elements in parallel</u> 
+        <p>
+          Two circuit elements located in parallel branches of a
+          circuit, like the two resistors in Figure 2 below, are
+          said to be <i>in parallel</i>.
+        </p>
+        <p align="center">
+          <img src="in_parallel.gif" alt="In Parallel">
+        </p>
+        <p align="center">
+          <b>Figure 2</b>
+        </p>
+        <p>
+          The resistance <i>R</i> of an arrangement of two circuit
+          elements in parallel, where the two circuit elements have
+          resistances <i>R<sub>1</sub></i> and
+          <i>R<sub>2</sub></i>, respectively, can be found from the
+          equation
+        </p>
+      </li>
+    </ul>
+    <div class="equation">
+      1/<i>R</i> = 1/<i>R<sub>1</sub></i> + 1/<i>R<sub>2</sub></i>
+      . <img src="small.gif" alt="space" height="1" width="30"> (5)
+    </div>
+    <ul class="noindent"></ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p><a name="Junction"></a> 
+    <p>
+      <b>Kirchhoff's Node or Junction Rule (Current Law)</b>
+    </p>
+    <p align="center">
+      <img src="KirchhoffCurrent.gif" alt="Junction">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      Figure 3 shows a junction in an electric circuit at which
+      three branches are joined. Positive directions have been
+      defined in the branches. They are indicated by arrows. A
+      current has a positive value if its direction coincides with
+      the positive direction in the branch where the current is.
+      The branches in the diagram above are labeled 1 to 3, and the
+      currents in the branches will be labeled <i>I<sub>1</sub></i>
+      to <i>I<sub>3</sub></i>, accordingly.
+    </p>
+    <blockquote>
+      Kirchhoff's Junction Rule (Current Law) says that the sum of
+      the currents entering a junction is equal to the sum of the
+      currents leaving the junction. 
+      <p>
+        In the case of the situation in Figure 1, this amounts to
+      </p>
+      <p class="equation">
+        <i>I<sub>1</sub></i> + <i>I<sub>2</sub></i> =
+        <i>I<sub>3</sub></i>. <img src="small.gif" alt="space"
+        height="1" width="30"> (6)
+      </p>
+    </blockquote>
+    <p>
+      For the purpose of this rule, a current is considered to be
+      entering (leaving) the junction if the direction assigned to
+      the branch in which the current is points to (away from) the
+      junction. In our example, currents 1 and 2 are entering the
+      junction and current 3 is leaving it.
+    </p>
+    <p>
+      The real directions of the currents may be different from
+      what this terminology suggests. E.g., current 1 may be
+      directed to the left, i.e., away from the junction. We will
+      still treat the current as if it were entering the junction,
+      but will assign it a negative value because its direction is
+      opposite to that defined as positive by the arrows in branch
+      1. The direction of the arrows is a matter of choice, not
+      fact.
+    </p>
+    <p>
+      In writing down the junction equation, one assumes that all
+      currents are in the positive directions. The resulting
+      equation will be correct, no matter what the actual current
+      directions are, as long as the currents are given the
+      appropriate sign.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p><a name="Loop"></a>
+    <p>
+      <b>Kirchhoff's Loop Rule (Voltage Law)</b>
+    </p>
+    <p align="center">
+      <img src="KirchhoffVoltage.gif" alt="Loop Rule">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      Figure 4 shows an electric circuit with three branches,
+      labeled 1, 2, and 3. Resistors, resistances, and currents in
+      these branches will be subscripted with the branch numbers.
+    </p>
+    <p>
+      Starting from point A, one can move in a closed loop via
+      resistor R<sub>1</sub>, junction B, resistor R<sub>2</sub>,
+      and junction C back via the battery to point A.
+    </p>
+    <blockquote>
+      Kirchhoff's Loop Rule (Voltage Law) says that the sum of the
+      potential differences encountered in going around a loop in a
+      DC Circuit is equal to zero. 
+      <p>
+        If the currents in resistors <i>R</i><sub>1</sub> and
+        <i>R</i><sub>2</sub> are denoted by <i>I</i><sub>1</sub>
+        and <i>I</i><sub>2</sub>, respectively, where the signs of
+        the currents are chosen relative to the positive branch
+        directions indicated by arrows in Figure 2, then
+        Kirchhoff's Loop Rule amounts to the following equation for
+        the loop described above:
+      </p>
+      <p class="equation">
+        -<i>R</i><sub>1</sub><i>I</i><sub>1</sub> +
+        <i>R</i><sub>2</sub><i>I</i><sub>2</sub> + 12 V = 0 .
+        <img src="small.gif" alt="space" height="1" width="30"> (7)
+      </p>
+    </blockquote>
+    <p>
+      The signs in this equation can be understood as follows.
+      Pretend the currents are in the directions indicated by the
+      arrows. In going from A to B one goes in the direction of
+      current <i>I</i><sub>1</sub>. Currents go from high to low
+      potential. (We are assuming the conventional current
+      direction.) The magnitude of the potential difference across
+      resistor <i>R</i><sub>1</sub> is equal to
+      <i>R</i><sub>1</sub><i>I</i><sub>1</sub>. Since the potential
+      is decreasing in the direction of the current, the potential
+      difference in going from A to B is
+      -<i>R</i><sub>1</sub><i>I</i><sub>1</sub>. In branch 2 we are
+      moving against the current. Therefore the potential changee
+      in going across <i>R</i><sub>2</sub> is
+      +<i>R</i><sub>2</sub><i>I</i><sub>2</sub> because the
+      potential is increasing in going against the current.
+      Finally, in going from C to A we are crossing the battery
+      from the negative to the positive pole and therefore are
+      gaining a potential difference of +12 V.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p> 
+    <a name="Resistance"></a>
+    <div class="subtitle">
+      Potential Difference, Current, Power, and Resistance
+    </div><a name="Exercise1"></a>
+    <p>
+    <b>Exercise 1 (A Simple Circuit)</b>. Construct the circuit shown
+    in Figure 5 below without the branch containing the switch and
+    resistor. (Those will be added later.) The circuit should contain
+    just a 10-V battery and a light bulb with voltage and power
+    ratings of 10 V and 20 W, respectively.
+    </p> 
+    <p align="center">
+      <img src="ParallelCircuit.gif" alt="Simple Circuit">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p>
+      <b>Question</b>. What is the resistance of the light bulb?
+      Determine the answer
+    </p>
+    <ul>
+      <li>
+        theoretically, using one of the equalities (3a) and the
+        data above,
+      </li>
+      <li>
+        experimentally with the applet, by measuring the current
+        with an ammeter inserted into the circuit and then using
+        Definition (1) of resistance. 
+        <p>
+          In this circuit, the potential difference across the bulb
+          is equal to the terminal voltage of the battery. You can
+          check this by connecting a voltmeter in parallel with the
+          bulb.
+        </p>
+      </li>
+    </ul>
+    <p>
+      <b>Answer</b>.
+    </p>
+    <ul>
+      <li>
+        Solving the second one of Equalities (3a), <i>P</i> =
+        (<font face="symbol">D</font><i>V</i>)<sup>2</sup> /
+        <i>R</i>, for <i>R</i> gives 
+        <p align="center">
+          <i>R</i> = (<font face=
+          "symbol">D</font><i>V</i>)<sup>2</sup> / <i>P</i> =
+          10<sup>2</sup> / 20 = 5.0 <font face="symbol">W</font> .
+          <img src="small.gif" alt="space" height="1" width="30">
+          (8)
+        </p>
+        <p>
+          You can confirm this answer by selecting the light bulb
+          in the applet with the Select Tool. The first item listed
+          in the Light information panel is the resistance of the
+          bulb.
+        </p>
+      </li>
+      <li>
+        An ammeter inserted into the circuit should read 2.0 A.
+        With that value, and the 10 V potential difference across
+        the bulb supplied by the battery, Definition (1) yields 
+        <p align="center">
+          <i>R</i> = <font face="symbol">D</font><i>V</i> /
+          <i><font face="symbol">I</font></i> = 10 / 2.0 = 5.0
+          <font face="symbol">W</font> .<img src="small.gif"
+             alt="space" height="1" width="50"> (9)
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p>
+    <p>
+      <a name="Exercise2"></a><b>Exercise 2 (A Circuit With Two
+      Parallel Branches)</b>. Construct the circuit from Figure 1
+      above as follows. If you did Exercise 1, you already have a
+      circuit containing the 10-V battery and the bulb with design
+      voltage and power equal to 10 V and 20 W, respectively. Add
+      the parallel loop using only wires at first. This will result
+      in a short circuit in the entire circuit except for the link
+      containing the bulb. Insert both an open switch and a
+      10-<font face="symbol">W</font> resistor into the parallel
+      loop.
+    </p>
+    <p>
+      <b>Question 1</b>. What is the potential difference across
+      the open switch? Try to reason out the answer first. Then
+      determine it experimentally using the applet, either by
+      displaying the potential at a grid point on either side of
+      the switch (by selecting the Select Tool and clicking on the
+      grid point) or by connecting a voltmeter in parallel with the
+      switch.
+    </p>
+    <p>
+      <b>Answer</b>. The potential difference across the open
+      switch is equal to the battery terminal voltage, i.e, 10 V.
+    </p>
+    <p>
+      Reason: Since there is no current in the branch containing
+      the open circuit, the potential difference across the
+      resistor is 0. (By Equation (1), this potential difference is
+      equal to <i>R</i> <i>I</i>, and this product is 0 because
+      <i>I</i> = 0.) Kirchhoff's loop rule applied to the large
+      loop containing the battery, switch, and resistor, starting
+      at the bottom left corner of the loop below the battery,
+      going clockwise through the switch and resistor and returning
+      to the bottom left corner of the looop, gives
+    </p>
+    <p align="center">
+      -10 V + <i>X</i> + 0 = 0 .<img src="small.gif" alt="space"
+      height="1" width="50"> (10)
+    </p>
+    <p>
+      -10 V is the potential difference encountered in crossing the
+      battery from below to above the battery, <i>X</i> is the
+      potential difference encountered in crossing the switch from
+      left to right, and 0 is the potential difference encountered
+      in crossing the resistor. The potential differences across
+      the wire elements are zero as well because there is no
+      current in these elements. They would be neglible even with
+      current because the resistances of the wire elements are very
+      small.
+    </p>
+    <p>
+      Solving Equation (10) for <i>X</i> gives <i>X</i> = 10 V.
+    </p>
+    <p>
+      <b>Question 2</b>. If the switch is closed, will the light
+      bulb
+    </p>
+    <ul>
+      <li>
+        burn brighter,
+      </li>
+      <li>
+        burn equally bright,
+      </li>
+      <li>
+        burn less bright?
+      </li>
+    </ul>
+    <p>
+      Try to reason out the answer before checking it with the
+      applet. Note that the brightness of the bulb increases with
+      the current in the bulb. Therefore, Question 2 could be
+      rephrased in terms of whether there will be more or less
+      current in the bulb when the switch is closed.
+    </p>
+    <p>
+      <b>Answer</b>. Closing the switch does <b>not</b> affect the
+      brightness of the bulb. The reason is that closing the switch
+      does not change the potential difference across the bulb and
+      therefore does not change the current in the bulb.
+    </p>
+    <p>
+      Again, Kirchhoff's loop rule explains why the potential
+      difference across the bulb is unaffected by the setting of
+      the switch. Let's consider the small loop this time, the loop
+      containing only the battery and the bulb. Let <i>Y</i> denote
+      the potential change in going from the top of the bulb to the
+      bottom of the bulb. Then going around the small loop starting
+      at the bottom left corner, up through the battery, down
+      through the bulb, and back to the bottom left corner and
+      adding potential changes gives
+    </p>
+    <p align="center">
+      -10 V + <i>Y</i> = 0 .<img src="small.gif" alt="space"
+         height="1" width="50"> (11)
+    </p>
+    <p>
+      Thus, <i>Y</i> = 10 V. This argument is unaffected by whether
+      there is a parallel branch containing another resistor and
+      whether the switch is open or closed.
+    </p>
+    <p>
+      <b>Question 3</b>. What is the potential difference across
+      the switch when the switch is closed? Try to reason out the
+      answer. Then check it with the applet.
+    </p>
+    <p>
+      <b>Answer</b>. The potential difference across the switch is
+      negligible when the switch is closed. The reason is that the
+      switch has negligible resistance when it is closed. Thus, the
+      potential difference across the switch, which is equal to the
+      product of the current in the switch and the resistance of
+      the switch, is negligible also.
+    </p>
+    <p>
+      <b>Question 4</b>. What is the current in the switch when the
+      switch is closed? Try to work out the answer before
+      determining it by using the applet. (Insert an ammeter into
+      the branch containing the switch.)
+    </p>
+    <p>
+      <b>Answer</b>. The current in the switch is equal to 1.0 A.
+      Reason: The current in the switch is equal to the current in
+      the 10-<font face="symbol">W</font> resistor. The current can
+      be calculated by applying Definition (1) of resistance to
+      this resistor. The potential difference across the resistor
+      is 10 V, by an argument analogous to that leading to Equation
+      (10) in Question 1 above. Thus,
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font></i> = <font face=
+      "symbol">D</font><i>V</i> / <i>R</i> = 10 / 10 = 1.0 A
+      .<img src="small.gif" alt="space" height="1" width="30"> (12)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p>
+    <p>
+      <a name="Exercise3"></a><b>Exercise 3 (In-series and
+      In-parallel)</b>. Construct the circuit illustrated in Figure
+      6 below. It differs from the circuit investigated in Exercise
+      2 and illustrated in Figure 5 only by the extra
+            15-<font face="symbol">W</font> resistor in the branch
+            containing the switch. As before, the light bulb has a
+            design voltage and power of 10 V and 20 W,
+            respectively, which implies a 5-<font face=
+            "symbol">W</font> resistance, as we saw in Exercise
+            1.
+    </p>
+    <p align="center">
+      <img src="ParallelCircuit2.gif" alt="Parallel Circuit">
+    </p>
+    <p align="center">
+      <b>Figure 6</b>
+    </p>
+    <p>
+      <b>Question 1</b>. What is the current in the
+         15-<font face="symbol">W</font> and 10-<font face=
+         "symbol">W</font> resistors? Try to reason out the answer
+         before measuring the current with the applet by inserting
+         an ammeter in series with the two resistors.
+    </p>
+    <p>
+      <b>Answer</b>. The current is 0.4 A.
+    </p>
+    <p>
+      Reason: Since the two resistors are in series, there is the
+      same current in both of them. The in-series combination of
+      the two resistors is in parallel with the light bulb. Thus
+      both have the same potential difference across them, which is
+      10 V. See Question 2 in Exercise 2. By Equation (4), the
+      combined resistance <i>R<sub>ser</sub></i> of the two
+      resistors in series is
+    </p>
+    <p align="center">
+      <i>R<sub>ser</sub></i> = 10 + 15 = 25 <font face=
+      "symbol">W</font> . <img src="small.gif" alt="space"
+         height="1" width="30"> (13)
+    </p>
+    <p>
+      With these values, Definition (1) applied to
+      <i>R<sub>ser</sub></i> gives for the current
+            <i><font face="symbol">I</font><sub>ser</sub></i> in
+            both resistances the value
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>ser</sub></i> =
+      <font face="symbol">D</font><i>V</i> / <i>R<sub>ser</sub></i>
+      = 10 / 25 = 0.4 A .<img src="small.gif" alt="space"
+         height="1" width="30"> (14)
+    </p>
+    <p>
+      <b>Question 2</b>. What is the current in the battery? Again,
+      try to reason out the answer before measuring the value by
+      inserting an ammeter into the circuit next to the battery.
+    </p>
+    <p>
+      <b>Answer</b>. One approach is to use Equation (14), but with
+      <i>R<sub>tot</sub></i> instead of <i>R<sub>ser</sub></i>
+      where <i>R<sub>tot</sub></i> is the total resistance of the
+      circuit outside the battery. Since <i>R<sub>tot</sub></i>
+      results from the in-parallel combination of the
+         5-<font face="symbol">W</font> resistance of the bulb and
+         the 25-<font face="symbol">W</font> in-series combination
+         of the two resistors, we need to apply Equation (5) which
+         gives
+    </p>
+    <p align="center">
+      1 / <i>R<sub>tot</sub></i> = 1/5 + 1/25 = 6/25 <img src=
+      "small.gif" alt="space" height="1" width="30"> (15)
+    </p>whence 
+    <p align="center">
+      <i>R<sub>tot</sub></i> = 25/6 <font face="symbol">W</font> .
+      <img src="small.gif" alt="space" height="1" width="50"> (16)
+    </p>
+    <p>
+      Since the battery terminal voltage of 10 V is equal to the
+      potential difference across the total resistance external to
+      the battery, the analogue of Equation (14) gives for the
+      current <i><font face="symbol">I</font><sub>bat</sub></i> in
+      the battery the value
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>bat</sub></i> = 10 /
+      (25/6) = 60 / 25 = 2.4 A .<img src="small.gif" alt="space"
+      height="1" width="30"> (17)
+    </p>
+    <p>
+      One can check this result independently by applying
+      Kirchhoff's junction rule to the junction below the bulb. The
+      current &gt;<i><font face="symbol">I</font></i> from the
+      battery is entering this junction, and the 2-A current
+      through the bulb and the 0.4-A current through the two
+      resistors is leaving the junction. Therefore, Kirchhoff's
+      junction rule confirms result (17),
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>bat</sub></i> = 2.0 + 0.4
+      = 2.4 A .<img src="small.gif" alt="space" height="1"
+         width="30"> (18)
+    </p>
+    <p>
+      Another way to check this result is by considering powers.
+      According to Equation (3b), the power put into the circuit by
+      the battery is equal to 10 V &times; <i><font face=
+      "symbol">I</font><sub>bat</sub></i> where
+            <i><font face="symbol">I</font><sub>bat</sub></i> is
+            the current in the battery and 10 V is the battery emf.
+            By energy conservation, this must be equal to the total
+            power dissipated in the circuit. The combined power
+            dissipated in the bulb and the in-series combination of
+            the two resistors, by Equations (3a), is
+    </p>
+    <p>
+      <img src="small.gif" height="1" width=
+      "50"><i>P<sub>bulb</sub></i> + <i>P<sub>ser</sub></i> =
+      <font face="symbol">D</font><i>V</i> /
+      <i>R<sub>bulb</sub></i> + <font face=
+      "symbol">D</font><i>V</i> / <i>R<sub>ser</sub></i>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width="140">=
+      10<sup>2</sup>/5 + 10<sup>2</sup>/25 = 24 W .<img src=
+      "small.gif" alt="space" height="1" width="30"> (19)
+    </p>
+    <p>
+      Equating this to 10 V &times; <i><font face=
+      "symbol">I</font><sub>bat</sub></i> and solving for
+      <i><font face="symbol">I</font><sub>bat</sub></i> confirms
+      result (17) once more:
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>bat</sub></i> = 24 / 10 =
+      2.4 A .<img src="small.gif" alt="space" height="1" width=
+      "30"> (20)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p>
+    <p>
+      <a name="Exercise4"></a><b>Exercise 4 (Challenge
+      Questions)</b>.
+    </p>
+    <p>
+      <b>Question 1</b>. The circuit shown in Figure 7 below
+      contains three identical light bulbs, each with resistance
+      <i>R</i>. The battery emf is equal to <i>V<sub>0</sub></i>.
+    </p>
+    <p align="center">
+      <img src="ThreeBulbs.gif" alt="Three Bulbs">
+    </p>
+    <p align="center">
+      <b>Figure 7</b>
+    </p>
+    <p>
+      When the switch is closed, which of the following will be the
+      case?
+    </p>
+    <p>
+      Bulb 1 will burn
+    </p>
+    <ul>
+      <li>
+        <img src="small.gif" alt="space" height="1" width=
+        "20">brighter than before,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">the
+        same as before,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">less
+        bright than before.
+      </li>
+    </ul>
+    <p>
+      Bulb 2 will burn
+    </p>
+    <ul>
+      <li>
+        <img src="small.gif" alt="space" height="1" width=
+        "20">brighter than before,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">the
+        same as before,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">less
+        bright than before.
+      </li>
+    </ul>
+    <p>
+      Try to make a prediction using the physics principles
+      practised above. Then check your prediction by constructing
+      the applet. Choose a 10-V battery and bulbs with a design
+      voltage of 5 V (so that they operate at their design voltage
+      when the switch is open).
+    </p>
+    <p>
+      The answer will be provided following Question 2.
+    </p>
+    <p>
+      <b>Question 2</b>. This question is a bit tricky. Suppose
+      three identical resistors, each of resistance <i>R</i>, are
+      connected as shown in Figure 8 below.
+    </p>
+    <p align="center">
+      <img src="TrickyResistors.gif" alt="Tricky Resistors">
+    </p>
+    <p align="center">
+      <b>Figure 8</b>
+    </p>
+    <p>
+      Are the three resistors connected
+    </p>
+    <ul>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">in
+        series,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">in
+        parallel,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">so
+        that the resistance between points A and B is zero,
+      </li>
+      <li>
+        <img src="small.gif" alt="space" height="1" width="20">in
+        some other way?
+      </li>
+    </ul>
+    <p>
+      Try to redraw the layout so that it looks more familiar. You
+      can also construct it with the applet and attempt to answer
+      this question by experimenting with the applet. The answer
+      will be provided following the answer to Question 1.
+    </p>
+    <p>
+      <b>Answer to Question 1</b>. When the switch is closed, bulb
+      1 will burn brighter and bulb 2 less bright than before.
+    </p>
+    <p>
+      Reason: When the switch is open, bulbs 1 and 2 are in
+      parallel and have a combined resistance of <i>R</i> +
+      <i>R</i> = 2<i>R</i>. There is a potential difference across
+      them equal to the battery voltage of <i>V<sub>0</sub></i>.
+      Thus, the current <i><font face=
+      "symbol">I</font><sub>open</sub></i> in both bulbs is equal
+      to
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>open</sub></i> =
+      <i>V<sub>0</sub></i> / (2<i>R</i>) = 0.5 <i>V<sub>0</sub></i>
+      / <i>R</i> . <img src="small.gif" alt="space" height="1"
+      width="30"> (21)
+    </p>
+    <p>
+      When the switch is closed, bulbs 2 and 3 are in parallel.
+      Therefore, their combined resistance <i>R<sub>||</sub></i>,
+      is determined by the equation
+    </p>
+    <p align="center">
+      1 / <i>R<sub>||</sub></i> = 1 / <i>R</i> + 1 / <i>R</i> = 2 /
+      <i>R</i> <img src="small.gif" alt="space" height="1"
+         width="30">(22)
+    </p>whence 
+    <p align="center">
+      <i>R<sub>||</sub></i> = 0.5 <i>R</i> .<img src="small.gif"
+      alt="space" height="1" width="40"> (23)
+    </p>
+    <p>
+      This combined resistance of <i>R</i> / 2 is in series with
+      the resistance <i>R</i> of bulb 1. Therefore, the combined
+      resistance <i>R<sub>tot</sub></i> of all three bulbs is
+    </p>
+    <p align="center">
+      <i>R<sub>tot</sub></i> = <i>R</i> + 0.5 <i>R</i> = 1.5
+      <i>R</i> . <img src="small.gif" alt="space" height="1"
+         width="30">(24)
+    </p>
+    <p>
+      The current <i><font face=
+      "symbol">I</font><sub>closed</sub></i> entering the 3-bulb
+      arrangement when the switch is closed is given by
+    </p>
+    <p align="center">
+      <i><font face="symbol">I</font><sub>closed</sub></i> =
+      <i>V<sub>0</sub></i> / 1.5<i>R</i> = 0.67
+      <i>V<sub>0</sub></i> / <i>R</i> . <img src="small.gif"
+         alt="space" height="1" width="30"> (25)
+    </p>
+    <p>
+      This current is larger than the current through bulb 1 when
+      the switch is open, given by Equation (21). Thus, bulb 1
+      burns brighter when the switch is closed.
+    </p>
+    <p>
+      The current (25) in bulb 1 is split into two equal halves (by
+      Kirchhoff's junction rule and symmetry) when entering the
+      parallel arrangement of bulbs 2 and 3. Thus, both of these
+      bulbs each have a current equal to 0.33 <i>V<sub>0</sub></i>
+      / <i>R</i>. For bulb 2, this current is less than current
+      (21) which it had when the switch was open. Therefore, bulb 2
+      burns less bright when the switch is closed.
+    </p>
+    <p>
+      <b>Answer to Question 2</b>. The arrangement of resistors in
+      Figure 4 can be redrawn as shown in Figure 9 below.
+    </p>
+    <p align="center">
+      <img src="TrickyResistorsAnswer.gif" alt=
+      "Answer to Tricky Resistors">
+    </p>
+    <p align="center">
+      <b>Figure 9</b>
+    </p>
+    <p>
+      Figure 5 shows clearly that the three resistors are in
+      parallel.
+    </p>
+    <p>
+      You can check this by following the various possible paths
+      through the resistors in Figures 4 and 5. You can also check
+      this with the applet by constructing both arrangements, the
+      ones in Figures 4 and 5, and separately connecting each to a
+      10-V battery. Give the resistances 10 <font face=
+      "symbol">W</font> each. The applet will let you construct
+      both circuits in the same applet window.
+    </p>
+    <p>
+      Both circuits should behave in the same manner electrically.
+      E.g., the current in the battery entering the arrangement of
+      resistors should be the same in both cases. Since a parallel
+      arrangement of three 10-<font face="symbol">W</font>
+      resistors has a combined resistance of 10/3 <font face=
+      "symbol">W</font>, this current should be equal to 10 V /
+      (10/3 <font face="symbol">W</font>) = 3 A.
+    </p>
+    <p>
+      You could also interrupt the circuits in strategic locations
+      by means of switches and check if the circuits behave
+      identically if the switches are placed in corresponding
+      locations.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

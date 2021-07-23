@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Magnetic Field For Straight Wire
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Magnetic Field Due To A Current In A Straight Wire
+    </div>
+    <div class="sectionheading">
+      The applet simulates the magnetic field due to a current in a
+      straight wire and the contributions to the field from the
+      current in short segments of the wire.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be somewhat familiar with the field concept, the
+      concept of electric current, and have a basic understanding of
+      vectors.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will be able to apply the Biot-Savart Law to
+      calculate the magnetic field due to a short current segment
+      and will be able to use the superposition principle to
+      calculate the magnetic field due to several such segments.
+      They will be able to calculate the magnetic field due to a
+      current-carrying straight wire.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+     <a name="Top"></a>
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="20"><a href="#Laws">Laws</a><br>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="40"><a href="#BiotSavart">Biot-Savart Law</a><br>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="40"><a href="#Superposition">Superposition
+         Principle for Magnetic Fields</a>
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="20"><a href="#Segment">Magnetic Field Due To A
+         Current Segment</a>
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="20"><a href="#SeveralSegments">Magnetic Field Due
+         To Several Current Segments</a>
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="20"><a href="#Wire">Magnetic Field Due To Current
+         In A Straight Wire</a>
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="10"
+      width="1">
+    </p>
+    <p>
+      <a name="Laws"></a>
+    </p>
+    <div class="sectionheading">
+      Laws
+    </div>
+    <ul>
+      <li>
+        <a name="BiotSavart"></a><b>Biot-Savart Law</b> 
+        <p>
+          Oersted discovered in 1820 that a magnetic compass needle
+          was deflected near a current-carrying wire. Very soon
+          after this discovery, Amp&egrave;re and the team of Biot
+          and Savart performed experiments on the effects of
+          currents on magnets and gave quantitative descriptions of
+          the forces produced. The law that describes the magnetic
+          field accompanying electric currents is now called the
+          <i>Biot-Savart Law</i>. In the form given below, the law
+          can be used to calculate the magnetic field due to any
+          distribution of currents.
+        </p>
+        <blockquote>
+          Imagine an infinitesimal segment of a wire carrying a
+          current <i><font face="symbol">I</font></i>.  The segment
+          has length <i>ds</i>. Figure 1 below illustrates the segment
+          in orange, a field point P, and in blue the infinitesimal
+          magnetic field vector at P due to the current in the given
+          segment. The field point P and the field vector are shown in
+          two projections: the Side View shows the projection onto the
+          <i>y</i>,<i>z</i> plane and the Front View the projection
+          onto the
+          <i>x</i>,<i>y</i> plane. The coordinate axes are defined
+          under Help. 
+          <p align="center">
+            <img src="../MFimages/MFFieldVector.gif" alt=
+            " Field Vector Due To One Segment">
+          </p>
+          <p align="center">
+            <b>Figure 1</b>
+          </p>
+          <p>
+            Looking at the wire from the side, the field point P is
+            in front of the screen and the field vector is pointing
+            downwards and towards the viewer. The field vector is
+            along the tangent to the circle through P that is
+            concentric with the axis along which the given wire
+            segment is aligned.
+          </p>
+          <p>
+            The <b>direction</b> of the field vector is given by
+            the following right-hand rule: point the thumb of the
+            right hand in the direction of the current, point the
+            outstretched fingers of the right hand from the segment
+            axis towards P, and the palm of the right hand will be
+            facing in the direction of the magnetic field vector.
+            This is illustrated in Figure 2 below.
+          </p>
+          <p align="center">
+            <img src="../MFimages/MFthumbrule.gif" alt=
+            " Right-Hand Rule for Field Vector">
+          </p>
+          <p align="center">
+            <b>Figure 2</b>
+          </p>
+          <p>
+            The <b>magnitude</b> <i>dB</i> of the infinitesimal
+            magnetic field at P due to the infinitesimal current
+            segment is given by
+          </p>
+          <p>
+            <img src="../MFimages/small.gif" alt="space" height="1"
+            width="20"><i>dB</i> = (<font face=
+            "symbol">m</font><sub>0</sub>/4<font face=
+            "symbol">p</font>) <i><font face="symbol">I</font> ds
+            sin</i> <font face="symbol">a</font> /
+            <i>d</i><sup>2</sup>, <img src="../MFimages/small.gif"
+            alt="space" height="1" width="20"><font face=
+            "symbol">m</font><sub>0</sub>/4<font face=
+            "symbol">p</font> = 10<sup>-7</sup> T m
+            A<sup>-1</sup>.<img src="../MFimages/small.gif" alt=
+            "space" height="1" width="40">(1)
+          </p>
+          <p>
+            Here <font face="symbol">a</font> is the angle between
+            the directions of the current in the segment and of the
+            displacement vector <img src="../MFimages/d.gif"
+               alt="vector d" align="bottom"> from the segment to
+               field point P. <i>d</i> is the magnitude of this
+               vector, i.e., the distance from the segment to P.
+          </p>
+          <p>
+            <font face="symbol">m</font><sub>0</sub> is a universal
+            constant called <i>permeability of the vacuum</i>. The
+            numerical value of <font face=
+            "symbol">m</font><sub>0</sub>/4<font face=
+            "symbol">p</font> is exactly 10<sup>-7</sup>, by
+            definition.
+          </p>
+          <p>
+            The current direction in this definition is the
+            "conventional" one.
+          </p>
+          <p>
+            The angle <font face="symbol">a</font> and the distance
+            <i>d</i> are illustrated by the applet when you select
+            the Coordinate View mode and click on the relevant wire
+            segment. See also Point 3 under Help. Keep in mind that
+            the angle labeled <font face="symbol">a</font> in the
+            applet is the projection of the real angle onto the
+            <i>y</i>,<i>z</i> plane and therefore does not have the
+            correct size of the real angle <font face=
+            "symbol">a</font>, unless point P is in the
+            <i>y</i>,<i>z</i> plane.
+          </p>
+          <p>
+            <u>Comment</u>. The Biot-Savart expression above for
+            the magnitude of the magnetic field is correct for
+            infinitesimal <i>ds</i> and <i>dB</i>, i.e., for a
+            segment length and magnetic field vector in the limit
+            where these quantities go to zero. The applet cannot
+            simulate true infinitesimals. In the applet, the
+            segment length <i>ds</i> is taken to be 0.20 m, and the
+            displacement <img src="../MFimages/d.gif" alt=
+            "vector d" align="bottom"> is taken from the center of
+            this segment.
+          </p>
+        </blockquote>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt=
+          "Back To Top" border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <a name="Superposition"><b>Superposition Principle</b></a> 
+        <p>
+          The total magnetic field vector <img src=
+          "../MFimages/Bcap.gif" alt="vector B" align="bottom"> at
+          the field point P is the vector sum of the infinitesimal
+          magnetic field vectors <i>d</i><img src=
+          "../MFimages/Bcap.gif" alt="vector B" align="bottom"> due
+          to all infinitesimal current-carrying wire segments.
+        </p>
+        <p>
+          <u>Comment</u>. A sum of infinitesimals is called an
+          integral. Since the applet is not simulating true
+          infinitesimals, but small and finite current segments and
+          the corresponding finite field vectors, we will be doing
+          ordinary sums rather than integrals.
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="../MFimages/top.gif" alt=
+      "Back To Top" border="0"></a>
+    </p>
+    <p>
+      <a name="Segment"></a>
+    </p>
+    <div class="sectionheading">
+      Magnetic Field Due To A Current Segment
+    </div>
+    <p>
+      <b>Exercise 1</b>. Reset <img src="../MFimages/Reset.gif"
+         alt="Reset" align="top"> the applet.
+    </p>
+    <p>
+      Select the Segments button, and click on the wire in the
+      center of the window to select the segment at the origin,
+      Segment 0. To check whether you have selected the segment at
+      the origin, display the Data box. If you have selected the
+      wrong segment, deselect it by clicking on the selected
+      segment and click on another segment.
+    </p>
+    <p>
+      Choose the "Coordinate View" mode to move the field point P
+      to (<i>x</i>,<i>y</i>,<i>z</i>) = (-0.30, 0.30, 0.40) m.
+      Figure 3 below shows how the field point is situated. The
+      Data box will show the coordinates of P.
+    </p>
+    <p>
+      <img src="../MFimages/MFFieldPoint.gif" alt=
+      "Coordinates of Field Point">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      Return to the "Physical Reality View" mode. Set the Scale
+      slider to 1,000, and make sure the current is set to 5.00 A.
+      The field vector at P should look like that in Figure 4
+      below. You may also want to exhibit the field line
+      projections shown in Figure 4.
+    </p>
+    <p align="center">
+      <img src="../MFimages/MFFieldVector.gif" alt=
+      " Field Vector Due To One Segment">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      Use the Biot-Savart law (1) to calculate the magnitude
+      <i>B</i><sub>0</sub> of the magnetic field at point P due to
+      Segment 0.
+    </p>
+    <p>
+      <b>Answer</b>. Let us first calculate the distance
+      <i>d</i><sub>0</sub> and the sine of the angle <font face=
+      "symbol">a</font><sub>0</sub>.
+    </p>
+    <p>
+      Since the center of Segment 0 is at
+      (<i>x</i>,<i>y</i>,<i>z</i>) = (0,0,0) and point P is at
+      (<i>x</i>,<i>y</i>,<i>z</i>) = (-0.30,0.30,0.40) m,
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="100"><i>d</i><sub>0</sub> = <img src=
+         "../MFimages/root16.gif" alt="Square Root" align=
+         "bottom">[(-0.30)<sup>2</sup> + 0.30<sup>2</sup> +
+         0.40<sup>2</sup>)] = 0.5831 m.<img src=
+         "../MFimages/small.gif" alt="space" height="1" width=
+         "40">(2)
+    </p>
+    <p>
+      To calculate <i>sin</i> <font face=
+      "symbol">a</font><sub>0</sub>, you need the perpendicular
+      distance <i>r</i> of P from the <i>z</i>-axis on which the
+      current segment is located. (Go into Coordinate View mode to
+      see the coordinate <i>r</i> defined.) Thus,
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="100"><i>r</i> = <img src="../MFimages/root16.gif"
+         alt="Square Root" align="bottom">[(-0.30)<sup>2</sup> +
+         0.30<sup>2</sup>] = 0.4243 m.<img src=
+         "../MFimages/small.gif" alt="space" height="1" width=
+         "40">(3)
+    </p>
+    <p>
+      <i>r</i> and <i>d</i><sub>0</sub> form a right-angle triangle
+      with <i>d</i><sub>0</sub> as hypotenuse and angle
+         <font face="symbol">a</font><sub>0</sub> opposite to
+         <i>r</i>. Therefore,
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="100"><i>sin</i> <font face=
+         "symbol">a</font><sub>0</sub> = <i>r</i> / <i>d</i> =
+         0.4243/0.5831 = 0.7277 .<img src="../MFimages/small.gif"
+         alt="space" height="1" width="40">(4)
+    </p>
+    <p>
+      This corresponds to an angle <font face=
+      "symbol">a</font><sub>0</sub> = 46.7<sup>o</sup>, but we
+      don't need this value. We only need <i>sin</i> <font face=
+      "symbol">a</font><sub>0</sub>.
+    </p>
+    <p>
+      We are now ready to substitute the pieces into Equ.(1).
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="80"><i>B</i><sub>0</sub> =
+         10<sup>-7</sup>&times;5.00&times;0.20&times;0.7277 /
+         0.5831<sup>2</sup> = 2.14&times;10<sup>-7</sup>
+         T.<img src="../MFimages/small.gif" alt="space" height="1"
+         width="40">(5)
+    </p>
+    <p>
+      This is the value shown in the Data box in Figure 5 below.
+    </p>
+    <p align="center">
+      <img src="../MFimages/MFDataBoxOneSegment.gif" alt=
+      " Data Related To One Segment">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, select Segment
+      2 directly below P, at <i>z</i> = 0.40 m. Calculate the
+      magnetic field <i>B</i><sub>2</sub> at P due to this segment.
+      Check your answer in the Data box.
+    </p>
+    <p>
+      Hint: The displacement vector from the center of the segment
+      to P has the coordinates
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="100">(<i>d<sub>x</sub></i>,<i>d<sub>y</sub></i>,<i>d<sub>z</sub></i>)
+         = (-.30-0, 0.30-0, .40-.40) = (-.30, -.30, 0) m . <img
+         src="../MFimages/small.gif" alt="space" height="1"
+         width="40"> (6)
+    </p>
+    <p>
+      Also predict the direction of the magnetic field due to
+      Segment 2. Explain in your Notebook how you predict the
+      direction. Then use the applet to check the direction by
+      deselecting Segment 0 so that only Segment 2 is selected.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, reverse the
+      direction of the current by setting <i><font face=
+      "symbol">I</font></i> to -5.00 A. Predict the direction of
+      the magnetic field due to Segments 2 and 0 when the current
+      direction is reversed. Explain your prediction in your
+      Notebook. Then use the applet to check it, selecting one
+      segment at a time.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../MFimages/top.gif" alt=
+      "Back To Top" border="0"></a>
+    </p><a name="SeveralSegments"></a> 
+    <div class="sectionheading">
+      Magnetic Field Due To Several Current Segments
+    </div>
+    <p>
+      <b>Exercise 1</b>. Reset the applet. As in Exercise 1 of the
+      preceding section, set the field point P at
+      (<i>x</i>,<i>y</i>,<i>z</i>) = (-0.30, 0.30, 0.40) m. Select
+      Segments 0 and 2 at <i>z</i> = 0 and <i>z</i> = 0.40 m,
+      respectively. Make sure the current is set to <i><font face=
+      "symbol">I</font></i> = 5.00 A.
+    </p>
+    <p>
+      Use the superposition principle and the results of the
+      preceding section to determine both the magnitude and
+      direction of the magnetic field vector <img src=
+      "../MFimages/Bcap.gif" alt="vector B" align="bottom"> at P
+      due to the current in the two segments.
+    </p>
+    <p>
+      <b>Answer</b>. The magnetic field vectors <img src=
+      "../MFimages/Bcap.gif" alt="vector B" align=
+      "bottom"><sub>0</sub> and <img src="../MFimages/Bcap.gif"
+         alt="vector B" align="bottom"><sub>2</sub> due to Segments
+         0 and 2 have the same direction. Therefore, vector
+         addition is easy in this case. The direction of the total
+         field due to both segments is the same as that due to
+         either segments and the total magnitude
+         <i>B<sub>tot</sub></i> is the sum of magnitudes
+         <i>B</i><sub>0</sub> and <i>B</i><sub>2</sub> calculated
+         in the preceding section,
+    </p>
+    <p>
+      <img src="../MFimages/small.gif" alt="space" height="1"
+         width="60"><i>B<sub>tot</sub></i> = <i>B</i><sub>0</sub> +
+         <i>B</i><sub>2</sub> = 2.14&times;10<sup>-7</sup> +
+         5.56&times;10<sup>-7</sup> = 7.70&times;10<sup>-7</sup>
+         T.<img src="../MFimages/small.gif" alt="space" height="1"
+         width="40">(7)
+    </p>
+    <p>
+      <b>Exercise 2</b>. Add a third segment, Segment 4 at <i>z</i>
+      = 0.80 m. Determine the magnetic field <img src=
+      "../MFimages/Bcap.gif" alt="vector B" align=
+      "bottom"><sub>4</sub> due to this segment, and the total
+      magnetic field <img src="../MFimages/Bcap.gif" alt="vector B"
+      align="bottom"> due to Segments 0, 2, and 4 together. Compare
+      your result with that given by the applet.
+    </p>
+    <p>
+      Hint: How do the magnetic fields due to Segments 0 and 4
+      compare? Consider the locations of the two segments relative
+      to that of point P.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../MFimages/top.gif" alt=
+      "Back To Top" border="0"></a>
+    </p><a name="Wire"></a> 
+    <div class="sectionheading">
+      Magnetic Field Due To Current In A Straight Wire
+    </div>
+    <p>
+      <b>Exercise 1</b>. Reset the applet. As in the preceding
+      sections, set the field point P at
+      (<i>x</i>,<i>y</i>,<i>z</i>) = (-0.30, 0.30, 0.40) m. Select
+      the Segments button and select all segments available in the
+      window. Record the magnitude of the total magnetic field due
+      to all selected segments as shown in the Data box.
+    </p>
+    <p>
+      Then deselect the Segments button. This selects the entire
+      infinite straight wire. Record the magnitude of the total
+      magnetic field at P due to the current in the infinite wire.
+      This magnitude should be just slightly larger than that when
+      only the segments are selected that fit into the window.
+    </p>
+    <p>
+      <b>Exercise 2</b>. For an infinitely long straight
+      current-carrying wire, an exact integration (summation of the
+      infinitesimal contributions <i>dB</i> given by Equ.(1)) gives
+      the following simple result for the magnitude <i>B</i> of the
+      total magnetic field at point P:
+    </p>
+    <p>
+     <img src="../MFimages/small.gif" alt="space" height="1"
+          width="100"><i>B</i> = (<font face=
+          "symbol">m</font><sub>0</sub>/4<font face=
+          "symbol">p</font>) &times;2<i><font face="symbol">I</font></i> /
+          <i>r</i>, <img src="../MFimages/small.gif" alt="space"
+          height="1" width="20"><font face=
+          "symbol">m</font><sub>0</sub>/4<font face=
+          "symbol">p</font> = 10<sup>-7</sup> T m
+          A<sup>-1</sup>.<img src="../MFimages/small.gif" alt=
+          "space" height="1" width="40">(8)
+    </p>
+     
+    <p>
+      Use this equation to calculate <i>B</i> for the present case.
+      The result should agree with that shown in the Data box.
+    </p>
+    <p>
+      Compare the denominators in Eqs.(1) and (8). There are two
+      differences. What are they?
+    </p>
+    <p>
+      <u>Comment</u>. The denominator in Equ.(8) has the distance
+      <i>r</i> of the field point P from the wire to the
+      <b>first</b> power. This is the result of the integration
+      over the infinite wire.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, double and
+      triple the distance <i>r</i> of point P from the wire. Record
+      the corresponding values of the total magnitude <i>B</i> of
+      the field. Are the values consistent with the
+      <i>r</i>-dependence of the magnitude as given in Equ.(8)?
+    </p>
+    <p>
+      <b>Exercise 4</b>. Continuing from Exercise 3, move the field
+      point P parallel to the wire without changing the distance
+      <i>r</i> of the field point from the wire. Do this twice: (a)
+      when the Segments button is deselected so that the field
+      shown by the applet is that due to the infinite wire and (b)
+      when the Segments button and all wire segments in the window
+      are selected.
+    </p>
+    <p>
+      Observe the dependence of the total field on the position of
+      point P in the two cases. Describe what differences you observe,
+      and explain your observation in terms of the Biot-Savart law and
+      the principle of superposition.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../MFimages/top.gif" alt=
+      "Back To Top" border="0"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

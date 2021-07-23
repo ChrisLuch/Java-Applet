@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>help_freebodyeditor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../libraries/styles/mapstyle.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<h1><a name="image"></a>Help - Free Body Editor</h1>
+<hr noshade>
+<p align="center"><img src="fig1.png" width="601" height="450" usemap="#Map3" border="0"><map name="Map3"><area shape="circle" coords="24,29,18" href="#1"><area shape="circle" coords="129,156,22" href="#2"><area shape="circle" coords="130,76,21" href="#3"><area shape="circle" coords="302,223,28" href="#4"><area shape="circle" coords="495,140,24" href="#5"><area shape="circle" coords="563,45,24" href="#6"></map><map name="Map2"><area shape="circle" coords="130,416,22" href="#1"><area shape="circle" coords="382,166,23" href="#2"><area shape="circle" coords="377,50,22" href="#3"><area shape="circle" coords="21,32,18" href="#4"></map><map name="Map"><area shape="circle" coords="227,310,20" href="#1"><area shape="circle" coords="93,390,21" href="#2"><area shape="circle" coords="266,392,18" href="#3"><area shape="circle" coords="276,102,18" href="#4"></map> 
+</p>
+<b><br>
+<span class="general">Click on a number to view the explanation of the corresponding 
+item</span></b> 
+<hr noshade>
+<ol>
+  <li> 
+    <h2><a name="1"></a>File Operations</h2>
+  </li>
+</ol>
+<table width="95%" border="0">
+  <tr> 
+    <td colspan="2" class="general" valign="top">Click this to open the following 
+      file menu:</td>
+    <td width="59%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="21%" rowspan="6" valign="top"><img src="fig2.png" width="182" height="162"></td>
+    <td colspan="2" class="general"><b>New Project: </b>Use this to begin creating 
+      a new Free Body Diagram Project</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="general"><b>Open Project:</b> Click on this to open 
+      an existing project (see note below on the file structure used by the applet)</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="general"><b>Import Project: </b>You can combine projects 
+      by importing an existing project into the one you are currently working 
+      on </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="general"><b>New FBD:</b> This allows you to load an 
+      image file for which you will create a new FBD. Note that only GIF and JPG 
+      formats are supported.</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="general">Save Project: When you have finished creating 
+      or modifying a project save it by pressing this button. <b>DO NOT give your 
+      file name an extension</b> - the applet manages this.</td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="general"><b>Close Project:</b> Closes the current project 
+      without saving anything.</td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top">&nbsp;</td>
+    <td width="59%">&nbsp;</td>
+  </tr>
+</table>
+<h2>Project Files and the Underlying File Structure</h2>
+<table width="93%" border="0">
+  <tr> 
+    <td width="24%" valign="top"><img src="img1.png" width="180" height="118" border="2" align="left"></td>
+    <td width="76%" class="general"> 
+      <p>It is essential that all FBD files be contained in a common folder (called 
+        projects in this example). Each project is a combination of a project 
+        file (created by the editor when you save the project) and an image file. 
+        It is important that the image file have a specific name of the format: 
+      </p>
+      <ul>
+        <li> 
+          <p>project file: <i><b>filename</b></i></p>
+        </li>
+        <li> 
+          <p>project image file folder: <i><b>filename_images</b></i></p>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top"><img src="img2.png" width="125" height="204"></td>
+    <td width="76%" valign="top" class="general">
+      <p>Notice, for example that project_1 is accompanied by the folder project_1_images. 
+        You can assign any valid name you wish to the project file but you must 
+        also store all images for that project in an appropriately named folder.</p>
+      <h2>For Example...</h2>
+      <p>You have created a project called FBD1. All of the images that you use 
+        for this project must be in a folder called FBD1_images and this folder 
+        must be on the same level as the project file FBD1.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top">&nbsp;</td>
+    <td width="76%" class="general">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p><span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span></p>
+<ol>
+  <li value="2"> 
+    <h2><a name="2"></a>FBD Editing Panel</h2>
+  </li>
+</ol>
+<table width="95%" border="0">
+  <tr> 
+    <td width="8%" valign="top"> 
+      <div align="center"><img src="fig3.png" width="37" height="23"></div>
+    </td>
+    <td width="92%" class="general">Add FBD: press this button to add an image 
+      from an image source. Remember, the image must be contained in a folder 
+      that is named according to the convention discussed in the previous section.</td>
+  </tr>
+  <tr> 
+    <td width="8%" valign="top"> 
+      <div align="center"><img src="fig3a.png" width="37" height="23"></div>
+    </td>
+    <td width="92%" class="general">Remove FBD: This removes the image from the 
+      project. It does not, however, delete the image from the image folder.</td>
+  </tr>
+  <tr> 
+    <td width="8%" valign="top"> 
+      <div align="center"><img src="fig3b.png" width="37" height="23"></div>
+    </td>
+    <td width="92%" class="general">Edit FBD: this button is not fully implemented 
+      in this version. To edit an existing FBD you need only load that FBD. It 
+      will become the active FBD in the drawing area on the right of the FBD Editing 
+      Panel. </td>
+  </tr>
+</table>
+<br>
+<span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span> 
+<ol>
+  <li value="3"> 
+    <h2><a name="3"></a>FBD Description Panel(s)</h2>
+  </li>
+</ol>
+<table width="95%" border="0">
+  <tr>
+    <td width="16%"><img src="fig4.png" width="136" height="288"></td>
+    <td width="84%" valign="top" class="general">A brief description of the FBD 
+      can be typed in the text box under &quot;FBD Description&quot;. This description 
+      appears in the text area under &quot;FBDs in project&quot; and also appears 
+      when the user accesses these FBD's when using the applet Free Body Drawer. 
+      The descriptions should be short - preferably one or two lines at most. 
+      You can view the entire line of text by using the scrollbar at the bottom 
+      of the panel.</td>
+  </tr>
+</table>
+<p><span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span></p>
+<ol>
+  <li value="4"> 
+    <h2><a name="4"></a>FBD Drawing Area</h2>
+  </li>
+</ol>
+<table width="95%" border="0">
+  <tr> 
+    <td width="61%" class="general" valign="top"> 
+      <ol>
+        <li>When an image is selected it appears in this area (Shown in reduced 
+          scale on the right). You can create force vectors anywhere in this region.</li>
+        <li>The entire region is 340 pixels wide by 400 pixels tall. When preparing 
+          images to use in the production of FBD's, you are strongly encouraged 
+          to make them exactly 340 pixels in width and no more than 400 pixels 
+          in height. This will ensure that any text placed on the image will be 
+          rendered optimally by the applet.</li>
+      </ol>
+    </td>
+    <td valign="top" width="39%"><img src="fig5.png" width="328" height="242"></td>
+  </tr>
+</table>
+<br>
+<span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span> 
+<p>&nbsp;</p>
+<ol>
+  <li value="5"> 
+    <h2><a name="5"></a>Actions Panel</h2>
+  </li>
+</ol>
+<p><span class="general">T<span class="general">his panel</span> presents you 
+  with 3 options. All of these are things that you can do to the vectors that 
+  you have drawn.<br>
+  </span></p>
+<ol>
+  <table width="95%" border="0">
+    <tr> 
+      <td width="18%" valign="top"> 
+        <div align="center"><img src="fig3.png" width="137" height="61"></div>
+      </td>
+      <td width="82%" class="general" valign="top"> Selected vector name provides 
+        you with a text box in which you can type the name of the vector (rather 
+        than the default labels of vector 1, vector 2, etc.).</td>
+    </tr>
+    <tr> 
+      <td width="18%" valign="top"> 
+        <div align="center"><img src="fig4.png" width="126" height="31"></div>
+      </td>
+      <td width="82%" class="general" valign="top">This is the &quot;default&quot; 
+        selection. When you first run the applet, anytime you click and drag the 
+        mouse in the drawing panel, a vector is created. You can point the vector 
+        in any direction and change its length at will. As soon as you release 
+        the mouse the vector becomes fixed in both length and direction. If you 
+        wish to modify this vector then you must select one of the two remaining 
+        options listed below.</td>
+    </tr>
+    <tr> 
+      <td width="18%" valign="top"> 
+        <div align="center"><img src="fig4a.png" width="125" height="33"></div>
+      </td>
+      <td width="82%" class="general" valign="top">Set vector head(s) allows you 
+        to rotate the vector to a new direction without changing its length.</td>
+    </tr>
+    <tr> 
+      <td width="18%" valign="top"> 
+        <div align="center"><img src="fig4b.png" width="133" height="32"></div>
+      </td>
+      <td width="82%" class="general" valign="top">Set vector origin(s) allows 
+        you to move the vector to a new position without changing its direction.</td>
+    </tr>
+    <tr> 
+      <td width="18%" valign="top"> 
+        <div align="center"><img src="fig4c.png" width="134" height="95"></div>
+      </td>
+      <td width="82%" class="general" valign="top">The list of vectors that you 
+        have made and the names that you have given them appear in this area. 
+        You can change the name of a vector at any time by clicking on the vector 
+        in this box and then typing a new name in the Selected Vector Name text 
+        box above. </td>
+    </tr>
+  </table>
+</ol>
+<p><span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span><span class="general"> 
+  </span></p>
+<ol>
+  <li value="6"> 
+    <h2><a name="6"></a>Color Editor<br>
+    </h2>
+    <table width="95%" border="0">
+      <tr> 
+        <td width="4%" valign="top"><img src="fig5.png" width="27" height="30"></td>
+        <td width="96%" class="general">Press the color icon to change the color 
+          of the active vector (In the previous section, for example, &quot;weight&quot; 
+          appears highlighted so it would be the active vector.) By using the 
+          color editor you can change the vector &quot;weight&quot; to any color 
+          you wish.</td>
+      </tr>
+    </table>
+    <h2><span class="general"><a href="#image"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span></h2>
+  </li>
+</ol>
+<p>&nbsp;</p>
+<hr noshade>
+<p>&nbsp;</p>
+</body>
+</html>

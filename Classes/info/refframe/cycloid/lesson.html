@@ -1,0 +1,913 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Rolling Motion
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Rolling Motion
+    </div><br>
+    <div class="sectionheading">
+      The Applet shows the motion of a point on a rolling spool
+    </div>
+    <hr noshade color="#808080">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should understand displacement and velocity as
+      vector quantities and be able to work with their components.
+      Students should know basic trigonometry and the concept of
+      angular velocity.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will develop an understanding of rolling motion as a
+      superposition of a constant-velocity translational motion and
+      a uniform circular motion. In particular, they will learn
+      that when a wheel is rolling on a surface without slipping
+      the point on the perimeter of the wheel that momentarily is
+      in contact with the surface has zero velocity relative to the
+      surface.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#808080">
+    <p>
+      <a name="Top"></a>
+    </p>
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#NoSlipping">Rolling Without Slipping</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Superposition">Rolling Motion as Superposition
+      of Two Motions</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><b>Appendix</b>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Definitions">Definitions of an Angle's Radian
+      Measure and of Angular Velocity</a>
+    </p>
+    <div class="sectionheading">
+      <a name="NoSlipping">Rolling Without
+           Slipping</a><img src="small.gif" alt="space" height="30"
+           width="1" align="bottom">
+    </div>
+    <p>
+      <b>Question 1</b>. When a round object is rolling on a surface
+      without slipping, what is the velocity of a point on the
+      perimeter of the object at the moment the point makes contact
+      with the surface?  Here, "velocity" means velocity relative to
+      the lab frame.
+    </p>
+    <p>
+      The round object could be a wheel, disk, cylinder, or sphere.
+      In the case of the applet, it will be the central grey
+      cylinder of the spool. It is rolling without slipping on the
+      salmon-colored surface.
+    </p>
+    <p>
+      <b>Answer</b>.
+    </p>
+    <p>
+      Let's find the answer by experimenting with the applet.
+    </p>
+    <ol>
+      <li>
+       <p>
+        <u>Experiment 1</u>. RESET the applet, and set the three
+        sliders as follows:
+       </p> 
+        <ul>
+          <li>
+            angular speed (|<font face="symbol">w</font>|): 0.80
+            rad/s
+          </li>
+          <li>
+            center-to-point distance (<i>a</i>): 0.10 m
+          </li>
+          <li>
+            inner radius of spool (<i>r</i>): 0.25 m
+          </li>
+        </ul>
+        <p>
+          Also, set the spool support to "Bottom" and select the
+          Trace toggle button to display the revolving point's
+          path.
+        </p>
+        <p>
+          With the settings above, the revolving point is situated
+          on the <b>inside</b> of the rolling grey cylinder. PLAY
+          the motion, and observe the path of the revolving point.
+          You should obtain a wavy path form as shown in Figure 1
+          below. In the snapshot in Figure 1, the spool is rolling
+          to the right.
+        </p>
+        <p align="center">
+          <img src="RollingMotionInside.gif" alt=
+          "Path of Inside Point">
+        </p>
+        <p align="center">
+          <b>Figure 1</b>
+        </p>
+        <p>
+          The velocity <img src="v.gif" alt="vector v" align="bottom">
+          of the revolving point relative to the Lab frame is a vector
+          that points along the tangent to the revolving point's
+          path. In what direction is this velocity when the revolving
+          point is at its lowest point? Is the velocity zero perhaps?
+        </p>
+        <p>
+          You can let the applet display the answer by checking
+          "Velocity v of revolving point relative to lab frame" on the
+          vector panel and stopping the motion when the revolving
+          point is at its lowest point. The velocity vector <img
+          src="v.gif" alt="vector v" align="bottom"> (green) is shown
+          in Figure 2 below.
+        </p>
+        <p align="center">
+          <img src="RollingMotionInsideVelocity.gif" alt=
+          "Path of Inside Point with Velocity">
+        </p>
+        <p align="center">
+          <b>Figure 2</b>
+        </p>
+      </li>
+      <li>
+       <p>
+        <u>Experiment 2</u>. RESET the applet, and set the sliders as
+        follows:
+       </p>
+        <ul>
+          <li>
+            angular speed (|<font face="symbol">w</font>|): 0.80
+            rad/s
+          </li>
+          <li>
+            center-to-point distance (<i>a</i>): 0.40 m
+          </li>
+          <li>
+            inner radius of spool (<i>r</i>): 0.25 m
+          </li>
+        </ul>
+      <p>
+		  Compared to the settings used in Experiment 1, only the
+        center-to-point distance (<i>a</i>) is changed.  It is changed
+        from 0.10 m to 0.40 m.  Make sure that the spool support is
+        still set to "Bottom".
+      </p> 
+        <p>
+          The revolving point is now situated on the <b>outside</b>
+          of the rolling cylinder. PLAY the motion, and observe the
+          path of the revolving point. You should obtain a looping
+          path form as shown in Figure 3 below. In the snapshot in
+          Figure 3 the spool is rolling to the <b>right</b>.
+        </p>
+        <p align="center">
+          <img src="RollingMotionOutside.gif" alt=
+          "Path of Outside Point">
+        </p>
+        <p align="center">
+          <b>Figure 3</b>
+        </p>
+        <p>
+          In what direction is the velocity <img src="v.gif"
+             alt="vector v" align="bottom"> now when the revolving
+             point is at its lowest point? Is the velocity zero?
+        </p>
+        <p>
+          Figure 4 below shows that the velocity at the bottom
+          point is to the <b>left</b> even though the spool is
+          rolling to the right.
+        </p>
+        <p align="center">
+          <img src="RollingMotionOutsideVelocity.gif" alt=
+          "Path of Outside Point">
+        </p>
+        <p align="center">
+          <b>Figure 4</b>
+        </p>
+      </li>
+      <li>
+       <p>
+        <u>Experiment 3</u>. RESET the applet, and set the sliders as
+        follows:
+       </p>
+        <ul>
+          <li>
+            angular speed (|<font face="symbol">w</font>|): 0.80
+            rad/s
+          </li>
+          <li>
+            center-to-point distance (<i>a</i>): 0.25 m
+          </li>
+          <li>
+            inner radius of spool (<i>r</i>): 0.25 m
+          </li>
+        </ul>
+      <p>
+        This time, the center-to-point distance (<i>a</i>) is set to
+        0.25 m and the revolving point is on the perimeter of the
+        inner cylinder which is rolling on the support rail.  Make
+        sure the spool support is set to "Bottom" as before.
+      </p>
+        <p>
+          PLAY the motion, and observe the path of the revolving
+          point. You should obtain a path form with cusps as shown
+          in Figure 5 below.
+        </p>
+        <p align="center">
+          <img src="RollingMotionPerimeter.gif" alt=
+          "Perimeter Point">
+        </p>
+        <p align="center">
+          <b>Figure 5</b>
+        </p>
+        <p>
+          In what direction is the velocity <img src="v.gif"
+             alt="vector v" align="bottom"> now when the revolving
+             point is at its lowest point? Is the velocity zero?
+        </p>
+        <p>
+          A cusp is a point where the two branches of the
+          trajectory just before and after the cusp point become
+          parallel to each other. In the present case, the two
+          branches approach vertical directions as they approach
+          the cusp point. Therefore the velocity of the revolving
+          point must approach a vertically downward direction upon
+          approaching the cusp point and leave the cusp point with
+          a vertically upward direction. Velocity is continuous.
+          The velocity cannot jump from one direction to the exact
+          opposite direction at the cusp point, <b>unless</b> the
+          velocity is zero at the cusp point.
+        </p>
+        <p>
+          In Figure 5, the velocity vector <img src="v.gif"
+             alt="vector v" align="bottom"> at the cusp point has
+             degenerated to a green dot, which means that the velocity
+             is zero.
+        </p>
+      </li>
+    </ol>
+    <p>
+      <b>Summary</b>. The velocity of the revolving point at the
+      bottom of the point's path is
+    </p>
+    <ul>
+      <li>
+        in the direction of motion of the spool when <i>a</i> &gt;
+        <i>r</i>,
+      </li>
+      <li>
+        opposite to the direction of motion of the spool when
+        <i>a</i> &lt;
+        <i>r</i>,
+      </li>
+      <li>
+        in between the two directions above, i.e., zero, when
+        <i>a</i> = <i>r</i>.
+      </li>
+    </ul>
+    <p>
+      Thus a point on the perimeter of a rolling object has zero
+      velocity relative to the surface the object is rolling on when
+      the point makes contact with the surface. When the velocity of a
+      point on the perimeter of a rolling object is <b>not</b> zero
+      upon contact with the surface the object is rolling, the motion
+      is not pure rolling motion but is rolling combined with
+      slipping.
+    </p>
+	 <p>
+      A further explanation of this is provided in the next section.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p><a name="Superposition"></a> 
+    <div class="sectionheading">
+      Rolling Motion as Superposition of Two Motions
+    </div>
+    <blockquote>
+      <b>Superposition of two motions</b>. Relative to the lab frame,
+      the revolving point is carrying out two motions at once: a
+      translational motion with constant velocity <img src="u.gif"
+      alt="vector u" align="bottom"> and a uniform circular motion
+      around the center of the spool with instantaneous velocity <img
+      src="v.gif" alt="vector v" align="bottom">' relative to the
+      frame translating with the spool.
+      <br><br>
+        Relative to the lab frame, the displacement of the revolving
+        point during a given time interval is the vector sum of its
+        displacements according to these two other motions, and the
+        revolving point's velocity <img src="v.gif" alt="vector v"
+        align="bottom"> relative to the lab frame at a given instant
+        is the vector sum of its velocities at that instant due to the
+        two other motions. Thus: <img src="v.gif" alt="vector v"
+        align="bottom"> = <img src="v.gif" alt="vector v"
+        align="bottom">' + <img src="u.gif" alt="vector u"
+        align="bottom">.  This equation has the name <i>Galilean
+        velocity transformation</i>.
+    </blockquote>
+    <p>
+      <b>Exercise 1</b>. RESET the applet, and make the following
+      settings.  Make sure the spool support is set to "Bottom".
+    </p>
+    <ul>
+      <li>
+        angular speed (|<font face="symbol">w</font>|): 0.80 rad/s
+      </li>
+      <li>
+        center-to-point distance (<i>a</i>): 0.25 m
+      </li>
+      <li>
+        inner radius of spool (<i>r</i>): 0.25 m
+      </li>
+    </ul>
+    <p>
+      PLAY and REVERSE the motion with the path displayed. Also
+      display the velocity vectors <img src="v.gif" alt="vector v"
+      align="bottom">' (yellow) and <img src="u.gif" alt="vectur u"
+      align="bottom"> (red). If you stop the motion when the revolving
+      point is at the bottom of its path while the spool is moving
+      left, you should get a display like that in Figure 6 below.
+    </p>
+    <p align="center">
+      <img src="RollingMotionBottom.gif" alt=
+      "Velocities at Bottom">
+    </p>
+    <p align="center">
+      <b>Figure 6</b>
+    </p>
+    <p>
+      Figure 6 shows that at the cusp point, the velocities
+      <img src="u.gif" alt="vector u" align="bottom"> and
+         <img src="v.gif" alt="vector v" align="bottom">' are equal
+         in magnitude and opposite in direction. Thus, their vector
+         sum, i.e., the velocity <img src="v.gif" alt="vector v"
+         align="bottom"> relative to the lab frame, is zero.
+    </p>
+	 <p>
+      <b>Question 1</b>.  It is clear that, if the spool is moving
+      left, the velocity <img src="v.gif" alt="vector v"
+      align="bottom">' of the revolving point when it is at the bottom
+      is opposite to <img src="u.gif" alt="vector u" align="bottom">.
+      However, why is the magnitude of <img src="v.gif" alt="vector v"
+      align="bottom">' equal to the magnitude of <img src="u.gif"
+      alt="vector u" align="bottom">?
+	 </p>
+	 <p>
+      <b>Answer</b>.  Imagine the surface of the spool's inner
+      cylinder to be covered with ink like the ball of a ballpoint
+      pen.  When the spool is rolling on its support surface, the
+      surface will get painted with this ink.  
+    </p>
+	 <p>
+		If the spool is rolling without slipping, the distance on the
+      support surface that gets painted when the spool makes one
+      revolution is equal to the circumference <i>c</i> of the spool's
+      inner cylinder.  Let <i>T</i> denote the time required for one
+      revolution.  Then <i>u</i> = <i>c</i> / <i>T</i>, and <i>v</i>'
+      = <i>c</i> / <i>T</i> as well because in the frame of reference
+      translating with the spool the revolving point performs circular
+      motion and moves a distance <i>c</i> around the circle in time
+      <i>T</i>.  Therefore, <i>u</i> = <i>v'</i>.
+	 </p>
+    <p>
+      <b>Question 2</b>. What is the revolving point's velocity
+      relative to the lab frame at the top of the point's path if the
+      spool is moving left?
+    </p>
+	 <p>
+      <b>Answer</b>.  At all points along the revolving point's path,
+        <img src="v.gif" alt="vector v" align="bottom"> = <img
+        src="v.gif" alt="vector v" align="bottom">' + <img src="u.gif"
+        alt="vector u" align="bottom">.  At the top of the point's
+        path, <img src="v.gif" alt="vector v" align="bottom">' = <img
+        src="u.gif" alt="vector u" align="bottom">.  Therefore, <img
+        src="v.gif" alt="vector v" align="bottom"> = 2<img src="u.gif"
+        alt="vector u" align="bottom">, which means that <img
+        src="v.gif" alt="vector v" align="bottom"> points left and has
+        a magnitude equal to 2<i>u</i>.  Check this with the applet.
+	 </p>
+    <p>
+      <b>Exercise 2</b>. RESET the applet, and make the following
+      settings.  Make sure the spool support is set to "Bottom".
+    </p>
+    <ul>
+      <li>
+        angular speed (|<font face="symbol">w</font>|): 0.80 rad/s
+      </li>
+      <li>
+        center-to-point distance (<i>a</i>): 0.40 m
+      </li>
+      <li>
+        inner radius of spool (<i>r</i>): 0.25 m
+      </li>
+    </ul>
+    <p>
+      Display the data, and record them in your Notebook. Some of
+      the values depend on the size of the browser window. Here we
+      will use the values displayed in Figure 7 below.
+    </p>
+    <p align="center">
+      <img src="RollingMotion000.gif" alt=
+      "Start Position and Data">
+    </p>
+    <p align="center">
+      <b>Figure 7</b>
+    </p>
+    <p>
+      With the path and all three velocity vectors displayed,
+         PLAY/STEP the motion (spool moving to the right) up to
+         <i>t</i> = 4.57 s or close to this time.  Figure 8 below
+         shows the configuration of the spool at this instant and the
+         corresponding data. (Again, some of your data may be
+         different depending on the size of the browser window.
+         However, the <b>changes</b> in <i>x</i> and
+         <i>X</i> between the times <i>t</i> = 0 and <i>t</i> = 4.57 s
+         should not depend on the size of the browser window. All
+         other quantities are unaffected by the size of the browser
+         window.)
+    </p>
+    <p align="center">
+      <img src="RollingMotion457Data.gif" alt="Data at 4.57 s"><br>
+       <img src="RollingMotion457Path.gif" alt=
+      "Path at 4.57 s"><br>
+      <b>Figure 8</b>
+    </p>
+    <p>
+      Given the data in Figure 7 and the elapsed time of 4.57 s,
+      calculate the values of <i>x</i>', <i>y</i>', <i>X</i>,
+      <i>Y</i>, <i>x</i>, <i>y</i> displayed in Figure 8.
+    </p>
+    <p>
+      <b>Partial Answer</b>. Here a partial answer will be
+      provided. It is left up to the Reader to complete the answer.
+    </p>
+    <p>
+      <u><i>x</i>' and <i>y</i>'</u>. Let's start with <i>x</i>'
+      and <i>y</i>'. These are the coordinates of the revolving
+      point in a coordinate system that has its origin at the
+      center C of the spool. The right-angle triangle in Figure 9
+      below illustrates how these coordinates are defined.
+    </p>
+    <p align="center">
+      <img src="coordinatetriangle.gif">
+    </p>
+    <p align="center">
+      <b>Figure 9</b>
+    </p>
+    <p>
+      From the definitions of the cosine and the sine in a
+      right-angle triangle it follows that <i>x</i>'/<i>a</i> = cos
+      <font face="symbol">q</font> and <i>y</i>'/<i>a</i> = sin
+      <font face="symbol">q</font> whence
+    </p>
+    <p align="center">
+      <i>x</i>' = <i>a</i> cos <font face="symbol">q</font> <img
+      src="small.gif" alt="space" height="1" width="20"> and <img
+      src="small.gif" alt="space" height="1" width="20"> <i>y</i>' =
+      <i>a</i> sin <font face="symbol">q</font>. <img src=
+      "small.gif" alt="space" height="1" width="40"> (1)
+    </p>
+    <p>
+      These expressions are true also for angles greater than
+      90<sup>o</sup> and even for negative angles. They are true
+      for angles with values anywhere on the real axis. We need
+      this range here. The angle <font face="symbol">q</font> is
+      the angle between the positive <i>x</i>-axis and the radius
+      vector from the center of the spool to the revolving point.
+      This angle can keep on increasing forever or decreasing
+      forever as the spool is rolling left or right, respectively.
+      (When the spool is rolling to the right, the radius vector is
+      rotating clockwise so that <font face="symbol">q</font> is
+      decreasing.)
+    </p>
+    <p>
+      We need the concept of angular velocity. You can review it under
+      <a href="#Definitions">Definitions of an Angle's Radian Measure
+      and of Angular Velocity</a> in the Appendix.
+    </p>
+    <p>
+      The angular velocity <font face="symbol">w</font> with which the
+      spool is rotating is constant. In the present case, with the
+      spool rolling to the right and rotating clockwise, <font
+      face="symbol">w</font> is negative because <font face=
+      "symbol">q</font> is decreasing.  Note that the applet slider
+      labeled "Angular Speed" sets the <b>magnitude</b> of the angular
+      velocity.
+    </p>
+	 <p>
+		Since <i>t</i> = 0 at the beginning of the motion, the time
+      elapsed until time <i>t</i> is equal to <nobr><i>t</i> - 0 =
+      <i>t</i>.</nobr> Figure 7 shows that <font face=
+      "symbol">q</font> = 0 at <i>t</i> = 0 so that the change <font
+      face= "symbol">Dq</font> in angle until time <i>t</i> when the
+      angle is <font face= "symbol">q</font> is equal to <font face=
+      "symbol">q</font> - 0 = <font face= "symbol">q</font>. Under
+      these conditions, the definition of angular velocity reduces to
+    </p>
+    <p align="center">
+      <font face="symbol">w</font> = <font face=
+      "symbol">q</font>/<i>t</i> <img src="small.gif" alt="space"
+      height="1" width="40"> (2)
+    </p>
+    <p>
+      whence
+    </p>
+    <p align="center">
+      <font face="symbol">q</font> = <font face="symbol">w</font>
+      <i>t</i> .<img src="small.gif" alt="space" height="1"
+         width="40"> (3)
+    </p>
+    <p>
+      Substituting Expression (3) into Equations (1) gives
+    </p>
+    <p align="center">
+      <i>x</i>' = <i>a</i> cos <font face="symbol">w</font><i>t</i>
+      <img src="small.gif" alt="space" height="1" width="20"> and
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><i>y</i>' = <i>a</i> sin <font face=
+      "symbol">w</font><i>t</i>. <img src="small.gif" alt="space"
+      height="1" width="40"> (4)
+    </p>
+    <p>
+      Substituting <i>a</i> = 0.40 m, <font face="symbol">w</font>
+      = -0.80 rad/s, and <i>t</i> = 4.57 s gives
+    </p>
+    <p align="center">
+      <i>x</i>' = 0.40&times;cos (-0.80&times;4.57) = -0.348 m .
+      <img src="small.gif" alt="space" height="1" width="40"> (5)
+    </p>
+    <p>
+      This value of <i>x</i>' is consistent with that displayed in
+      Figure 8. It is the Reader's job to calculate <i>y</i>'.
+    </p>
+    <p>
+      <u><i>X</i> and <i>Y</i></u>. Next let's calculate the position
+      coordinates of the spool's center. <i>Y</i> is always zero, so
+      there is nothing to do there. <i>X</i> requires more work, but
+      the calculation is instructive.
+    </p>
+    <p>
+      It would be easy to calculate <i>X</i> if we knew the velocity
+      <img src="u.gif" alt="vector u" align="bottom">. We know that
+      its direction is horizontal and to the right. From the
+      discussion in the answer to Question 1 above, we know that its
+      magnitude <i>u</i> is equal to <i>c</i> / <i>T</i> where
+      <i>c</i> is the circumference of the spool's inner cylinder and
+      <i>T</i> is the period of revolution of the spool.
+    </p>
+    <p>
+      The circumference <i>c</i> of the inner cylinder is equal to
+      2<font face="symbol">p</font><i>r</i>. With that, the speed
+      <i>u</i> of the spool, (distance traveled)/(time elapsed), is
+      equal to
+    </p>
+    <p align="center">
+      <i>u</i> = 2<font face="symbol">p</font><i>r</i>/<i>T</i> .
+      <img src="small.gif" alt="space" height="1" width="40"> (6)
+    </p>
+    <p>
+      We need to relate <i>u</i> to the angular velocity <font
+      face="symbol">w</font>.  The angular speed |<font
+      face="symbol">w</font>| is constant and therefore can be
+      evaluated by dividing the angle corresponding to one revolution,
+      2<font face= "symbol">p</font> rad, by the period
+      <i>T</i>. Remember that the angular velocity <font
+      face="symbol">w</font> is negative in the present case. Putting
+      all this together gives
+    </p>
+    <p align="center">
+      <font face="symbol">w</font> = - 2<font face=
+      "symbol">p</font><i>r</i>/<i>T</i> .<img src="small.gif"
+         alt="space" height="1" width="40"> (7)
+    </p>
+    <p>
+      With this equation, Equation (6) can be written
+    </p>
+    <p align="center">
+      <i>u</i> = 2<font face="symbol">p</font><i>r</i>/<i>T</i> =
+      (2<font face="symbol">p</font>/<i>T</i>) <i>r</i> = -
+      (-2<font face="symbol">p</font>/<i>T</i>) <i>r</i> = -
+      <font face="symbol">w</font><i>r</i>. <img src="small.gif"
+      alt="space" height="1" width="40"> (8)
+    </p>
+    <p>
+      Thus, the spool's speed is proportional to both the rate at
+      which the spool rotates and the radius of the spool's inner
+      cylinder. This makes sense intuitively.
+    </p>
+    <p>
+      With <font face="symbol">w</font> = - 0.80 rad/s and <i>r</i>
+      = 0.25 m, Expression (8) gives
+    </p>
+    <p align="center">
+      <i>u</i> = - (-0.80)&times;0.25 = 0.20 m/s . <img src=
+      "small.gif" alt="space" height="1" width="40"> (9)
+    </p>
+    <p>
+      With this value for <i>u</i> and the time elapsed <i>t</i> =
+      4.57 s, we get the displacement <font face=
+      "symbol">D</font><i>X</i> of the center of the spool as
+    </p>
+    <p align="center">
+      <font face="symbol">D</font><i>X</i> = <i>u t</i> =
+      0.20&times;4.57 = 0.914 m . <img src="small.gif" alt="space"
+      height="1" width="40"> (10)
+    </p>
+    <p>
+      Adding <font face="symbol">D</font><i>X</i> to the value of
+      <i>X</i> at <i>t</i> = 0 gives the value of <i>X</i> at
+      <i>t</i> = 4.57 s,
+    </p>
+    <p align="center">
+      <i>X</i> = <i>X</i>(0) + <font face="symbol">D</font><i>X</i>
+      = 1.59 + 0.914 = 2.504 m .<img src="small.gif" alt="space"
+      height="1" width="40"> (11)
+    </p>
+    <p>
+      This is consistent with the value of 2.51 m shown in Figure 8 if
+      one takes into consideration that the value <i>X</i>(0) = 1.59 m
+      shown in Figure 7 is rounded to two decimals.  It may well be
+      rounded to this value from 1.593 m.  With <i>X</i>(0) = 1.593 m,
+      <i>X</i> would become 1.593 + 0.914 = 2.507 m, which would round
+      to the value of 2.51 m shown in Figure 8.
+    </p>
+    <p>
+      <u><i>x</i> and <i>y</i></u>. Finally, we need to calculate
+      the coordinates of the revolving point relative to the lab
+      frame. Given the previous results, this task is easy if we
+      recognize that the motion of the revolving point relative to
+      the lab frame is the superposition of the revolving motion
+      around the center of the spool and the translational motion
+      of the center of the spool.
+    </p>
+    <p>
+      Because of our choice of coordinate origins, common origin of
+      the (<i>x</i>,<i>y</i>) and (<i>X</i>,<i>Y</i>) coordinate and
+      origin of the (<i>x</i>',<i>y</i>') coordinates at the center of
+      the spool, the superposition of the two motions implies simply
+    </p>
+    <p align="center">
+      <i>x</i> = <i>x</i>' + <i>X</i> <img src="small.gif" alt=
+      "space" height="1" width="40"> (12a)
+    </p>
+    <p align="center">
+      <i>y</i> = <i>y</i>' + <i>Y</i> <img src="small.gif" alt=
+      "space" height="1" width="40"> (12b)
+    </p>
+    <p>
+      where the coordinates in these equations are all evaluated at
+      the same instant.
+    </p>
+    <p>
+      It is left as an exercise for the Reader to substitute into
+      Equations (12) the values for <i>x</i>', <i>X</i>, <i>y</i>',
+      <i>Y</i> determined already, and compare the resulting values of
+      <i>x</i> and <i>y</i> with those shown in Figure 8.
+    </p>
+    <p>
+      <b>Challenge Problem</b>. Calculate the velocities
+         <img src="v.gif" alt="vector v" align="bottom">' and
+         <img src="v.gif" alt="vector v" align="bottom"> of the
+         revolving point at time <i>t</i> = 4.57 s.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <p align="center">
+      <b>&gt;&gt;&gt;&gt;&gt; Appendix &lt;&lt;&lt;&lt;&lt;</b>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Definitions"></a>
+    </p>
+    <div class="sectionheading">
+      Definitions of an Angle's Radian Measure and of Angular
+      Velocity
+    </div>
+    <p>
+      The definition of the radian measure of an angle does not
+      involve time, but is given here in a context involving
+      motion, the same context as that used for the definition of
+      angular velocity.
+    </p>
+    <p>
+      The quantities needed are listed below and are illustrated in
+      Figure A1. The Figure shows a green dot which represents a
+      particle or point on a rotating object. The particle is
+      assumed to be moving in a circle. If we need to deal with a
+      rolling object, we must imagine the circle to be co-moving
+      with the object and the following considerations to be in the
+      reference frame in which the center of the rolling object is
+      at rest.
+    </p>
+    <p>
+      The circle in which the particle or point on a rotating
+      object is moving is thinly outlined. The center C of the
+      circle is the vertex of the angle to be measured. We will
+      refer to the vector from C to the particle as the <i>radius
+      vector</i>. Its magnitude, i.e., the radius of the circle, is
+      denoted <i>r</i>.
+    </p>
+    <p align="center">
+      <img src="AngularSpeed.jpg" alt="Angular Speed Diagram">
+    </p>
+    <p align="center">
+      <b>Figure A1</b>
+    </p>
+    <p>
+      Symbols:
+    </p>
+    <ul>
+      <li>
+        <font face="symbol">D</font><i>t</i>: time interval during
+        which the particle moves from point P to point P';
+      </li>
+      <li>
+        <i>s</i>: distance travelled by the particle during time
+        interval <font face="symbol">D</font><i>t</i>;
+      </li>
+      <li>
+        <font face="symbol">Dq</font>: angle through which the
+        radius vector rotates during <font face=
+        "symbol">D</font><i>t</i>; this angle is positive if the
+        later point P' is in the counter-clockwise direction from
+        P, as in Figure A1, but is negative if P' is in the
+        clockwise direction from P;
+      </li>
+      <li>
+        <i>r</i>: distance CP or CP' and radius of the circle in
+        which the particle is moving.
+      </li>
+    </ul>
+    <p>
+      <u>Radian measure of an angle</u>. The <i>radian measure</i>
+      of the angle <font face="symbol">Dq</font> is given by the
+      ratio
+    </p>
+    <p align="center">
+      <font face="symbol">Dq</font> = &plusmn;s/r <img src=
+      "small.gif" alt="space" height="1" width="40"> (A1)
+    </p>
+    <p>
+      where the minus sign applies if P' is clockwise from P.
+    </p>
+    <p>
+      Example: If <i>s</i> = 0.6 cm and <i>r</i> = 4.0 cm, then
+      <font face="symbol">Dq</font> = 0.6/4.0 = 0.15 rad.
+    </p>
+    <p>
+      Note that angles in radians can be treated like dimensionless
+      numbers in a dimensional analysis because their measure is
+      the ratio of two dimensionally equal quantities, namely,
+      lengths.
+    </p>
+	 <p>
+        <u>Average angular velocity and angular velocity</u>. The
+        <i>average angular velocity</i> during the time interval
+        <font face="symbol">D</font><i>t</i>, <font face=
+        "symbol">w</font><sub>av</sub>, is defined by the following
+        ratio:
+    </p>		  
+    <p align="center">
+      <font face="symbol">w</font><sub>av</sub> = <font face=
+      "symbol">Dq</font>/<font face="symbol">D</font><i>t</i> .
+      <img src="small.gif" alt="space" height="1" width="40"> (A2)
+    </p>
+    <p>
+      The <i>angular velocity at a given instant</i>,
+         <font face="symbol">w</font>, is the limit of the average
+         angular velocity as <font face="symbol">D</font><i>t</i>
+         goes to zero, where the time interval over which the
+         average angular velocity is calculated contains the given
+         instant.
+    </p>
+    <p>
+      It is customary when dealing with angular velocity to measure
+      angles in radians. The SI-unit of angular velocity is rad/s.
+    </p>
+    <p>
+      <u>Relationship Between Angular Speed and Speed</u>. The
+      average speed <i>v<sub>av</sub></i> during the time interval
+      <font face="symbol">D</font><i>t</i> is defined as the ratio
+    </p>
+    <p align="center">
+      <i>v<sub>av</sub></i> = <i>s</i>/<font face=
+      "symbol">D</font><i>t</i>. <img src="small.gif" alt="space"
+      height="1" width="40"> (A3)
+    </p>
+    <p>
+      By substituting Expression (A1) for <font face=
+      "symbol">Dq</font> into Equation (A2) and then using
+      Definition (A3), one obtains for the average angular speed
+    </p>
+    <p align="center">
+      |<font face="symbol">w</font><sub>av</sub>| =
+      (<i>s</i>/<font face="symbol">D</font><i>t</i>)/<i>r</i> =
+      <i>v<sub>av</sub></i> /<i>r</i>.<img src="small.gif" alt=
+      "space" height="1" width="40"> (A4)
+    </p>
+    <p>
+      This is a very useful relation. When solved for
+      <i>v<sub>av</sub></i> it becomes
+    </p>
+    <p align="center">
+      <i>v<sub>av</sub></i> = <i>r</i> |<font face=
+      "symbol">w</font><sub>av</sub>| . <img src="small.gif"
+         alt="space" height="1" width="40"> (A5)
+    </p>
+    <p>
+      An equation analogous to (A5) applies for the (instantaneous)
+      speed <i>v</i>,
+    </p>
+    <p align="center">
+      <i>v</i> = <i>r</i> |<font face="symbol">w</font>| .
+         <img src="small.gif" alt="space" height="1" width="40">|
+         (A6)
+    </p>
+    <p>
+      So far, everything has been in the frame of reference in
+      which the center C of the circle is at rest. The speed
+      <i>v</i> in Equation (A6) has been the speed of a point on a
+      circle of radius <i>r</i>, and this point has been moving
+      with angular speed |<font face="symbol">w</font>| around
+      point C.
+    </p>
+    <p>
+      However, Equation (A6) also can be applied to a rolling
+      object. In this case, <i>v</i> can be interpreted as the
+      speed of the center C of the rolling object relative to the
+      Lab frame while |<font face="symbol">w</font>| is the same
+      angular speed of rotation as before. The reason why Equation
+      (A6) can be interpreted this way is as follows.
+    </p>
+    <p>
+      Suppose we have a rolling disk. Imagine a tape to be wound
+      around the perimeter of the disk. This tape unrolls as the
+      disk rolls along. A length of tape equal to the disk's
+      circumference will unroll as the disk makes one revolution,
+      and this is how far the center of the disk moves forward at
+      the same time. More generally, during a time interval
+      <font face="symbol">D</font><i>t</i> in which a point on the
+      perimeter of the disk moves a distance <i>s</i> from P to P'
+      (see Figure A1) in the frame in which C is at rest, the
+      center C moves forward an equal distance <i>s</i> relative to
+      the Lab frame. Dividing by <font face=
+      "symbol">D</font><i>t</i>, this implies that the speed of the
+      point on the perimeter of the disk relative to point C is
+      equal to the speed of point C relative to the lab frame.
+    </p>
+    <p>
+      Equation (A6) when applied to a rolling object is the
+      "no-slipping" condition because the equation was derived
+      assuming pure rolling motion. At which point in the
+      derivation was the assumption of rolling without slipping
+      necessary?
+    </p>
+    <p>
+      <b>Exercise</b>. Verify that Equations (A5) and (A6) are
+      correct dimensionally.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#808080">
+  </body>
+</html>

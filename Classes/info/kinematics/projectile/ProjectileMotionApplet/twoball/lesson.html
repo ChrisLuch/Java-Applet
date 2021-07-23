@@ -1,0 +1,792 @@
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Projectile Motion: Two Balls
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Projectile Motion: Two Balls
+    </div>
+    <div class="sectionheading">
+      The applet shows two balls performing projectile motion - one
+      ball optionally with air resistance
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be familiar with the concepts of velocity and
+      acceleration, at the vector level, and have a working
+      knowledge of the kinematical equations for motion with
+      constant acceleration in one and two dimensions.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will learn that, in the absence of air resistance,
+      projectile motion of an object can be described as a
+      superposition of two motions: a motion with constant velocity
+      equal to the object's initial velocity and a uniformly
+      accelerated motion starting from rest with acceleration due
+      to gravity. They will learn to use this understanding to make
+      calculations on projectile motion and will get practice in
+      working with the kinematical equations of motion with
+      constant acceleration, in one and two dimensions.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Independence">The Effect of Horizontal
+      Velocity on Time of Fall</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#MonkeyHunter">Aiming at a Falling Object</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><b>Appendix</b>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#ConstantAcceleration">Equations For Motion
+      With Constant Acceleration</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="20" width="1">
+      <a name="Independence"></a>
+    </p>
+    <div class="sectionheading">
+      The Effect of Horizontal Velocity on Time of Fall
+    </div>
+    <p>
+      <b>Question 1</b>. Suppose Ball 1 (red) is dropped from an
+      elevated position from rest and Ball 2 (orange) is thrown
+      horizontally from the same level as Ball 1. Which ball will
+      hit the ground (<i>x</i>-axis) first if air resistance is
+      negligible?
+    </p>
+    <p>
+      <b>Answer</b>. One might be tempted to say that Ball 1 would
+      reach the ground first because it is starting to move down
+      right away while Ball 2 is starting out horizontally. Let's
+      first investigate this "experimentally" with the applet. Then
+      in Point 2 let's confirm the observations by calculations.
+    </p>
+    <p>
+      RESET the applet.
+    </p>
+    <p>
+      Set the positions and velocities of the two balls to
+    </p>
+    <p align="center">
+      (<i>x</i>,<i>y</i>)<sub>1</sub> =
+      (<i>x</i>,<i>y</i>)<sub>2</sub> = (0, 40.0) m. <img src=
+      "small.gif" alt="space" height="1" width="40"> (1a)
+    </p>
+    <p align="center">
+      (<i>v<sub>x</sub></i> ,<i>v<sub>y</sub></i>)<sub>1</sub> =
+      (0, 0) m/s, <img src="small.gif" alt="space" height="1"
+         width="20">(<i>v<sub>x</sub></i>
+         ,<i>v<sub>y</sub></i>)<sub>2</sub> = (15.0, 0) m/s,
+         <img src="small.gif" alt="space" height="1" width=
+         "40">(1b)
+    </p>
+    <p>
+      The applet will display a configuration as in Figure 1 below.
+    </p>
+    <p align="center">
+      <img src="TwoBallsInitial.gif" alt="Initial Conditions">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      PLAY the motion, and observe which ball reaches the
+      <i>x</i>-axis first. Display the balls' paths if you like.
+    </p>
+    <p>
+      Does it look like both balls reach the <i>x</i>-axis at the
+      same time? Confirm this by stepping through the motion and
+      measuring the times required for each ball to reach the
+      <i>x</i>-axis. Also observe their vertical (<i>y</i>)
+      components of velocity when the balls reach the
+      <i>x</i>-axis.
+    </p>
+    <p>
+      <b>Answer</b>. At <i>t</i> = 2.85 s, <i>both</i> balls are at
+      <i>y</i> = 0.16 m with the same velocity component
+      <i>v<sub>y</sub></i> = -27.9 m/s. At <i>t</i> = 2.86 s both
+      balls are at <i>y</i> = -0.12 m, which is below the
+      <i>x</i>-axis, and have the velocity component
+      <i>v<sub>y</sub></i> = -28.0 m/s. Interpolating between the
+      two times gives approximately for the moment when <b>both</b>
+      balls reach the <i>x</i>-axis:
+    </p>
+    <p align="center">
+      <i>t</i> = 2.856 s, <img src="small.gif" alt="space"
+         height="1" width="20"><i>y</i> = 0, <img src="small.gif"
+         alt="space" height="1" width="20"> <i>v<sub>y</sub></i> =
+         -27.96 m/s. <img src="small.gif" alt="space" height="1"
+         width="40"> (2)
+    </p>
+    <p>
+      <u>Comment</u>. The two balls reach the <i>x</i>-axis at the
+      same time and with the same <i>y</i>-component of velocity!
+      Thus, their vertical motions are identical. You can confirm
+      this by observing the values of <i>y</i> and
+      <i>v<sub>y</sub></i> at in-between time points. They will
+      always be the same for the two balls. Of course, the
+      horizontal (<i>x</i>) components of velocity of the two balls
+      are different. That of Ball 2 is equal to 15 m/s throughout
+      while that of Ball 1 is 0. The motion of Ball 2 can be
+      characterized as follows.
+    </p>
+    <blockquote>
+      Ball 2 moves as if it carried out two motions at the same
+      time: a horizontal motion with constant velocity
+                  <img src="v.gif" alt="vector v" align=
+                  "bottom">(0) and a vertical motion of free fall
+                  identical to that of Ball 1, which is dropped
+                  from rest. The horizontal and vertical motions
+                  are independent of each other. Modifying the
+                  horizontal velocity does not affect the vertical
+                  motion.
+    </blockquote>
+    <p>
+      This is illustrated in Figure 2 below. The net displacement
+      <img src="d.gif" alt="vector d" align="bottom"> of Ball 2 in
+      going from the start of the motion to the position shown in
+      Figure 2 is the vector sum of the ball's horizontal
+      displacement <img src="v.gif" alt="vector v" align=
+      "bottom">(0) <i>t</i> and vertical displacement (<img src=
+      "g.gif" alt="vector g" align="absbottom">/2)
+      <i>t</i><sup>2</sup>. These two displacements are progressing
+      simultaneously as Ball 2 is moving along the orange
+      trajectory.
+    </p>
+    <p>
+      As the linear and quadratic time dependencies of these
+      displacements indicate, the horizontal displacement proceeds
+      with constant velocity equal to <img src="v.gif" alt=
+      "vector v" align="bottom">(0) and the vertical displacement
+      with constant acceleration equal to <img src="g.gif" alt=
+      "vector g" align="absbottom">.
+    </p>
+    <p align="center">
+      <img src="TwoBallsIndependent.gif" alt="Two Balls Compared">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      <b>Exercise 1</b>. Repeat the measurements above with a
+      horizontal velocity for Ball 2 different from 15 m/s. Do the
+      results come out the same?
+    </p>
+    <p>
+      <b>Exercise 2</b>. Repeat Exercise 1 with air resistance.
+      Take <i>C</i> = 0.002 kg/m, and the mass of Ball 2 equal to
+      0.1 kg. Observe the times it takes Ball 2 to reach the
+      <i>x</i>-axis.
+    </p>
+    <p>
+      You should be able to observe that the times are different
+      for different horizontal velocities. This demonstrates that
+      when there is air resistance, the horizontal motion does
+      affect the vertical motion. Thus, the assumption of no air
+      resistance is critical for the indented statement above to be
+      true.
+    </p>
+    <p>
+      <b>Question 2</b>. How do you calculate the time required for
+      Ball 2 to reach the <i>x</i>-axis when there is no air
+      resistance?
+    </p>
+    <p>
+      <b>Answer</b>. Without the knowledge gained above, this might
+      seem like a difficult two-dimensional problem. However,
+      knowing that the vertical motion of Ball 2 is just like that
+      of Ball 1 reduces this to a straight-forward one-dimensional
+      problem for a motion with constant acceleration.
+    </p>
+    <p>
+      The equations in the Appendix <a href=
+      "#ConstantAcceleration">Equations For Motion With Constant
+      Acceleration</a> will provide the answers. Since the
+      acceleration of Ball 1, due to gravity, is downward and the
+      velocity of Ball 1 here is always downward as well, we can
+      make our lives simpler by choosing the direction of the
+      <i>y</i>-axis to be downward in the calculation, thus using a
+      direction <b>opposite</b> to that used by the applet and
+      shown in Figure 1.
+    </p>
+    <p>
+      Further, since all quantities are going to be positive, let's
+      use magnitudes in place of components for the calculation.
+      Thus, instead of <i>v<sub>y</sub></i> and
+      <i>a<sub>y</sub></i>, we'll use <i>v</i> and <i>a</i>,
+      respectively. Also,
+    </p>
+    <p align="center">
+      <i>v</i>(0) = 0, <img src="small.gif" alt="space" height="1"
+      width="20"><i>a</i> = <i>g</i> = 9.8 m/s<sup>2</sup>.
+      <img src="small.gif" alt="space" height="1" width="40"> (3)
+    </p>
+    <p>
+      With these values, the equation for <i>y</i>(<i>t</i>) in
+      Table 1 of the Appendix gives
+    </p>
+    <p align="center">
+      &Delta;<i>y</i> = 40 m = (9.8/2)
+      <i>t</i><sup>2</sup>, <img src="small.gif" alt="space"
+         height="1" width="40"> (4)
+    </p>
+    <p>
+      whence
+    </p>
+    <p align="center">
+      <i>t</i> = <img src="root16.gif" alt="Root" align=
+      "bottom">(40/4.9) = 2.857 s, <img src="small.gif" alt="space"
+      height="1" width="40"> (5)
+    </p>
+    <p>
+      and the equation for <i>v<sub>y</sub></i>(<i>t</i>) =
+      <i>v</i>(<i>t</i>) in Table 1 gives
+    </p>
+    <p align="center">
+      <i>v</i>(2.857) = 9.8x2.857 = 28.0 m/s. <img src="small.gif"
+      alt="space" height="1" width="40"> (6)
+    </p>
+    <p>
+      Results (5) and (6) confirm values (2), within round-off
+      error.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p><a name="MonkeyHunter"></a> 
+    <div class="sectionheading">
+      Aiming at a Falling Object
+    </div>
+    <p>
+      <b>Question 1</b>. Position Ball 1 at the origin and Ball 2
+      at
+    </p>
+    <p align="center">
+      (<i>x</i>, <i>y</i>)<sub>2</sub> = (40.0, 50.0) m .
+         <img src="small.gif" alt="space" height="1" width="40">
+         (7)
+    </p>
+    <p>
+      Adjust the initial velocity of Ball 1 so that Ball 1 is
+      "aimed" at Ball 2. This is the case if the initial velocity
+      components of Ball are in the same ratio as the corresponding
+      coordinates of the position of Ball 2, i.e., if
+      <i>v<sub>x</sub></i>/<i>v<sub>y</sub></i> = 40/50. This is
+      the case for the following choice of initial velocity of Ball
+      1:
+    </p>
+    <p align="center">
+      (<i>v<sub>x</sub></i>, <i>v<sub>y</sub></i>)<sub>1</sub> =
+      (20.0, 25.0) m/s. <img src="small.gif" alt="space" height="1"
+      width="40"> (8)
+    </p>
+    <p>
+      Figure 3 below illustrates the initial conditions (7) and
+      (8).
+    </p>
+    <p align="center">
+      <img src="TwoBallsMonkeyHunter.gif" alt="Monkey and Hunter">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      You can test that the initial velocity (8) is aimed straight
+      at Ball 2 by setting the magnitude <i>g</i> of the
+      acceleration due to gravity equal to 0 and PLAYing the
+      motion. Ball 1 will move along the straight red line shown in
+      Figure 3 that goes through Ball 2.
+    </p>
+    <p>
+      If both balls move without air resistance and if <i>g</i> =
+      9.8 m/s<sup>2</sup>, will Ball 1 hit Ball 2 or will they miss
+      each other?
+    </p>
+    <p>
+      <b>Answer</b>. Try to find the answer "experimentally" with
+      the applet. (In Question 2 below, the question will be
+      answered theoretically.) Make sure that the drag coefficient
+      <i>C</i> of Ball 2 is set to zero in the following
+      experiments.
+    </p>
+    <p>
+      Make sure that <i>g</i> is set to 9.8 m/s<sup>2</sup>.
+    </p>
+    <p>
+      You may be tempted to think that, with <i>g</i> not equal to
+      zero, velocity (8) will not lead to a collision between the
+      balls, because Ball 2 will move away from the spot towards
+      which Ball 1 is aimed. However, you should find that the
+      balls will in fact collide. They will collide at the point
+      where the curved red and the vertical yellow trajectories in
+      Figure 3 intersect.
+    </p>
+    <p>
+      <b>Exercise 1</b>. Change the initial velocity of Ball 1 to
+      another one that differs from velocity (8) in magnitude only.
+      To be aiming directly at Ball 2, the ratio of initial
+      velocity components <i>v<sub>x</sub></i>/<i>v<sub>y</sub></i>
+      must equal 40/50 = 4/5. You should find that the balls will
+      collide whatever the magnitude of the initial velocity of
+      Ball 1, as long as this velocity is aimed at Ball 2.
+    </p>
+    <p>
+      <b>Question 2</b>. Why does the initial conditions
+      illustrated in Figure 3 lead to a collision between the two
+      balls?
+    </p>
+    <p>
+      <b>Answer</b>. The answer is contained in the equations for
+      projectile motion listed in the Appendix on <a href=
+      "#ConstantAcceleration">Equations For Motion With Constant
+      Acceleration</a>. We need Equation (A4). Setting <img src=
+      "a.gif" alt="vector a" align="bottom"> = <img src="g.gif"
+         alt="vector g" align="absbottom"> in that equation gives
+         the equation for the displacement <img src="d.gif" alt=
+         "vector d" align="bottom"> of an object performing
+         projectile motion:
+    </p>
+    <p align="center">
+      <img src="d.gif" alt="vector d" align="bottom">(<i>t</i>) =
+      <img src="v.gif" alt="vector v" align="bottom">(0)<i>t</i> +
+      (<img src="g.gif" alt="vector g" align="absbottom">/2)
+      <i>t</i><sup>2</sup>. <img src="small.gif" alt="space"
+         height="1" width="20"> (9)
+    </p>
+    <p>
+      This equation says that the displacement at time <i>t</i>is
+      the sum of two terms, <img src="v.gif" alt="vector v"
+         align="bottom">(0)<i>t</i> and (<img src="g.gif" alt=
+         "vector g" align="absbottom">/2) <i>t</i><sup>2</sup>. In
+         words, this equation amounts to the following <i>Principle
+         of Projectile Motion</i>. (This name is not in general
+         use, but let's use it here when referring to the following
+         statement.)
+    </p>
+    <blockquote>
+      <b>Principle of Projectile Motion</b>. The projectile motion
+      of an object subject to no air resistance is a superposition
+      of two motions: a motion with a constant velocity equal to
+      the object's initial velocity and a motion with constant
+      acceleration <img src="g.gif" alt="vector g"
+                  align="absbottom"> starting from rest.
+    </blockquote>
+    <p>
+      <u>Comment 1</u>. The time instant referred to in "initial
+      velocity" and "starting from rest" in this statement is the
+      time instant <i>t</i> = 0 in Eq.(9). For a given projectile
+      motion, any time instant can be chosen to be the initial one.
+      Eq.(9) will always apply, but the initial velocity
+         <img src="v.gif" alt="vector v" align="bottom">(0) will
+         have different values if the time <i>t</i> = 0 refers to
+         different instants.
+    </p>
+    <p>
+      <u>Comment 2</u>. The term "projectile motion" applies to the
+      motion of an object in a uniform gravitational field. Such a
+      field exists to a very good approximation within a region of
+      space extending a few kilometers horizontally and vertically
+      from a given point on the earth's surface. Motions extending
+      over a larger range, in which the earth's curvature and the
+      decrease of the value of <i>g</i> with elevation become
+      significant, are called "ballistic motions".
+    </p>
+    <p>
+      <u>Comment 3</u>. The Principle of Projectile Motion is
+      equivalent to the following description of projectile motion.
+      Sometimes one, sometimes the other may be more useful.
+    </p>
+    <blockquote>
+      The projections of projectile motion onto the horizontal and
+      vertical axes - imagine them performed by two shadow balls -
+      are motions with constant velocity and constant acceleration,
+      respectively. The acceleration of the shadow ball moving on
+      the vertical axis is downward and, on earth, has magnitude
+      <i>g</i> = 9.8 m/s<sup>2</sup>.
+    </blockquote>
+    <p>
+      What does the Principle of Projectile Motion imply when Ball
+      1 has its initial velocity aimed at Ball 2 as in Figure 3?
+      The implication is illustrated in Figure 4 below.
+    </p>
+    <p align="center">
+      <img src="TwoBallsMonkeyHunterExplain.gif" alt=
+      "Monkey and Hunter Explanation">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      Suppose an amount of time <i>t</i> elapses until Ball 1
+      reaches the straight-down trajectory of Ball 2. During this
+      time interval, Ball 1 undergoes the straight-line
+      constant-velocity displacement <img src="v.gif" alt=
+      "vector v" align="bottom">(0)<i>t</i> that if it existed by
+      itself would take the ball to the starting point of Ball 2.
+      In addition, simultaneously with the straight-line
+      displacement, there is the straight-down free-fall
+      displacement (<img src="g.gif" alt="vector g" align=
+      "absbottom">/2) <i>t</i><sup>2</sup>.
+    </p>
+    <p>
+      This combimation of two displacements takes Ball 1 exactly to
+      where Ball 2 is at time <i>t</i>, because Ball 2 also has
+      undergone a downward displacement of (<img src="g.gif"
+         alt="vector g" align="absbottom">/2) <i>t</i><sup>2</sup>
+         during this time interval. The two simultaneous
+         displacements of Ball 1 are shown in blue and the downward
+         displacement of Ball 2 is shown in mustard color in Figure
+         4. This completes the explanation.
+    </p>
+    <p>
+      <b>Question 3</b>. How much time elapses until the two balls
+      collide?
+    </p>
+    <p>
+      <b>Answer</b>. The Principle of Projectile Motion is again
+      the key to the answer. Of the two motions contributing to the
+      projectile motion of Ball 1, only the motion with the
+      constant velocity <img src="v.gif" alt="vector v" align=
+      "bottom">(0) has a non-zero <i>x</i>-component that will move
+      the ball towards the vertical fall line of Ball 2. Since
+      <i>v<sub>x</sub></i> = 20.0 m/s and since Ball 1 has to make
+      a horizontal displacement &Delta;<i>x</i> = 40.0 m to reach the vertical
+      trajectory of Ball 2, the amount of time <i>t</i> required is
+    </p>
+    <p align="center">
+      <i>t</i> = &Delta;<i>x</i>/<i>v<sub>x</sub></i> = 40.0/20.0 =
+      2.00 s . <img src="small.gif" alt="space" height="1"
+         width="40"> (10)
+    </p>
+    <p>
+      This agrees with the time elapsed that is displayed by the
+      applet as shown in Figure 4.
+    </p>
+    <p>
+      <b>Question 4</b>. Set a target at (<i>x</i>, <i>y</i>) =
+      (40.0, 10.0) m on the vertical trajectory of Ball 2. The
+      position of the target is illustrated in Figure 5 below. What
+      initial velocity must Ball 1 have in order to collide with
+      Ball 2 at this target? You may want to try a few velocities
+      with the applet. In what direction should the initial
+      velocity of Ball 1 be?
+    </p>
+    <p>
+      <b>Answer</b>. The direction of the initial velocity of Ball
+      1 should be aimed at Ball 2, just like in Questions 1 and 2
+      and for the same reason.
+    </p>
+    <p>
+      To find the magnitude of the initial velocity, or the
+      <i>x</i> and <i>y</i> components of the initial velocity,
+      let's first determine how much time it takes for Ball 2 to
+      fall down to the target.
+    </p>
+    <p>
+      This problem is identical to the problem that had to be
+      solved in connection with Question 2 of the previous section
+      "The Effect Of Horizontal Velocity On Time Of Fall". Even the
+      magnitude of the vertical displacement is the same here as
+      there, namely, 40 m (from 50 m down to 10 m). Thus the time
+      required for both balls to reach the target is given by
+      result (5)
+    </p>
+    <p align="center">
+      <i>t</i> = 2.857 s . <img src="small.gif" alt="space"
+         height="1" width="40"> (11)
+    </p>
+    <p>
+      Ball 1 is moving with constant horizontal velocity
+      <i>v<sub>x</sub></i>(0). In order for the ball to make a
+      horizontal displacement &Delta;<i>x</i>
+      = 40 m in a time <i>t</i> = 2.857 s, <i>v<sub>x</sub></i>(0)
+      must be equal to
+    </p>
+    <p align="center">
+      <i>v<sub>x</sub></i>(0) = &Delta;<i>x</i>/t = 40/2.857 = 14.0 m/s .
+         <img src="small.gif" alt="space" height="1" width="40">
+         (12)
+    </p>
+    <p>
+      It was pointed out earlier, that if Ball 1 is to be aimed at
+      Ball 2 initially, the ratio
+      <i>v<sub>x</sub></i>(0)/<i>v<sub>y</sub></i>(0) of the
+      initial velocity components of Ball 1 must be 4/5 or
+      <i>v<sub>y</sub></i>(0)/<i>v<sub>x</sub></i>(0) = 5/4. Thus,
+    </p>
+    <p align="center">
+      <i>v<sub>y</sub></i>(0) = (5/4)<i>v<sub>x</sub></i>(0) =
+      (5/4)x14.0 = 17.5 m/s . <img src="small.gif" alt="space"
+      height="1" width="40"> (13)
+    </p>
+    <p>
+      Eqs.(12) and (13) give the initial velocity of Ball 1 for the
+      two balls to collide at the target.
+    </p>
+    <p>
+      Let's verify this by means of the applet. REWIND the applet,
+      set the initial velocity of Ball 1 to values (12) and (13)
+      and STEP the motion forward to <i>t</i> = 2.80 s. Ball 1
+      should be very close to Ball 2. Now reduce the time step to a
+      size of 0.01 s, and step forward to <i>t</i> = 2.85 s. Ball 1
+      should be at <i>x</i> = 39.91 m, and the balls should be
+      almost totally overlapping. Both balls have elevation
+      <i>y</i> = 10.05 m. Move forward one more step to <i>t</i> =
+      2.86 s. Ball 1 will have overshot its mark slightly and be at
+      <i>x</i> = 40.05 m. Both balls will have elevation <i>y</i> =
+      9.95 m. Thus, the time required is indeed somewhere in
+      between 2.85 s and 2.86 s, as predicted by the calculated
+      value (11). Figure 5 below shows the initial positions and
+      velocities of both balls and the trajectories of the two
+      balls intersecting the target.
+    </p>
+    <p align="center">
+      <img src="TwoBallsMonkeyHunterTarget.gif" alt=
+      "Monkey and Hunter with Target">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <p align="center">
+      <b>&gt;&gt;&gt;&gt;&gt; Appendix &lt;&lt;&lt;&lt;&lt;</b>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="ConstantAcceleration"></a>
+    </p>
+    <div class="sectionheading">
+      Equations For Motion With Constant Acceleration
+    </div>
+    <center>
+      <img src="constaccel.gif" alt="Acceleration Vector">
+    </center>
+    <p align="center">
+      <b>Figure A1</b>
+    </p>
+    <p>
+      <u>Axes and Components</u>. In the following equations for
+      the motion of a particle with constant acceleration it is
+      assumed that an <i>x</i>,<i>y</i> coordinate system has been
+      chosen and that the particle has the same acceleration
+      everywhere, with constant <i>x</i> and <i>y</i> components
+      <i>a<sub>x</sub></i> and <i>a<sub>y</sub></i>.
+    </p>
+    <p>
+      <u>Sign Changes</u>. In the diagram in Figure A1 above, the
+      direction of the acceleration vector is such that both the
+      <i>x</i> and <i>y</i> components of the vector are positive.
+      In another situation, the direction of the vector may be
+      different, so that one or both of the <i>x</i> and <i>y</i>
+      components may be negative. (Or the direction of the vector
+      may be as shown, but the directions of the <i>x</i> and
+      <i>y</i> axes may have been chosen differently, again causing
+      one or both components of the vector to be negative.) The
+      equations below apply to all such situations. No signs in
+      these equations need to be changed.
+    </p>
+    <p>
+      <u>2D vs. 1D</u>. The following equations are formulated for
+      the 2D case, motion in two dimensions. However, they also
+      apply to 1D motion, motion along a straight line. In this
+      case, it will often be convenient to choose either the
+      <i>x</i> or <i>y</i> axis to be along the line of motion.
+      Assuming the motion is along the <i>x</i> axis, you will need
+      only the equations for the <i>x</i> components. All <i>y</i>
+      components in any of the equations will be zero. Similarly,
+      if the motion is restricted to the <i>y</i>-axis, just use
+      the <i>y</i> equations and ignore the <i>x</i> equations.
+    </p>
+    <p>
+      <b>Acceleration, Velocity, and Position vs. Time:</b>
+    </p>
+    <center>
+      <table border="10" cellspacing="0" cellpadding="10">
+        <tr>
+          <td></td>
+          <td>
+            <i>x</i> components
+          </td>
+          <td>
+            <i>y</i> components
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Acceleration
+          </td>
+          <td>
+            <i>a<sub>x</sub></i> = const
+          </td>
+          <td>
+            <i>a<sub>y</sub></i> = const
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Velocity
+          </td>
+          <td>
+            <i>v<sub>x</sub></i>(<i>t</i>) =
+            <i>v<sub>x</sub></i>(0) + <i>a<sub>x</sub>t</i>
+          </td>
+          <td>
+            <i>v<sub>y</sub></i>(<i>t</i>) =
+            <i>v<sub>y</sub></i>(0) + <i>a<sub>y</sub>t</i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Position
+          </td>
+          <td>
+            <i>x</i>(<i>t</i>) = <i>x</i>(0) +
+            <i>v<sub>x</sub></i>(0)<i>t</i> +
+            (<i>a<sub>x</sub></i>/2)<i>t</i><sup>2</sup>
+          </td>
+          <td>
+            <i>y</i>(<i>t</i>) = <i>y</i>(0) +
+            <i>v<sub>y</sub></i>(0)<i>t</i> +
+            (<i>a<sub>y</sub></i>/2) <i>t</i><sup>2</sup>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <p align="center">
+      <b>Table 1</b>
+    </p>
+    <p>
+      In vector notation, the equations for the <i>x</i> and
+      <i>y</i> components of velocity can be combined into a single
+      equation,
+    </p>
+    <p align="center">
+      <img src="v.gif" alt="vector v" align="bottom">(<i>t</i>) =
+      <img src="v.gif" alt="vector v" align="bottom">(0) +
+         <img src="a.gif" alt="vector a" align="bottom"> <i>t</i>.
+         <img src="small.gif" alt="space" height="1" width="20">
+         (A1)
+    </p>
+    <p>
+      Similarly, the equations for the <i>x</i> and <i>y</i>
+      position coordinates can be combined into one vector
+      equation,
+    </p>
+    <p align="center">
+      <img src="r.gif" alt="vector r" align="bottom">(<i>t</i>) =
+      <img src="r.gif" alt="vector r" align="bottom">(0) +
+         <img src="v.gif" alt="vector v" align="bottom">(0)<i>t</i>
+         + (<img src="a.gif" alt="vector a" align="bottom">/2)
+         <i>t</i><sup>2</sup>. <img src="small.gif" alt="space"
+         height="1" width="20"> (A2)
+    </p>
+    <p>
+      Here, <img src="r.gif" alt="vector r" align="bottom"> denotes
+      the position vector whose components are (<i>x</i>,
+      <i>y</i>).
+    </p>
+    <p>
+      Introducing the displacement vector <img src="d.gif" alt=
+      "vector d" align="bottom">(<i>t</i>) from the start of the
+      motion at time <i>t</i> = 0 to time <i>t</i> which is equal
+      to the change in the position vector,
+    </p>
+    <p align="center">
+      <img src="d.gif" alt="vector d" align="bottom">(<i>t</i>) =
+      <img src="r.gif" alt="vector r" align="bottom">(<i>t</i>) -
+      <img src="r.gif" alt="vector r" align="bottom">(0),
+         <img src="small.gif" alt="space" height="1" width="20">
+         (A3)
+    </p>
+    <p>
+      Equation (A2) can be rewritten as
+    </p>
+    <p align="center">
+      <img src="d.gif" alt="vector d" align="bottom">(<i>t</i>) =
+      <img src="v.gif" alt="vector v" align="bottom">(0)<i>t</i> +
+      (<img src="a.gif" align="bottom">/2) <i>t</i><sup>2</sup>.
+      <img src="small.gif" alt="space" height="1" width="20"> (A4)
+    </p>
+    <p>
+      <b>Speed vs. Displacement:</b>
+    </p>
+    <p align="center">
+      &Delta;<i>v<sup>2</sup></i> =
+      <i>v<sup>2</sup></i>(<i>t</i>) - <i>v<sup>2</sup></i>(0) =
+      2<i>a<sub>x</sub></i>&Delta;<i>x</i> +
+      2<i>a<sub>y</sub></i>&Delta;<i>y</i><img src="small.gif" alt="space"
+      height="1" width="40">
+    </p>
+    <center>
+      = 2<i>a<sub>x</sub></i>[<i>x</i>(<i>t</i>) - <i>x</i>(0)] +
+      2<i>a<sub>x</sub></i>[<i>y</i>(<i>t</i>) - <i>y</i>(0)]
+      <img src="small.gif" alt="space" height="1" width="20"> (A5)
+    </center><br>
+     where <br>
+    <center>
+      <i>v<sup>2</sup></i> = <i>v<sub>x</sub><sup>2</sup></i> +
+      <i>v<sub>y</sub><sup>2</sup></i>. <img src="small.gif"
+              alt="space" height="1" width="40"> (A6)
+    </center><br>
+    <p>
+      For 1D motion, say, along the <i>x</i> axis, the speed vs.
+      displacement relation reduces to
+    </p>
+    <p align="center">
+      &Delta;<i>v<sup>2</sup></i> =
+      <i>v<sup>2</sup></i>(<i>t</i>) - <i>v<sup>2</sup></i>(0) =
+      2<i>a<sub>x</sub></i>&Delta;<i>x</i> =
+      2<i>a<sub>x</sub></i>[<i>x</i>(<i>t</i>) - <i>x</i>(0)] .
+      <img src="small.gif" alt="space" height="1" width="20">(A7)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

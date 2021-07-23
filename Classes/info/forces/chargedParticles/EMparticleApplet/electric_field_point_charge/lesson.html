@@ -1,0 +1,1738 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Potential in Non-Uniform Field
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Potential Energy and Potential In A Non-Uniform Electric Field
+    </div>
+    <div class="sectionheading">
+      The applet simulates the motion of a charged particle in a
+      non-uniform electric field, displays the particle's potential and
+      kinetic energies, and displays the electric potential at the
+      particle's location and at other selected locations.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be familiar with the concepts of charge,
+      electric field, and electric field lines, and Coulomb's law
+      of electrostatics and Newton's second law of motion.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will be able to review the definition of the electric
+      field, will be introduced to the concepts of electric potential
+      and potential energy in an electric field, and the relationship
+      between electric field and electric potential and the parallel
+      relationship between electric force and electric potential
+      energy. They will learn to apply these concepts in the situation
+      where the electric field is due to a single point charge.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="20"><a href="#Laws">Laws, Theorems,
+      Definitions</a><br>
+       <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"><a href="#NewtonII">Newton's Second Law of
+      Motion</a><br>
+       <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"><a href="#CoulombLaw">Coulomb's Law of
+      Electrostatics</a><br>
+       <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"><a href="#ElField">Definition of Electric Field
+      and Electric Field Lines</a><br>
+       <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"><a href="#ElPotential">Definition of Electric
+      Potential and Equipotential Lines</a><br>
+       <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"><a href="#PotEnergy">Potential Energy and Energy
+      Conservation</a><br>
+       <img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40"><a href="#Formulas">Potential and
+      Potential Energy in the Electric Field Due to a Point Charge</a>
+    </p>
+    <p>
+      <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="20"><a href="#Motion">Motion of a Charged Particle in
+      a Uniform Electric Field</a>
+    </p>
+    <p>
+      <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="20"><a href="#PotPotLines">Electric Potential and
+      Equipotential Lines</a>
+    </p>
+    <p>
+      <img src="../elpotimages/small.gif" alt="space" height="1"
+      width="20"><a href="#PotPotEnergy">Electric Potential and
+      Potential Energy</a>
+    </p>
+    <p>
+      <img src="../elpotimages/small.gif" alt="space" height="10"
+      width="1">
+    </p><a name="Laws"></a> 
+    <div class="sectionheading">
+      Laws, Theorems, Definitions
+    </div><img src="../elpotimages/small.gif" alt="space"
+          height="5" width="1"> 
+    <ul>
+      <li style="list-style: none">
+        <a name="NewtonII"></a> 
+        <p>
+          <b>Newton's Second Law of Motion</b>
+        </p>
+        <blockquote>
+          The sum of all forces <img src="../elpotimages/F.gif"
+                      alt="vector F" align="bottom"><sub>1</sub>,
+                      <img alt="vector F" src=
+                      "../elpotimages/F.gif" align=
+                      "bottom"><sub>2</sub>, ... acting on a
+                      particle is equal to the product of the
+                      particle's mass <i>m</i> and the particle's
+                      acceleration <img src="../elpotimages/a.gif"
+                      alt="vector a" align="bottom">, 
+          <p align="center">
+            <img src="../elpotimages/F.gif" alt="vector F"
+               align="bottom"><sub>1</sub> + <img src=
+               "../elpotimages/F.gif" alt="vector F" align=
+               "bottom"><sub>1</sub> + ... = <i>m</i> <img src=
+               "../elpotimages/a.gif" alt="vector a" align=
+               "bottom"> . <img src="../elpotimages/small.gif" alt=
+               "space" height="1" width="40"> (1)
+          </p>
+        </blockquote>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../elpotimages/top.gif"
+               alt="Go To Top" border="0" align="top"></a>
+        </p><a name="CoulombLaw"></a>
+      </li>
+      <li>
+        <b>Coulomb's Law of Electrostatics</b> 
+        <blockquote>
+          Any two particles carrying electric charges
+          <i>q<sub>1</sub></i> and <i>q<sub>2</sub></i> exert
+          electrostatic forces on each other. If the two charges
+          have the same sign, the particles exert repulsive forces
+          on each other. If they have opposite sign, the forces are
+          attractive. The force exerted on Particle 1 has the same
+          magnitude <i>F</i> as the force exerted on Particle 2,
+          equal to 
+          <p align="center">
+            <i>F</i> =
+            <i>k</i>|<i>q<sub>1</sub></i>||<i>q<sub>2</sub></i>| /
+            <i>d</i><sup>2</sup><img src="../elpotimages/small.gif"
+            alt="space" height="1" width="40"> (2)
+          </p>
+          <p>
+            where <i>d</i> is the separation between the two
+            particles and <i>k</i> is a universal constant whose
+            value is
+          </p>
+          <p align="center">
+            <i>k</i> = 8.988&times;10<sup>9</sup> N m<sup>2</sup>
+            C<sup>-2</sup>. <img src="../elpotimages/small.gif"
+               alt="blank" height="1" width="40"> (3)
+          </p>
+        </blockquote>
+      </li>
+      <li style="list-style: none">
+        <p>
+          <u>Comment</u>. The force <img src="../elpotimages/F.gif"
+          alt="vector F" align="bottom"><sub>12</sub> exerted on
+          particle 1 by particle 2 is proportional to the charges
+          <i>q</i><sub>1</sub> and <i>q</i><sub>2</sub> of these
+          particles while the magnitude <i>F</i> of this force, as
+          given by Expression (2) above, depends only on the
+          magnitudes of these charges. <img src=
+          "../elpotimages/F.gif" alt="vector F" align=
+          "bottom"><sub>12</sub> depends on the charges themselves,
+          not only their magnitudes, because reversing the sign of
+          one of these charges reverses the direction of the vector
+          <img src="../elpotimages/F.gif" alt="vector F" align=
+          "bottom"><sub>12</sub>. The same is true, of course, for
+          <img src="../elpotimages/F.gif" alt="vector F" align=
+          "bottom"><sub>21</sub>, the force exerted on particle 2
+          by particle 1.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="../elpotimages/top.gif"
+               alt="Go To Top" border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <a name="ElField"><b>Definition of Electric Field and
+        Electric Field Lines</b></a> 
+        <blockquote>
+          If <img src="../elpotimages/F.gif" alt="vector F"
+                      align="top"> is the electric force exerted on
+                      a test particle of charge <i>q</i> at some
+                      point in space, then the ratio 
+          <p align="center">
+            <img src="../elpotimages/E.gif" alt="vector E"
+               align="bottom"> = <img src="../elpotimages/F.gif"
+               alt="vector F" align="bottom"> / <i>q</i> <img src=
+               "../elpotimages/small.gif" alt="space" height="1"
+               width="40"> (4)
+          </p>
+          <p>
+            is called the <i>electric field</i> at the given point.
+          </p>
+        </blockquote>
+        <p>
+          <u>Comment 1</u>. Electric fields produced by source
+          charges at rest, i.e., fields that are superpositions of
+          fields due to point charges at rest, are called
+          <i>electrostatic</i> fields. Coulomb's law implies that
+          the force <img src="../elpotimages/F.gif" alt="vector F"
+          align="bottom"> exerted on a charged test particle in
+          such a field is proportional to the charge <i>q</i> of
+          the test particle.
+        </p>
+        <p>
+          Therefore, for an electrostatic field, dividing
+             <img src="../elpotimages/F.gif" alt="vector F" align=
+             "bottom"> by <i>q</i> in Definition (4) gives a
+             quantity <img src="../elpotimages/E.gif" alt=
+             "vector E" align="bottom"> that is independent of
+             <i>q</i>. Thus, <img src="../elpotimages/E.gif" alt=
+             "vector E" align="bottom"> characterizes an "electric
+             intensity" that is present without the test particle
+             and does not depend on any properties of the test
+             particle.
+        </p>
+        <p>
+          This is true in general for all kinds of electric fields,
+          not only electrostatic fields, but also so-called
+          <i>induced</i> electric fields that are due to changing
+          magnetic fields.
+        </p>
+	<p>
+          For an electric field due to a single point charge, as in
+          the present applet, Definition (4) implies that the vector
+          <img src="../elpotimages/E.gif" alt= "vector E"
+          align="bottom"> at a given field point points in the radial
+          direction away from or towards the source, depending on
+          whether the source charge is positive or negative,
+          respectively.  This is so because the Coulomb force exerted
+          on a positive test particle by the source charge is
+          repulsive or attractive for positive or negative source
+          charge, respectively.
+	</p>
+	<p>
+          Definition (4), in combination with the Coulomb force
+          expression (2), also implies that the magnitude <i>E</i> of
+          the vector <img src="../elpotimages/E.gif" alt= "vector E"
+          align="bottom"> at a field point a distance <i>r</i> away
+          from the source is equal to k|Q|/r<sup>2</sup>.
+	</p>
+        <p>
+          <u>Comment 2</u>. Solving Equ.(4) for <img src=
+          "../elpotimages/F.gif" alt="vector F" align="bottom">
+          gives the force exerted on a particle carrying charge
+          <i>q</i> in an electric field <img src=
+          "../elpotimages/E.gif" alt="vector E" align="bottom">,
+        </p>
+        <p align="center">
+          <img src="../elpotimages/F.gif" alt="vector F" align=
+          "bottom"> = <i>q</i><img src="../elpotimages/E.gif"
+             alt="vector E" align="bottom"> .<img src=
+             "../elpotimages/small.gif" alt="space" height="1"
+             width="40"> (5)
+        </p>
+        <p>
+          When one obtains force expression (5) in this way, it may
+          seem to amount to nothing more than the definition of the
+          electric field. However, it is not trivial that in a
+          general electric field the force exerted on a test
+          particle is proportional to the particle's charge
+          <i>q</i> (or that the ratio in Definition (4) is
+          independent of the charge in more general than just
+          electrostatic cases).
+        </p>
+        <p>
+          <u>Comment 3</u>. Definition (4) implies that the SI-unit
+          of the electric field is N/C. This unit is equal to the
+          unit V/m, which is discussed in Comment 1 under "Electric
+          Potential and Equipotential Lines" below.
+        </p>
+        <p>
+          <u>Comment 4</u>. The electric field is defined at all
+          points in space. It is therefore not a single vector, but
+          a "vector-valued function defined on space". This simply
+          means that to describe the electric field one must
+          specify the vectors <img src="../elpotimages/E.gif"
+             alt="vector E" align="top"> at all points in space.
+        </p>
+        <p>
+          <u>Comment 5</u>. An <i>electric field line</i> is a line
+          (not a straight line in general) that indicates the
+          direction of the electric field vectors at points along
+          the line.
+        </p>
+        <blockquote>
+          The electric field vector at a given point on an
+          <i>electric field line</i> is tangential to the line at
+          that point.
+        </blockquote>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../elpotimages/top.gif"
+               alt="Go To Top" border="0" align="top"></a>
+        </p><a name="ElPotential"></a>
+      </li>
+      <li>
+        <b>Electric Potential and Equipotential Lines</b> 
+        <p>
+          A static electric field, i.e., a field accompanying one
+          or more source charges at rest, has the property that it
+          can be derived from a simpler field called the
+          <i>electric potential</i>. The electric potential field
+          is simpler because it is a scalar field, not a vector
+          field like the electric field. The electric potential
+          field assigns a scalar quantity to any given point in
+          space called the <i>electric potential at that point</i>.
+          The SI-unit of the electric potential is the volt (V).
+        </p>
+        <p>
+          How can a scalar field give rise to a vector field? A
+          static electric field is constructed from its electric
+          potential field as follows.
+        </p>
+        <blockquote>
+          Suppose you know the electric potential field and want to
+          know the electric field vector at a given point P. Look
+          at the electric potential in the neighborhood of P. Find
+          the direction leading away from P in which the electric
+          potential decreases more rapidly than in any other
+          direction. This is the direction in which the electric
+          vector at P points. 
+          <p>
+            The magnitude <i>E</i> of the electric vector at P is
+            equal to the magnitude of the distance-rate-of-change
+            of the electric potential,
+          </p>
+          <p align="center">
+            <img src="../elpotimages/ElFieldDefinition.gif" alt=
+            "Definition"> <img src="../elpotimages/small.gif"
+               alt="space" height="1" width="40"> <img src=
+               "../elpotimages/Six.gif" alt="Six">
+          </p>
+          <p>
+            where |<font face="symbol">D</font><i>V</i>| / <i>d</i>
+            is calculated in the direction of the electric field
+            vector at P. |<font face="symbol">D</font><i>V</i>|
+            equals |<i>V</i>(P') - <i>V</i>(P)| where P' is a point
+            near P that, seen from P, lies in the direction of most
+            rapid decrease of <i>V</i> and where <i>d</i> is the
+            distance between P and P'.
+          </p>
+          <p>
+            If the electric potential is constant throughout a
+            small neighborhood of P or if the electric potential
+            has a maximum or minimum at P, the electric field at P
+            is zero.
+          </p>
+        </blockquote>
+        <p>
+          <u>Comment 1</u>. Definition (6) implies that the SI-unit
+          for the electric field is the V/m. As mentioned in
+          Comment 3 under "Definition of Electric Field and
+          Electric Field Lines" above, Definition (4) gives the N/C
+          as the SI-unit of the electric field. Equating the two
+          units and solving the resulting equation for V gives the
+          volt in terms of other SI-units,
+        </p>
+        <p align="center">
+          1 V = 1 m &times; 1 N/C = 1 (N m)/C = 1 J/C.<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40">(7)
+        </p>
+        <p>
+          <u>Comment 2</u>. In the case of a field due to point
+          source, as in the present applet, Definition (6) becomes
+          </p>
+        <p align="center">
+          <img src="../elpotimages/ElFieldDefinitionRadial.gif" alt=
+          "Definition"> <img src="../elpotimages/small.gif"
+          alt="space" height="1" width="40"> <img src=
+          "../elpotimages/Eight.gif" alt="Eight"> 
+        </p>
+        <p>
+	  Here <i>r</i> is the distance of a field point from the
+          point source. <font face="symbol">D</font><i>r</i> is the
+          change in this distance, and <font
+          face="symbol">D</font><i>V</i> is the corresponding change
+          in <i>V</i>.
+        </p>
+        <p>
+          <u>Comment 3 (Notation)</u>.  This Comment will point out a
+          distinction between the two quantities <font
+          face="symbol">D</font><i>r</i> and |<font
+          face="symbol">D</font><img src="../elpotimages/r.gif"
+          alt="vector r" align="bottom">|. <font
+          face="symbol">D</font><img src="../elpotimages/r.gif"
+          alt="vector r"> will be needed below.
+	</p>
+	<p>For this purpose, Figure 1 below illustrates the example of
+          two points, P<sub>1</sub> and P<sub>2</sub>, that lie on the
+          same equipotential circle around the source charge.  The
+          position vectors of the two points relative to the source
+          charge - the origin of the coordinate system is taken to be
+          at the source charge - are the vectors <img
+          src="../elpotimages/r.gif" alt="vector r"
+          align="bottom"><sub>1</sub> and <img
+          src="../elpotimages/r.gif" alt="vector r"
+          align="bottom"><sub>2</sub>, respectively.
+	</p>
+        <p>
+        <p align="center">
+         <img src="../elpotimages/VectorNotation1.gif" alt="Particle at Origin">
+        </p>
+        <p align="center">
+          <b>Figure 1</b>
+        </p>
+        <p>
+          The displacement vector <font face="symbol">D</font><img
+          src="../elpotimages/r.gif" alt="vector r" align="bottom"> =
+          <img src="../elpotimages/r.gif" alt="vector r"
+          align="bottom"><sub>2</sub> - <img
+          src="../elpotimages/r.gif" alt="vector r"
+          align="bottom"><sub>1</sub> from P<sub>1</sub> to
+          P<sub>2</sub> is obviously not zero.  Therefore, its
+          magnitude |<font face="symbol">D</font><img
+          src="../elpotimages/r.gif" alt="vector r" align="bottom">|
+          cannot be equal to zero either.
+	</p>
+	<p>The magnitude of the position vector <img
+          src="../elpotimages/r.gif" alt="vector r"> of a field point
+          is denoted <i>r</i>.  The quantity <i>r</i> is equal to the
+          distance of the field point from the origin.
+	</p>
+	<p>
+	  Now consider the change in <i>r</i> as one goes from
+	  P<sub>1</sub> to P<sub>2</sub>, i.e., the quantity <nobr><font
+	  face="symbol">D</font><i>r</i> = <i>r</i><sub>2</sub> -
+	  <i>r</i><sub>1</sub>.</nobr> For the given two points, <font
+	  face="symbol">D</font><i>r</i> is equal to zero, because
+	  both points are at the same distance from the origin.
+	  Therefore, for an arbitrary pair of points, <font
+	  face="symbol">D</font><i>r</i> is in general quite different
+	  from |<font face="symbol">D</font><img
+	  src="../elpotimages/r.gif" alt="vector r" align="bottom">|.
+        </p>
+	<p>
+	  <u>Comment 4</u>.  It is customary to denote the limit of
+          <font face="symbol">D</font><i>V</i> / <font
+          face="symbol">D</font><i>r</i> in Equ.(8) by
+          <i>dV</i>/<i>dr</i>.  This is a notation used in calculus.
+          With this notation, Definition (8) can be written
+	</p> 
+	<p align="center"> 
+	  <img src="../elpotimages/ElFieldDefinitionRadialCalc.gif"
+	  alt="Definition"> <img src="../elpotimages/small.gif"
+	  alt="space" height="1" width="40"> <img
+	  src="../elpotimages/Nine.gif" alt="Nine">
+        </p>
+	<p>
+	  It is useful for applications in physics to think of the
+	  symbol <i>dV</i>/<i>dr</i> as a ratio of two very small
+	  quantitities, <i>dV</i> and <i>dr</i>, although strictly
+	  speaking <i>dV</i>/<i>dr</i> is just a shorthand for the
+	  limit (8).  The reason this is possible is that when
+	  <i>dV</i> and <i>dr</i> are very small, their ratio will be
+	  very close to the value of the limit (8).  Also,
+	  experimentally, one can not go to the limit of vanishing
+	  <i>dV</i> and <i>dr</i> but must measure finite <i>dV</i>
+	  and <i>dr</i>.
+        </p>
+        <p>
+	  <u>Comment 5</u>. Taking <i>dV</i>/<i>dr</i> as a ratio of
+	  two small quantities, one can calculate
+          <i>E</i> from Equ.(9) using two points P and P' on an
+          electric field line that are a small distance <i>dr</i>
+          apart.  Vice versa, solving Equ.(9) for <i>dV</i>, one can
+          calculate the small change <i>dV</i> = <i>V</i>(P') -
+          <i>V</i>(P) in electric potential in going from point P to
+          P'. If P', when seen from P, is in the direction of the
+          electric field, i.e., in the direction of most rapid
+          decrease of <i>V</i>, then
+        </p>
+        <p align="center">
+          <i>dV</i> = <i>V</i>(P') - <i>V</i>(P) = - <i>E</i>
+          |<i>dr</i>| .<img src= "../elpotimages/small.gif" alt="space"
+          height="1" width="40">(10)
+        </p>
+        <p>
+          The minus sign on the right-hand side is needed because the
+          potential is decreasing in going from P to P'.
+        </p>
+        <p>
+          If the points P and P' are two general points that do not
+          necessarily lie on the same electric field line, Equ.(10)
+          must be generalized by replacing the right-hand side by the
+          scalar product of <img src= "../elpotimages/E.gif"
+          alt="vector E" align="bottom"> and the displacement
+          <i>d</i><img src="../elpotimages/r.gif" alt= "vector r"
+          align="bottom"> from P to P'. Thus,
+        </p>
+        <p align="center">
+          <i>dV</i> = - <img src= "../elpotimages/E.gif" alt="vector
+          E" align= "bottom"><img src="../elpotimages/dot.gif" alt=
+          "Dot Product" align="bottom"><i>d</i><img src=
+          "../elpotimages/r.gif" alt="vector r" align="bottom"> .
+          <img src="../elpotimages/small.gif" alt="space" height="1"
+          width="40">(11)
+        </p>
+	<p>
+	  The same distinction that was pointed out between |<font
+	  face="symbol">D</font><img src= "../elpotimages/r.gif"
+	  alt="vector r" align="bottom">| and <font
+	  face="symbol">D</font><i>r</i> in Comment 3 above must be
+	  made between |<i>d</i><img src= "../elpotimages/r.gif"
+	  alt="vector r" align="bottom">| and <i>dr</i>.
+	</p>  
+        <p>
+          <u>Comment 6</u>. In general, the potential in the
+          vicinity of a given point P will be decreasing in some
+          directions, increasing in others, and remain constant
+          along a line through P dividing the directions of
+          decreasing and increasing potential. This dividing line
+          is the "equipotential line" through P.
+        </p>
+        <blockquote>
+          An <i>equipotential line</i> is a line along which the
+          electric potential is constant.
+        </blockquote>
+        <p>
+          Such lines are not straight in general. In the present case
+          of a field due to a point charge with radial electric field
+          lines, the equipotential lines are concentric circles with
+          the source of the field as the center of the equipotential
+          circles.
+        </p>
+        <p>
+          Note that one is dealing with equipotential <b>lines</b>
+          when considering only <b>two</b> dimensions. In three
+          dimensions, one has equipotential <b>surfaces</b>. For a
+          point source field in three dimensions, the equipotential
+          surfaces are concentric spheres with the source as the
+          center of the spheres.
+        </p>
+        <p>
+          <u>Comment 7</u>. The electric field vector at a given
+          point is always perpendicular to the equipotential line
+          through that point because the perpendicular direction is
+          the direction of most rapid change of the potential. As a
+          consequence, electric field lines and equipotential lines
+          cross at right angles at any given point.
+        </p>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../elpotimages/top.gif"
+               alt="Go To Top" border="0" align="top"></a>
+        </p><a name="PotEnergy"></a>
+      </li>
+      <li>
+        <b>Potential Energy and Energy Conservation</b> 
+        <p>
+          This section focusses on the definition of the potential
+          energy <i>PE</i> of a charged particle in an electric
+          field <img src="../elpotimages/E.gif" alt="vector E"
+          align="bottom"> and the relationship between <i>PE</i>
+          and the force <img src="../elpotimages/F.gif" alt=
+          "vector F" align="bottom"> exerted on the particle by the
+          field.
+        </p>
+        <p>
+          If you have mastered the preceding section, this material
+          is easy because <i>PE</i> and <img src=
+          "../elpotimages/F.gif" alt="vector F" align="bottom"> are
+          equal to the corresponding quantities <i>V</i> and
+          <img src="../elpotimages/E.gif" alt="vector E" align=
+          "bottom">, respectively, multiplied by the charge
+          <i>q</i> of the test particle. Thus,
+        </p>
+        <p align="center">
+          <i>PE</i> = <i>qV</i> <img src="../elpotimages/small.gif"
+          alt="space" height="1" width="40">(12)
+        </p>
+        <p>
+          and
+        </p>
+        <p align="center">
+          <img src="../elpotimages/F.gif" alt="vector F" align=
+          "bottom"> = <i>q</i><img src="../elpotimages/E.gif"
+             alt="vector E" align="bottom"> . <img src=
+             "../elpotimages/small.gif" alt="space" height="1"
+             width="40">(13)
+        </p>
+        <p>
+          <u>Comment 1</u>. Equ.(13) is the same as Equ.(5).
+          Equ.(12) is a definition of the potential energy in terms
+          of the electric potential.
+        </p>
+        <p>
+          <u>Comment 2</u>. The vector <img src=
+          "../elpotimages/E.gif" alt="vector E" align="bottom"> is
+          different in general at different points in space. In the
+          present case of a field due to a point source, the field
+          vector has a radial direction and a magnitude proportional
+          to 1/<i>r</i><sup>2</sup> where <i>r</i> is the distance of
+          the field point from the source.  Thus the field vector
+          varies in direction and magnitude as the field point is
+          varied.
+	</p>  
+	<p>
+	  Therefore the force <img src="../elpotimages/F.gif"
+          alt="vector F" align="bottom"> is a function of position
+          also.  Thus, Equation (13) defines a <i>force field</i>. In
+          the present case of a field due to a point source the force
+          is given by Coulomb's law, which is summarized above under
+          "Coulomb's Law of Electrostatics". 
+        </p>
+        <p>
+          Since the electric potential is a scalar field,
+          Definition (12) makes the potential energy of a test
+          particle a scalar field as well. All this means is that
+          the potential energy is a scalar quantity whose value
+          depends in general on where the test particle is.
+        </p>
+        <p>
+          <u>Comment 3</u>. The electric field points from high to
+          low potential, in the direction of the most rapid
+          decrease of the potential. Because of Eqs.(12) and (13),
+          the force points from high to low potential energy, in
+          the direction of the most rapid decline of the potential
+          energy. This statement is obviously true for positive
+          charge <i>q</i>, but it is true also for negative charge.
+          Why?
+        </p>
+        <p>
+          <u>Comment 4</u>. Equ.(7) says that the volt is equal to
+          1 J/C. Therefore, the SI-unit of the quantity <i>PE</i>
+          defined in Equ.(10) is C &times; J/C = J. The joule (J)
+          is the unit of energy. Thus, <i>PE</i> has the right
+          units to be some kind of energy. The next two comments
+          will make it clear that <i>PE</i> is indeed a potential
+          energy.
+        </p>
+        <p>
+          <u>Comment 5</u>. By multiplying Equs.(6), (8), and (9)
+          on both sides by <i>q</i> one obtains analogous equations
+          relating the force <img src="../elpotimages/F.gif"
+             alt="vector F" align="bottom"> exerted on the charged
+             particle to the potential energy <i>PE</i> of the
+             paricle in the field.
+        </p>
+        <p>
+          Thus, Equ.(8) implies that the magnitude <i>F</i> of the
+          force on a test particle in the electric field of a point
+          source is given by
+        </p>
+        <p align="center">
+          <img src="../elpotimages/ForceFromPotentialRadial.gif" alt=
+          "Force from Potential Energy"> <img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40"> <img src="../elpotimages/Fourteen.gif" alt=
+             "Fourteen">
+        </p>
+        <p>
+	  Using calculus notation, the equation for <i>F</i> analogous
+	  to Equ.(9) is
+	</p>
+        <p align="center">
+          <img src="../elpotimages/ForceDefinitionRadialCalc.gif" alt=
+          "Force from Potential Energy"> <img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40"> <img src="../elpotimages/Fifteen.gif" alt=
+             "Fifteen">
+        </p>
+	<p>
+          Again, interpreting <i>dPE</i> and <i>dr</i> as very small
+          quantities, one can calculate <i>F</i> from Equ.(15) as a
+          ratio of two small quantities. This equation can be inverted
+          to give the small change <i>dPE</i> = <i>PE</i>(P') -
+          <i>PE</i>(P) in the potential energy of the particle as the
+          particle moves from point P to a point P' that is close to P
+          and on the same electric field line:
+        </p>
+        <p align="center">
+          <i>dPE</i> = <i>PE</i>(P') -
+          <i>PE</i>(P) = - <i>F</i> |<i>dr</i>| .<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40">(16)
+        </p>
+        <p>
+          Here P', when viewed from P, is in the direction of most
+          rapid decrease of <i>PE</i>.
+        </p>
+        <p>
+          For an electric field due to a point source, as in the
+          present applet, Equ.(16) is true also if P and P' do not lie
+          on the same field line.  This is so because the electric
+          potential and the potential energy depend only on <i>r</i>
+          in this special case.  In the case of a more general field,
+          and for an arbitrary pair of points P and P' that are close
+          to each other, Equ.(16) must be generalized by replacing the
+          right-hand side by the scalar product of <img
+          src="../elpotimages/F.gif" alt="vector F" align="bottom">
+          and the displacement vector <i>d</i><img
+          src="../elpotimages/r.gif" alt="vector r" align= "bottom">
+          from P to P'. Thus,
+        </p>
+        <p align="center">
+          <i>dPE</i> = <i>PE</i>(P') -
+          <i>PE</i>(P) = -<img src="../elpotimages/F.gif" alt=
+          "vector F" align="bottom"><img src=
+          "../elpotimages/dot.gif" alt="Dot Product" align=
+          "bottom"><i>d</i><img src="../elpotimages/r.gif" alt="vector r"
+          align="bottom"> . <img src="../elpotimages/small.gif"
+             alt="space" height="1" width="40">(17)
+        </p>
+        <p>
+          The scalar product <img src="../elpotimages/F.gif"
+             alt="vector F" align="bottom"><img src=
+             "../elpotimages/dot.gif" alt="Dot Product" align=
+             "bottom"><i>d</i><img src="../elpotimages/r.gif" alt=
+             "vector r" align="bottom"> in Equ.(17), or the product
+             <i>F</i> |<i>dr</i>| in Equ.(16), is equal to the work
+             <i>dW</i> done by the electric field on the particle when
+             the particle moves from P to P'. Thus,
+        </p>
+        <p align="center">
+          <i>dPE</i> = <i>PE</i>(P') -
+          <i>PE</i>(P) = - dW. <img src="../elpotimages/small.gif"
+          alt="space" height="1" width="40">(18)
+        </p>
+        <p>
+          This is precisely the standard definition of a potential
+          energy. First of all, one defines potential energy in terms
+          of its <b>change</b>, <i>dPE</i>; one does not define the
+          potential energy <i>PE</i> itself. This leaves an additive
+          constant in the potential energy undetermined that one is
+          free to choose any way that is convenient. Second, if a
+          potential energy can be associated with a force field
+          (possible for special force fields only that are called
+          <i>conservative</i>), then it is the negative of the work
+          done by the force that is equated with the change in the
+          potential energy. The reason why one uses the
+          <b>negative</b> of the work in the definition of
+          potential energy will be made clear in the following
+          comment.
+        </p>
+        <p>
+          <u>Comment 6</u>. By the work-kinetic energy theorem, the
+          small amount of work <i>dW</i> done on the particle by the
+          electric field is equal to the small change <i>dKE</i> in the
+          particle's kinetic energy as the particle moves from P to
+          P',
+        </p>
+        <p align="center">
+          <i>dW</i> = <i>dKE</i> =
+          <i>KE</i>(P') - <i>KE</i>(P) .<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40">(19)
+        </p>
+        <p>
+          Substituting Expression (19) for <i>dW</i> into Equ.(18)
+          gives
+        </p>
+        <p align="center">
+          <i>dPE</i> = - <i>dKE</i> .<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+          width="40">(20)
+        </p>
+        <p>
+          In words, if the test particle in moving from P to P' gains
+          an amount <i>dKE</i> of kinetic energy, then its potential
+          energy changes by an amount equal to -<i>dKE</i>, i.e., it
+          decreases by an equal amount.
+        </p>
+        <p>
+          This is exactly the concept of potential energy. A
+          particle has potential energy that can be converted into
+          kinetic energy. If the kinetic energy increases by, say,
+          5 J, the potential energy decreases by 5 J. Energy gets
+          <b>converted</b> from potential to kinetic energy, and
+          energy is neither created or destroyed. Energy
+          conservation in this process can be exhibited more
+          directly as follows.
+        </p>
+        <p>
+          Let <i>E</i> denote the sum of kinetic and potential
+          energy,
+        </p>
+        <p align="center">
+          <i>E</i> = <i>KE</i> + <i>PE</i> .<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+             width="40">(21)
+        </p>
+        <p>
+          The quantity <i>E</i> is called the <i>energy of the
+          particle in the electric field</i>. The change
+             <i>dE</i> in the energy as the particle moves from P to
+             P' can be found by moving <i>dKE</i> in Equ.(20) from the
+             right-hand side to the left-hand side. Thus,
+        </p>
+        <p align="center">
+          <i>dKE</i> + <i>dPE</i> = <i>dE</i> = 0 .<img src=
+          "../elpotimages/small.gif" alt="space" height="1"
+          width="40">(22)
+        </p>
+        <p>
+          This equation says that <i>E</i> does not change when the
+          particle moves from P to P'. One says that the energy is
+          <i>conserved</i>.
+        </p>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../elpotimages/top.gif"
+               alt="Go To Top" border="0" align="top"></a>
+        </p>
+        <a name="Formulas"></a>
+      </li>
+      <li>
+        <b>Potential and Potential Energy in an Electric Field Due to a Point Charge</b>
+        <p>
+          For the case of an electric field due to a point charge, as
+          in the present applet, one can use Equs.(10) and (16) or
+          (11) and (17) to calculate the electric potential and the
+          potential energy of a test particle in the field.
+	</p>  
+	<p>
+          This calculation requires a calculus process called
+          integration.  Integrating means summing the small changes
+          <i>dV</i> in potential and <i>dPE</i> in potential energy
+          along a path from a point P to another point P' an arbitrary
+          distance away from P.
+	</p>
+	<p>
+	  One needs to use Equ.(2) for the magnitude <i>F</i> of the
+	  force exerted on the test particle by the source and the
+	  corresponding expression <i>F</i>/|q| for the magnitude
+	  <i>E</i> of the electric field at the point of the test
+	  particle.  
+	</p>
+	<p>
+	  Substituting for <i>q</i><sub>1</sub> the source charge
+	  <i>Q</i> and for <i>q</i><sub>2</sub> the test charge
+	  <i>q</i>, Equ.(2) gives
+	</p>
+          <p align="center">
+            <i>F</i> =
+            <i>k</i>|<i>Q</i>||<i>q</i>| /
+            <i>r</i><sup>2</sup>.<img src="../elpotimages/small.gif"
+            alt="space" height="1" width="40"> (23)
+          </p>
+	<p>
+	  Dividing <i>F</i> by |<i>q</i>| gives
+	</p>
+          <p align="center">
+            <i>E</i> =
+            <i>k</i>|<i>Q</i>| /
+            <i>r</i><sup>2</sup>.<img src="../elpotimages/small.gif"
+            alt="space" height="1" width="40"> (24)
+          </p>
+	<p>
+          With these expressions for <i>F</i> and <i>E</i>, the
+          integration process gives for <i>PE</i> and <i>V</i> at a
+          point that is a distance
+          <i>r</i> away from the point source the following
+          expressions.  (The calculation is a standard exercise in the
+          application of calculus and will not be reproduced here.)
+	</p>  
+	<p align="center">
+          <i>PE</i>(<i>r</i>) = <i>kQq</i> / <i>r</i> <img
+            src="../elpotimages/small.gif" alt="space" height="1"
+            width="40"> (25)
+        </p>
+	<p>
+	  and
+	</p>
+	<p align="center">
+	  <i>V</i>(<i>r</i>) = <i>kQ</i> / <i>r</i> <img
+            src="../elpotimages/small.gif" alt="space" height="1"
+            width="40"> (26)
+        </p>
+	<p>
+	  where <i>k</i> is the universal constant in Coulomb's law,
+	</p>
+          <p align="center">
+            <i>k</i> = 8.988&times;10<sup>9</sup> N m<sup>2</sup>
+            C<sup>-2</sup>. <img src="../elpotimages/small.gif"
+               alt="blank" height="1" width="40"> (27)
+          </p>
+	<p>
+          Note that Expressions (25) and (26) involve the charges
+          themselves, not their absolute values as in Equs.(23) and
+          (24).  This is a consequence of the way the electric
+          potential and and the potential energy are defined.  E.g.,
+          the electric potential decreases in the direction of the
+          electric field, and the latter depends on the sign of the
+          source charge <i>Q</i>.  Therefore, the potential depends on
+          <i>Q</i>, not |<i>Q</i>|.  In Equs.(23) and (24) on the
+          other hand, we are dealing with the magnitudes of the force
+          and electric field vectors, which by definition are positive
+          quantities, so that on the right-hand sides of these
+          equations we need to use the magnitudes of the charges.
+	</p>
+	<p>
+	  <u>Comment 1</u>.  In Equs.(25) and (26), the arbitrary
+	  additive constants have been chosen so that the potential energy
+	  <i>PE</i> and the potential <i>V</i> both are equal to zero
+	  for <i>r</i> equal to infinity, i.e., when the test particle
+	  or the field point are infinitely far away from the source.
+        </p>
+	<p>
+	  <u>Comment 2</u>.  The denominators in Expressions (25) and
+	  (26) contain <i>r</i> to the <b>first</b> power, not to the
+	  second power as in the force and field expressions (23) and
+	  (24).  The first power is not a typographical error.
+	</p>    
+	<p>
+	  <u>Comment 3</u>.  The potential energy and the potential as
+	  given by Expressions (25) and (26), respectively, can take
+	  both positive and negative values, depending on the signs of
+	  the charges <i>Q</i> and <i>q</i>.  (The potential depends
+	  only on <i>Q</i>.)
+	</p>  
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="../elpotimages/top.gif" alt=
+      "Go To Top" border="0" align="top"></a>
+    </p><a name="Motion"></a> 
+    <div class="sectionheading">
+      Motion of a Charged Particle in an Electric Field Due to a Point Charge
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above,
+      read the section "Definition of Electric Field and Electric
+      Field Lines".
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet. Make the following
+      settings:
+    </p>
+    <ul>
+      <li>
+       source charge: <i>Q</i> = 3 mC
+      </li>
+      <li>
+        particle charge: <i>q</i> = 2 mC
+      </li>
+
+      <li>
+        particle mass: <i>m</i> = 3.0 kg
+      </li>
+      <li>
+        test particle position:
+        (<i>x</i>,<i>y</i>) = (100, -100) m
+      </li>
+
+      <li>
+        particle velocity:
+        (<i>v<sub>x</sub></i>,<i>v<sub>y</sub></i>) = (-12, 18) m/s .
+      </li>
+    </ul>
+    <p>
+      You may find it easier to move the particle to its initial
+      position if you display the grid. The particle's position
+      coordinates are displayed in the Data box.
+    </p>
+    <p>Click the Initial button. Select the Trace toggle button, and
+      PLAY the motion. PAUSE the motion at some point.
+    </p>
+    <p>
+      Describe the trajectory. In which direction relative to that
+      of the electric field does the trajectory curve? Therefore,
+      in which direction is the force acting on the particle? Hint:
+      The acceleration vector is in the direction of the force,
+      according to Newton's second law. The applet lets you display
+      the acceleration vector.
+    </p>
+    <p>
+      Explain your observations in terms of the theory under
+      "Definition of Electric Field and Electric Field Lines".
+    </p>
+    <p>
+      <b>Answer</b>. Figure 2 below shows the trajectory (in blue),
+      with the particle paused on it and the velocity and acceleration
+      vectors displayed.
+    </p>
+    <p align="center">
+      <img src="../elpotimages/PotNonUniTrajectories.gif" alt=
+      "Trajectory with Data and Energy Boxes">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      For a positive source charge as in the present Exercise, the
+      electric field points radially away from the source.  By
+      Equ.(5), for a test particle with positive charge as in this
+      Exercise, the force acting on the test particle is in the
+      direction of the electric field, i.e., also radially away from
+      the source.  This is a repulsive force.  The direction of the
+      acceleration vector and the shape of the trajectory confirm the
+      direction of the force.
+    </p>
+    <p>
+      <b>Question 1</b>. For the settings in Exercise 1, what is the
+      particle's acceleration when the particle is at the point shown
+      in Figure 1, i.e., at (<i>x</i>,<i>y</i>) = (66.0, 0.9) m?
+      Calculate the value of the acceleration from basic principles.
+    </p>
+    <p>
+      <b>Answer</b>. When force expression (5) is inserted in the
+      Newton's second law equation (1), one obtains an equation
+      involving the particle's acceleration <img src=
+      "../elpotimages/a.gif" alt="vector a" align="bottom">.
+      Solving this equation for <img src="../elpotimages/a.gif"
+         alt="vector a" align="bottom"> gives
+    </p>
+    <p align="center">
+      <img src="../elpotimages/a.gif" alt="vector a" align=
+      "bottom"> = (<i>q</i>/<i>m</i>) <img src=
+      "../elpotimages/E.gif" alt="vector E" align="bottom">
+      .<img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(28)
+    </p>
+    <p>
+      We need to calculate the electric field vector at
+      (<i>x</i>,<i>y</i>) = (66.0, 0.9) m.  The electric field vector
+      <img src= "../elpotimages/E.gif" alt="vector E" align="bottom">
+      is in the direction of the position vector <img src=
+      "../elpotimages/r.gif" alt="vector r" align="bottom"> and
+      therefore proportional to <img src= "../elpotimages/r.gif"
+      alt="vector r" align="bottom">.  Thus,
+    </p>
+    <p align="center">
+     <img src= "../elpotimages/E.gif" alt="vector E" align="bottom"> =
+      <i>c</i> <img src= "../elpotimages/r.gif" alt="vector r"
+      align="bottom"><img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40">(29)
+    </p>  
+    <p>
+      where <i>c</i> is a factor such that the magnitude of
+      <i>c</i><img src= "../elpotimages/r.gif" alt="vector r"
+      align="bottom"> is equal to <i>E</i> =
+      <i>kQ</i>/<i>r</i><sup>2</sup>, where <i>Q</i> > 0.  Thus,
+    </p>
+    <p align="center">
+      <i>cr</i> = <i>kQ</i>/<i>r</i><sup>2</sup> <img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(30)
+    </p>
+    <p>
+      whence
+    </p>
+    <p align="center">
+      <i>c</i> = <i>kQ</i>/<i>r</i><sup>3</sup> .<img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(31)
+    </p>      
+    <p>
+      Inserting Expression (31) for <i>c</i> into Equ.(29) gives
+    </p>
+    <p align="center">
+     <img src= "../elpotimages/E.gif" alt="vector E" align="bottom"> =
+       <i>kQ</i>/<i>r</i><sup>3</sup> <img src= "../elpotimages/r.gif" alt="vector r"
+      align="bottom"> .<img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40">(32)
+    </p>
+    <p>
+      At (<i>x</i>,<i>y</i>) = (66.0, 0.9) m, <i>r</i> has the value
+    </p>
+    <p align="center">
+      <i>r</i> = (<i>x</i><sup>2</sup> +
+      <i>y</i><sup>2</sup>)<sup>0.5</sup> = (66.0<sup>2</sup> +
+      0.9<sup>2</sup>)<sup>0.5</sup> = 66.006 m.<img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(33)
+    </p>
+    <p>
+      Inserting the given values into Expression (32) for <img src= "../elpotimages/E.gif"
+      alt="vector E" align="bottom"> gives
+    </p>
+    <p align="center">
+      <img src= "../elpotimages/E.gif" alt="vector E" align="bottom">
+      = [8.988&times;10<sup>9</sup>&times;0.003 / 66.006<sup>3</sup>]
+      (66.0, 0.9) = (6188, 84.39) V/m .<img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(34)
+    </p>
+    <p>
+      Inserting this value for <img src= "../elpotimages/E.gif"
+      alt="vector E" align="bottom"> and the given values for <i>q</i>
+      and <i>m</i> into Equ.(28) gives for the acceleration of the
+      test particle at (<i>x</i>,<i>y</i>) = (66.0, 0.9) m the value
+    </p>
+    <p align="center">
+      <img src="../elpotimages/a.gif" alt="vector a" align= "bottom">
+      = 0.002/3&times;(6188, 84.39) = (4.126, 0.056) m/s<sup>2</sup>
+      .<img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(35)
+    </p>
+    <p>
+      Compare this value with the one shown in the Data box.  The
+      values are consistent within the number of significant digits
+      displayed by the applet.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click REWIND and
+      change the value of the charge of the test particle from
+      <i>q</i> = 2 mC to <i>q</i> = -2 mC.
+    </p>
+    <p>
+      PLAY the motion, and observe the trajectory. Which way does the
+      trajectory curve relative to the electric field vector? Explain
+      your observation in terms of basic theory.  You should find the
+      trajectory to look like the trajectory shown in grey in Figure
+      2 above.
+    </p>
+    <p>
+      Calculate the acceleration vector at a point where you paused
+      the motion, and compare your result with that shown in the Data
+      box.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, i.e., with
+      <i>q</i> = -2 mC, click REWIND and set the source charge to
+      <i>Q</i> = -3 mC.  Also try the combination
+      <i>Q</i> = -3 mC and <i>q</i> = 2 mC.
+    </p>
+    <p>
+      PLAY the motions, and observe the trajectories. Which way do the
+      trajectories curve relative to the electric field vector?
+      Explain your observation in terms of basic theory.
+    </p>
+    <p>
+      Without further calculation, predict what the acceleration
+      vectors should be if you if you pause the motion at the same
+      point as before (this may be possible only approximately), and
+      verify your predictions by comparing them with the values shown
+      in the Data box.
+    </p>
+    <p>
+      <b>Exercise 4</b>. Continuing from Exercise 3, investigate the
+      motion for other values of the two charges and the mass, and
+      other values of the initial position and velocity.
+    </p>
+    <p>
+      Explain your observations in terms of basic theory, and
+      calculate the acceleration in each case at a point where you
+      pause the motion.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../elpotimages/top.gif" alt=
+      "Go To Top" border="0" align="top"></a>
+    </p><a name="PotPotLines"></a> 
+    <div class="sectionheading">
+      Electric Potential and Equipotential Lines
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above,
+      read the section "Definition of Electric Potential and
+      Equipotential Lines".
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet.
+    </p>
+    <p>
+      Select the Coordinates button <img src=
+      "../elpotimages/Coordinates.gif" alt="Coordinates" align=
+      "top">, and click in the applet window to set a field point
+      marker. With the marker, the (<i>x</i>,<i>y</i>)-coordinates
+      of the point and the electric potential <i>V</i> at that
+      point will be displayed.
+    </p>
+    <p>
+      Click the Field Line button <img src=
+      "../elpotimages/FieldLine.gif" alt="Field Line" align="top">
+      and the Equipotential Line button <img src=
+      "../elpotimages/EquipotentialLine.gif" alt=
+      "Equipotential Line" align="top"> to display the electric
+      field line (in green) and the equipotential line (in mustard
+      color) through the point.
+    </p>
+    <p>
+      Drag the field point, and observe how the field line and
+      equipotential line (which is a circle in this case) move along
+      with the point. Based on these observations, draw a pattern of
+      electric field lines and equipotential lines in your Notebook
+      and explain why the field lines and equipotential lines form the
+      pattern you observe.
+    </p>
+    <p>
+      <b>Answer</b>. The electric field lines are straight lines going
+      from the source to infinitiy in a radial direction.  The force
+      on a charged test particle at a given field point is in this
+      direction, and therefore so is the electric field at that point.
+      The electric field line through a given point has the direction
+      of the field vector at that point.
+    </p>
+    <p>
+      The equipotential line at a given field point is perpendicular
+      to the electric field line at that point.  Therefore the
+      equipotential "lines" are concentric circles whose centers are
+      at the source point.  Such circles are perpendicular at any
+      point to the radially directed field lines. An example of such a
+      line pattern is shown in Figure 3 below.
+    </p>
+    <p align="center">
+      <img src="../elpotimages/PotNonUniFieldPotLines.gif" alt="
+      Field Lines and Equipotential Lines">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      <b>Question 1</b>. Figure 4 below shows two equipotential
+      circles, with radii of 100 m and 110 m, respectively.  The
+      potential on the 100-m circle is equal to
+      2.70&times;10<sup>5</sup> V.  This is for a source charge
+      <i>Q</i> = 3 mC.
+    </p>
+    <p align="center">
+      <img src="../elpotimages/TwoEquiPots.gif" alt="Field Lines and Equipotential Lines">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+      Calculate the electric potential on the 110-m circle using
+      Equ.(10) from the section "Definition of Electric Potential and
+      Equipotential Lines".  This calculation will be approximate
+      because the 10-m distance from one circle to the other is not an
+      infinitesimal distance.  Still this 10-m distance is "small"
+      enough because the electric field does not vary much in
+      magnitude over this distance.  For more of an explanation, see
+      Exercise 2 below.
+    </p>
+    <p>
+      <b>Answer</b>. We need the magnitude <i>E</i> of the electric
+      field on the 100-m circle.  According to Equ.(24), it is equal to
+          <p align="center">
+            <i>E</i> =
+            <i>k</i>|<i>Q</i>| /
+            <i>r</i><sup>2</sup> = 8.988&times;10<sup>9</sup>&times;0.003 /
+            100<sup>2</sup> = 2,697 V/m.<img
+            src="../elpotimages/small.gif" alt="space" height="1"
+            width="40"> (36)
+          </p>
+    <p>
+      Using <i>dr</i> = 10 m and using value (36) for <i>E</i>,
+      Equ.(10) for the change <i>dV</i> = <i>V</i>(110 m) -
+      <i>V</i>(100 m) implies
+    </p>
+    <p align="center">
+      <i>V</i>(110 m) = <i>V</i>(100 m) - <i>E dr</i> =
+      2.70&times;10<sup>5</sup> - 2,697&times;10 =
+      2.43&times;10<sup>5</sup>.<img src="../elpotimages/small.gif"
+      alt="space" height="1" width="40"> (37)
+    </p>
+    <p>
+      This value is quite close to the value of
+      2.45&times;10<sup>5</sup> shown in Figure 4 above.  Confirm this
+      value with the applet by placing a field point marker at a
+      distance of 110 m from the source.
+    </p>
+    <p>
+     <b>Exercise 2</b>.  Calculate the magnitude of the electric field at
+     a distance of 110 m from the source and determine by what
+     percentage it differs from the magnitude of the field at 100 m
+     from the source that was calculated above.  You will find that
+     the two values don't differ by much.  This justifies the use of
+     Equ.(10) in the preceding calculation.  Compare the percentage by
+     which the two electric field values differ to the percentage
+     error in result (37).
+    </p>
+    <p>
+      <b>Exercise 3</b>.  Using the value of the magnitude of the
+      electric field at <i>r</i> = 110 m calculated in Exercise 2,
+      calculate the change in potential in going from a point at
+      <i>r</i> = 110 m to a point at <i>r</i> = 120 m.  Use the result
+      and the value of the potential at <i>r</i> = 110 m to predict
+      the potential at <i>r</i> = 120 m.  Compare the result to the
+      value given by the applet.
+    <p>
+    <p>
+      <u>Comment</u>.  One can continue in this manner, calculating
+      potential changes in small steps along a path from one point P
+      to a distant point P' and adding the potential changes, and in
+      that way obtain the potential change for two points P and P'
+      quite far apart.  This is the integration process referred to at
+      the beginning of the section "Potential and Potential Energy in
+      an Electric Field Due to a Point Charge".  To get an exact
+      result, one has to go to the limit of infinitely many such
+      steps, each of vanishing size.  This limit summation can be
+      performed symbolically.  The result is Expression (26) for the
+      electric potential.
+    </p>
+    <p>
+      <b>Exercise 4</b>. Reset the applet, and observe the value of
+      <i>V</i> at the particle's location. <i>V</i> is displayed in
+      the Data box.  Also, note the length of the <i>V</i>-column in
+      the Energy box.  The test particle's charge <i>q</i> should be
+      equal to the default value of 2 mC.
+    </p>
+    <p>
+      Then vary the charge of the test particle, and observe the value
+      of <i>V</i> displayed in the Data box and the length of the
+      <i>V</i>-column in the Energy box while you are changing the
+      charge. Explain your observations in terms of basic theory.
+    </p>
+    <p>
+      <b>Answer</b>. Neither the electric field nor the electric
+      potential depend in any way on the properties of the test
+      particle. They characterize the state of space without the
+      test particle. Therefore, changing the charge of the test
+      particle has no effect on the value of the electric potential
+      at the particle's location.
+    </p>
+    <p>
+      <b>Exercise 5</b>. Continuing from Exercise 4, vary the value of
+      the source charge <i>Q</i>, including negative values. Observe
+      the value of <i>V</i> in the Data box and the length of the
+      <i>V</i>-column in the Energy box, and explain your observations
+      in terms of basic theory.
+    </p>
+    <p>
+      <b>Answer</b>. This time the electric potential does not stay
+      the same.  When the source charge changes, the electric field
+      changes.  See, e.g., Equ.(24) or Definition (4) of the electric
+      field, in conjunction with Coulomb's law.  When the electric
+      field changes, the potential must change according to the
+      defining relationship between potential and field described
+      under "Electric Potential and Equipotential Lines".  Note that
+      <i>V</i> is positive for positive <i>Q</i> and negative for
+      negative <i>Q</i>, in the case simulated by the applet.
+    </p>
+    <p>
+      <b>Exercise 6</b>. This Exercise is about the concept of an
+      electric field vector as an indicator of the direction of most
+      rapid decrease of the electric potential and the rate of this
+      decrease.
+    </p>
+    <p>RESET the applet. Display two equipotential circles that are
+      fairly close together, as in Figure 5 below.  Choose the two
+      radii to be 100 m and 120 m.
+    </p>
+    <p align="center">
+      <img src="../elpotimages/SteepestDescent.gif" alt="Two Equipotential Circles">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p>
+     Place the particle at a point on the inner circle, as in Figure
+     5, and click the Initial button <img
+     src="../elpotimages/Initial.gif" alt="Set Initial Position and
+     Energy" align="top">.  
+    </p>
+    <p>
+     Drag the particle to a point on the outer equipotential circle
+     while the displacement vector is displayed.  Drag the particle
+     along the outer circle, and observe the magnitude of the
+     displacement vector.  In which direction is it the least?
+     Therefore, in which direction does the potential decrease the
+     fastest?  Remember that the change in potential in going from one
+     equipotential circle to another is constant, so that the
+     direction of greatest rate of change of the potential is the
+     direction in which the displacement vector is shortest.
+    </p>
+    <p>
+      Estimate the magnitude of the electric field at <i>r</i> = 100 m
+      from the potential change indicated in Figure 5.  The inner
+      equipotential circle has a radius of 100 m.  Then obtain a
+      better estimate by using the data in Figure 4, where the two
+      equipotential circles are only 10 m apart, instead of 20 m.
+    </p>
+    <p>
+      <b>Answer</b>. If you have chosen the particle's initial
+      position as in Figure 5, the direction straight down is the
+      direction of fastest decrease of the potential.  Note that the
+      potential on the outer circle is less than on the inner circle,
+      so that the potential is decreasing in the downward direction.
+      You can verify that the electric field at the location of the
+      particle in Figure 5 is downward by displaying the particle's
+      acceleration vector.  The acceleration is in the direction of
+      the force acting on the particle and, for positive test charge,
+      this force is in the direction of the electric field, according
+      to Definition (4).  Therefore, the acceleration points in the
+      direction of the electric field as long as the test particle has
+      positive charge.
+    </p>
+    <p>
+      To calculate the magnitude <i>E</i> of the field, we use Equ.(9)
+      with |<i>dV</i>| = |2.25&times;10<sup>5</sup> -
+      2.70&times;10<sup>5</sup>| = 0.45&times;10<sup>5</sup> V and
+      <i>dr</i> = 120 - 100 = 20 m.  Thus,
+    </p>
+    <p align="center">
+     <i>E</i> = |<i>dV</i>/<i>dr</i>| = 0.45&times;10<sup>5</sup>/20 =
+      2,250 V/m.<img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40"> (38)
+    </p>
+    <p>
+     This value is not particularly good, as a comparison with the
+     exact value of 2,697 V/m shows.  This value is calculated in
+     Equ.(36).  However, using a smaller value for
+     <i>dr</i>, namely, the smaller <i>dr</i> of 10 m from Figure
+     4, gives a noticeably better result:
+    </p>
+    <p align="center">
+     <i>E</i> = |<i>dV</i>/<i>dr</i>| = |2.45&times;10<sup>5</sup> -
+      2.70&times;10<sup>5</sup>| / 10 = 2,500 V/m.<img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40"> (39)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../elpotimages/top.gif" alt=
+      "Go To Top" border="0" align="top"></a>
+    </p><a name="PotPotEnergy"></a> 
+    <div class="sectionheading">
+      Electric Potential and Potential Energy
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above, read
+      the sections 
+      <ul> 
+       <li>Potential Energy and Energy Conservation,</li> 
+       <li>Potential and Potential Energy in the Electric Field Due to a Point Charge.</li> 
+      </ul>
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet.
+    </p>
+    <p>
+      Set the particle's initial position and velocity at time
+      <i>t</i> = 0 to
+    </p>
+    <ul>
+      <li>
+        (<i>x</i>,<i>y</i>)(0) = (100, -100) m ,
+      </li>
+      <li>
+        (<i>v<sub>x</sub></i>,<i>v<sub>y</sub></i>)(0) = (-12, 18)
+        m/s .
+      </li>
+    </ul>
+    <p>
+      Fix these initial values by clicking the Initial button <img
+      src="../elpotimages/Initial.gif" alt="Set Initial Position and
+      Energy" align="top">. This will also adjust the "initial" energy
+      bar in the Energy box to be identical to the "final" energy bar.
+    </p>
+    <p>
+      You may find it easier to move the particle to the initial
+      position if you display the Grid. The particle's position is
+      displayed in the Data box.
+    </p>
+    <p>
+      Make sure the parameters of the system are still set to
+    </p>
+    <ul>
+      <li>
+        <i>q</i> = 2 mC ,
+      </li>
+      <li>
+        <i>m</i> = 3.0 kg ,
+      </li>
+      <li>
+        <i>Q</i> = 3 mC.
+      </li>
+    </ul>
+    <p>
+      Display the particle trace, and STEP into the motion until you
+      are at time <i>t</i> = 6.00 s and the particle is at
+      (<i>x</i>,<i>y</i>) = (57.0, -12.6) m, as shown in Figure 6
+      below. The Energy box in Figure 6 shows what the energy bars
+      should look like at this moment.  The particle is moving on the
+      trajectory that starts out in blue.
+    </p>
+    <p align="center">
+      <img src="../elpotimages/NonUniSteppedMotion.gif" alt=
+      "Trajectory with Data and Energy Boxes">
+    </p>
+    <p align="center">
+      <b>Figure 6</b>
+    </p>
+    <p>
+      In your Notebook, describe the changes you observe in the
+      particle's potential energy <i>PE</i>, kinetic energy
+      <i>KE</i>, and total energy <i>E</i> as you step through the
+      motion. Discuss if the changes are what you expect from basic
+      theory. Also describe the changes in the electric potential
+      <i>V</i> at the particle's position as you step through the
+      motion, and explain them in terms of basic theory.
+    </p>
+    <p>
+      <b>Answer</b>. The potential <i>V</i> as a function of <i>r</i>
+      is described by Equ.(26). According to this equation, if
+      <i>Q</i> > 0, the potential increases as <i>r</i> decreases and
+      decreases as <i>r</i> increases. Stepping through the motion
+      should show this behaviour.  You will need to go beyond <i>t</i>
+      = 6.00 s to see the behaviour for increasing <i>r</i>.
+    </p>
+    <p>
+      Since the test particle's charge is positive, Definition (12)
+      implies that the particle's potential energy behaves like the
+      potential: it increases with decreasing <i>r</i> and vice
+      versa. Since the total energy is conserved, the kinetic energy
+      must decrease as the particle gets closer to the source, by as
+      much as the potential energy increases. The particle slows down
+      as it approaches the source.  It speeds up as it moves away from
+      the source.  This makes sense intuitively because the Coulomb
+      force is repulsive in this case.
+    </p>
+    <p>
+      <b>Question 1</b>. Click REWIND.  The Data box will display the
+      electric potential at the particle's start position as
+      1.91&times;10<sup>5</sup> V.  Calculate the particle's potential
+      energy at this point.  The test particle's charge is equal to 2
+      mC.
+    </p>
+    <p>
+      <b>Answer</b>. Definition (12) of the potential energy,
+      "<i>PE</i> = <i>qV</i>", gives the value <i>PE</i> =
+      0.002&times;1.91&times;10<sup>5</sup> = 382 J. Compare this
+      value with the one shown in the Data box.  The discrepancy of 1
+      J between the two values is due to round-off error.
+    </p>
+    <p>
+      <b>Question 2</b>. Continuing from Question 1, change the charge
+      of the test particle from <i>q</i> = 2 mC to <i>q</i> = -2
+      mC. What are the values of the electric potential at
+      (<i>x</i>,<i>y</i>) = (100, -100) m and of the particle's
+      potential energy at this point now?
+    </p>
+    <p>
+      <b>Answer</b>. The electric potential is still equal to
+      1.91&times;10<sup>5</sup> V. Its value does not depend on any
+      particle properties. However, the particle's potential energy
+      has changed to -382 J, in accordance with Equ.(12).  (The Data
+      box shows -381 J.)
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Question 2, with <i>q</i>
+      = -2 mC, STEP through the motion until you are at
+      time <i>t</i> = 6.00 s. What does the trajectory look like
+      this time?
+    </p>
+    <p>
+      Observe the changes of the same quantities as in Exercise 1,
+      and record in your Notebook if there are any differences
+      compared to what you observed in Exercise 1. Explain the
+      differences in terms of basic theory.
+    </p>
+    <p>
+      <b>Answer</b>. The trajectory is now curving towards the source
+      charge.  Again, in accordance with Equ.(26), the electric
+      potential at the test particle is increasing as the test
+      particle is approaching the source and decreasing as it is
+      moving away from the source.  Also, more fundamentally, as the
+      particle is approaching the source, it is moving against the
+      electric field and therefore into regions of higher electric
+      potential.
+    </p>
+    <p>
+      The potential energy, however, has the opposite behaviour since
+      it is equal to the potential multiplied by a negative constant.
+      Thus, the potential energy decreases as the test particle moves
+      closer to the source.  Also, since the force is attractive in
+      this case, we would expect the particle to be gaining kinetic
+      energy and therefore losing potential energy as it approaches
+      the source.
+    </p>
+    <p>
+      <b>Question 3</b>. Continuing from Exercise 2, click REWIND and
+      change the test particle's charge back to <i>q</i> = 2 mC.
+    </p>
+    <p>
+      Make sure the particle's initial position and velocity at
+      <i>t</i> = 0 are still equal to
+    </p>
+    <ul>
+      <li>
+        (<i>x</i>,<i>y</i>)(0) = (100, -100) m ,
+      </li>
+      <li>
+        (<i>v<sub>x</sub></i>,<i>v<sub>y</sub></i>)(0) = (-12, 18)
+        m/s .
+      </li>
+    </ul>
+    <p>
+      Otherwise click RESET, and set these initial conditions.  Lock
+      the initial conditions by clicking the Initial button. 
+    </p>
+    <p>
+      Make sure the parameters of the system are set to
+    </p>
+    <ul>
+      <li>
+        <i>q</i> = 2 mC ,
+      </li>
+      <li>
+        <i>m</i> = 3.0 kg ,
+      </li>
+      <li>
+        <i>Q</i> = 3 mC.
+      </li>
+    </ul>
+    <p>
+      Display the particle trace, and STEP into the motion until you
+      are at time <i>t</i> = 9.00 s and the particle is at point P'
+      with coordinates (<i>x</i>,<i>y</i>) = (85.3, 15.6) m.
+    </p>
+    <p>
+      Calculate the particle's kinetic energy at P'.
+    </p>
+    <p>
+      <b>Answer</b>. The answer can be obtained by using energy
+      conservation.  The calculation is broken up into four segments.
+    </p>
+    <p>
+      <u>Electric Potential <i>V</i> at P'</u>
+    </p>
+    <p>
+      By Equ.(26) and using the value <i>r</i> = 86.7 m given in the
+      Data box (check this value by calculating it from the given
+      <i>x</i>,<i>y</i> coordinates), the potential at P' is equal to
+    </p>
+    <p align="center">
+      <i>V</i>(P') = <i>kQ</i>/<i>r</i> =
+      -8.988&times;10<sup>9</sup>&times;0.003 / 86.7 =
+      3.11&times;10<sup>5</sup> V.<img src="../elpotimages/small.gif"
+      alt="space" height="1" width="40">(40)
+    </p>
+    <p>
+      This agrees with the value displayed in the Data box.
+    </p>
+    <p>
+      <u>Potential Energy <i>PE</i> at P'</u>
+    </p>
+    <p>
+      According to Definition (12) of the potential energy, we only
+      need to multiply the electric potential at P' by the charge
+      <i>q</i> to get the potential energy of the test particle at P',
+    </p>
+    <p align="center">
+      <i>PE</i>(P') = <i>qV</i>(P') =
+      0.002&times;3.11&times;10<sup>5</sup> = 622 J.<img
+      src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(41)
+    </p>
+    <p>
+      We could also have used Equ.(25) for <i>PE</i> directly.
+    </p>
+    <p>
+      <u>Energy <i>E</i></u>
+    </p>
+    <p>
+      The energy of the particle in the electric field is
+      conserved. Therefore, the energy at P' is equal to the energy at
+      the start point P. The latter can be calculated from the given
+      initial conditions.
+    </p>
+    <p>
+      The kinetic energy at the start point P is equal to
+    </p>
+    <p align="center">
+      <i>KE</i>(P) = (<i>m</i>/2)<i>v</i><sup>2</sup> =
+      (<i>m</i>/2)<i>(v<sub>x</sub></i><sup>2</sup> +
+      v<sub>x</sub><sup>2</sup>) = 3/2&times;((-12)<sup>2</sup> +
+      18<sup>2</sup>) = 702 J. <img src="../elpotimages/small.gif"
+      alt="space" height="1" width="40">(42)
+    </p>
+      To calculate the potential energy at the start point, we need
+      the distance <i>r</i> of the start point from the source.  This
+      can be calculated from the <i>x</i>,</i>y</i> coordinates of the
+      start point to be 141.42 m.  Verify this value.  Substituting it
+      and the other given parameters into Equ.(25) gives
+    </p> 
+    <p align="center">
+      <i>PE</i>(P) = <i>kQq</i>/<i>r</i>(P) =
+      8.988&times;10<sup>9</sup>&times;0.003&times;0.002 / 141.42 =
+      381.3 J.  <img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40">(43)
+    </p>
+    <p>
+      Adding the two energies (42) and (43) gives the total energy
+      <i>E</i> both at P and at P',
+    </p>
+    <p align="center">
+      <i>E</i> = <i>KE</i> + <i>PE</i> = 702 + 381.3 = 1,083.3 J
+      .<img src="../elpotimages/small.gif" alt="space" height="1"
+      width="40">(44)
+    </p>
+    <p>
+      This value agrees with that in the Data box.
+    </p>
+    <p>
+      <u>Kinetic Energy <i>KE</i> at P'</u>
+    </p>
+    <p>
+      The kinetic energy at P' can be obtained by subtracting from
+      the total energy the potential energy at P',
+    </p>
+    <p align="center">
+      <i>KE</i>(P') = <i>E</i> - <i>PE</i>(P') = 1,083.3 - 622 =
+      461.3 J. <img src="../elpotimages/small.gif" alt="space"
+      height="1" width="40">(45)
+    </p>
+    <p>
+      Verify this value with the applet.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Do more calculations analogous to those
+      done in Question 3, by evaluating <i>V</i>, <i>PE</i>,
+      <i>E</i>, and <i>KE</i> at some other point P' on the
+      particle's trajectory and for points P' on other trajectories
+      corresponding to other values of the particle's charge and
+      mass and other values of the electric field.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../elpotimages/top.gif" alt=
+      "Go To Top" border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

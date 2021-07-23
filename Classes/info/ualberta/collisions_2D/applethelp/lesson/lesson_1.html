@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>Lesson</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../../libraries/styles/mapstyle.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" class="general" onLoad="MM_preloadImages('../../../libraries/buttons/lesson_up.gif')">
+<h1>Lesson 1 - Conservation of Momentum in 2D Collisions</h1>
+<h2>The Collisions 2D applet simulates elastic and inelastic two-dimensional collisions 
+  in both the lab and centre  of mass frames.</h2>
+<hr noshade align="center">
+<p><b>Prerequisites</b></p>
+<p>Students should have a basic understanding of vectors and vector components 
+  and a working knowledge of trigonometry. Students should be familiar with the 
+  Law of Conservation of Momentum and how to set-up and solve collision questions.</p>
+<p><b>Learning Outcomes</b></p>
+<p>In this lesson you will learn about momentum and two dimensional collisions. 
+  Students will be able to define and calculate the momentum of an object. Students 
+  will also be able to show that momentum is conserved in 2D collisions. As well, 
+  students will be able to analyse and predict the outcome of collisions using 
+  conservation laws.</p>
+<p><b>Instructions</b> </p>
+<p>Students should know how the applet functions, as described in Help and ShowMe. 
+  The applet should be open. The step-by-step instructions on this page are to 
+  be done in the applet. You may need to toggle back and forth between instructions 
+  and applet if your screen space is limited. </p>
+<hr noshade align="center">
+<p><a name="contents"></a><b>Contents</b> </p>
+<table width="100%" border="0">
+  <tr> 
+    <td valign="top"> 
+      <ul class="general">
+        <li><a href="#1">Background</a></li>
+        <li><a href="#2">Momentum and Vector Components</a></li>
+        <li><a href="#3">2D Collisions and Conservation of Momentum </a></li>
+        <li><a href="#4">Analysing Collisions</a></li>
+        <li><a href="#5">Summary</a></li>
+      </ul>
+    </td>
+    <td> 
+      <!--<div align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image201','','../../../libraries/buttons/lesson_up.gif',1)" onClick="MM_openBrWindow('lesson_1.pdf','','resizable=yes,width=600,height=600')"><img name="Image201" border="0" src="../../../libraries/buttons/lesson_down.gif" width="133" height="40"></a></div>-->
+    </td>
+  </tr>
+</table>
+<hr noshade align="center">
+<p class="rightanswer"><a name="1"></a>Background</p>
+<p>In previous lessons, you learned about momentum and the law of conservation 
+  of momentum in one-dimensions. In this lesson, you will examine momentum in 
+  two-dimensional situations. As review, complete the following questions about 
+  momentum and collisions.</p>
+<ol>
+  <li>What is momentum and how is it calculated? <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>What is the momentum of: 
+    <ol type="a">
+      <li>a 300 kg car travelling east at 115 km/hr?<br>
+        <br>
+        <br>
+      </li>
+      <li>a 500 kg truck waiting at a stoplight?<br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+  <li>What is the Law of Conservation of Momentum?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Object A has a mass of 3.0 kg. It is travelling to the right with a speed 
+    of 4.75 m/s. Suddenly, it collides in a head-on, perfectly elastic collision 
+    with object B, which is at rest and has a mass of 5.0 kg. After the collision, 
+    object B is now moving to the right at 3.56 m/s. In what direction and with 
+    what speed is object A now travelling?</li>
+</ol>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="2"></a>Momentum and Vector Components</p>
+<p>Momentum is &quot;mass in motion&quot;, or a measure of how much motion an 
+  object has. Algebraically, momentum is defined as the product of an object's 
+  mass and <nobr>velocity, <img src="eqn1.gif" align="absmiddle" width="52" height="18">.</nobr> 
+  Momentum is a vector - the direction of the momentum matters. </p>
+<p><img src="fig02a.png" width="175" height="154" align="right" vspace="10" hspace="20">Any 
+  vector can be resolved into components. Generally, we resolve vectors into horizontal 
+  (x) and vertical (y) components. The diagram to the right shows a vector, <b>v</b>, 
+  resolved into its x and y components. </p>
+<p>Using the diagram to the right and some basic trigonometric identities, answer 
+  the following questions.</p>
+<ol>
+  <li>What is the expression that gives v<sub>x</sub> as a function of v and <font face="Symbol">q</font>?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>What is the expression that gives v<sub>y</sub> as a function of v and <font face="Symbol">q</font>?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Write a general expression for v, if both v<sub>x</sub> and v<sub>y</sub> 
+    are known.<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>If both v<sub>x</sub> and v<sub>y</sub> are known, what is the general expression 
+    for <font face="Symbol">q</font>?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+</ol>
+<p>&nbsp; </p>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="3"></a>2D Collisions and Conservation of momentum</p>
+<p>In previous lessons you have already seen that the total momentum of a system 
+  is conserved during a collision. But in those lessons, you were only looking 
+  at one-dimensional collisions. Let's now investigate how momentum is conserved 
+  in two-dimensional collisions. Use the applet to help you answer the following 
+  questions. Un-check <b>Show CM</b> and <b>Show CM Frame</b>.</p>
+<ol start="7">
+  <li>Perform five different collisions and complete the following tables. To 
+    generate a new collision, either set your own conditions or press the new 
+    button ( <img src="../../../libraries/buttons/new.png" width="24" height="18" border="1" align="absmiddle"> 
+    ). To view the collision information, press the data button ( <img src="../../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+    ). <br>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 1</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+  </li>
+</ol>
+<p>&nbsp;</p>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p><a name="4"></a><span class="rightanswer">Analysing Collisions</span></p>
+<p>In the previous section you discovered that the total momentum of a system 
+  is conserved, as long as there are no external forces acting on a system. Let's 
+  use the conservation of momentum to analyse the following collisions. When solving 
+  multi-step questions, it is useful to follow a four-step method:</p>
+<ul>
+  <li><b>Plan-it</b> - make sure you understand the question. It helps to draw 
+    a diagram and predict what you think will happen.</li>
+  <li><b>Set-it-Up</b> - list all the known and unknown information and determine 
+    which laws or equations to use. By rearranging equations, develop expressions 
+    for the unknown(s).</li>
+  <li><b>Solve-it</b> - substitute in known values and solve for the unknown(s)</li>
+  <li><b>Think-About-it </b>- think about your answer. Does it make sense? If 
+    possible, check you answer with the applet.</li>
+</ul>
+<p></p>
+<p>Let's do an example question together:</p>
+<p><b>Example:</b></p>
+<blockquote>
+  <p>An 8.0 kg mass collides elastically with a 5.0 kg mass that is at rest. Initially, 
+    the 8.0 kg mass was travelling to the right at 4.5 m/s. After the collision, 
+    it is moving with a speed of 3.65 m/s and at an angle of 27&deg; to its original 
+    direction. What is the final speed and direction of motion for the 5.0 kg 
+    mass?</p>
+</blockquote>
+<p><b>Solution:</b></p>
+<ol>
+  <li><b>Plan-it:</b> Initially, the 8.0 kg mass (mass 1) moves to the right and 
+    the 5.0 kg mass (mass 2) is at rest. Thus, the total momentum is in the x-direction 
+    (to the right). After the collision, mass 1 travels at an angle of 27&deg; 
+    to its original direction of motion - it now has momentum in the y-direction 
+    and the x-direction. For momentum to be conserved, mass 2 must have momentum 
+    in the x and y directions. <br>
+    <img src="fig01a.png" width="500" height="200" vspace="10" hspace="0"> <br>
+    <br>
+  </li>
+  <li><b>Set-it-up:</b> Motion to the right is positive. Following convention, 
+    angles are measured counterclockwise, from the horizontal. Our unknown information 
+    is the final velocity of mass 2 and its direction of motion, <font face="Symbol">a</font>. 
+    Furthermore, since this is a 2D problem, we should include the x and y components 
+    of the velocities:<br>
+    <img src="eqn6.gif" width="328" height="210" vspace="10" hspace="40"><br>
+    We will use the Law of Conservation of Momentum to solve this question. Since 
+    momentum is conserved in both the x and y directions, we can set up two sets 
+    of equations, one to solve for v<sub>2fx</sub> and v<sub>2fy</sub>:<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Conservation of momentum in the x-direction:</b></span><br>
+          <img src="eqn2.gif" vspace="10" hspace="20" width="357" height="165"></td>
+        <td><span class="general"><b>Conservation of momentum in the y-direction:</b></span><br>
+          <img src="eqn3.gif" width="306" height="165" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li><b>Solve-it:</b> Now we substitute known values into equations 1 and 2:<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Mass 2's final velocity in the x-direction:</b></span><br>
+          <img src="eqn4.gif" vspace="10" hspace="20" width="401" height="146"></td>
+        <td><span class="general"><b>Mass 2's final velocity in the y-direction:</b></span><br>
+          <img src="eqn5.gif" width="265" height="146" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+    Once we know the final velocity in the x and y directions, we can easily determine 
+    the final velocity and direction of motion for mass 2. Remember, do not round 
+    off during your calculations - only at the end.<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Mass 2's final velocity:</b></span><br>
+          <img src="eqn7.gif" vspace="10" hspace="20" width="240" height="117"></td>
+        <td><span class="general"><b>Direction of motion:</b></span><br>
+          <img src="eqn8.gif" width="281" height="146" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li><b>Think-About-It:</b> Our answer seems to make sense - we know that mass 
+    2 has to move to the right and down in order to conserve momentum. Furthermore, 
+    this answer can be verified with the applet (check it yourself!). </li>
+</ol>
+<p>Now it's your turn! Solve each question using the four-step method. Use the 
+  applet to help visualise the collisions and also to check your answers. Remember 
+  that to set the scatter angle, you must actually adjust the impact parameter 
+  (while viewing the data box, adjust the impact parameter until the scatter angle 
+  is correct).</p>
+<p>&nbsp;</p>
+<p><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"> <a name="5"></a>Summary</p>
+<p>In this lesson you looked at collision that occur in two-dimensions. You saw 
+  that the total momentum of a system is conserved during a collision. Moreover, 
+  the total momentum in the x-direction and in the y-direction is also conserved 
+  during a collision. The key points you looked at are:</p>
+<ul>
+  <li>Momentum is a vector and can be resolved into components</li>
+  <li>During a collision, the total momentum for the components is conserved:<br>
+    <img src="eqn10.gif" width="417" height="26" vspace="10" hspace="40"><br>
+    <br>
+  </li>
+</ul>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

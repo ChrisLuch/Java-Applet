@@ -1,0 +1,646 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Line Charge Field
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Electric Field of a Line Charge
+    </div>
+    <div class="sectionheading">
+      The applet simulates the electric field of one or several
+      electric point charges arranged along a straight line or the
+      field of an infinitely extended straight line charge.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be somewhat familiar with the concept of
+      electric charge and Coulomb's law as well as with the field
+      concept. They should have a basic understanding of vectors
+      including scalar components of vectors.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will have reviewed the definition of the electric
+      field and will be able to calculate the electric field vector
+      at a given field point due to a point charge. They will be
+      able to apply the superposition principle to calculate the
+      electric field due to several point charges, and they will be
+      able to describe and calculate the electric field due to an
+      infinite line charge.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Laws">Laws and Definitions</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Coulomb">Coulomb's Law of
+      Electrostatics</a><br>
+       <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Field">Definition of the Electric Field and
+      Electric Field Lines</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Segment">Electric Field Due To A Line Charge
+      Segment</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#SeveralSegments">Electric Field Due To Several
+      Line Charge Segments</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Wire">Electric Field Due To An Infinite Line
+      Charge</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Laws"></a>
+    </p>
+    <div class="sectionheading">
+      Laws and Definitions
+    </div><br>
+     
+    <ul>
+      <li>
+        <a name="Coulomb"><b>Coulomb's Law of
+        Electrostatics</b></a> 
+        <blockquote>
+          Any two particles carrying electric charges
+          <i>q<sub>1</sub></i> and <i>q<sub>2</sub></i> exert
+          electrostatic forces on each other. If the two charges
+          have the same sign, the particles exert repulsive forces
+          on each other. If they have opposite sign, the forces are
+          attractive. The force exerted on Particle 1 has the same
+          magnitude <i>F</i> as the force exerted on Particle 2,
+          equal to 
+          <p>
+            <img src="small.gif" alt="space" height="1" width=
+            "160"><i>F</i> =
+            <i>k</i>|<i>q<sub>1</sub></i>||<i>q<sub>2</sub></i>| /
+            <i>d</i><sup>2</sup><img src="small.gif" height="1"
+            width="40"> (1)
+          </p>
+          <p>
+            where <i>d</i> is the separation between the two
+            particles and <i>k</i> is a universal constant whose
+            value is
+          </p>
+          <p>
+            <img src="small.gif" alt="space" height="1" width=
+            "130"><i>k</i> = 8.988&times;10<sup>9</sup> N
+            m<sup>2</sup> C<sup>-2</sup>. <img src="small.gif"
+               alt="space" height="1" width="40"> (2)
+          </p>
+          <p>
+            One can use a vector equation to express both the
+            magnitude and the direction of the Coulomb law force.
+            Let <img src="d.gif" alt="vector d" align="bottom"> be
+            the displacement from Particle 1 to Particle 2, and let
+            <img src="F.gif" alt="vector F" align=
+            "bottom"><sub>12</sub> be the Coulomb force exerted by
+            Particle 1 on Particle 2. Then
+          </p>
+          <p>
+            <img src="small.gif" alt="space" height="1" width=
+            "120"><img src="F.gif" alt="vector F" align=
+            "bottom"><sub>12</sub> = <i>k</i>
+            <i>q<sub>1</sub>q<sub>2</sub></i> <img src="d.gif"
+               alt="vector d" align="bottom"> /
+               <i>d</i><sup>3</sup>.<img src="small.gif" alt=
+               "space" height="1" width="40">(3)
+          </p>
+          <p>
+            By Newton's third law, the force <img src="F.gif"
+               alt="vector F" align="bottom"><sub>21</sub> exerted
+               by Particle 2 on Particle 1 is the negative of
+               <img src="F.gif" alt="vector F" align=
+               "bottom"><sub>12</sub>,
+          </p>
+          <p>
+            <img src="small.gif" alt="space" height="1" width=
+            "150"><img src="F.gif" alt="vector F" align=
+            "bottom"><sub>21</sub> = - <img src="F.gif" alt=
+            "vector F" align="bottom"><sub>12</sub>.<img src=
+            "small.gif" alt="space" height="1" width="40">(4)
+          </p>
+          <p>
+            <u>Comment on Equ.(3)</u>. Equ.(3) implies that the
+            force exerted by Particle 1 on Particle 2 is in the
+            direction of the displacement <img src="d.gif" alt=
+            "vector d" align="bottom"> from Particle 1 to Particle
+            2 if both <i>q<sub>1</sub></i> and <i>q<sub>2</sub></i>
+            have the same sign, i.e., if their product is positive.
+            That means the force is repulsive in this case, which
+            is correct. If one of the charges is negative, the
+            force reverses sign and is attractive, which is correct
+            also.
+          </p>
+          <p>
+            The magnitude of the force <img src="F.gif" alt=
+            "vector F" align="bottom"><sub>12</sub> is equal to
+            Expression (1) because the magnitude of the vector
+            <img src="d.gif" alt="vector d" align="bottom"> in the
+            numerator of Equ.(3) is equal to <i>d</i> which can be
+            canceled against the <i>d</i><sup>3</sup> in the
+            denominator to give an overall
+            1/<i>d</i><sup>2</sup>-dependence of the magnitude of
+            the force as in Equ.(1).
+          </p>
+        </blockquote>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back To Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a name="Field"><b>Definition of Electric Field and
+          Electric Field Lines</b></a>
+        </p>
+        <blockquote>
+          If <img src="F.gif" alt="vector F" align="bottom"> is the
+          electric force exerted on a test particle of charge
+          <i>q</i> at some point in space, then the ratio 
+          <p>
+            <img src="small.gif" alt="space" height="1" width=
+            "180"><img src="E.gif" alt="vector E" align="bottom"> =
+            <img src="F.gif" alt="vector F" align="bottom"> /
+            <i>q</i> <img src="small.gif" height="1" width="40">
+            (5)
+          </p>
+          <p>
+            is called the <i>electric field</i> at the given point.
+          </p>
+        </blockquote>
+        <p>
+          <u>Comment 1</u>. Since the force <img src="F.gif"
+             alt="vector F" align="bottom"> is proportional to the
+             charge <i>q</i>, the electric field <img src="E.gif"
+             alt="vector E" align="bottom"> is independent of
+             <i>q</i> and characterizes an "electric intensity" at
+             the given point in space that is present without the
+             test particle and does not depend on any properties of
+             the test particle.
+        </p>
+        <p>
+          <u>Comment 2</u>. The SI-unit of the electric field is N/C.
+          One can show that 1 N/C = 1 V/m where "V" stands for "volt",
+          the SI-unit of electric potential.
+        </p>
+        <p>
+          <u>Comment 3</u>. The electric field is defined at all
+          points in space. It is therefore not a single vector, but
+          a "vector-valued function defined on space". This simply
+          means that to describe the electric field one must
+          specify the vectors <img src="E.gif" alt="vector E"
+             align="bottom"> at all points in space.
+        </p>
+        <p>
+          <u>Comment 4</u>. An <i>electric field line</i> is a line
+          (not a straight line in general) that indicates the
+          direction of the electric field vectors at points along
+          the line.
+        </p>
+        <blockquote>
+          The electric field vector at a given point along an
+          <i>electric field line</i> is tangential to the line at
+          that point.
+        </blockquote>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0"></a>
+    </p>
+    <p>
+      <a name="Segment"></a>
+    </p>
+    <div class="sectionheading">
+      Electric Field Due To A Line Charge Segment
+    </div>
+  <p>
+    <b>Preliminary Remark</b>. The applet displays everything in only
+    two dimensions.  These are represented by an <i>x</i> and a
+    <i>y</i> axis.  The charge-carrying wire is laid out along the
+    <i>x</i>-axis and the field points at which the electric field
+    vectors are simulated lie in the <i>x</i>,<i>y</i> plane, as do
+    the field vectors themselves.  Therefore the <i>z</i>-coordinate
+    of a field point and the <i>z</i>-component of any electric field
+    vector are zero always and are simply omitted, for brevity's sake.
+  </p>
+  <p>
+    Restricting everything to the <i>x</i>,<i>y</i> plane involves no
+    loss in generality because of the rotational symmetry of the
+    electric field around the wire.
+  </p>
+    <p>
+      <b>Task 1</b>. Under "Laws and Definitions" above, read the
+      sections on
+    </p>
+    <ul>
+      <li>
+        "Coulomb's Law of Electrostatics",
+      </li>
+      <li>
+        "Definition of Electric Field and Electric Field Lines".
+      </li>
+    </ul>
+    <p>
+      <b>Exercise 1</b>. Derive an expression for the electric
+      field vector <img src="E.gif" alt="vector E" align="bottom">
+      and the magnitude <i>E</i> of this vector at a field point P
+      due to a point charge <i>Q</i>. Assume that the displacement
+      vector from the point charge to the field point is
+         <img src="d.gif" alt="vector d" align="bottom">. The
+         distance <i>d</i> between these two points is equal to the
+         magnitude of the vector <img src="d.gif" alt="vector d"
+         align="bottom">.
+    </p>
+    <p>
+      What is the direction of the electric field vector at P for
+      different signs of the source charge <i>Q</i>?
+    </p>
+    <p>
+      <b>Answer</b>. Expression (3) for the Coulomb force needs to be
+      combined with Definition (5) of the electric field vector.  Let
+      Particle 1 carry the source charge and let Particle 2 be the
+      test particle. Thus, <i>q<sub>1</sub></i> = <i>Q</i> and
+      <i>q<sub>2</sub></i> = <i>q</i> and the force <img src= "F.gif"
+      alt="vector F" align="bottom"> exerted by the source charge on
+      the test particle is equal to
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "160"><img src="F.gif" alt="vector F" align="bottom"> =
+      <i>k</i> <i>Qq</i> <img src="d.gif" alt="vector d" align=
+      "bottom"> / <i>d</i><sup>3</sup>.<img src="small.gif" alt=
+      "space" height="1" width="40">(6)
+    </p>
+    <p>
+      Substituting this expression for <img src="F.gif" alt=
+      "vector F" align="bottom"> into Equ.(5) gives for the
+      electric field vector at point P
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "160"><img src="E.gif" alt="vector E" align="bottom"> =
+      <i>k</i> <i>Q</i> <img src="d.gif" alt="vector d" align=
+      "bottom"> / <i>d</i><sup>3</sup>.<img src="small.gif" alt=
+      "space" height="1" width="40">(7)
+    </p>
+    <p>
+      Taking magnitudes of both sides of Equ.(7) and canceling a
+      factor of <i>d</i> on the right-hand side gives for the
+      magnitude of the electric field at P
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "170"><i>E</i> = <i>k</i> |<i>Q</i>| /
+      <i>d</i><sup>2</sup>.<img src="small.gif" alt="space"
+         height="1" width="40">(8)
+    </p>
+    <p>
+      The direction of the electric field vector <img src="E.gif"
+      alt="vector E" align="bottom"> is the same as that of
+      <img src="d.gif" alt="vector d" align="bottom"> if <i>Q</i>
+      is positive, i.e., away from the source charge. For negative
+      <i>Q</i> the direction is the opposite, i.e., towards the
+      source charge.
+    </p>
+    <p>
+      <b>Question 1</b>. The applet lets you select short segments
+      of a uniformly charged straight wire. The applet treats each
+      such segment as a point charge located at the center of the
+      segment and evaluates the electric field due to the segment
+      according to Equ.(7).
+    </p>
+    <p>
+      The length <i>s</i> of each segment is 0.20 m. Suppose the
+      linear charge density <font face="symbol">l</font> along the
+      wire, i.e., the charge per unit length, is 5.00 C/m. What is
+      the charge <i>Q</i> on one wire segment?
+    </p>
+    <p>
+      <b>Answer</b>. The linear charge density <font face=
+      "symbol">l</font> is defined as
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "200"><font face="symbol">l</font> = <i>Q</i> / <i>s</i>
+      .<img src="small.gif" alt="space" height="1" width="40">(9)
+    </p>
+    <p>
+      Therefore,
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "140"><i>Q</i> = <font face="symbol">l</font> <i>s</i> =
+      5.00&times;0.20 = 1.00 C.<img src="small.gif" alt="space"
+      height="1" width="40">(10)
+    </p>
+    <p>
+      There is 1.00 C of charge on each 0.20-m wire segment.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Reset <img src="Reset.gif" alt="Reset"
+      align="top"> the applet.
+    </p>
+    <p>
+      Select the Segments button, and select Segment 0, which is the
+      segment immediately to the right of the origin. Its center is at
+      <i>x</i> = 0.10 m. Use the Grid to help you do this, and verify
+      from the Data box that Segment 0 is selected.
+    </p>
+    <p>
+      Make sure the line charge density <font face=
+      "symbol">l</font> is set to 5.00 C/m.
+    </p>
+    <p>
+      Take the field point P to be at (<i>x</i>,<i>y</i>) = (1.00,
+      0.50) m. The Data box will show the coordinates of P. Set the
+      scale slider to 500, deselect the Resultant button, and
+      select the Vectors button instead.
+    </p>
+    <p>
+      You should see the configuration shown in Figure 1 below,
+      with a red arrow representing the electric field vector at
+      the given field point due to Segment 0.
+    </p>
+    <p align="center">
+      <img src="FieldVector.gif" alt=
+      "Field Vector Due To One Segment">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      Use Expression (7) to calculate the electric field vector
+      <img src="E.gif" alt="vector E" align="bottom"><sub>0</sub>
+      at P due to Segment 0. Give your answer in terms of the
+      <i>x</i> and <i>y</i> components of the vector.
+    </p>
+    <p>
+      <b>Answer</b>. Let us first calculate the displacement
+      <img src="d.gif" alt="vector d" align="bottom"> and the
+      distance <i>d</i> from the center of the segment to P.
+    </p>
+    <p>
+      Since the center of Segment 0 is at (<i>x</i>,<i>y</i>) =
+      (0.10, 0) m and point P is at (<i>x</i>,<i>y</i>,<i>z</i>) =
+      (1.00, 0.50) m,
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "120"><img src="d.gif" alt="vector d" align="bottom"> = (1.00
+      - 0.10, 0.50 - 0) = (0.90, 0.50) m<img src="small.gif"
+         alt="space" height="1" width="40">(11)
+    </p>and 
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "140"><i>d</i> = <img src="root16.gif" alt="Square Root"
+      align="bottom">[0.90<sup>2</sup> + 0.50<sup>2</sup>] = 1.0296
+      m.<img src="small.gif" alt="space" height="1" width="40">(12)
+    </p>
+    <p>
+      We are now ready to substitute the pieces into Equ.(7). Thus,
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><img src="E.gif" alt="vector E" align=
+      "bottom"><sub>0</sub> =
+      8.988&times;10<sup>9</sup>&times;(1.00/1.0296<sup>3</sup>)
+      (0.90, 0.50) = (7.41, 4.12)&times;10<sup>9</sup>
+         N/C.<img src="small.gif" alt="space" height="1" width=
+         "40">(13)
+    </p>
+    <p>
+      This is the electric field value shown in the Data box in
+      Figure 2 below.
+    </p>
+    <p align="center">
+      <img src="DataBoxOneSegment.gif" alt=
+      "Field Vector Due To One Segment">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, select Segment
+      7 at <i>x</i> = 1.50 m. Calculate the electric field
+         <img src="E.gif" alt="vector E" align=
+         "bottom"><sub>7</sub> due to this segment at the same
+         field point P as in Exercise 2. Check your answer in the
+         Data box.
+    </p>
+    <p>
+      <b>Exercise 4</b>. Continuing from Exercise 3, make a sketch
+      in your Notebook showing the wire with Segments 0 and 7, the
+      field point P, and the contributions to the total field
+      vector at P due to the two segments. Then use the applet to
+      check your sketch. Make sure the Resultant button is
+      deselected, but the Vector button is selected.
+    </p>
+    <p>
+      <b>Exercise 5</b>. Continuing from Exercise 4, reverse the
+      sign of the line charge density by setting <font face=
+      "symbol">l</font> to -5.00 C/m. Draw the new electric field
+      vectors due to Segments 0 and 7 in your Notebook. Explain any
+      differences compared to the case of positive charge density.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt=
+      "Back To Top" border="0"></a>
+    </p><a name="SeveralSegments"></a> 
+    <div class="sectionheading">
+      Electric Field Due To Several Line Charge Segments
+    </div>
+    <p>
+      <b>Exercise 1</b>. Reset the applet. As in Exercise 2 of the
+      preceding section, set the field point P at
+      (<i>x</i>,<i>y</i>) = (1.00, 0.50) m. Select Segments 0 and 7
+      at <i>x</i> = 0.10 m and <i>x</i> = 1.50 m, respectively.
+      Make sure the line charge density is set to <font face=
+      "symbol">l</font> = 5.00 C/m.
+    </p>
+    <p>
+      Use the superposition principle and the results of the
+      preceding section to calculate the electric field vector
+      <img src="E.gif" alt="vector E" align="bottom"> at P due to
+      the two charge segments.
+    </p>
+    <p>
+      <b>Hint</b>. The Data box displays the partial electric
+      field vectors <img src="E.gif" alt="vector E" align=
+      "bottom"><sub>0</sub> and <img src="E.gif" alt="vector E"
+      align="bottom"><sub>7</sub> due to Segments 0 and 7. Add the
+      <i>x</i>-components of the two vectors and the
+      <i>y</i>-components to obtain the <i>x</i> and <i>y</i>
+      components of the resultant field vector. The components of
+      the resultant vector are also shown in the Data box. To display
+      the vector graphically (in green), select the Resultant
+      button.
+    </p>
+    <p>
+      Do the required addition in your Notebook.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, add two more
+      segments in addition to Segment 0 and 7. Choose one of the new
+      segments as far to the right of P as Segment 0 is to the left
+      and the other one as far to the left of P as Segment 7 is to the
+      right. What are the label numbers of the new segments?
+    </p>
+    <p>
+      Deselect the Resultant button and select the Vectors button
+      again, to display the four electric field vectors at P that
+      are due to the four selected segments. The paired segments
+      should produce field vectors that are mirror images of each
+      other about a vertical line through P. In your Notebook,
+      sketch the four segments and point P with the four
+      corresponding field vectors. Tentatively, draw in the
+      resultant of the four vectors as well.
+    </p>
+    <p>
+      Calculate the resultant vector of the four partial vectors,
+      i.e., calculate the total electric field vector at P due to
+      the four chosen charge segments. Use the symmetry of the
+      arrangement to simplify the calculation.
+    </p>
+    <p>
+      Compare your result with that shown in the Data box. Select
+      the Resultant button to display the total electric field
+      vector at P in green. Does its direction agree with what you
+      expected? Discuss why the direction should be as shown in the
+      applet, paying attention to the symmetry of the arrangement.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0"></a>
+    </p><a name="Wire"></a> 
+    <div class="sectionheading">
+      Electric Field Due To An Infinite Line Charge
+    </div>
+    <p>
+      <b>Exercise 1</b>. Reset the applet. As in the preceding
+      sections, set the field point P at (<i>x</i>,<i>y</i>) =
+      (1.00, 0.50) m. Select the Segments button, and select all
+      segments available in the window. Record the total electric
+      field vector due to all selected segments as shown in the
+      Data box.
+    </p>
+    <p>
+      Then deselect the Segments button. This selects the entire
+      infinite straight wire. Record the total electric field vector
+      at P due to the charge on the infinite wire. In terms of the
+      superposition principle combined with relevant aspects of
+      Equ.(7), explain the differences in the <i>x</i> and <i>y</i>
+      components of the two total field vectors that you have
+      recorded.
+    </p>
+    <p>
+      <b>Exercise 2</b>. For an infinitely long straight
+      current-carrying wire, an exact integration (summation of the
+      infinitesimal electric field vectors due to the infinitesimal
+      line charge segments) gives the following simple expression for
+      the total electric field vector at a field point a distance
+      <i>y</i> from the wire:
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "200"><img src="E.gif" alt="vector E" align="bottom"> =
+      <i>k</i> (0, 2<font face=
+         "symbol">l</font> / <i>y</i>).<img src="small.gif" alt=
+         "space" height="1" width="40">(14)
+    </p>
+    <p>
+      Use this equation to calculate <img src="E.gif" alt=
+      "vector E" align="bottom"> in the present case. The result
+      should agree with that shown in the Data box.
+    </p>
+    <p>
+      Compare the denominators in Eqs.(8) and (14). There are two
+      differences. What are they?  Check that the right-hand side of
+      Equ.(14) has the dimensions of an electric field, i.e., N/C.
+    </p>
+    <p>
+      <u>Comment</u>. The denominator in Equ.(14) has the distance
+      <i>y</i> of the field point P from the wire to the
+      <b>first</b> power. This is the result of the integration
+      over the infinite wire.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, double and
+      triple the distance <i>y</i> of point P from the wire. Record
+      the corresponding values of the <i>y</i>-component of the
+      field vector, which is the only non-zero component. Are the
+      values consistent with the <i>y</i>-dependence as given in
+      Equ.(14)?
+    </p>
+    <p>
+      <b>Exercise 4</b>. Continuing from Exercise 3, move the field
+      point P parallel to the wire without changing the distance
+      <i>y</i> of the field point from the wire. Do this twice: (a)
+      when the Segments button is deselected so that the field vector
+      shown is that due to the infinite wire and (b) when the Segments
+      button and all wire segments in the window are selected.
+    </p>
+    <p>
+      In case (a), when looking at the field due to the infinite wire,
+      display the resultant vector while moving point P.  Adjust the
+      scale factor so that the entire vector fits into the window. In
+      case (b), when looking at the field due to the portion of the
+      wire that fits into the window, hide the resultant vector and
+      display the vectors due to the individual segments while moving
+      point P. Again, choose a suitable scale factor. Repeat this with
+      the resultant vector displayed, but reduce the scale factor
+      again so that all of the resultant is visible.
+    </p>
+    <p>
+      Observe the dependence of the total field on the position of
+      point P in the two cases. Describe what differences you
+      observe, and explain your observations in terms of Equ.(7)
+      and the principle of superposition.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

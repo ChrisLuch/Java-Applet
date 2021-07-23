@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      ShowMe - Circular Motion
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/showmestyle.css">
+  </head>
+  <body>
+    <div class="title">
+      ShowMe - Circular Motion
+    </div>
+    <div class="sectionheading">
+      The applet simulates the velocity, acceleration, and the
+      radial (centripetal) and tangential components of the
+      acceleration of a mass point performing circular motion.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      This page is designed to get you started using the applet.
+      The applet should be open. The step-by-step instructions on
+      this page are to be done in the applet. You may need to
+      toggle back and forth between instructions and applet if your
+      screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Continuous">Continuous Mode</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Position">1. Motion and Position Vector</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#VelocityPosition">2. Velocity vs. Position</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#AccelerationVelocity">3. Acceleration vs.
+      Velocity</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Force">4. Net Force in Circular Motion</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Incremental">Incremental Mode</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Velocity">1. Velocity As Time-Rate-Of-Change
+      Of Position</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "40"><a href="#Acceleration">2. Acceleration As
+      Time-Rate-Of-Change Of Velocity</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Historical">Historical Note</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Continuous"></a>
+    </p>
+    <div class="sectionheading">
+      Continuous Mode
+    </div><img src="small.gif" alt="space" height="5" width="1">
+    <a name="Position"></a> 
+    <div class="sectionheading">
+      1. Motion and Position Vector
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+      align="top"> the applet, and make sure it is set to the
+      Continuous Mode by selecting the appropriate radio button
+      <img src="CMMode.gif" alt="Mode" align="top">.
+    </p>
+    <p>
+      The circular path of the mass point will be displayed in
+      blue, with angular positions in rad marked at the quarter
+      points. The mass point is shown as a black dot and is located
+      at the point marked "0, 2<font face="symbol">p</font>". Click
+      on the mass point, and drag it along the circle to set the
+      starting position of the motion.
+    </p>
+    <p>
+      Select the Vector Panel button <img src="CMVectors.gif"
+         alt="Vector Panel" align="top">, and select "position" on
+         that panel. The Vector Panel is illustrated in Figure 1
+         below, with "position" and three other items selected. For
+         the time being, select only "position".
+    </p>
+    <p align="center">
+      <img src="CMVectorPanel.gif" alt="Vector Panel">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>This will cause the position vector of the mass point to be
+    drawn in cyan. The origin relative to which the position vector
+    is taken is the center of the circle. Depending on where you
+    choose the mass point's initial position, you should see
+    something like the image in Figure 2 below. <br>
+    <br>
+     
+    <p align="center">
+      <img src="CMInitial.gif" alt="Initial Position Vector">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      Select the Data button <img src="Data.gif" alt="Data"
+         align="top"> to display the Data box as shown in Figure 3
+         below. You may have to drag the box to where you want it
+         to be.
+    </p>
+    <p align="center">
+      <img src="CMInitialPosition.gif" alt="Initial Position Data">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      The value of the angle <font face="symbol">d</font> by which
+      the position vector is rotated at time <i>t</i> = 0 relative
+      to the horizontal axis (<i>x</i>-axis) is the first item in
+      the Data box.
+    </p>
+    <p>
+      In Figure 3 the <i>x</i>,<i>y</i> axes have been added for
+      clarity. They are not illustrated in the applet. Neither is
+      the angle <font face="symbol">q</font> which is the angle
+      between the position vector and the positive <i>x</i>-axis as
+      illustrated in Figure 3. The value of <font face=
+      "symbol">q</font>(<i>t</i>), which varies in time with the
+      position vector, is shown in the lower portion of the Data
+      box. Its initial value at time <i>t</i> = 0 is the angle
+      <font face="symbol">d</font> shown in the upper portion of
+      the Data box. In the case illustrated in Figure 3,
+         <font face="symbol">d</font> = 0.61 rad.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, make the
+      following settings:
+    </p>
+    <ul>
+      <li>
+        <i>r</i> = 0.20 m (this is the default value)
+      </li>
+      <li>
+        <font face="symbol">w</font>(0) = 1.50 rad/s
+      </li>
+      <li>
+        <i>v</i>(0) = 0.30 m/s (this slider will be set
+        automatically when you set the <font face=
+        "symbol">w</font>(0)-slider since <i>v</i> =
+        <i>r</i>&#215;<font face="symbol">w</font>; alternatively,
+        you could set the <i>v</i>-slider to 0.30 m/s, which would
+        automatically set the <font face=
+        "symbol">w</font>(0)-slider to 1.50 rad/s
+      </li>
+      <li>
+        <font face="symbol">a</font> = 0 and <i>dv</i>/<i>dt</i> =
+        0 (these are the default values)
+      </li>
+    </ul><br>
+    <br>
+     
+    <p>
+      Play <img src="Play.gif" alt="Play" align="top"> the motion.
+      Then Pause <img src="Pause.gif" alt="Pause" align="top"> it.
+    </p>
+    <p>
+      Display the Data box, and write down the values of <font
+         face="symbol">d</font>, <font face= "symbol">w</font>(0),
+         <i>t</i>, and <font face= "symbol">q</font>(<i>t</i>). You
+         should find that they satisfy the equation "<font
+         face="symbol">q</font>(<i>t</i>) = <font face=
+         "symbol">w</font>(0)&#215;<i>t</i> + <font face=
+         "symbol">d</font>" because the motion has constant angular
+         velocity. Check it.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, REWIND <img
+      src="Rewind.gif" alt="Rewind" align="top"> the applet. 
+    </p>
+	 <p>
+      Change the setting of one of the following sliders.  Then PLAY
+      the motion.  REWIND, change the setting of another slider, and
+      PLAY the motion again, etc.
+    </p>
+    <ul>
+      <li>
+        <img src="CMRadius.gif" alt="Radius Slider" align=
+        "top"><br>
+         Observe that, as you change the setting of the
+        <i>r</i>-slider, the setting of the <i>v</i>(0)-slider
+        changes so that the equation <i>v</i> =
+        <i>r</i>&#215;<font face="symbol">w</font> is
+        satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1"><br>
+         Check if the equation <nobr><font face=
+        "symbol">q</font>(<i>t</i>) = <font face=
+        "symbol">w</font>(0)&#215;<i>t</i> + <font face=
+        "symbol">d</font></nobr> is satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+      <li>
+        <img src="CMAngvel.gif" alt="Angular Velocity Slider"
+            align="top"><br>
+         Observe that, as you change the setting of the
+            <font face="symbol">w</font>(0)-slider, the setting of
+            the <i>v</i>(0)-slider changes so that the equation
+            <i>v</i> = <i>r</i>&#215;<font face="symbol">w</font>
+            is satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1"><br>
+         Check if the equation <nobr><font face=
+        "symbol">q</font>(<i>t</i>) = <font face=
+        "symbol">w</font>(0)&#215;<i>t</i> + <font face=
+        "symbol">d</font></nobr> is satisfied for different values
+        of <font face="symbol">w</font>(0).<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+      <li>
+        <img src="CMCircvel.gif" alt="Circle Velocity Slider"
+            align="top"><br>
+         Observe that, as you change the setting of the
+        <i>v</i>(0)-slider, the setting of the <font face=
+        "symbol">w</font>(0)-slider changes so that the equation
+        <i>v</i> = <i>r</i><img src="small.gif" alt=
+        "horizontal space" height="1" width=
+            "3">&#215;<font face="symbol">w</font> is
+            satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1"><br>
+         Check if the equation <nobr><font face=
+        "symbol">q</font>(<i>t</i>) = <font face=
+        "symbol">w</font>(0)&#215;<i>t</i> + <font face=
+        "symbol">d</font></nobr> is satisfied for different values
+        of <font face="symbol">w</font>(0) =
+        <i>v</i>(0)/<i>r</i>.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+      <li>
+        <img src="CMMass.gif" alt="Mass Slider" align="top"><br>
+         The size of the dot representing the mass point should
+        vary as you vary the mass value, but the motion should be
+        unchanged.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+      <li>
+        <img src="CMAngacc.gif" alt="Angular Acceleration Slider"
+        align="top"><br>
+         If <font face="symbol">a</font> &gt; 0, the angular
+        velocity <font face="symbol">w</font> and the circle
+        velocity <i>v</i> should be increasing; if
+              <nobr><font face="symbol">a</font> &lt; 0</nobr>,
+              they should be decreasing. An adjustment in
+              <font face="symbol">a</font> should automatically
+              result in an adjustment of <i>dv</i>/<i>dt</i> so
+              that <i>dv</i>/<i>dt</i> = <i>r</i><img src=
+              "small.gif" alt="horizontal space" height="1" width=
+              "3">&#215;<font face="symbol">a</font> is
+              satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1"><br>
+         The angle <font face="symbol">q</font>(<i>t</i>) should be
+        given by the equation <nobr><font face=
+        "symbol">q</font>(<i>t</i>) = (1/2)&#215;<font face=
+        "symbol">a</font>&#215;<i>t</i><sup>2</sup> +
+              <font face="symbol">w</font>(0)&#215;<i>t</i> +
+              <font face="symbol">d</font></nobr> because the
+              motion has constant angular acceleration. Check if
+              this equation is satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+      <li>
+        <img src="CMSpeedchange.gif" alt="dv/dt Slider" align=
+        "top"><br>
+         An adjustment in <i>dv</i>/<i>dt</i> should automatically
+        result in an adjustment of <font face="symbol">a</font> so
+        that <i>dv</i>/<i>dt</i> = <i>r</i><img src="small.gif"
+            alt="horizontal space" height="1" width=
+            "3">&#215;<font face="symbol">a</font> is
+            satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1"><br>
+         The angle <font face="symbol">q</font>(<i>t</i>) should be
+        given by the equation <nobr><font face=
+        "symbol">q</font>(<i>t</i>) = (1/2)&#215;<font face=
+        "symbol">a</font>&#215;<i>t</i><sup>2</sup> +
+              <font face="symbol">w</font>(0)&#215;<i>t</i> +
+              <font face="symbol">d</font></nobr>. Check if this
+              equation is satisfied.<br>
+        <img src="small.gif" alt="vertical space" height="5"
+            width="1">
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="VelocityPosition"></a>
+    </p>
+    <div class="sectionheading">
+      2. Velocity vs. Position
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+      align="top"> the applet, and make sure the Continuous mode is
+      selected.
+    </p>
+    <p>
+      Using the Vectors button to display the Vector Panel, select
+      "position" and "velocity at particle" to display the mass
+      point's position vector (in cyan) and the mass point's
+      velocity vector (in magenta) attached to the mass point. Then
+      close the Vector Panel. Set the Zoom slider to setting 12,
+      which will slightly increase the length of the arrow
+      representing the velocity but will leave the position vector
+      and the blue particle path unchanged.
+    </p>
+    <p>
+      Play the motion. Observe the direction of the velocity vector
+      in relation to that of the position vector and in relation to
+      the blue circular path.
+    </p>
+    <p>
+      <b>Answer</b>. For any motion of a mass point, the velocity
+      vector always points in the direction of motion of the tip of
+      the position vector. At a given instant, this direction is
+      that of the tangent to the path of the mass point. For a
+      circular path as in this applet, the tangential direction to
+      the path, and therefore the direction of the velocity vector,
+      is at all times at right angles to the position vector.
+    </p>
+    <p>
+      This is true even if the speed is not constant. To check
+      this, Rewind the applet, set the <i>dv</i>/<i>dt</i>-slider
+      to 0.10 m/s<sup>2</sup>, and Play the motion. You should be
+      able to observe that while the arrow representing the
+      velocity vector is getting longer it always remains
+      perpendicular to the position vector and tangential to the
+      mass point's circular path.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click Rewind,
+      set the <i>dv</i>/<i>dt</i>-slider back to 0, and in the
+      Vector Panel check "velocity at origin" in addition to the
+      other two vectors already checked in Exercise 1. This will
+      display a second copy of the velocity vector, this one with
+      its tail end at the origin. Hide the Vector Panel, and take
+      the Zoom slider to setting 12.
+    </p>
+    <p>
+      Play the motion, and describe what you observe. Make a
+      drawing showing the three vectors and the mass point's path
+      at two different instants of time.
+    </p>
+    <p>
+      <b>Answer</b>. A typical snapshot is shown in Figure 4 below.
+    </p>
+    <p align="center">
+      <img src="CMTwoVelocities.gif" alt="Two Velocities">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, hide the
+      velocity vector that is attached to the mass point (by
+      deselecting "velocity at particle" in the Vector Panel) so
+      that only the position vector and the velocity vector that is
+      attached to the origin remain displayed.
+    </p>
+    <p>
+      Click Rewind, and select the Velocity Trace button
+         <img src="VTrace.gif" alt="Velocity Trace" align="top">.
+         The trace of the tip of the velocity vector from the
+         previous motion will be displayed.
+    </p>
+    <p>
+      Play the motion again. The trace made by the tip of the
+      velocity vector will be redrawn and extended as the motion
+      continues. Make a drawing of the two vectors and their two
+      traces in your Notebook.
+    </p>
+    <p>
+      Exercise 1 of the following section, "Acceleration",
+      continues from here.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="AccelerationVelocity"></a>
+    </p>
+    <div class="sectionheading">
+      3. Acceleration vs. Velocity
+    </div>
+    <p>
+      <b>Exercise 1</b>. Preparing the applet:
+    </p>
+    <ul>
+      <li>
+        Continue from Exercise 4 of the preceding section if you
+        have made no setting changes to the applet in the meantime.
+        Hide the position vector by deselecting "position" in the
+        Vector Panel.
+      </li>
+      <li>
+        If you have made setting changes since working on Exercise
+        4, RESET <img src="Reset.gif" alt="Reset" align="top"> the
+        applet, display the velocity vector with tail end at the
+        origin, display the Velocity Trace, and set the Zoom slider
+        to 12. Make sure the applet is set to the Continuous mode.
+      </li>
+    </ul><br>
+    <br>
+     
+    <p>
+      Select "acceleration at velocity" in the Vector Panel to
+      display the acceleration vector with its tail end attached to
+      the tip of the velocity vector. Play the motion, and make
+      drawings of the configuration at two different instants of
+      time. Ignore the position path when making your drawing or
+      hide it by deselecting the Trace-P button. The important
+      thing to observe here is the relationship between the
+      velocity and acceleration vectors.
+    </p>
+    <p>
+      <b>Answer</b>. Figure 5 below illustrates what you might see
+      at some instant.
+    </p>
+    <p align="center">
+      <img src="CMVelocityAcceleration.gif" alt=
+      "Velocity and Acceleration">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, hide the
+      velocity-at-origin and acceleration-at-particle vectors and,
+      instead, display the position and velocity-at-particle
+      vectors. Hide the Velocity Trace and display the Position
+      Trace (mass point's path). Make a drawing of the
+      configuration of the position and velocity vectors, and
+      compare it to the drawings in Exercise 1.
+    </p>
+    <p>
+      <b>Answer</b>. The position-velocity configuration at the
+      instant of the velocity-acceleration configuration of Figure
+      5 is shown in Figure 6 below.
+    </p>
+    <p align="center">
+      <img src="CMPositionVelocity.gif" alt=
+      "Position and Velocity">
+    </p>
+    <p align="center">
+      <b>Figure 6</b>
+    </p>
+    <p>
+      Observe that the relationship between acceleration and
+      velocity shown in Figure 6 is analogous to that between
+      velocity and position in Figure 5. The acceleration-velocity
+      pair is rotated by 90<sup>o</sup> relative to the
+      velocity-position pair.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, delete the
+      velocity-at-particle vector and add the the
+      velocity-at-origin and acceleration-at-origin vectors.
+      Display both the Position Trace and the Velocity Trace. Make
+      a drawing of the configuration. Then Play the motion and
+      observe how the configuration of the three vectors changes
+      during the motion.
+    </p>
+    <p>
+      Figure 7 below shows the configuration of
+      position-velocity-acceleration vectors, all three attached to
+      the origin, at the moment illustrated in Figures 5 and 6.
+    </p>
+    <p align="center">
+      <img src="CMPosVelAcc.gif" alt=
+      "Position, Velocity, Acceleration">
+    </p>
+    <p align="center">
+      <b>Figure 7</b>
+    </p>
+    <p>
+      The velocity vector is 90<sup>o</sup> ahead of the position
+      vector and the acceleration vector, in turn, is
+      90<sup>O</sup> ahead of the velocity vector. This
+      configuration is maintained throughout the motion.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="Force"></a>
+    </p>
+    <div class="sectionheading">
+      4. Net Force In Circular Motion
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+      align="top"> the applet, and make sure it is set to the
+      Continuous Mode by selecting the appropriate radio button
+      <img src="CMMode.gif" alt="Mode" align="top">.
+    </p>
+    <p>
+      Display the net force acting on the mass point by selecting
+      "force" in the Vector Panel. The arrow representing the force
+      vector (in dark blue) will point from the mass point to the
+      center of the mass point's circular orbit.
+    </p>
+    <p>
+      Play the motion, and observe the force vector during the
+      motion. It should remain pointing towards the center of the
+      circle.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click Rewind,
+      and vary the mass setting. The length of the blue arrow
+      representing the net force should vary in proportion to the
+      mass.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Continuing from Exercise 2, click Rewind,
+      and vary the Zoom setting. The length of the arrow
+      representing the net force should vary with the square of the
+      Zoom setting.
+    </p>
+    <p>
+      <b>Exercise 4</b>. Continuing from Exercise 3, click Rewind,
+      and set the <i>dv</i>/<i>dt</i>-slider to 0.10
+      m/s<sup>2</sup>. The arrow representing the force vector
+      should now have both a tangential component pointing forward
+      and a radial component pointing towards the center of the
+      circle.
+    </p>
+    <p>
+      Display the radial and tangential components (in light blue)
+      of the net force by selecting "force components" in the
+      Vector Panel.
+    </p>
+    <p>
+      Play the motion and observe how the force components change
+      during the motion.
+    </p>
+    <p>
+      <b>Answer</b>. The tangential component of the net force
+      should stay the same in magnitude. Its magnitude is equal to
+      <i>m</i>|<i>dv</i>/<i>dt</i>|. The radial component should be
+      increasing in magnitude with the square of the speed of the
+      mass point. The magnitude of the radial component of the net
+      force is equal to <i>mv</i><sup>2</sup>/<i>r</i>.
+    </p>
+    <p>
+      <b>Exercise 5</b>. Display the "acceleration-at-particle"
+      vector. It will be covered by the net force vector, but the
+      arrow tip should be visible underneath the force vector. Play
+      the motion. You should be able to observe that the
+      acceleration and net force are pointing in the same direction
+      and are proportional to each other.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Incremental"></a>
+    </p>
+    <div class="sectionheading">
+      Incremental Mode
+    </div><img src="small.gif" alt="space" height="5" width="1">
+    <a name="Velocity"></a> 
+    <div class="sectionheading">
+      1. Velocity As Time-Rate-Of-Change Of Position
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+      align="top"> the applet, and make sure it is set to the
+      Incremental Mode by selecting the appropriate radio button.
+    </p>
+    <p>
+      Set the Time Step slider to 0.40 s, and display the position
+      and velocity-at-particle vectors. Also display the Data box
+      and move it to one side. Step through the motion until the
+      initial step time <i>t</i><sub>i</sub> = 6.80 s. The time
+      value is shown in the Data box. You should obtain a display
+      like that shown in Figure 8 below.
+    </p>
+    <p align="center">
+      <img src="CMIncrPosVel.gif" alt=
+      "Position and Velocity Steps">
+    </p>
+    <p align="center">
+      <b>Figure 8</b>
+    </p>
+    <p>
+      Observe that the change in position <font face=
+      "symbol">D</font><img src="r.gif" alt="vector r" align=
+      "bottom"> is intermediate in direction to the initial
+      velocity vector <img src="v.gif" alt="vector v" align=
+      "bottom"><sub>i</sub> and the final velocity vector
+         <img src="v.gif" alt="vector v" align=
+         "bottom"><sub>f</sub> for each time step. Check that the
+         <i>x</i>,<i>y</i> coordinates for the position and
+         velocity vectors given in the Data box look "reasonable".
+         The <i>x</i>,<i>y</i> axes are illustrated in Figure 3
+         above.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click Rewind
+      and reduce the time step to 0.20 s. Again step through the
+      motion. This time, the position change <font face=
+      "symbol">D</font><img src="r.gif" alt="vector r" align=
+      "bottom"> should be much closer in direction to the initial
+      and final velocity vectors at each step.
+    </p>
+    <p>
+      Repeat this for even smaller time steps.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Calculate <font face=
+      "symbol">D</font><img src="r.gif" alt="vector v" align=
+      "bottom">/<font face="symbol">D</font><i>t</i>, where
+      <font face="symbol">D</font><i>t</i> = <i>t</i><sub>2</sub> -
+      <i>t</i><sub>1</sub>, and compare the result to <img src=
+      "v.gif" alt="vector v" align="bottom"><sub>i</sub> for
+      different step sizes. Do the two values approach each other
+      as the step size is reduced?
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p><a name="Acceleration"></a> 
+    <div class="sectionheading">
+      2. Acceleration As Time-Rate-Of-Change Of Velocity
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+      align="top"> the applet, and make sure it is set to the
+      Incremental Mode by selecting the appropriate radio button.
+    </p>
+    <p>
+      Repeat Exercise 1 from the preceding section, but add two
+      more vectors. Thus, set the Time Step slider to 0.40 s, and
+      display the former position and velocity-at-particle vectors,
+      plus the additional velocity-at-origin and
+      acceleration-at-velocity vectors. Also display the Data box,
+      but move it out of the way so that you can just see the
+      initial and final times for a time step. Step through the
+      motion until <i>t</i><sub>i</sub> = 6.80 s.
+    </p>Make a drawing of the configuration at <i>t</i><sub>i</sub>
+    = 6.80 s. If you also display the Velocity Trace and have the
+    Zoom slider set to 12, you should be able to observe the
+    configuration shown in Figure 9 below. <br>
+    <br>
+     
+    <p align="center">
+      <img src="CMIncremental.gif" alt=
+      "Steps in Position and Velocity">
+    </p>
+    <p align="center">
+      <b>Figure 9</b>
+    </p>
+    <p>
+      Observe that the direction of the acceleration vector
+      <img src="a.gif" alt="vector a" align="bottom"><sub>i</sub>
+      at the beginning of the time step is somewhat similar, but
+      not really close, to that of the change in velocity
+      <font face="symbol">D</font><img src="v.gif" alt="vector v"
+      align="bottom"> during the time step. Also check that the
+      <i>x</i>,<i>y</i> coordinates for the velocity and
+      acceleration vectors given in the Data box look "reasonable".
+      The <i>x</i>,<i>y</i> axes are illustrated in Figure 3 above.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click Rewind
+      and reduce the time step to 0.20 s. Again step through the
+      motion. This time, the velocity change
+            <nobr><font face="symbol">D</font><img src="v.gif" alt=
+            "vector v" align="bottom"></nobr> should be much closer
+            in direction to the initial acceleration vector
+            <img src="a.gif" alt="vector a" align=
+            "bottom"><sub>i</sub> at each step.
+    </p>
+    <p>
+      Repeat this for even smaller time steps.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Calculate <font face=
+      "symbol">D</font><img src="v.gif" alt="vector v" align=
+      "bottom">/<font face="symbol">D</font><i>t</i>, where
+      <font face="symbol">D</font><i>t</i> = <i>t</i><sub>2</sub> -
+      <i>t</i><sub>1</sub>, and compare the result to <img src=
+      "a.gif" alt="vector a" align="bottom"><sub>i</sub> for
+      different step sizes. Do the two values approach each other
+      as the step size is reduced?
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Historical"></a>
+    </p>
+    <div class="sectionheading">
+      Historical Note
+    </div>
+    <p>
+      This section will take you through a demonstration indicating
+      that the laws of circular motion were known in China already
+      many centuries ago.
+    </p><b>Exercise 1</b>. RESET <img src="Reset.gif" alt="Reset"
+    align="top"> the applet, and make sure it is set to the
+    Continuous Mode by selecting the appropriate radio button. <br>
+    <br>
+     
+    <p>
+      Hide the Position Trace by deselecting the Trace-P button and
+      select the Trace-V button instead to display the Velocity
+      Trace. Set the Zoom slider to 12. At this point only the
+      black dot representing the mass point should be displayed in
+      the applet window.
+    </p>
+    <p>
+      Play the motion until the mass point has completed one
+      revolution and a complete circular velocity trace is drawn.
+      Then Pause the motion, and click Rewind.
+    </p>
+    <p>
+      Set the angular acceleration slider to the value
+         <font face="symbol">a</font> = -0.33 rad/s<sup>2</sup>,
+         and Play the motion.
+    </p>
+    <p>
+      The mass point will start moving counter-clockwise, but its
+      motion will be slowing down, come to a stop, reverse
+      direction, and speed up again. When the mass point has
+      reached its starting position, Pause the motion. The traces
+      on the screen should form the pattern shown in Figure 10
+      below.
+    </p>
+    <p align="center">
+      <img src="CMYinYang.gif" alt="Yin Yang">
+    </p>
+    <p align="center">
+      <b>Figure 10</b>
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, click Rewind.
+      Display the velocity-at-origin vector and Play the motion
+      again.
+    </p>
+    <p>
+      Explain why the velocity trace has an S-shape, and predict
+      how the shape will change when you repeat the motion with a
+      different value of the angular acceleration <font face=
+      "symbol">a</font>. Then test your prediction with the applet.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

@@ -1,0 +1,701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - Circuit Builder
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Circuit Builder
+    </div>
+    <div class="sectionheading">
+      The applet lets you build an electric circuit containing
+      batteries, resistors, light bulbs, switches, ammeters,
+      voltmeters, and calculates currents, potentials, and powers
+      dissipated in the circuit
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica"><map name="fpmap0">
+                <area href="#Selection" shape="rect" coords=
+                "38,2,62,24">
+                 
+                <area href="#Eraser" shape="rect" coords=
+                "38,26,62,49">
+                 
+                <area href="#Wire" shape="rect" coords=
+                "38,52,62,76">
+                 
+                <area href="#Resistor" shape="rect" coords=
+                "40,78,64,102">
+                 
+                <area href="#Battery" shape="rect" coords=
+                "40,104,64,127">
+                 
+                <area href="#Switch" shape="rect" coords=
+                "40,128,64,152">
+                 
+                <area href="#Bulb" shape="rect" coords=
+                "38,153,62,171">
+                 
+                <area href="#Ammeter" shape="rect" coords=
+                "38,172,62,193">
+                 
+                <area href="#Voltmeter" shape="rect" coords=
+                "38,194,62,214">
+                 
+                <area href="#Display" shape="rect" coords=
+                "38,215,62,237">
+                 
+                <area href="#Zoomin" shape="rect" coords=
+                "40,238,64,262">
+                 
+                <area href="#Zoomout" shape="rect" coords=
+                "40,266,64,290">
+                 
+                <area href="#ToolInfo" shape="rect" coords=
+                "14,371,38,395">
+              </map> <img border="0" src="CircuitBuilderHelp.gif"
+              alt="Circuit Builder Help" usemap="#fpmap0"></font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view its explanation</b>.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Selection"></a> 
+    <ol>
+       <div class="sectionheading"><li>
+              Selection Tool <img src="SelectionTool.gif" alt=
+              "Selection Tool" align="top">
+       </div>
+        <p>
+          The Selection Tool lets you select any of the circuit
+          elements. To use the tool, select it by clicking on it.
+          Then click on the circuit element to select that element.
+          An information panel below the circuit will display
+          information about the selected circuit element and will
+          allow you to change parameters defining the element.
+        </p>
+        <p>
+          E.g., if your applet has a circuit with a light bulb,
+          like the circuit shown in the snapshot at the top, and if
+          you click on the light bulb while the Selection Tool is
+          selected, the Tool Information (13) in the snapshot at
+          the top will be replaced by information about the light
+          bulb, as in the following snapshot.
+        </p>
+        <p align="center">
+          <img src="BulbInfoPanel.gif" alt="BulbInfoPanel">
+        </p>
+        <p>
+          The greyed-out values are values calculated by the applet
+          that cannot be changed directly. The items in the white
+          data fields, Nominal Voltage and Nominal Power in this
+          case, can be changed by entering new values in the data
+          fields (either by typing them or using the up/down arrows
+          next to the data field) and subsequently pressing the
+          Calculator button at the top of the information panel.
+          The button is inactive in the preceding snapshot. It
+          becomes active as soon as a new value is entered into one
+          of the active data fields.
+        </p>
+        <p>
+          For additional information on how to change the
+          parameters defining a circuit element, see Point 4,
+          Resistor Tool, below.
+        </p>
+        <p>
+          If you click on a grid point while the Selection Tool is
+          selected, the applet displays the electric potential at
+          this point. In the following snapshot, the top right
+          point in the circuit is selected in this manner. The
+          potential at the selected point can be set to any value
+          you like by by typing a new value in the Potential data
+          entry field or using the up/down arrows next to the data
+          field.
+        </p>
+        <p align="center">
+          <img src="Pointpotential.jpg" alt="Point Potential">
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+        <a name="Eraser"></a> 
+        <div class="sectionheading"><li>
+              Eraser Tool <img src="Eraser.gif" alt="Eraser"
+                  align="top">
+        </div>
+        <p>
+          When the Eraser Tool is selected, clicking on any circuit
+          element will delete that circuit element.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+        <a name="Wire"></a> 
+        <div class="sectionheading"><li>
+              Wire Tool <img src="Wire.gif" alt="Wire" align="top">
+        </div>
+        <p>
+          When the Wire Tool is selected, one can create a wire
+          segment by clicking with the mouse on a grid point,
+          dragging horizontally or vertically to another grid
+          point, and then releasing the mouse button. Wires cannot
+          be created in a diagonal direction.
+        </p>
+        <p>
+          Drawing a wire over an existing circuit element, e.g., a
+          light bulb, will replace that circuit element by a wire
+          segment.
+        </p>
+        <p>
+          Quite generally, if a Tool for drawing a circuit element
+          is selected, then clicking with the mouse between two
+          adjacent grid points will place the circuit element
+          between these grid points and replace whatever other
+          circuit element may already exist there.
+        </p>
+        <p>
+          The Wire Tool works differently from the other Circuit
+          Element Tools: placing a wire segment between two grid
+          points requires dragging the mouse from one point to the
+          other, not just clicking in the space between the grid
+          points as is required for the other circuit elements.
+        </p>
+        <p>
+          <b>Note</b>. The resistance of a wire segment between two
+          adjacent grid points is very, very small, but not zero.
+          This resistance cannot be varied by the user.
+        </p>
+        <p>
+          The Tool Information below the circuit area gives the
+          resistance of a wire segment between two neighboring grid
+          points. See the image at the top which shows the applet
+          with the Wire Tool selected.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Resistor"></a> 
+        <div class="sectionheading"><li>
+              Resistor Tool <img src="Resistor.gif" alt=
+              "Resistor Tool" align="top">
+        </div>
+        <p>
+          When the Resistor Tool is selected, one can place a
+          resistor between any two adjacent grid points by clicking
+          in the space between the grid points. The grid points
+          must be in a horizontal or vertical direction from each
+          other, not in a diagonal direction.
+        </p>
+        <p>
+          The resistance of the resistor to be placed in the
+          circuit can be set in the Resistor Tool Information panel
+          below the circuit area:
+        </p>
+        <p align="center">
+          <img src="ResistorToolInfo.jpg" alt=
+          "Resistor Tool info panel">
+        </p>
+        <p>
+          Set the resistance to the value you want by typing the
+          value in the data field or using the up/down scroll
+          arrows to the right of the data field. Then click at the
+          place in the circuit where you want the resistor to be.
+        </p>
+        <p>
+          To use the up/down scroll arrows, place the cursor in
+          front of the digit you want to change. Then use the
+          arrows.
+        </p>
+        <p>
+          To change the resistance of a resistor in the circuit,
+          there are two options:
+        </p>
+        <ul>
+          <li>
+            select the Resistor Tool <img src="Resistor.gif"
+                alt="Resistor" align="top">, set the resistance
+                value in the Resistor Tool information panel to the
+                value you want, and click on the existing resistor;
+                the existing resistor will be replaced with a
+                resistor that has the new resistance value;
+          </li>
+          <li>
+            select the Selection Tool <img src="SelectionTool.gif"
+            alt="Selection Tool" align="top">, then click on the
+            resistor whose resistance you want to change, type the
+            resistance value you want in the Resistance data field
+            in the Resistor information panel below the circuit
+            area, and finally click the calculator icon to
+            implement the new value and to recalculate the circuit.
+            The following snapshot illustrates the Resistor
+            Information panel. 
+            <p align="center">
+              <img src="Resistorpanel.jpg" alt="Resistor Panel">
+            </p>
+          </li>
+        </ul>
+        <p>
+          Distinguish between the Resistor Tool information panel
+          and the Resistor information panel. The preceding two
+          images illustrate the two panels. You get the former if
+          you select the Resistor Tool and the latter if you select
+          the Selection Tool and then select a resistor.
+        </p>
+        <p>
+          The steps described here to change a resistance apply
+          correspondingly to other circuit elements and will not be
+          repeated below when those elements are described.
+        </p>
+        <p>
+          For information on the values displayed in the Resistor
+          information panel, see Point 7, Light Bulb Tool, below
+          which displays the same kinds of values.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Battery"></a> 
+        <div class="sectionheading"><li>
+           Battery Tool <img src="Battery.gif" alt="Battery"
+              align="top">
+        </div>
+        <p>
+          When the Battery Tool is selected, one can place a
+          battery between any two horizontally or vertically
+          adjacent grid points by clicking in the space between the
+          grid points.
+        </p>
+        <p>
+          The Battery Tool information panel below the circuit area
+          has two data entry fields for setting the emf and
+          internal resistance of the battery. Set these to the
+          values you want. Then insert the battery in the circuit.
+        </p>
+        <p>
+          After a battery has been inserted into a circuit, you can
+          select it after clicking the Selection Tool. The Battery
+          information panel will be displayed at the bottom. This
+          panel also lets you change the internal resistance and
+          emf of the battery. You need to click the Calculator
+          button at the top of the panel to implement the values.
+        </p>
+        <p>
+          Changing the parameters of a battery already existing in
+          the circuit is accomplished like changing the resistance
+          of a resistor. See under Resistor Tool above.
+        </p>
+        <p>
+          Both the Battery Tool information panel and the Battery
+          information panel have a Switch Polarity button. Clicking
+          that will switch the battery's polarity. In the case of
+          the button on the Battery Tool information panel,
+          clicking this button will have an effect only after
+          inserting the next battery into the circuit. This is
+          consistent with the way all changed settings in a Tool
+          information panel are implemented.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Switch"></a> 
+        <div class="sectionheading"><li>
+              Switch Tool <img src="Switch.jpg" alt="Switch"
+                  align="top">
+        </div>
+        <p>
+          When the Switch Tool is selected, one can place either an
+          open or a closed switch into the circuit, depending on
+          whether the Open-Switch radio button in the Switch Tool
+          information panel is selected or not.
+        </p>
+        <p>
+          Just selecting or unselecting the Open-Switch radio
+          button in the Switch Tool information panel after a
+          switch has been placed in the circuit will not affect the
+          state of the switch. Only when a new switch is placed in
+          the circuit will the state of the radio button have an
+          effect.
+        </p>
+        <p>
+          To change the state of an existing switch, proceed in
+          analogy to changing the resistance of a Resistor. See
+          under Resistor Tool above.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Bulb"></a> 
+        <div class="sectionheading"><li>
+              Light Bulb Tool <img src="Bulb.jpg" alt="Bulb"
+                  align="top">
+        </div>
+        <p>
+          To insert a light bulb into the circuit, select the Light
+          Bulb Tool, set the nominal voltage and nominal power of
+          the light bulb (these are the values stamped on a bulb
+          when you buy one in the store) to the values you want,
+          and click between two horizontally or vertically adjacent
+          grid points.
+        </p>
+        <p>
+          The following snapshot shows the Light Bulb Tool panel.
+        </p>
+        <p align="center">
+          <img src="BulbToolPanel.gif" alt="Bulb Tool Panel">
+        </p>
+        <p>
+          If some circuit parameters get changed, e.g., the emf of
+          a battery, so that a light bulb burns out (bulb's
+          interior shown black), the light bulb can be replaced
+          with a new one. First, however, the problem must be fixed
+          that caused the bulb to burn out. E.g., the battery must
+          be replaced with another one with a smaller emf. Once
+          that is done, select the Light Bulb Tool and click on the
+          Change-Burnt-Out-Bulbs button in the Tool panel. A new
+          bulb will be inserted into the circuit, with nominal
+          voltage and power as specified in the Light Bulb Tool
+          panel.
+        </p>
+        <p>
+          To replace an existing bulb in the circuit with another
+          one with different design voltage or power, proceed as
+          replacing a resistor. See Point 4, Resistor Tool, above.
+        </p>
+        <p>
+          If you select a bulb in a circuit, by clicking on it
+          after having selected the Selection Tool, the Light Bulb
+          information panel below the circuit area will give you
+          information about the bulb. This panel is illustrated in
+          the following snapshot.
+        </p>
+        <p align="center">
+          <img src="BulbInfoPanel.gif" alt="Bulb Info Panel">
+        </p>
+        <p>
+          In this case, the panel lists six values. Four of them
+          are greyed out and cannot be directly changed. They are
+          calculated by the applet. However, the two values in the
+          white data fields can be changed. (See Point 4, Resistor,
+          for details.)
+        </p>
+        <p>
+          The values listed have the following interpretation.
+        </p>
+        <ul>
+          <li>
+            <u>Resistance</u>. Resistance of the bulb.
+          </li>
+          <li>
+            <u>Current</u>. Current in the bulb.
+          </li>
+          <li>
+            <u>Voltage Across Bulb</u>. Potential difference
+            between the two terminals of the bulb.
+          </li>
+          <li>
+            <u>Power</u>. Power dissipated in the bulb.
+          </li>
+          <li>
+            <u>Nominal Power</u>. Power rating stamped on the bulb.
+            If the bulb is operated at the nominal voltage, the
+            nominal power will be the power dissipated in the bulb.
+          </li>
+          <li>
+            <u>Nominal Voltage</u>. Voltage rating stamped on the
+            bulb.
+          </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Ammeter"></a> 
+        <div class="sectionheading"><li>
+              Ammeter Tool <img src="Ammeter.jpg" alt="Ammeter"
+            align="top">
+        </div>
+        <p>
+          To insert an ammeter into the circuit, select the Ammeter
+          Tool, set the internal resistance of the ammeter to the
+          value you want, and click between two horizontally or
+          vertically adjacent grid points.
+        </p>
+        <p>
+          To change the internal resistance of the ammeter, proceed
+          as for changing the resistance of a resistor. See
+          Resistor Tool above.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+       </li>
+
+	<a name="Voltmeter"></a> 
+        <div class="sectionheading"><li>
+              Voltmeter Tool <img src="Voltmeter.jpg" alt=
+              "Voltmeter" align="top">
+        </div>
+        <p>
+          To insert a voltmeter into the circuit, select the
+          Voltmeter Tool, set the internal resistance of the
+          voltmeter to the value you want, and click between two
+          horizontally or vertically adjacent grid points.
+        </p>
+        <p>
+          To change the internal resistance of the voltmeter,
+          proceed as for changing the resistance of a resistor. See
+          Resistor Tool above.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Display"></a> 
+        <div class="sectionheading"><li>
+              Display Tool <img src="Display.jpg" alt="Display"
+              align="top">
+        </div>
+        <p>
+          Upon selecting the Display Tool, the Display Tool
+          information panel below the circuit area opens up:
+        </p>
+        <p align="center">
+          <img src="DisplayToolpanel.jpg" alt="Display Tool Panel">
+        </p>
+        <p>
+          Several display elements can be set in this panel.
+        </p>
+        <ul>
+          <li>
+            <u>Animation of Current</u>. The drop-down menu
+            contains the three items illustrated in the following
+            snapshot: None, Conventional, and Electron. 
+            <p align="center">
+              <img src="CurrentAnimation.jpg" alt=
+              "Current Animation">
+            </p>
+            <p>
+              When "None" is selected, the currents in the circuit
+              will not be animated.
+            </p>
+            <p>
+              When "Conventional" is selected, as it is in the
+              snapshot, the currents in the circuit will be
+              animated with the conventional current direction.
+            </p>
+            <p>
+              When "Electron" is selected, the currents in the
+              circuit will be animated showing the direction of
+              motion of the electrons in the metal wires.
+            </p>
+          </li>
+          <li>
+            <p>
+              <u>Min. Current to Animate</u>. This value is set to
+              1.00&times;10<sup>-6</sup> A in the snapshot above.
+              If a current in a branch of the circuit is less than
+              this minimum value, no current animation will be
+              shown in this branch. The user can reset this value.
+            </p>
+          </li>
+          <li>
+            <p>
+              <u>Max. Current before Short</u>. This value is set
+              to 1.00&times;10<sup>3</sup> A in the snapshot above.
+              If a current in a branch of the circuit exceeds this
+              value, the wires in that branch will be shown in red,
+              suggesting red-hot wires. The user can reset this
+              value.
+            </p>
+          </li>
+          <li>
+            <p>
+              <u>Display Values When Adding Object</u>. When this
+              radio button is selected, a resistor inserted into
+              the circuit will have its resistance displayed in the
+              circuit. Similarly for ammeters and voltmeters which
+              will display currents and voltages, respectively. If
+              the button is unchecked, values will not be displayed
+              upon insertion of one of these circuit elements. The
+              display of values with existing circuit elements is
+              not affected by the state of this radio button.
+            </p>
+          </li>
+          <li>
+            <p>
+              <u>Show All Values. Hide All Values</u>. Clicking
+              either one of these buttons will cause the
+              resistances of resistors, currents in ammeters, and
+              voltages across voltmeters to be either displayed or
+              hidden.
+            </p>
+          </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Zoomin"></a> 
+        <div class="sectionheading"><li>
+              Zoom-In Tool <img src="Zoomin.jpg" alt="Zoom In"
+              align="top">
+        </div>
+        <p>
+          Clicking the Zoom-In Tool causes the distances between
+          grid points and the sizes of all circuit elements to be
+          enlarged.
+        </p>
+        <p>
+          One can also resize the entire applet, by dragging the
+          lower right-hand corner of the applet. This resizing will
+          change the applet window's size, but will not affect the
+          spacing of grid points and the sizes of the circuit
+          elements.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="Zoomout"></a> 
+        <div class="sectionheading"><li>
+              Zoom-Out Tool <img src="Zoomout.jpg" alt="Zoom Out"
+              align="top">
+        </div>
+        <p>
+          Clicking the Zoom-Out Tool causes the distances between
+          grid points and the sizes of all circuit elements to be
+          decreased.
+        </p>
+        <p>
+          One can also resize the entire applet, by dragging the
+          lower right-hand corner of the applet. This resizing will
+          change the applet window's size, but will not affect the
+          spacing of grid points and the sizes of the circuit
+          elements.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+
+        <a name="ToolInfo"></a> 
+        <div class="sectionheading"><li>
+              Information Panel for Tools and Circuit Elements
+              <img src="Zoomout.jpg" alt="Zoom Out" align="top">
+        </div>
+        <p>
+          The area below the circuit area is reserved for two kinds
+          of information panels:
+        </p>
+        <ul>
+          <li>
+            information about a circuit element <b>tool</b> and
+          </li>
+          <li>
+            information about a specific circuit element.
+          </li>
+        </ul>
+        <p>
+          The distinction will be explained using resistors as an
+          example.
+        </p>
+        <ul>
+          <li>
+            <u>Resistor Tool Information Panel</u>. If the Resistor
+            Tool is selected, the information panel looks as shown
+            in the next snapshot. 
+            <p align="center">
+              <img src="ResistorToolInfo.jpg" alt=
+              "Resistor Tool Panel">
+            </p>
+            <p>
+              The resistance value entered in this panel will apply
+              the next time a resistor is placed in the circuit.
+              The value entered here affects the operation of the
+              <b>Tool</b>. It does <b>not</b> affect the resistance
+              of any resistors already in the circuit.
+            </p>
+          </li>
+          <li>
+            <p>
+              <u>Resistor Information Panel</u>. When a specific
+              resistor already existing in the circuit is selected
+              (by clicking on it after selecting the Selection Tool
+              <img src="SelectionTool.gif" alt="Selection Tool"
+              align="top">), the parameters relevant to that
+              resistor are displayed in the Resistor information
+              panel. See the following snapshot.
+            </p>
+            <p align="center">
+              <img src="Resistorpanel.jpg" alt="Resistor Panel">
+            </p>
+            <p>
+              If the resistance value in the data entry field is
+              changed and the calculator icon clicked, the
+              resistance of the selected resistor is changed
+              accordingly and the entire circuit recalculated.
+            </p>
+            <p>
+              Only values in a white data entry field can be
+              changed. In the case of resistors, only the
+              resistance can be changed. The values in the grey
+              data fields are calculated values that depend on the
+              other parameters in the circuit. Calculated values
+              cannot be changed directly.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

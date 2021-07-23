@@ -1,0 +1,1121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Simple Harmonic Motion Pendulum
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Simple Harmonic Motion (Pendulum)
+    </div>
+    <div class="sectionheading">
+      The applet simulates both simple pendulum motion and uniform
+      circular motion. At the small amplitudes used in the applet,
+      the pendulum's motion is very nearly simple harmonic motion
+      and visually indistinguishable from projected uniform
+      circular motion.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be familiar with the concepts of position,
+      velocity, and acceleration at the vector level and have an
+      understanding of these vectors in uniform circular motion.  They
+      should have a working knowledge of the sine and cosine functions
+      for angles of any size and should be familiar with the radian
+      measure of angles and Newton's second law of motion.
+    </p>
+    <p>
+      Students should be familiar with the general properties of
+      simple harmonic motion as covered in the lesson accompanying
+      the Simple Harmonic Motion (Spring) applet.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will learn that the motion of a simple pendulum at
+      small amplitudes is well approximated by projected uniform
+      circular motion and therefore by simple harmonic motion. They
+      will be able to use this understanding to make quantitative
+      predictions about the dependence of the pendulum's period on
+      the amplitude of the motion, on the mass and length of the
+      pendulum, and on the magnitude of the acceleration due to
+      gravity.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "20"><a href="#Definition">Simple Harmonic Motion and
+      Pendulum Motion</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "20"><a href="#AmplitudePeriod">Amplitude and Period in
+      Pendulum Motion</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "20"><a href="#MassPeriod">Mass and Period in Pendulum
+      Motion</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "20"><a href="#LengthPeriod">Length and Period in Pendulum
+      Motion</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "20"><a href="#GravityPeriod">Acceleration Due To Gravity and
+      Period in Pendulum Motion</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "40"><b>Appendix</b>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "40"><a href="#SineCosine">Sine and Cosine Functions</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "40"><a href="#Angles">Angles: Radian vs. Degree Measure</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "40"><a href="#Derivation">Proof that Pendulum Motion is
+      Approximately SHM</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="20" width="1"
+      align="bottom"> <a name="Definition"></a>
+    </p>
+    <div class="sectionheading">
+      Simple Harmonic Motion and Pendulum Motion
+    </div>
+    <blockquote>
+      <b>Definition</b>. <i>Simple harmonic motion</i> (SHM) is a motion
+      identical to the projection of a uniform circular motion onto
+      a straight line. 
+      <p>
+        The straight line can have any orientation. In the case of
+        pendulum motion, the orientation is horizontal.
+      </p>
+    </blockquote>
+    <p>
+      <b>Exercise 1</b>. RESET the applet. Set the amplitude to
+      <i>A</i> = 0.52 m and the pendulum length to <i>L</i> = 2.00
+      m. Display the <i>Reference Circle</i> and the blue
+      <i>Projection Line</i> that projects the reference point on
+      the circle vertically upward. PLAY the motion.
+    </p>
+    <p>
+      Observe that the vertical projection line goes through the
+      center of the pendulum bob at all times, as illustrated in
+      Figure 1 below. This means that the motion of the pendulum is
+      uniform circular motion projected onto the pendulum bob's
+      circular path.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/PendulumAxis.gif" alt=
+      "Pendulum and x-axis">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      In the real world, this would be only approximately true, but the difference
+      between the pendulum's motion and the projected circular motion (SHM approximation)
+      is so slight to not be noticeable for motions with small
+      amplitude. For large amplitudes, corresponding to deflection angles of
+		60<sup>o</sup> or more, pendulum motion is far from SHM.
+    </p>
+    <p>
+      Figure 1 shows a horizontal <i>x</i>-axis through the
+      bottom of the pendulum's swing. We will use the pendulum
+      bob's <i>x</i>-coordinate to describe the bob's position,
+      where <i>x</i> = 0 at the bottom of the swing.
+    </p>
+    <p>
+      In the applet simulation (SHM approximation), the bob's <i>x</i>-coordinate coincides
+      with the projection of the reference point onto the <i>x</i>-axis. 
+    </p>
+    <blockquote>
+      <b>Conclusion</b>. The position of a pendulum bob can be
+      described in terms of the bob's coordinate on an
+      <i>x</i>-axis like that in Figure 1. For small amplitudes, the
+      time dependence of a real bob's <i>x</i>-coordinate is to a good
+      approximation SHM. In the simulation and in this lesson, the
+      time dependence of the bob's <i>x</i>-coordinate is taken to
+      be SHM exactly.
+    </blockquote>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, sketch a graph
+      of <i>x</i> vs. <i>t</i> for the pendulum's motion assuming
+      the motion starts on the far right, i.e., at <i>x</i> =
+      <i>A</i>.
+    </p>
+    <p>
+      When done, compare your <i>x</i> vs. <i>t</i> graph to that
+      displayed by the applet. To do so, select Position from the
+      Graph Panel.
+    </p>
+    <p>
+      Note that the graduations on the time axis are fractions of
+      2&pi; seconds. The reason for this
+      choice of graduation is that the theoretical expression for
+      the period <i>T</i> of a simple pendulum at small amplitude,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "180"><i>T</i> = 2&pi; <img src=
+      "../pendulumImages/root16.gif" alt="root">(<i>L</i>/<i>g</i>), <img src=
+      "../pendulumImages/small.gif" alt="space" height="1" width="40">(1)
+    </p>
+    <p>
+      contains a factor of 2&pi;. This way
+      the graduations of the time axis can be directly related to
+      the factor <img src="../pendulumImages/root16.gif" alt=
+      "root">(<i>L</i>/<i>g</i>). Equation (1) is derived in the
+      Appendix <a href="#Derivation">Proof that Pendulum
+      Motion is Approximately SHM</a>.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Using only symbols, write down a general
+      equation for <i>x</i>(<i>t</i>) for the graph obtained in
+      Exercise 2. The equation should contain the following
+      constants:
+    </p>
+    <ul>
+      <li>
+        amplitude <i>A</i>
+      </li>
+      <li>
+        angular frequency &omega; (Greek letter; read: omega) of the
+        circular reference motion.
+      </li>
+    </ul>
+    <p>
+      The angular frequency &omega; is related to
+      the period <i>T</i> by
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "180">&omega; = 2&pi;/<i>T</i> .<img src="../pendulumImages/small.gif" alt="space"
+      height="1" width="40">(2)
+    </p>
+    <p>
+      Equ.(2) and the equations for SHM in general are dealt with
+      in the Lesson accompanying the applet "Simple Harmonic Motion
+      (Vertical Spring)".
+    </p>
+    <p>
+      Substitute the present values for <i>A</i> and &omega; into the general equation for
+      <i>x</i>(<i>t</i>) to get the equation for <i>x</i>(<i>t</i>)
+      that applies to the specific motion you have played. Check
+      that your equation gives correct values for
+      <i>x</i>(<i>t</i>) by working out <i>x</i> for different values
+      of <i>t</i> and comparing the values you get with those on the
+      graph in the applet.
+    </p>
+    <p>
+      <b>Answer</b>. The general equation for <i>x</i>(<i>t</i>) is
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "180"><i>x</i>(<i>t</i>) = <i>A cos</i> &omega; <i>t</i>.<img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(3)
+    </p>
+    <p>
+      Substituting Expression (1) for <i>T</i> into Equ.(2) gives
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "180">&omega; = <img
+      src="../pendulumImages/root16.gif" alt="root">(<i>g</i>/<i>L</i>). <img
+      src="../pendulumImages/small.gif" alt= "space" height="1"
+      width="40">(4)
+    </p>
+    <p>
+      Substituting the present values of <i>g</i> and <i>L</i>
+      into Equ.(4) gives
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "180">&omega; = <img
+      src="../pendulumImages/root16.gif"
+      alt="root">(<i>9.8</i>/<i>2.00</i>) = 2.21 rad/s.  <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(5)
+    </p>
+    <p>
+      With this value and <i>A</i> = 0.52 m, Equ.(3) becomes
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "180"><i>x</i>(<i>t</i>) = 0.52
+      <i>cos</i>(2.21<i>t</i>).<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(6)
+    </p>
+    <p>
+      <b>Exercise 4</b>. Repeat Exercises 2 and 3 for the velocity
+      <i>v<sub>x</sub></i> and the acceleration
+      <i>a<sub>x</sub></i> of the pendulum bob.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="AmplitudePeriod"></a>
+    </p>
+    <div class="sectionheading">
+      Amplitude and Period in Pendulum Motion
+    </div>
+    <p>
+      In this section you will investigate how the period of a
+      simple pendulum oscillating with a small amplitude depends on
+      the amplitude of the motion.
+    </p>
+    <p>
+      RESET the applet.
+    </p>
+    <p>
+      Set the amplitude to <i>A</i> = 0.52 m and the length to
+      <i>L</i> = 2.00 m. Keep the other default settings.
+    </p>
+    <p>
+      Display
+    </p>
+    <ul>
+      <li>
+        the position vs. time graph for the pendulum,
+      </li>
+      <li>
+        the Data box.
+      </li>
+    </ul>
+    <p>
+      The Data box displays both the time <i>t</i> elapsed and the
+      position <i>x</i>(<i>t</i>) of the pendulum bob.
+    </p>
+    <p>
+      <b>Exercise 1</b>. Measure the period <i>T</i> of oscillation
+      of the pendulum.
+    </p>
+    <p>
+      To measure the period, run the motion until it completes one
+      entire cycle. To get a more accurate value, time the pendulum
+      for several complete cycles and divide the time by the number
+      of cycles.
+    </p>
+    <p>
+      <b>Result</b>. You should find an "experimental" value for
+      <i>T</i> close to 2.84 s
+    </p>
+    <p>
+      <b>Exercise 2</b>. Use Equ.(1) from the preceding section and
+      the given settings to calculate the period <i>T</i> of the
+      oscillation. Compare the result to what you found
+      "experimentally".
+    </p>
+    <p>
+      <b>Exercise 3</b>. Repeat Exercises 1 and 2 with different
+      amplitude settings. What is your conclusion about the
+      relationship between amplitude and period?
+    </p>
+    <p>
+      <u>Comment</u>. According to legend, Galileo Galilei, about
+      400 years ago, timed the oscillations of a chandelier during
+      a church service and found the period of oscillation to be
+      independent of the amplitude. This led him to the invention
+      of the pendulum clock.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="MassPeriod"></a>
+    </p>
+    <div class="sectionheading">
+      Mass and Period in Pendulum Motion
+    </div>
+    <p>
+      In this section you will investigate how the period of a
+      simple pendulum oscillating with a small amplitude depends on
+      the mass of the pendulum bob.
+    </p>
+    <p>
+      RESET the applet.
+    </p>
+    <p>
+      Set the amplitude to <i>A</i> = 0.52 m and the length to
+      <i>L</i> = 2.00 m. Keep the other default settings, including
+      the setting of the mass at <i>m</i> = 0.50 kg.
+    </p>
+    <p>
+      Display
+    </p>
+    <ul>
+      <li>
+        the position vs. time graph for the pendulum,
+      </li>
+      <li>
+        the Data box.
+      </li>
+    </ul>
+    <p>
+      <b>Exercise 1</b>. Measure the period <i>T</i> of oscillation
+      of the pendulum.
+    </p>
+    <p>
+      To measure the period, run the motion until it completes one
+      entire cycle. To get a more accurate value, time the pendulum
+      for several complete cycles and divide the time by the number
+      of cycles.
+    </p>
+    <p>
+      <b>Result</b>. You should find an "experimental" value for
+      <i>T</i> close to 2.84 s
+    </p>
+    <p>
+      <b>Exercise 2</b>. Use Equation (1) and the given settings to
+      calculate the period <i>T</i> of the oscillation. Compare the
+      result to what you found "experimentally".
+    </p>
+    <p>
+      <b>Exercise 3</b>. Repeat Exercises 1 and 2 with <i>m</i> =
+      1.00 kg, twice the previous value.
+    </p>
+    <p>
+      Does the period increase or decrease as the mass is
+      increased?
+    </p>
+    <p>
+      <u>Comment</u>. Can you explain your observation in terms of
+      basic physics principles? Hint: Compare the pendulum's motion
+      to free fall motion. How does the latter depend on the mass
+      of the falling particle and what are the reasons in this
+      case?
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="LengthPeriod"></a>
+    </p>
+    <div class="sectionheading">
+      Length and Period in Pendulum Motion
+    </div>
+    <p>
+      In this section you will investigate how the period of a
+      simple pendulum oscillating with a small amplitude depends on
+      the length of the pendulum.
+    </p>
+    <p>
+      RESET the applet.
+    </p>
+    <p>
+      Set the amplitude to <i>A</i> = 0.52 m and the length to
+      <i>L</i> = 2.00 m. Keep the other default settings.
+    </p>
+    <p>
+      Display
+    </p>
+    <ul>
+      <li>
+        the position vs. time graph for the pendulum,
+      </li>
+      <li>
+        the Data box.
+      </li>
+    </ul>
+    <p>
+      <b>Exercise 1</b>. Measure the period <i>T</i> of oscillation
+      of the pendulum.
+    </p>
+    <p>
+      To measure the period, run the motion until it completes one
+      entire cycle. To get a more accurate value, time the pendulum
+      for several complete cycles and divide the time by the number
+      of cycles.
+    </p>
+    <p>
+      <b>Result</b>. You should find an "experimental" value for
+      <i>T</i> close to 2.84 s
+    </p>
+    <p>
+      <b>Exercise 2</b>. Use Equation (1) and the given settings to
+      calculate the period <i>T</i> of the oscillation. Compare the
+      result to what you found "experimentally".
+    </p>
+    <p>
+      <b>Exercise 3</b>. Repeat Exercises 1 and 2 with <i>L</i> =
+      1.00 m, one half of the previous value. Does the period
+      increase or decrease as the length is decreased? By what
+      factor does it decrease? By the same factor of two?
+    </p>
+    <p>
+      <u>Comment</u>. The dependence of the period on the length of
+      a pendulum has implications for running. Legs are natural
+      pendula. Smaller animals with shorter legs can move their
+      legs faster (at a greater frequency or shorter period) than
+      larger animals with longer legs.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="GravityPeriod"></a>
+    </p>
+    <div class="sectionheading">
+      Acceleration Due To Gravity and Period in Pendulum Motion
+    </div>
+    <p>
+      In this section you will investigate how the period of a
+      simple pendulum oscillating with a small amplitude depends on
+      the magnitude of the acceleration due to gravity.
+    </p>
+    <p>
+      RESET the applet.
+    </p>
+    <p>
+      Set the amplitude to <i>A</i> = 0.52 m and the length to
+      <i>L</i> = 2.00 m. Keep the other default settings, in
+      particular, keep the magnitude of the acceleration due to
+      gravity at <i>g</i> = 9.8 m/s<sup>2</sup>.
+    </p>
+    <p>
+      Display
+    </p>
+    <ul>
+      <li>
+        the position vs. time graph for the pendulum,
+      </li>
+      <li>
+        the Data box.
+      </li>
+    </ul>
+    <p>
+      <b>Exercise 1</b>. Measure the period <i>T</i> of oscillation
+      of the pendulum.
+    </p>
+    <p>
+      To measure the period, run the motion until it completes one
+      entire cycle. To get a more accurate value, time the pendulum
+      for several complete cycles and divide the time by the number
+      of cycles.
+    </p>
+    <p>
+      <b>Result</b>. You should find an "experimental" value for
+      <i>T</i> close to 2.84 s
+    </p>
+    <p>
+      <b>Exercise 2</b>. Use Equation (1) and the given settings to
+      calculate the period <i>T</i> of the oscillation. Compare the
+      result to what you found "experimentally".
+    </p>
+    <p>
+      <b>Exercise 3</b>. Repeat Exercises 1 and 2 with <i>g</i> =
+      19.6 m/s<sup>2</sup>, twice the previous value. Does the
+      period increase or decrease as the magnitude of the
+      acceleration due to gravity is increased? By what factor does
+      it decrease? By the same factor of two?
+    </p>
+    <p>
+      <u>Comment</u>. The dependence of the period on the magnitude
+      <i>g</i> of the acceleration due to gravity has implications for
+      pendulum clocks. Since <i>g</i> varies across the surface of the
+      earth, pendulum clocks will run slower or faster at different
+      points on the earth. Vice versa, one can use the rate at which a
+      pendulum clock runs at a given location to measure <i>g</i> at
+      that location.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p align="center">
+      <b>&gt;&gt;&gt;&gt;&gt; Appendix &lt;&lt;&lt;&lt;&lt;</b>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="SineCosine"></a>
+    </p>
+    <div class="sectionheading">
+      Sine and Cosine Functions
+    </div>
+    <p>
+      <b>Sine Function</b>. The following Figure A1 illustrates the
+      definition of the sine function in the first four quadrants.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/SineFunction.gif">
+    </p>
+    <p align="center">
+      <b>Figure A1</b>
+    </p>
+    <p>
+      For each quadrant, an angle  &theta; is
+      indicated by means of a green circular arc linking two radii
+      in grey. One of the radii is always horizontal and towards
+      the right. The vertex of the angle is at the center of the
+      circle. The angular measures in radians of special points are indicated along the
+      circle. Remember the correspondence
+    </p>
+    <p align="center">
+      2&pi; rad = 360<sup>o</sup>. <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A1)
+    </p>
+    <blockquote>
+      <u>Definition of the sine</u>. Let the radius of the circle
+      be equal to 1. Such a circle is called a <i>unit circle</i>.
+      Then the sine of the angle &theta; is
+      equal to the numerical value of the length of the vertical line (dotted red line in
+      Figure A1) dropped onto the horizontal axis through the
+      center of the circle. (In Quadrants II and III, this axis is
+      not shown in Figure A1.) 
+      <p>
+        Imagine a pair of <i>x</i>,<i>y</i> axes with their origin
+        at the center of the circle, the <i>x</i>-axis pointing to
+        the right towards the 0 rad point and the <i>y</i>-axis
+        pointing upward towards the &pi;/2
+        rad point. Then,
+      </p>
+      <p align="center">
+        <i>sin</i> &theta; = <i>y</i> <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A2)
+      </p>
+      <p>
+        where <i>y</i> is the <i>y</i>-coordinate of the point
+        where the variable radius meets the unit circle.
+      </p>
+    </blockquote>
+    <p>
+      This definition also works for angles greater than
+      360<sup>o</sup> or 2&pi; rad and less
+      than 0. For the angles &theta; and
+      &theta; + 2&pi;<i>n</i> rad, where <i>n</i> is any positive
+      or negative integer, the variable radius points in the same
+      direction. Consequently, the sine is the same for these
+      angles. Thus, the sine is a periodic function with a period
+      of 2&pi; rad or 360<sup>o</sup>.
+    </p>
+    <p>
+      It is clear from the geometry of the unit circle that the
+      sine function has values between -1 and 1. Check the four
+      basic fixed points:
+    </p>
+    <ul>
+      <li>
+        <i>sin</i> 0 = <i>sin</i> 2&pi; = 0
+      </li>
+      <li>
+        <i>sin</i> &pi;/2 = 1
+      </li>
+      <li>
+        <i>sin</i> &pi; = 0 <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="240">(A3)
+      </li>
+      <li>
+        <i>sin</i> 3&pi;/2 = -1
+      </li>
+    </ul>
+    <p>
+      Check that, for angles in the first quadrant, the more
+      general definition of the sine presented here agrees with the
+      definition of the sine as the ratio of (opposite
+      side)/hypotenuse in a right-angle triangle.
+    </p>
+    <p>
+      <b>Cosine Function</b>. The definition of the cosine in the
+      four basic quadrants is illustrated in Figure A2 below.
+      Angles are indicated in the same way as in Figure A1. The
+      circle is again a <b>unit</b> circle, i.e., a circle of
+      radius 1.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/CosineFunction.gif" alt="Cosine Function">
+    </p>
+    <p align="center">
+      <b>Figure A2</b>
+    </p>
+    <blockquote>
+      <u>Definition of the cosine</u>. The cosine of the angle
+      &theta; is equal to the numerical value of the length of the
+      dotted blue line if the circle is a unit circle. This line is
+      the perpendicular dropped from the point where the variable
+      radius meets the unit circle to the vertical through the
+      center of the circle. The vertical line through the center of
+      the circle is not indicated in Figure A2. 
+      <p>
+        Imagine a pair of <i>x</i>,<i>y</i> axes with their origin
+        at the center of the circle, the <i>x</i>-axis pointing to
+        the right towards the 0 rad point and the <i>y</i>-axis
+        pointing upward towards the &pi;/2
+        rad point. Then,
+      </p>
+      <p align="center">
+        <i>cos</i> &theta; = <i>x</i> <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A4)
+      </p>
+      <p>
+        where <i>x</i> is the <i>x</i>-coordinate of the point
+        where the variable radius meets the unit circle.
+      </p>
+    </blockquote>
+    <p>
+      This definition also works for angles greater than
+      360<sup>o</sup> or 2&pi; rad and less
+      than 0. For the angles &theta; and
+      &theta; + 2&pi;<i>n</i> rad, where <i>n</i> is any positive
+      or negative integer, the variable radius points in the same
+      direction. Consequently, the sine is the same for these
+      angles. Thus, the sine is a periodic function with a period
+      of 2&pi; rad or 360<sup>o</sup>.
+    </p>
+    <p>
+      Like the sine, the cosine is a function whose values are
+      between -1 and 1. Check the four basic fixed points:
+    </p>
+    <ul>
+      <li>
+        <i>cos</i> 0 = <i>cos</i> 2&pi; = 1
+      </li>
+      <li>
+        <i>cos</i> &pi;/2 = 0
+      </li>
+      <li>
+        <i>cos</i> &pi; = -1 <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="240">(A5)
+      </li>
+      <li>
+        <i>cos</i> 3&pi;/2 = 0
+      </li>
+    </ul>
+    <p>
+      Check that for angles in the first quadrant, the more general
+      definition of the cosine presented here agrees with the
+      definition of the cosine as the ratio of (adjacent
+      side)/hypotenuse in a right-angle triangle.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="Angles"></a>
+    </p>
+    <div class="sectionheading">
+      Angles: Radian vs. Degree Measure
+    </div>
+    <p>
+      <b>Radian measure</b>. Figure A3 below illustrates the
+      definition of the radian measure of an angle.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/Angle.gif" alt="Angle">
+    </p>
+    <p align="center">
+      <b>Figure A3</b>
+    </p>
+    <p>
+      The angle &theta; is the opening between
+      the two rays labeled L1 and L2 leaving from the vertex O. The
+      circular arc <i>s</i> drawn at radius <i>r</i> can be used to
+      measure the radius because, for a given radius, the length of
+      the arc is proportional to &theta;.
+    </p>
+    <p>
+      The radian measure of the angle &theta;
+      is defined as the ratio
+    </p>
+    <p align="center">
+      &theta; = <i>s</i> / <i>r</i> . <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A6)
+    </p>
+    <p>
+      One needs to divide <i>s</i> by <i>r</i>, because <i>s</i> is
+      proportional to <i>r</i> for a given angle &theta; so that only
+		the ratio <i>s</i> / <i>r</i>
+      is independent of <i>r</i>.
+    </p>
+    <p>
+      A numerical example is illustrated in the diagram. The radian
+      unit is abbreviated "rad". In dimensional analysis, the "rad"
+      can be treated as a pure number because the radian measure is
+      defined as a ratio of two lengths.
+    </p>
+    <p>
+      <b>Degree measure</b>. The degree measure of an angle is
+      based on dividing the full circle into 360 equal parts called
+      degrees. The symbol for degree is "<sup>o</sup>".
+    </p>
+    <p>
+      Since a full circle of radius <i>r</i> has a circumference
+      (arc) equal to 2&pi;<i>r</i>, the
+      radian measure of a full circle is 2&pi;<i>r</i> / <i>r</i> = 2&pi; rad.
+		Thus, we have the correspondence
+    </p>
+    <p align="center">
+      360<sup>o</sup> = 2&pi; rad . <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A7)
+    </p>
+    <p>
+      This implies that 1 rad corresponds to 57.3<sup>o</sup>:
+    </p>
+    <p align="center">
+      1 rad = 57.3<sup>o</sup> . <img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A8)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="Derivation"></a>
+    </p>
+    <div class="sectionheading">
+      Proof that Pendulum Motion is Approximately SHM
+    </div>
+    <p>
+      In the Lesson accompanying the applet "Simple Harmonic Motion
+      (Vertical Spring)" it is shown that a point-particle moving
+      along an <i>x</i>-axis performs SHM if the acceleration
+      <i>a<sub>x</sub></i> of the particle is related to the particle's
+      position <i>x</i> by the equation
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "200"><i>a<sub>x</sub></i> = - &omega;<sup>2</sup><i>x</i> .
+		<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(A9)
+    </p>
+    <p>
+      where &omega;<sup>2</sup> is a constant.
+      Actually, Equ.(A9) is obtained in that Lesson for a particle
+      moving vertically along a <i>y</i>-axis.  Of course, SHM is
+      possible along an <i>x</i>-axis as well and in that case will satisfy Equation (A9).  
+    </p>
+    <p>
+	   If you see Equation (A9) here for the first time, you may accept
+		without proof that it characterizes SHM.  The equation says that
+		the acceleration <i>a<sub>x</sub></i> of a point performing SHM along an
+		<i>x</i>-axis is proportional to the point's displacement <i>x</i> from an
+		equilibrium position at <i>x</i> = 0 and is opposite to the displacement
+		(minus sign in Equation (A9)).  The positive proportionality constant is written
+      in the form &omega;<sup>2</sup>.
+    </p>
+    <p>
+      The constant &omega; can be shown to be equal to the
+      angular frequency 2&pi;/<i>T</i> of
+      the motion and equal to the constant angular speed with which
+      the reference point moves around the reference circle.
+    </p>
+    <p>
+      The proof that the motion of a simple pendulum is SHM will consist
+      in the demonstration that the <i>x</i>-coordinate of the pendulum bob
+      satisfies an equation of form (A9) to a very good approximation if the
+		amplitude of the motion is small.
+    </p>
+    <p>
+	   We begin by applying
+      Newton's second law of motion to the bob. In order to understand clearly
+		what forces are acting on the bob, let us mak a free-body diagram for the bob.
+		Such a diagram is shown in Figure A4 below.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/PendulumFBD1.gif" alt=
+      "fbd for pendulum">
+    </p>
+    <p align="center">
+      <b>Figure A4</b>
+    </p>
+    <p>
+      Two forces are acting on the bob, the gravitational force of
+      magnitude <i>mg</i> and the force exerted by the string on
+      the bob of magnitude <i>T</i>. The magnitude <i>T</i> is
+      called the string tension.
+    </p>
+    <p>
+      The components of the force exerted by the string are shown in
+      pale purple. The horizontal component of this force has
+      magnitude <i>T sin</i> &beta; where &beta; is the angle by which the
+		pendulum string is deflected from the vertical.  Remember from Help
+		and ShowMe that in this applet we distinguish between two angles:
+		&beta; and the angle &theta; defining the position of the point in the
+		reference circle.  In the following demonstration we will be concerned
+		with the angle &beta;.
+    </p>
+	 <p>
+		Since the horizontal component
+      of the gravitational force is 0, the horizontal or
+      <i>x</i>-component of the net force is equal to -<i>T sin</i>
+      &beta;.  The minus sign is necessary
+      because the horizontal component points in the negative
+      <i>x</i>-direction. Therefore, Newton's second law applied to
+      the particle gives for the <i>x</i>-component of the particle's
+      acceleration the equation
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>ma<sub>x</sub></i> = -<i>T sin</i> &beta;.
+		<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(A10)
+    </p>
+    <p>
+      We need to determine the string tension <i>T</i>. It turns
+      out that, for small amplitudes, <i>T</i> can simply be
+      replaced by <i>mg</i> to a good approximation. The reasoning,
+      which is a bit involved but a good exercise in basic physics,
+      is given below. First, however, let us just accept the result
+      and replace <i>T</i> by <i>mg</i> in Equ.(A10). We obtain,
+      after dividing by <i>m</i>,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>a<sub>x</sub></i> = -<i>g sin</i> &beta;.
+		<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(A11)
+    </p>
+    <p>
+      Equ.(A11) gives us an expression for the acceleration, but not
+      one that is of the form (A9).  To achieve that we must eliminate
+      <i>sin</i> &beta; in favor of <i>x</i>.
+      This can be done as follows.
+    </p>
+    <p>
+      Figure A5 below shows that the deflection <i>x</i> of the
+      pendulum bob divided by the length <i>L</i> of the pendulum is
+      equal to the tangent of the deflection angle &beta;. In symbols,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>x</i>/<i>L</i> = <i>tan</i> &beta;.
+		<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(A12)
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/PendulumDeflection.gif" alt=
+      "x-displacement of pendulum">
+    </p>
+    <p align="center">
+      <b>Figure A5</b>
+    </p>
+    <p>
+      For a deflection angle of 10<sup>o</sup>, the tangent of the
+      angle differs from the sine by about 1.5%. For smaller angles,
+      this percentage difference is less. Check it with a pocket
+      calculator.
+    </p>
+    <p>
+      Approximating <i>tan</i> &beta; by
+      <i>sin</i> &beta; in Equ.(A12) gives us
+      the approximate equation
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>x</i>/<i>L</i> = <i>sin</i> &beta;.
+		<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(A13)
+    </p>
+    <p>
+      Substituting this expression for <i>sin</i> &beta; into Equ.(A11)
+		gives for the acceleration an
+      expression that is of form (A9),
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>a<sub>x</sub></i> = - (<i>g</i>/<i>L</i>)
+      <i>x</i> .<img src="../pendulumImages/small.gif" alt="space"
+      height="1" width="40">(A14)
+    </p>
+    <p>
+      Thus, within the approximations made, which are of the order
+      of 1% for a deflection angle of 10<sup>o</sup> and less for
+      smaller angles, the motion of a simple pendulum is SHM.
+    </p>
+    <p>
+      Comparing the right-hand sides of Eqs.(A9) and (A14) gives the
+      following expression for &omega;:
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"> &omega; = <img src=
+      "../pendulumImages/root16.gif" alt="root"><i>g</i>/<i>L</i>
+      .<img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A15)
+    </p>
+    <p>
+      From this we get for the period <i>P</i> (we are using <i>P</i>
+      for the period here because <i>T</i> is already used for
+      tension):
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "180"><i>P</i> = 2&pi;/ &omega; = 2&pi;<img src=
+      "../pendulumImages/root16.gif" alt="root"><i>L</i>/<i>g</i>
+      .<img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A16)
+    </p>
+    <p>
+      This is Equ.(1) from the first section of this Lesson. (In that
+      equation, the symbol for the period is <i>T</i>.)
+    </p>
+    <p>
+      Let's complete this set of derivations by demonstrating that,
+      within the magnitude of the approximations made, the tension
+      <i>T</i> can be equated to the gravitational force <i>mg</i>.
+    </p>
+    <p>
+      For this purpose, let's look at the free-body diagram for the
+      bob once more, but this time taking components in directions
+      parallel and perpendicular to the string. The result is shown
+      in Figure A6 below.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/PendulumFBD2.gif" alt=
+      "fbd for pendulum; components along string">
+    </p>
+    <p align="center">
+      <b>Figure A6</b>
+    </p>
+    <p>
+      The pendulum bob moves on a circular path and therefore has a
+      radial (centripetal) component of acceleration directed from
+      the bob up the string and of magnitude
+      <i>v</i><sup>2</sup>/<i>L</i> where <i>v</i> is the bob's speed
+      at the given instant. With that acceleration component, Newton's
+      second law applied to the bob in the radial direction gives the
+      equation
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "200"><i>T</i> - <i>mg cos</i> &beta; =
+      <i>mv</i><sup>2</sup>/<i>L</i> .<img
+      src="../pendulumImages/small.gif" alt= "space" height="1"
+      width="40">(A17)
+    </p>
+    <p>
+      Solving for T gives
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>T</i> = <i>m</i>[g cos &beta; + <i>v</i><sup>2</sup>/<i>L</i>] .
+		<img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A18)
+    </p>
+    <p>
+      For small  &beta;, 10<sup>o</sup> or
+      less, <i>cos</i>  &beta; is within 1.5%
+      of 1. Check it with your pocket calculator. Thus we make an
+      error by the same order of magnitude as before if we simply
+      replace <i>cos</i>  &beta; by 1 in
+      Equ.(A18). An error of similar magnitude is made if we drop
+      the <i>v</i><sup>2</sup>/<i>L</i> term in comparison with the
+      <i>g</i> term in the square bracket in Equ.(A18). In fact,
+      the two errors tend to compensate each other. With these two
+      approximations, Equ.(A18) reduces to
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>T</i> = <i>mg</i> .<img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A19)
+    </p>
+    <p>
+      One can estimate the magnitude of
+      <i>v</i><sup>2</sup>/<i>L</i> as follows. When the pendulum
+      bob is as far to the right as it will go, i.e., at <i>x</i> =
+      <i>A</i>, its center is elevated by an amount <i>h</i> above
+      its bottom position. At this point, the bob has an amount of
+      gravitational potential energy equal to <i>mgh</i> relative
+      to that at the bottom point. This much potential energy is
+      converted into kinetic energy as the bob moves from <i>x</i>
+      = <i>A</i> to <i>x</i> = 0, where the bob has its maximum
+      kinetic energy. Thus,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1" width=
+      "200">(<i>m</i>/2)<i>v<sub>max</sub></i><sup>2</sup> =
+      <i>mgh</i>.<img src="../pendulumImages/small.gif" alt="space"
+         height="1" width="40">(A20)
+    </p>
+    <p>
+      Multiplying this equation by 2/(<i>mL</i>) gives
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "200"><i>v<sub>max</sub></i><sup>2</sup>/<i>L</i> =
+      2<i>g</i>(<i>h</i>/<i>L</i>).<img
+      src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(A21)
+    </p>
+    <p>
+      Since (<i>h</i>/<i>L</i>) is very much smaller than 1 for small
+      amplitudes, <i>v<sub>max</sub></i><sup>2</sup>/<i>L</i> is very
+      much smaller than <i>g</i>, 
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width= "180"><i>v<sub>max</sub></i><sup>2</sup>/<i>L</i> <<
+      <i>g</i>.<img src="../pendulumImages/small.gif" alt="space"
+      height="1" width="40">(A22)
+    </p>
+    <p>
+      Thus, we are justified in approximating the tension <i>T</i>
+      simply by <i>mg</i>.
+    </p>
+    <p>
+      However, as the considerations in this section show, a small
+      mistake <b>is</b> made in identifying the motion of a simple
+      pendulum with SHM, even at small amplitudes.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

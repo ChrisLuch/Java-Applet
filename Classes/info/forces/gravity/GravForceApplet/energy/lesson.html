@@ -1,0 +1,844 @@
+<HTML>
+ <HEAD>
+  <TITLE>Lesson - Energy and Orbits
+  </TITLE>
+  <meta http-equiv="Content-Type" content="text/html;
+charset=iso-8859-1">
+  <LINK REL=stylesheet TYPE="text/css" HREF="../../../../../../styles/lessonstyle.css">
+ </HEAD>
+ <BODY>
+
+<div class="title">Lesson - Energy And Orbits</div>
+
+<p><div class="sectionheading">The applet simulates the gravitational
+ potential energy of a satellite-earth system or projectile-earth
+ system along with the satellite's or projectile's kinetic energy and
+ the total mechanical energy of the system.</div>
+
+<hr noshade color="#C0C0C0">
+
+<p><b>Prerequisites</b>
+
+<p>Students should be familiar with Newton's second law and Newton's
+universal law of gravitation.  They should be familiar with the
+concept of potential energy and the expression for gravitational
+potential energy near the surface of the earth.
+
+<p><b>Learning Outcomes</b>
+
+<p>Students will develop an understanding of how the gravitational
+potential energy of an object in the earth's gravitational field
+varies with the object's elevation above the surface of the earth, and
+they will learn to apply the law of energy conservation to predict the
+speed of an object moving in the earth's gravitational field.
+
+<p><b>Instructions</b>
+
+<p>Students should know how the applet functions, as described in Help and
+ShowMe.
+
+<p>The applet should be open. The step-by-step instructions in the
+following text are to be done in the applet. You may need to toggle
+back and forth between instructions and applet if your screen space is
+limited.
+
+<p>
+
+<hr noshade color="#C0C0C0">
+
+<a name="Top">
+
+<p><div class = "sectionheading">Contents</div>
+
+<p>
+
+  <img src="../images/small.gif" height="1" width="20"><a
+  href="#Laws">Laws, Theorems, Terminology</a>
+
+  <br><img src="../images/small.gif" height="1" width="40"><a
+  href="#NewtonII">Newton's Second Law</a>
+
+  <br><img src="../images/small.gif" height="1" width="40"><a
+  href="#GravityLaw">Newton's Law of Universal Gravitation</a>
+
+  <br><img src="../images/small.gif" height="1" width="40"><a
+  href="#PotEnergy">Gravitational Potential Energy of Particle-Earth
+  System</a>
+
+  <br><img src="../images/small.gif" height="1" width="40"><a
+  href="#EnergyCons">Mechanical Energy and Its Conservation</a>
+
+  <p><img src="../images/small.gif" height="1" width="20"><a
+  href="#PotEnergyDist">Potential Energy as Function of Satellite-Earth
+  Distance</a>
+
+<p>
+  <img src="../images/small.gif" height="1" width="20"><a
+  href="#EnergyConservation">Energy Conservation</a>
+
+<p>
+  <img src="../images/small.gif" height="1" width="20"><a
+  href="#AppendixA">Appendix A: A Useful Expression for the Potential
+  Energy</a>
+
+<p> <img src="../images/small.gif" height="1" width="20"><a
+  href="#AppendixB">Appendix B: Approximation to the Potential
+  Energy</a>
+
+<p><img src="../images/small.gif" height="10" width="1">
+
+<p> <a name="Laws"><div class="sectionheading">Laws, Theorems,
+Terminology</div></a>
+ 
+ <p><ul>
+
+ <p><li><a name="NewtonII"><b>Newton's Second Law</b></a>
+
+  <p><blockquote>The sum of all forces <img src="../images/F.gif"
+  align="bottom"><sub>1</sub>, <img src="../images/F.gif"
+  align="bottom"><sub>2</sub>, ... acting on a particle is equal to
+  the product of the particle's mass <i>m</i> and the particle's
+  acceleration <img src="../images/a.gif" align="bottom">,
+
+  <p align="center"><img src="../images/F.gif" align="bottom"><sub>1</sub> +
+  <img src="../images/F.gif" align="bottom"><sub>1</sub> + ... = <i>m</i> <img
+  src="../images/a.gif" align="bottom"> . <img src="../images/small.gif"
+  height="1" width="40"> (1)</p></blockquote></li>
+
+ <p align="right"><a href="#Top"><img src="../images/top.gif" border ="0"                            
+  align="top"></a></p>
+
+ <p><li><a name="GravityLaw"><b>Newton's Universal Law of Gravitation</b></a>
+
+ <blockquote>Any two particles of masses <i>m<sub>1</sub></i> and
+ <i>m<sub>2</sub></i> exert attractive gravitational forces on each
+ other.  Particle 1 exerts a force on Particle 2 that is directed
+ towards Particle 1 and, vice versa, Particle 2 exerts a force on
+ Particle 1 that is directed towards Particle 2.  Both forces have the
+ same magnitude <i>F</i> equal to
+
+ <p align="center"><i>F</i> =
+ <i>G</i><i>m<sub>1</sub></i><i>m<sub>2</sub></i> / <i>d</i><sup>2</sup><img
+ src="../images/small.gif" height="1" width="40"> (2)</p>
+
+ <p>where <i>d</i> is the separation between the two particles and
+ <i>G</i> is the universal gravitaional constant whose value is
+
+ <p align="center"><i>G</i> = 6.673&times;10<sup>-11</sup>
+ m<sup>3</sup> kg<sup>-1</sup> s<sup>-2</sup>. <img
+ src="../images/small.gif" height="1" width="40">
+ (3)</p></blockquote>
+
+ <p><u>Comment on the force of gravity exerted by the earth on a
+ particle at the surface of the earth or above</u>.  Newton's law of
+ gravitation describes the gravitational forces that two <b>point</b>
+ particles exert on each other.  The earth is not a point particle
+ and, therefore, Newton's law of gravitation does not directly give
+ the force exerted by the earth on a particle.
+
+ <p>However, as stated under Assumptions in the menu above, the applet
+ assumes the earth to be a sphere of uniform mass density.  Under this
+ assumption, it can be proved that the gravitational force exerted by
+ the earth on a particle at the surface of the earth or above is the
+ same as that exerted by a point particle at the center of the earth
+ that carries all of the earth's mass <i>M</i>.  Therefore, the
+ magnitude <i>W</i> of the force of gravity exerted by the earth on a
+ particle of mass <i>m</i> at a distance <i>d</i> from the center of
+ the earth is given by
+
+ <p align="center"><i>W</i> =
+ <i>GMm</i> / <i>d</i><sup>2</sup> .<img src="../images/small.gif"
+ height="1" width="40"> (4)</p>
+
+ <p>The quantity <i>W</i> is called the <i>weight</i> of the particle.
+ Note that the weight depends on how far the particle is away from the
+ center of the earth, but not on the particle's state of motion.</li>
+
+ <p align="right"><a href="#Top"><img src="../images/top.gif" border ="0"                            
+  align="top"></a></p>
+
+<p>
+
+ <a name="PotEnergy"><li><b>Gravitational Potential Energy of
+ Particle-Earth System</b></a>
+
+ <p><u>Particle Near the Surface of the Earth</u>  
+
+ <blockquote>If the particle's elevation <i>h</i> above the surface of
+ the earth is much smaller than the earth's radius <i>R</i>, one can
+ use the following expression <i>PE'</i> for the potential energy of
+ the particle-earth system:
+
+ <p align="center"><i>PE'</i> = <i>mgh</i>, <img
+ src="../images/small.gif" height="1" width="40"> <i>h</i> <<
+ <i>R</i> <img src="../images/small.gif" height="1" width="40">
+ (5)</p>
+
+ <p>where <i>g</i> is the magnitude of the acceleration due to gravity
+ at the surface of the earth.</blockquote>
+
+ <p><u>Comment 1</u>.  The prime following the symbol <i>PE</i> in the
+ potential energy expression (5) is used in this applet to
+ distinguish this expression from the following Expression (6).  The
+ two expressions differ in two ways: (a) Expression (5) is approximate
+ while Expression (6) is exact and (b) the two expressions differ by
+ an added constant.  See Comment 3 below.
+
+ <p>Note that an added constant in the potential energy is
+ unobservable, because only <b>changes</b> in potential energy are
+ observable, and that an added constant will not affect the
+ <b>difference</b> between two values of the potential energy.
+
+ <p><U>Particle at Arbitrary Distances from the Surface of the
+ Earth</u>
+
+ <blockquote>The gravitational potential energy <i>PE</i> of a
+    particle-earth system at arbitrary distances <i>d</i> of the
+    particle from the center of the earth is given by
+
+ <p align="center"><i>PE</i> = -<i>GMm</i> / <i>d</i> .<img
+ src="../images/small.gif" height="1" width="40"> (6)</p>
+
+ <p>Expression (6) can also be written in the useful form
+
+ <p align="center"><i>PE</i> = -<i>mgR</i> (<i>R</i>/<i>d</i>) <img
+ src="../images/small.gif" height="1" width="40"> (7)</p>
+
+ <p>which is derived in Appendix A.</blockquote>
+
+ <p><u>Comment 2</u>.  <i>PE</i> is negative for all finite values of
+ <i>d</i>.  There is nothing strange about negative values of the
+ potential energy.  One can always add a negative constant to any
+ potential energy and thus make it negative.  Adding a constant to a
+ potential energy has no observable consequences.  See Comment 1
+ above.
+
+ <p><u>Comment 3</u>.  Expressions (6) and (7) give <i>PE</i> = 0 when
+ the particle is infinitely far from the earth while Expression (5)
+ gives <i>PE'</i> = 0 when the particle is at the surface of the earth
+ (<i>h</i> = 0).  Since Expression (7) gives <i>PE</i> = -<i>mgR</i>
+ at the surface of the earth (set <i>d</i> = <i>R</i>),
+ <i>PE</i> and <i>PE'</i> are related as follows:
+
+ <p align="center"><i>PE'</i> = <i>PE</i> + <i>mgR</i>, <img
+ src="../images/small.gif" height="1" width="40"> <i>h</i> <<
+ <i>R</i>. <img src="../images/small.gif" height="1" width="40"> (8)
+
+ <p>Thus, <i>PE</i> and <i>PE'</i> differ by an additive constant.
+
+ <p><u>Comment 4</u>. The derivation of Expression (6) for <i>PE</i>
+ requires calculus since the force of gravity is not constant but
+ varies with the particle's distance from the earth.  The derivation
+ is given in calculus-based texts and will not be reproduced here.
+ Expression (5) can be derived from Expression (6).  This derivation
+ is shown in Appendix B.  It is not often found in texts.
+
+ <p><u>Comment 5</u>. Note carefully that in Expressions (6) and (7)
+ for the potential energy we have the <b>first</b> power of <i>d</i>
+ in the denominator, not the second power as in Expression (4) for the
+ weight.  Check that this is consistent dimensionally with the
+ definition of work and energy as the product of force and length.
+ (However, you can't derive Expression (6) by multiplying the weight
+ (4) by the factor
+ <i>d</i>!)
+
+ <p><u>Comment 6 (Important)</u>. The potential energy given by
+ Expression (6),
+
+  <p align="center"><i>PE</i> = -<i>GMm</i> /
+  <i>d</i> ,<img src="../images/small.gif" height="1" width="40">
+  </p>
+            
+  <p>is a <b>joint</b> potential energy for the particle-earth
+  <b>system</b>.  It is not possible to write this potential energy as
+  a sum of a potential energy for the particle and one for the earth.
+                                                                                        
+  <p>Note that properties of both the earth and the particle enter
+  symmetrically into this expression: each object is represented by
+  its mass in the same manner, and the distance <i>d</i> between the
+  two objects depends on the positions of the two objects in a
+  symmetric manner as well.
+
+  <p>Thus, <i>PE</i> is the potential energy of the particle-earth
+  <b>system</b>.  Nevertheless, it is customary to refer to this
+  potential energy as the "potential energy of the particle", for
+  brevity's sake.  You should realize, however, that this is just a
+  figure of speech and that the concept of a "potential energy of
+  a single particle" is undefined.
+
+  <p>The approximate expression <i>PE'</i> for the potential energy
+  near the surface of the earth,
+
+  <p align="center"><i>PE'</i> = <i>mgh</i>, <img
+  src="../images/small.gif" height="1" width="40"> <i>h</i> <<
+  <i>R</i> , <img src="../images/small.gif" height="1" width="40">
+  </p>
+
+ <p>also belongs to the satellite-earth <b>system</b>, not just the
+ particle, although Expression (5) does not look symmetric with
+ respect to the earth and the particle.  That appearance is only
+ superficial, however.  Just insert Expression (A3) from Appendix A
+ for <i>g</i> on the right-hand side of Equ.(5) and the right-side
+ will also look symmetric with respect to both the earth and the
+ particle.</li>
+
+ <p align="right"><a href="#Top"><img src="../images/top.gif" border ="0"                            
+  align="top"></a></p>
+
+<p>
+
+  <a name="EnergyCons"><li><b>Mechanical Energy and Its
+  Conservation</b></a>
+
+  <p>Let us consider the mechanical energy <i>E</i> of the two-"particle"
+  system consisting of the earth and a satellite (or projectile).  The
+  term "particle" can be applied to the earth in the sense of the
+  Comment following Equ.(3) under Newton's Law of Universal
+  Gravitation above.
+
+  <blockquote>The <i>mechanical energy</i> <i>E</i> of any two-particle
+  system is defined as the sum of the potential and kinetic energies
+  of the system,
+
+  <p align="center"><i>E</i> = <i>KE</i><sub>1</sub> +
+  <i>KE</i><sub>2</sub> + <i>PE</i>. <img src="../images/small.gif"
+  height="1" width="40">(9)</blockquote>
+
+  <p><u>Comment 1</u>. There is only one joint potential energy for a
+  two-particle system, but two kinetic energies, one for each
+  particle.  See Comment 6 under "Gravitational Potential Energy of
+  Particle-Earth System" above.
+  
+  <p>The joint potential energy of the satellite-earth system is given
+  by Expression (6), 
+
+  <p align="center"><i>PE</i> = -<i>GMm</i> /
+  <i>d</i> .<img src="../images/small.gif" height="1" width="40">
+  </p>
+  
+  <p><u>Comment 2</u>. We will take the kinetic energy of the earth to
+  be zero because it is totally negligible in the inertial reference
+  frame used here, which is the reference frame in which the center of
+  mass of the satellite-earth or projectile-earth system is at
+  rest. (This center of mass is very close to the center of the sun.)
+  If you are not familiar with inertial and center-of-mass frames,
+  just think of the earth as at rest and only the satellite or
+  projectile as moving.
+                                                                                                     
+  <p>Thus, we include only the satellite's (or projectile's) kinetic
+  energy in the mechanical energy <i>E</i> of the system.  
+
+  <p>In the case of a satellite orbiting the earth at some distance
+  that is not negligible to <i>R</i>, we use Expression (6) for the
+  potential energy so that the system's mechanical energy is given by
+
+  <p align="center"><i>E</i> = <i>m</i>/2 <i>v</i><sup>2</sup> -
+  <i>GMm</i> / <i>d</i> <img src="../images/small.gif" height="1"
+  width="40"> (10)
+
+  <p>where <i>v</i> is the satellite's speed.
+
+  <p>When dealing with a projectile near the earth's surface, we use
+  Expression (5) for the potential energy so that the system's
+  mechanical energy <i>E'</i> = <i>KE</i> + <i>PE'</i> is given by
+
+  <p align="center"><i>E'</i> = <i>m</i>/2 <i>v</i><sup>2</sup> +
+  <i>mgh</i>, <img src="../images/small.gif" height="1" width="40">
+  <i>h</i> << <i>R</i>.<img src="../images/small.gif" height="1"
+  width="40"> (11)
+
+  <p>Note that <i>E'</i> differs from <i>E</i> by the same constant
+  that distinguishes <i>PE'</i> from <i>PE</i>, i.e.,
+
+  <p align="center"><i>E'</i> = <i>E</i> + <i>mgR</i> .<img
+  src="../images/small.gif" height="1" width="40">(12)
+
+</li>
+
+ </ul>
+
+  <p align="right"><a href="#Top"><img src="../images/top.gif" border ="0"
+  align="top"></a></p>
+
+<p> <a name="PotEnergyDist"><div class="sectionheading">Potential Energy
+as Function of Satellite-Earth Distance</div></a>
+
+  <p><b>Exercise 1</b>. RESET the applet, and set the distance scale
+  to 100 pix = 10 km.
+
+  <p>Move the satellite to the north pole by setting <i>x</i> and
+  <i>y</i> equal to 0.  Hide the velocity vector, and set the speed to
+  0, to make the kinetic energy equal to 0.  Press the Data button,
+  and move the Data box to the left or close it so that the satellite
+  can be seen.
+
+  <p>Drag the satellite up and down with the mouse, and observe the
+  potential energy changes, both by observing the "final" energy bar
+  in the Energy box and by observing the values of <i>PE</i> and
+  <i>PE'</i> in the Data box.  You will have to move the energy scale
+  slider up to be able to observe any changes in the length of the
+  potential energy bar.
+
+  <p>You should find that both <i>PE</i> and <i>PE'</i> increase as
+  the satellite's elevation increases.  (The <i>PE</i>-values are
+  becoming less negative as the elevation increases, which means that
+  they are increasing.)
+
+  <p><b>Exercise 2</b>.  Switch the distance scale to 100 pix = 1,000
+  km, and continue to drag the satellite away from the earth.  You
+  will have to readjust the energy scale slider to bring the top end
+  of the "final" energy bar into view.  
+
+  <p>You should be able to observe that as the distance of the
+  satellite increases, the potential energy keeps on increasing.
+
+  <p><b>Exercise 3</b>.  Continue in this manner, setting the distance
+  scale to more and more zoomed-out positions and moving the satellite
+  farther and farther from the earth.  The potential energy should
+  keep increasing until eventually <i>PE</i> will approach 0.
+
+  <p><b>Question 1</b>.  Does it make sense for the gravitational
+  potential energy to keep on increasing as the satellite's elevation
+  increases?
+
+  <p><b>Answer</b>. Yes.  When the satellite is released from rest, it
+  will start falling towards the earth and gain kinetic energy.  By
+  energy conservation, this gain in kinetic energy is accompanied by a
+  loss in potential energy.  Thus, the potential energy must be
+  greater at larger distances from the earth.
+
+  <p><b>Question 2</b>.  Do Expressions (5) to (7) for the potential
+  energy have the property that the potential energy increases as the
+  satellite's distance from the earth increases?
+
+  <p><b>Answer</b>.  The answer is obviously YES for Expression (5).
+  To convince yourself that it is YES as well for Expressions (6) and
+  (7), you may want to sketch <i>PE</i> as given by these expressions
+  as a function of <i>d</i>.  You should obtain a monotonically rising
+  curve, as shown in Figure 1 below.
+
+  <p align="center"><img src="../images/GenPotEn1.gif"></p>
+
+  <p align="center"><b>Figure 1</b></p>
+
+  <p align="right"><a href="#Top"><img src="../images/top.gif" border
+  ="0" align="top"></a></p>
+
+<p> 
+
+  <a name="EnergyConservation"><div class="sectionheading">Energy
+  Conservation</div></a>
+
+  <p>This section will deal with the conservation of mechanical energy
+  in the two-body system consisting of the earth and a projectile or
+  satellite and some of its applications.
+
+  <p><b>Exercise 1</b>.  Read the sections titled "Gravitational Potential
+  Energy of Particle-Earth System" and "Mechanical Energy and Its
+  Conservation" at the beginning of the Lesson.
+
+  <p><b>Exercise 2</b>.  RESET the applet.  Set the distance scale to
+  100 pix = 10 km.  Display the Energy box and drag the Data box out
+  of the way.  Set the initial position and velocity to
+
+  <p><img src="../images/small.gif" height="1" width="40"><i>x</i> = 0, <img
+  src="../images/small.gif" height="1" width="40"><i>y</i> = 10 km
+
+  <p><img src="../images/small.gif" height="1" width="40"><i>v</i> = 400 m/s,
+  <img src="../images/small.gif" height="1" width="40">&theta; = 30<sup>o</sup>
+
+  <p>PLAY the motion, and display the trace.  Observe changes in the
+  potential and kinetic energies as displayed by the Energy bar.  You
+  will have to move the energy scale slider all the way to the top to
+  be able to observe the changes in these energies.
+
+  <p>Is the mechanical energy conserved during the motion?  Do the
+  potential and kinetic energies behave the way you would expect?
+
+  <p><b>Question 1</b>.  For the initial conditions in Exercise 2,
+  what is the initial value of the mechanical energy
+  <i>E'</i> of the projectile-earth system?
+
+  <p><b>Answer</b>.  The mechanical energy <i>E'</i> has
+  the value
+
+  <p><img src="../images/small.gif" height="1"
+  width="40"><i>E'<sub>i</sub></i> =
+  <i>m</i>/2 <i>v</i><sup>2</sup> +
+  <i>mgh</i> 
+
+  <p><img src="../images/small.gif" height="1" width="58">= (40/2)&times;400<sup>2</sup> +
+  40&times;9.805&times;1&times;10<sup>4</sup>
+
+  <p><img src="../images/small.gif" height="1" width="58">=
+  3.200&times;10<sup>6</sup> + 3.922&times;10<sup>6</sup>
+
+  <p><img src="../images/small.gif" height="1" width="58">=
+  7.122&times;10<sup>6</sup> J. <img src="../images/small.gif"
+  height="1" width="80">(13)
+
+  <p>Compare these values with those shown in the Data box.  The
+  values of <i>KE</i> are exactly the same, but the values for
+  <i>PE'</i> and <i>E'</i> calculated here are very close, but not
+  exactly the same as those in the Data box.  Why?
+
+  <p>The values in the Data box are better because they take into
+  account that the acceleration due to gravity is not a constant equal
+  to 9.805 m/s<sup>2</sup>, but decreases as one goes away from the
+  earth.  Note that the value of <i>a</i>, the magnitude of the
+  projectile's acceleration, is given in the Data box as 9.774
+  m/s<sup>2</sup> at <i>y</i> = 10 km.  This is the acceleration due
+  to gravity at that elevation, and it is a little bit less than
+  <i>g</i>.
+
+  <p>If you want to calculate the projectile's potential energy and
+  mechanical energy at <i>y</i> = 10 km exactly, use Expressions (6)
+  or (7) for the potential energy.  The results should agree with the
+  values given in the Data box.
+
+  <p><b>Question 2</b>. With what speed does the projectile hit the
+  ground?
+
+  <p><b>Answer</b>.  The mechanical energy of the projectile-earth
+  system is conserved during the projectile's flight.  Therefore, the
+  final energy <i>E'<sub>f</sub></i>, just before the projectile hits
+  the ground, is equal to the initial energy <i>E'<sub>i</sub></i>
+  which has the approximate value (13) above.  Using this value and
+  the final elevation <i>h<sub>f</sub></i> = 0 gives the equation
+
+  <p> <img src="../images/small.gif" height="1" width="40"><i>m</i>/2
+  <i>v<sub>f</sub></i><sup>2</sup> + <i>mgh<sub>f</sub></i> =
+  (40/2) <i>v<sub>f</sub></i><sup>2</sup> + 0 =
+  7.122&times;10<sup>6</sup> J <img src="../images/small.gif"
+  height="1" width="40">(14)
+
+  <p>whence
+
+  <p><img src="../images/small.gif" height="1"
+  width="80"><i>v<sub>f</sub></i> = <img
+  src="../images/root16.gif">(7.122&times;10<sup>6</sup> / 20) =
+  5.967&times;10<sup>2</sup> m/s.<img src="../images/small.gif"
+  height="1" width="40">(15)
+
+  <p>Compare this value with the value 5.966&times;10<sup>2</sup> m/s
+  which can be calculated from the final velocity components given in
+  the Data box.  The two values are very close.
+
+  <p><u>Comment</u>.  One can avoid using the mass in these
+  calculations by not calculating the energy first.  Just use the
+  equation for energy conservation,
+
+  <p align="center">(<i>m</i>/2) <i>v<sub>i</sub></i><sup>2</sup> +
+  <i>mgh<sub>i</sub></i> = (<i>m</i>/2)
+  <i>v<sub>f</sub></i><sup>2</sup> + <i>mgh<sub>f</sub></i>,<img
+  src="../images/small.gif" height="1" width="40">(16)
+
+  <p>and cancel the common factor of <i>m</i> out of all terms.
+  Substituting the given values of <i>v<sub>i</sub></i>,
+  <i>h<sub>i</sub></i>, and <i>h<sub>f</sub></i>, one can then solve
+  for <i>v<sub>f</sub></i>. Do this, and compare your answer with
+  value (15) above.
+
+  <p><b>Exercise 3</b>.  RESET the applet.  Set the distance scale
+         to the most zoomed-out setting: 100 pix = 100,000 km.  Select the
+         Data button and drag the Data box off to one side, but keep the
+         Energy box in view.  Set the initial position and velocity to
+
+    <p><img src="../images/small.gif" height="1"
+    width="40">(<i>x</i>,<i>y</i>)(0) = (0, 50,000) km ,
+
+    <p><img src="../images/small.gif" height="1" width="40"><i>v</i> =
+    1,000 m/s, <img src="../images/small.gif" height="1" width="40">
+    &theta; = 0<sup>o</sup> .
+
+         <p>You should find that the potential energy bar in the "final"
+         column extends beyond the top of the window.  Drag the Zoom slider
+         in the Energy box downward until the energy level 0.0 <i>mgR</i>
+         and the top of the "final" energy column come into view.
+
+         <p>The top of the "final" energy column should be very near -0.1
+         <i>mgR</i>.
+
+			<p>Press the Lock-Initial-Energy button so that the "initial"
+         energy bar is adjusted to look like the "final" energy bar,
+         select the Trace button, and PLAY the motion.  Observe the
+         changes in potential and kinetic energy.
+
+         <p>The motion will be slow at first.  PAUSE it at some point.  You
+         might see something like the snapshot in Figure 2 below.
+
+    <p align="center"><img src="../images/EOSatellite.gif"></p> 
+
+         <p align="center"><b>Figure 2</b></p>
+
+         <p>At the moment shown in Figure 2, the potential energy has
+         decreased and the speed and kinetic energy have increased
+         compared with the initial moment.  Is that what you would
+         have expected?  Is the mechanical energy conserved?
+
+         <p>Click PLAY again, and watch the motion until the satellite
+         crashes into the earth.  The initial speed of the satellite
+         is not large enough to carry the satellite around the earth.
+
+         <p>At the moment of the crash, the potential energy should be
+         equal to -1.0 <i>mgR</i>, which is its value when the satellite is
+         at the surface of the earth.
+
+			<p><b>Question 3</b>.  At the start of the motion, what is
+			the value of the energy <i>E</i> of the satellite-earth system?
+
+			<p><b>Answer</b>.  Using Expression (7) for the potential
+			energy, the mechanical energy <i>E</i> can be calculated as follows.
+
+  <p><img src="../images/small.gif" height="1" width="43"><i>E</i> =
+  <i>m</i>/2 <i>v</i><sup>2</sup> - <i>mgR</i> (<i>R</i>/<i>d</i>) 
+
+  <p><img src="../images/small.gif" height="1" width="58">=
+  (40/2)&times;1,000<sup>2</sup> -
+  40&times;9.805&times;6.378&times;10<sup>6</sup>&times;(6,378/56,378)
+
+  <p><img src="../images/small.gif" height="1" width="58">=
+  2.000&times;10<sup>7</sup> - 2.830&times;10<sup>8</sup>
+
+  <p><img src="../images/small.gif" height="1" width="58">= -
+  2.630&times;10<sup>8</sup> J. <img src="../images/small.gif"
+  height="1" width="80">(17)
+
+  <p>Compare these values with those shown in the Data box.  They
+  should agree.
+
+  <p><b>Question 4</b>.  Given the intial values from Exercise 3, with
+  what speed does the satellite crash into the earth?
+
+  <p><b>Answer</b>.  The calculation of the final value
+  <i>v<sub>f</sub></i> of the speed is analogous to that in Question
+  2.  The only difference is that here the exact potential energy must
+  be used instead of Approximation (5).  Approximation (5) is not
+  valid here because the elevation of the satellite above the earth is
+  not small compared to <i>R</i>.  We will use Expression (7) for the
+  potential energy.
+
+  <p>With that, and using value (17) for <i>E</i> and
+  <i>d<sub>f</sub></i> = <i>R</i>, the analog of Equ.(14) becomes
+
+  <p><img src="../images/small.gif" height="1"
+  width="40"><i>E<sub>f</sub></i> = <i>m</i>/2
+  <i>v<sub>f</sub></i><sup>2</sup> - <i>mgR</i> (<i>R</i>/<i>d<sub>f</sub></i>) 
+
+  <p><img src="../images/small.gif" height="1" width="55">= (40/2)
+  <i>v<sub>f</sub></i><sup>2</sup> - <i>mgR</i> 
+
+  <p><img src="../images/small.gif" height="1"
+  width="55">= <i>E<sub>i</sub></i> = -2.630&times;10<sup>8</sup> J <img
+  src="../images/small.gif" height="1" width="40">
+
+  <p>whence
+
+  <p align="center">20 <i>v<sub>f</sub></i><sup>2</sup> - <i>mgR</i> =
+  -2.630&times;10<sup>8</sup> J. <img src="../images/small.gif"
+  height="1" width="40"> (18)
+
+  <p>With the value of <i>mgR</i> inserted into Equ.(18),
+
+  <p align="center"><i>mgR</i> =
+  40&times;9.805&times;6.378&times;10<sup>6</sup> =
+  2.50145&times;10<sup>9</sup> J,<img src="../images/small.gif"
+  height="1" width="40">(19)
+
+  <p>solving the resulting equation for <i>v<sub>f</sub></i> gives
+
+  <p> <img src="../images/small.gif" height="1"
+  width="80"><i>v<sub>f</sub></i> = <img
+  src="../images/root16.gif">[(2.50145&times;10<sup>9</sup>
+  - 2.630&times;10<sup>8</sup>) / 20] 
+
+  <p><img src="../images/small.gif" height="1" width="95">=
+  1.058&times;10<sup>4</sup> m/s.<img src="../images/small.gif"
+  height="1" width="40">(20)
+
+  <p>Check that this value is consistent with those of the final
+  velocity and the final kinetic energ of the satellite given in the
+  Data box.  The values should agree within the number of significant
+  digits listed here.
+
+  <p><u>Comment 1</u>.  If the approximate potential energy (5), rather
+  than the exact potential energy (7), had been used to calculate
+  <i>v<sub>f</sub></i>, a totally incorrect result would have been
+  obtained.  You may want to do this calculation.  The reason for the
+  incorrect result is, of course, that the condition <i>h</i> <<
+  <i>R</i> under which Approximation (5) is good is severely violated
+  in the present situation.
+
+  <p><u>Comment 2</u>.  As in Question 2, one can avoid using the mass
+  in calculating <i>v<sub>f</sub></i> by not calculating the energy
+  first.  Just use the equation for energy conservation,
+
+  <p align="center">(<i>m</i>/2) <i>v<sub>i</sub></i><sup>2</sup> -
+  <i>mgR</i> (<i>R</i>/<i>d<sub>i</sub></i>) = (<i>m</i>/2)
+  <i>v<sub>f</sub></i><sup>2</sup> - <i>mgR</i>
+  (<i>R</i>/<i>d<sub>f</sub></i>),<img src="../images/small.gif"
+  height="1" width="40">(21)
+
+  <p>and cancel the common factor of <i>m</i> out of all terms.
+  Substituting the given values of <i>v<sub>i</sub></i>,
+  <i>d<sub>i</sub></i>, and <i>d<sub>f</sub></i> = <i>R</i>, one can
+  then solve for <i>v<sub>f</sub></i>. Do this, and compare your
+  answer with result (20) above.
+
+<p align="right"><a href="#Top"><img src="../images/top.gif" border ="0"
+align="top"></a></p>
+
+<p>
+  <a name="AppendixA"><div class="sectionheading">Appendix A: A Useful
+  Expression for the Potential Energy</div></a>
+
+  <p>By multiplying Expression (6) for the potential energy <i>PE</i>,
+
+  <p align="center"><i>PE</i> = -<i>GMm</i> / <i>d</i>
+  , <img src="../images/small.gif" height="1" width="40">(6)
+                                                                                                  
+  <p>by <i>R</i><sup>2</sup>/<i>R</i><sup>2</sup> = 1 and rearranging,
+  one can write it in the form
+                                                                                            
+  <p align="center"><i>PE</i> = -<i>m</i>[<i>GM</i> /
+  <i>R</i><sup>2</sup>]<i>R</i>(<i>R</i>/<i>d</i>) . <img
+  src="../images/small.gif" height="1" width="40">(A1)
+                                                                                                     
+  <p>It turns out that the expression in square brackets is equal to
+  <i>g</i>.  This can be shown as follows.                                                    
+                                                                                               
+  <p>Let us consider a satellite just above the surface of the earth,
+  so that <i>d</i> = <i>R</i>.  The acceleration of such a satellite
+  has the magnitude <i>g</i>, if the only force acting on the
+  satellite is the force of gravity.  In this situation, Newton's
+  second law applied to the satellite with Expression (4) for the
+  satellite's weight,
+
+  <p align="center"><i>W</i> =
+ <i>GMm</i> / <i>d</i><sup>2</sup> ,<img src="../images/small.gif"
+ height="1" width="40"></p>
+
+  <p>and <i>g</i> substituted for the magnitude <i>a</i> of the
+  satellite's acceleration gives the equation
+                                                                                                    
+  <p align="center"><i>GMm</i> / <i>R</i><sup>2</sup> = <i>m g</i>
+  .<img src="../images/small.gif" height="1" width="40"> (A2)
+  
+  <p>Dividing both sides of this equation by <i>m</i> gives
+                                                                                                  
+  <p align="center"><i>GM</i> / <i>R</i><sup>2</sup> = <i>g</i>. <img
+  src="../images/small.gif" height="1" width="40">(A3)
+         
+  <p>Thus, substituting <i>g</i> for the expression in square brackets
+  in Equ.(A1) gives the useful Expression (7) for the potential energy
+  <i>PE</i>,
+
+  <p align="center"><i>PE</i> = -<i>mgR</i> (<i>R</i>/<i>d</i>) . <img
+  src="../images/small.gif" height="1" width="40">
+
+<p align="right"><a href="#Top"><img src="../images/top.gif" border
+="0" align="top"></a></p>
+                                                                 
+<p> <a name="AppendixB"><div class="sectionheading">Appendix B:
+Approximation to the Potential Energy</div></a>
+
+  <p>In this Appendix we will derive Expression (5) for the potential
+  energy near the surface of the earth, i.e., for a satellite
+  elevation <i>h</i> that is much smaller than the radius <i>R</i> of
+  the earth.  The notation <i>PE</i>(<i>d</i>) will denote the value
+  of the potential energy <i>PE</i> when the satellite is at a
+  distance <i>d</i> from the center of the earth.
+
+  <p>When a particle is moved from the surface of the earth, at
+  <i>d</i> = <i>R</i>, to a point a distance <i>h</i> above the
+  surface of the earth, at <i>d</i> = <i>R</i> + <i>h</i>, the
+  potential energy <i>PE</i> changes by
+
+  <p align="center"><i>PE</i>(<i>R</i>+<i>h</i>) -
+  <i>PE</i>(<i>R</i>). <img src="../images/small.gif" height="1"
+  width="40">(A4)</p>
+
+  <p>Using form (7) for <i>PE</i>, this change can be written
+
+  <p><img src="../images/small.gif" height="1"
+  width="20"><i>PE</i>(<i>R</i>+<i>h</i>) -
+  <i>PE</i>(<i>R</i>) = -<i>mgR</i> [<i>R</i>/(<i>R</i>+<i>h</i> -
+  <i>R</i>/<i>R</i>] 
+
+  <p><img src="../images/small.gif" height="1" width="145">=
+  -<i>mgR</i> [1/(1+<i>h</i>/<i>R</i>) - 1]. <img
+  src="../images/small.gif" height="1" width="40">(A5)
+
+  <p>For <i>h</i> << <i>R</i>, which is equivalent to
+  <i>h</i>/<i>R</i> << 1, the first term in the square brackets can be
+  approximated to a very good degree if we use the general
+  approximation
+
+  <p align="center">1/(1+<i>x</i>) = 1 - <i>x</i>, <img
+  src="../images/small.gif" height="1" width="40"> if |<i>x</i>| <<
+  1. <img src="../images/small.gif" height="1" width="40">(A6)
+
+  <p>Use a calculator to check how good the approximation is by using,
+  say, x = 0.01 and evaluating the left and right hand sides of
+  Approximation (A6).
+
+  <p>Approximation (A6) written down for <i>x</i> = <i>h</i>/<i>R</i>
+  amounts to
+
+  <p align="center">1/(1+<i>h</i>/<i>R</i>) = 1 - <i>h</i>/<i>R</i>,
+  <img src="../images/small.gif" height="1" width="40"> if
+  <i>h</i>/<i>R</i> << 1. <img src="../images/small.gif" height="1"
+  width="40">(A7)
+
+  <p>Substituting Approximation (A7) into Equ.(A5) simplifies the latter to
+
+  <p><img src="../images/small.gif" height="1"
+  width="20"><i>PE</i>(<i>R</i>+<i>h</i>) -
+  <i>PE</i>(<i>R</i>) = -<i>mgR</i> [1 - <i>h</i>/<i>R</i> - 1] 
+
+  <p><img                                               
+  src="../images/small.gif" height="1" width="145">=
+  <i>mgR</i> [<i>h</i>/<i>R</i>] = <i>mgh</i>. <img
+  src="../images/small.gif" height="1" width="40">(A8)
+
+  <p>Thus,
+
+  <p align="center"><i>PE</i>(<i>R</i>+<i>h</i>) = <i>mgh</i> +
+  <i>PE</i>(<i>R</i>), <img src="../images/small.gif" height="1"
+  width="40"> if <i>h</i> << <i>R</i>. <img src="../images/small.gif"
+  height="1" width="40">(A9)</p>
+
+  <p>The first term on the right-hand side in Approximation (A9) is
+  Expression (5) for the potential energy
+  <i>PE'</i>.  The second term on the right-hand side,
+  <i>PE</i>(<i>R</i>) is a constant equal to -<i>mgR</i>.  This establishes Equ.(8).
+
+  <p>Of course, it is much easier to derive Expression (5) for the
+  potential energy by using the definition of potential energy in
+  terms of work done by the force of gravity and taking that force to
+  have the constant magnitude <i>mg</i>, near the surface of the
+  earth.  The demonstration given here has the merit that it explains
+  how the two very different looking expressions for the potential
+  energy, Expressions (5) and (6) or (7), are related.
+
+  <p align="right"><a href="#Top"><img src="../images/top.gif" border
+="0" align="top"></a></p>
+
+<hr noshade color="#C0C0C0">
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

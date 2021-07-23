@@ -1,0 +1,1220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Planet Motion 2
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Planet Motion 2
+    </div>
+    <div class="sectionheading">
+      The applet simulates the motion of a planet around the sun
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      For the section on units, students should be familiar with
+      the units of basic physical quantities. For the sections on
+      Kepler's laws, no special physics background is required. For
+      the concluding section on some of the underlying physics and
+      on the special unit system used in the Lesson, students
+      should be familiar with the concepts of force, acceleration,
+      speed, angular speed and the radian measure of angles, and be
+      familiar with Newton's second law, Newton's law of universal
+      gravitation, and acceleration in uniform circular motion.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will develop an understanding of Kepler's three laws
+      of planetary motion and will deepen their understanding of
+      some of the related dynamics and kinematics.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "20"><a href="#Units">Data in Astronomical Units</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "20"><a href="#Kepler">Kepler's Three Laws of Planetary
+      Motion</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Kepler1">Kepler's First Law</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Kepler2">Kepler's Second Law</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Kepler3">Kepler's Third Law</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "20"><a href="#Dynamics">Some Kinematics and Dynamics Related
+      to Kepler's Laws</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Speed">Areal Speed and Angular Speed</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Acceleration">The Planet's Acceleration</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Circular">Kepler's Three Laws for the Case of
+      Uniform Circular Motion</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "20"><b>Appendix</b>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Definitions">Definitions of Radian Measure of
+      Angle, Angular Speed, Areal Speed</a>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"><a href="#Derivation">Derivation of Expression for Areal
+      Speed</a>
+    </p>
+	 <a name="Units"></a>
+    <div class="sectionheading">
+      Data in Astronomical Units<img src="images/small.gif"
+           alt="space" height="30" width="1">
+    </div>
+    <p>
+      <b>Exercise 1</b>. Display the data box by clicking the Data
+      button <img src="images/Data.gif" alt="Data Button" align=
+      "top">. Its contents are illustrated in Figure 1 below (but
+      most likely with values different from those in your case).
+    </p>
+    <p align="center">
+      <img src="images/Planet1Data.gif" alt="Data Box">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      Observe that the various quantities are displayed in units
+      involving the units "AU" and "Year". These are convenient
+      units in an astronomical context.
+    </p>
+    <p>
+      The AU is the <i>astronomical unit</i>. It is a unit of
+      distance and is equal to the semi-major axis of the earth's
+      orbit around the sun. 1 AU = 1.496&times;10<sup>11</sup> m.
+    </p>
+    <p>
+      The Year is the time it takes the earth to make one
+      revolution around the sun relative to the fixed stars. This
+      is also called the the <i>sidereal year</i>. 1 Year = 365.26
+      mean solar days. The sidereal year must be distinguished from
+      the calendar year which is equal to 365 or 366 mean solar
+      days, depending on the particular year. It must also be
+      distinguished from the <i>tropical year</i> and the
+      <i>anomalistic year</i> which do not concern us in this
+      applet.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Make a dimensional analysis of all
+      quantities listed in Figure 1, and determine if the units
+      shown are dimensionally correct. E.g., speed has the
+      dimensions of length/time. This is consistent with the unit
+      AU/Year displayed for speed in Figure 1.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p><a name="Kepler"></a> 
+    <div class="sectionheading">
+      Kepler's Three Laws of Planetary Motion
+    </div>
+    <p>
+      Johannes Kepler (1571-1630) worked out three laws of
+      planetary motion. These laws describe the manner in which the
+      planets move around the sun. They do not explain <b>why</b>
+      the planets move in this fashion. That explanation was
+      provided later by Isaac Newton (1642-1727).
+    </p>
+    <p>
+      Kepler's three laws were based on observations by Tycho Brahe
+      (1546-1601). They amounted to a great simplification and
+      increased accuracy in the description of the planets' motions
+      compared to the earlier Copernican model. This advance was
+      brought about when Kepler realized that planets were moving
+      in elliptical orbits, rather than on epicycles of circles as
+      in the Copernican model.
+    </p>
+    <p>
+      Kepler's laws are now known to be true only to an
+      approximation, but a very good one. The observed deviations
+      of the planets' motions from Kepler's laws can for the most
+      part be explained in terms of Newton's laws of motion applied
+      to the planets in combination with his universal law of
+      gravitation.
+    </p>
+    <p>
+      The Newtonian analysis shows that Kepler's laws would be true
+      exactly if the gravitational force exerted on the planets by
+      the sun were the only force acting on the planets. However,
+      the planets also exert gravitational forces on each other,
+      and it is these additional small forces that cause the
+      planets' motions to be slightly different from those
+      predicted by Kepler's laws.
+    </p>
+    <p>
+      Newton's theory can explain these deviations from Kepler's
+      laws, except for one remaining small discrepancy which was
+      accounted for early in the twentieth century by Einstein's
+      theory of general relativity.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p><a name="Kepler1"></a> 
+    <div class="sectionheading">
+      Kepler's First Law
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET the applet.
+    </p>
+    <p>
+      Set the eccentricity and the semi-major axis to
+    </p>
+    <p align="center">
+      <font face="symbol">e</font> = 0.400 <img src=
+      "images/small.gif" alt="space" height="1" width="20"> and
+      <img src="images/small.gif" alt="space" height="1" width=
+      "20"><i>a</i> = 2.0 AU, <img src="images/small.gif" alt=
+      "space" height="1" width="20"> (1)
+    </p>
+    <p>
+      respectively. PLAY the motion.
+    </p>
+    <p>
+      <b>Question 1</b>. Just eye-balling the way the planet
+      (green) is moving around the sun (yellow), how would you
+      describe the shape of the orbit and the location of the sun
+      relative to the orbit?
+    </p>
+    <p>
+      Based on the most precise observations available at the time,
+      made by the astronomer Tycho Brahe, Kepler described the
+      orbits of all planets in his first law.
+    </p>
+    <blockquote>
+      <b>Kepler's first law</b>. The orbit of a planet around the
+      sun is an ellipse, with the sun located at one of the two
+      focal points of the ellipse.
+    </blockquote>
+    <p>
+      <u>Comment 1</u>. An ellipse is a curve such that for any
+      point P on this curve the sum of the distances
+      <i>r<sub>1</sub></i> and <i>r<sub>2</sub></i> from P to two
+      fixed points F<sub>1</sub> and F<sub>2</sub> is constant. The
+      fixed points F<sub>1</sub> and F<sub>2</sub> are called the
+      <i>focal points</i> of the ellipse. The sum of the two
+      distances <i>r<sub>1</sub></i> and <i>r<sub>2</sub></i> obeys
+      the equation
+    </p>
+    <p align="center">
+      <i>r<sub>1</sub></i> + <i>r<sub>2</sub></i> = 2<i>a</i>
+      <img src="images/small.gif" alt="space" height="1" width=
+      "40"> (2)
+    </p>
+    <p>
+      where 2<i>a</i> is the length of the major axis of the
+      ellipse, the longest diameter of the ellipse. Figure 2 below
+      illustrates these quantities.
+    </p>
+    <p align="center">
+      <img src="images/ellipse.jpg" alt="Ellipse">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p><a name="Kepler2"></a> 
+    <div class="sectionheading">
+      Kepler's Second Law
+    </div>
+    <p>
+      <b>Exercise 1</b>. Continuing from the previous section,
+      REWIND the applet. Display the sectors of equal area by
+      clicking the Area Sweep button <img src="images/Sweep.gif"
+      alt="Area Sectors" align="top">.
+    </p>
+    <p>
+      Using the time values from the data box, measure the times
+      required for the planet to traverse several of these sectors
+      of equal area, one sector at a time. What do you observe?
+    </p>
+    <p>
+      <b>Answer</b>. Kepler, based on Brahe's observations,
+      provided an answer to this question in his second law.
+    </p>
+    <blockquote>
+      <b>Kepler's second law</b>. In equal time intervals, the
+      radius vector from the sun to a planet sweeps across equal
+      areas.
+    </blockquote>
+    <p>
+      <u>Comment 1</u>. One can also state this law by saying that
+      a planet's areal speed is constant. <i>Areal speed</i> is
+      defined as the <b>limit</b> of the ratio <font face=
+      "symbol">D</font><i>A</i>/<font face=
+      "symbol">D</font><i>t</i> as <font face=
+      "symbol">D</font><i>t</i> goes to zero. Here <font face=
+      "symbol">D</font><i>A</i> is the area swept over by the
+      radius vector from the sun to the planet during the time
+      interval <font face="symbol">D</font><i>t</i>. We'll use the
+      symbol <i>dA</i>/<i>dt</i> for areal speed.
+    </p>
+    <p>
+      <u>Comment 2</u>. Most books use the term "areal velocity"
+      rather than "areal speed" to refer to <i>dA</i>/<i>dt</i>.
+      For consistency's sake, since <i>dA</i>/<i>dt</i> is a
+      positive scalar quantity, not a vector, let's call it "areal
+      speed".
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p><a name="Kepler3"></a> 
+    <div class="sectionheading">
+      Kepler's Third Law
+    </div>
+    <p>
+      <b>Exercise 1</b>. Continuing from the previous section, hide
+      the sectors of equal area. Measure the period of the planet.
+      Repeat this for another orbit with the same semi-major axis,
+      but different eccentricity. Repeat this for yet another orbit
+      with different semi-major axis, and again for a fourth orbit
+      with the same semi-major axis as the last one but different
+      eccentricity.
+    </p>
+    <p>
+      Thus, measure the period for two pairs of orbits. The orbits
+      of each pair have the same semi-major axis but different
+      eccentricity. Based on your observations, answer the
+      following questions.
+    </p>
+    <p>
+      <b>Question 1</b>. How does varying the eccentricity affect
+      the period?
+    </p>
+    <p>
+      <b>Question 2</b>. For each orbit, what is the value of the
+      ratio <i>T</i><sup>2</sup>/<i>a</i><sup>3</sup> where
+      <i>T</i> is the period?
+    </p>
+    <p>
+      Kepler, based on Brahe's observations, answered these
+      questions in his <b>third law</b>.
+    </p>
+    <blockquote>
+      For all planet orbits, the square of the period is
+      proportional to the cube of the semi-major axis.
+    </blockquote>
+    <p>
+      <u>Comment 1</u>. In the units of AU and Year that we are
+      using, the proportionality constant is numerically equal to
+      1, i.e., if <i>T</i> is in Year and <i>a</i> in AU, then
+      numerically the following equation holds:
+    </p>
+    <p align="center">
+      <i>T</i><sup>2</sup> = <i>a</i><sup>3</sup>, <img src=
+      "images/small.gif" alt="space" height="1" width="20">where
+      <i>a</i> is in AU and <i>T</i> in Year . <img src=
+      "images/small.gif" alt="space" height="1" width="40"> (3)
+    </p>
+    <p>
+      <b>Exercise 2</b>. The semi-major axis of the orbit of Mars
+      is 1.52 AU. Calculate the period of Mars in Year.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p><a name="Dynamics"></a> 
+    <div class="sectionheading">
+      Some Kinematics and Dynamics Related to Kepler's Laws
+    </div><br>
+     
+    <ol>
+        <a name="Speed"></a>
+        <div class="sectionheading"><li>Areal Speed and Angular
+        Speed</div>. 
+        <br>
+		    Kepler's second law says that the areal speed of a planet is
+		    constant. For an elliptical orbit, this implies that the
+		    angular speed is <b>not</b> constant.
+
+        <p>
+          <b>Exercise 1</b>. RESET the applet. Set the eccentricity
+          and semi-major axis to the same values as in the earlier
+          Equation (1),
+        </p>
+        <p align="center">
+          <font face="symbol">e</font> = 0.400 <img src=
+          "images/small.gif" alt="space" height="1" width="20"> and
+          <img src="images/small.gif" alt="space" height="1"
+             width="20"><i>a</i> = 2.0 AU. <img src=
+             "images/small.gif" alt="space" height="1" width="20">
+             (1')
+        </p>
+        <p>
+          PLAY the motion, and observe how the radius vector sweeps
+          through a larger angle in a given time interval when the
+          planet is closer to the sun than when it is farther away
+          from the sun.
+        </p>
+        <p>
+          <b>Exercise 2</b>. REWIND the applet, and display the
+          angular-speed graph. PLAY the motion again. Does the
+          graph have a maximum when the planet is closest to the
+          sun and a minimum when the planet is farthest from the
+          sun?
+        </p>
+        <p>
+          <b>Exercise 3</b>. Measure the period <i>T</i> of the
+          planet, and then determine the areal speed by dividing
+          the area <i>A</i> of the ellipse by <i>T</i>. Since the
+          areal speed is constant, one can determine its constant
+          value this way. When done, compare your value to that
+          shown in the applet's data table.
+        </p>
+        <p>
+          To determine the area of the ellipse, use the following
+          equation
+        </p>
+        <p align="center">
+          <i>A</i> = <font face="symbol">p</font><i>ab</i>
+             <img src="images/small.gif" alt="space" height="1"
+             width="40"> (4)
+        </p>
+        <p>
+          where <i>b</i> is the semi-minor axis. The minor axis is
+          the axis perpendicular to the major axis. The semi-minor
+          axis is given by the expression
+        </p>
+        <p align="center">
+          <i>b</i> = <i>a</i> (1 - <font face=
+          "symbol">e</font><sup>2</sup>)<sup>1/2</sup> .
+             <img src="images/small.gif" alt="space" height="1"
+             width="40"> (5)
+        </p>
+        <p>
+          The geometry that defines <i>b</i> and underlies Equation
+          (5) is illustrated in Figure 3 below.
+        </p>
+        <p align="center">
+          <img src="images/semiminor.jpg" alt="Semi-minor Axis">
+        </p>
+        <p align="center">
+          <b>Figure 3</b>
+        </p>
+        <p>
+          To understand Equation (5), look at the right-angle
+          triangle formed by the sides <i>b</i>, <i>a</i>, and
+          <i>e</i> and containing the sun in the right-hand corner.
+          Applying the Pythagorean theorem to this triangle gives
+        </p>
+        <p align="center">
+          <i>a</i><sup>2</sup> = <i>b</i><sup>2</sup> +
+          <i>e</i><sup>2</sup> <img src="images/small.gif" alt=
+          "space" height="1" width="40"> (6)
+        </p>
+        <p>
+          whence
+        </p>
+        <p align="center">
+          <i>b</i><sup>2</sup> = <i>a</i><sup>2</sup> -
+          <i>e</i><sup>2</sup>. <img src="images/small.gif" alt=
+          "space" height="1" width="40"> (7)
+        </p>
+        <p>
+          From the definition of the eccentricity, <font face=
+          "symbol">e</font> = <i>e</i>/<i>a</i>, it follows that
+        </p>
+        <p align="center">
+          <i>e</i> = <font face="symbol">e</font> <i>a</i>
+          .<img src="images/small.gif" alt="space" height="1"
+             width="40"> (8)
+        </p>
+        <p>
+          Substituting this expression into Equation (7) gives
+        </p>
+        <p align="center">
+          <i>b</i><sup>2</sup> = <i>a</i><sup>2</sup> -
+             <font face="symbol">e</font><sup>2</sup>
+             <i>a</i><sup>2</sup> = <i>a</i><sup>2</sup>(1 -
+             <font face="symbol">e</font><sup>2</sup>). <img src=
+             "images/small.gif" alt="space" height="1" width="40">
+             (9)
+        </p>
+        <p>
+          Taking the square root of both sides of Equation (9)
+          gives Expression (5) for <i>b</i>.
+        </p>
+        <p>
+          Let's now have a look at how the areal speed
+          <i>dA</i>/<i>dt</i> is related to the angular speed
+          <font face="symbol">w</font> and the radius <i>r</i>.
+        </p>
+        <p>
+          <b>Exercise 4</b>. The areal speed <i>dA</i>/<i>dt</i> can
+          depend on only these two <b>dimensional</b> quantities: the
+          radius <i>r</i> from the sun to the planet and the angular
+          speed <font face="symbol">w</font> with which this radius
+          sweeps over the orbital area. Clearly, the larger
+          <i>r</i> is the more area will be swept over in a given
+          amount of time and the larger <font face= "symbol">w</font>
+          is the more area will be swept over in a given amount of
+          time. With this in mind, one can imagine a number of ways in
+          which <i>dA</i>/<i>dt</i> could depend on <i>r</i> and <font
+          face="symbol">w</font>. E.g., <i>dA</i>/<i>dt</i> could be
+          equal to
+        </p>
+        <ul>
+          <li>
+            <i>c</i> <i>r</i><font face="symbol">w</font>
+          </li>
+          <li>
+            <i>c</i> <i>r</i><sup>2</sup><font face=
+            "symbol">w</font>
+          </li>
+          <li>
+            <i>c</i> <i>r</i><font face=
+            "symbol">w</font><sup>2</sup>
+          </li>
+          <li>
+            <i>c</i> <i>r</i><sup>2</sup><font face=
+            "symbol">w</font><sup>2</sup>
+          </li>
+        </ul>
+        <p>
+          where <i>c</i> is a dimensionless quantity that could still
+          vary from point to point along the orbit.
+        </p>
+        <p>
+          Make a dimensional analysis to determine which combination
+          of powers of <i>r</i> and <font face="symbol">w</font> is
+          the only possibility in the expression for
+          <i>dA</i>/<i>dt</i>. Note that the dimensions of
+          <font face="symbol">w</font> are 1/time because the
+          radian measure of an angle can be treated as a
+          dimensionless number.
+        </p>
+        <p>
+          <b>Exercise 5</b>. The combination <i>r</i><sup>2</sup><font
+            face= "symbol">w</font> is the only one that has the same
+            dimension as <i>dA</i>/<i>dt</i>.  Now investigate whether
+            the factor <i>c</i> in front of <i>r</i><sup>2</sup><font
+            face= "symbol">w</font> is a constant.
+        </p>
+		  <p>
+				Do this by evaluating the product
+            <i>r</i><sup>2</sup><font face= "symbol">w</font> at three
+            or more points along the orbit and check if it is
+            constant. Values of <i>r</i> and <font
+            face="symbol">w</font> are displayed in the applet's data
+            box.
+        </p>
+        <p>
+          If you find <i>r</i><sup>2</sup><font face=
+          "symbol">w</font> to be a constant, evaluate <i>c</i> by
+          using the value of <i>dA</i>/<i>dt</i> from Exercise 3.
+          Therefore, what is <i>dA</i>/<i>dt</i> equal to in terms of
+          <i>r</i> and <font face="symbol">w</font>?
+        </p>
+        <p>
+          <b>Exercise 6</b>. Derive a theoretical expression for
+          <i>dA</i>/<i>dt</i> in terms of <i>r</i> and
+             <font face="symbol">w</font> for the special case of
+             uniform circular motion.
+        </p>
+        <p>
+          <u>Hint</u>. The area <i>A</i> of a circle of radius
+          <i>r</i> is given by Equation (4) with <i>b</i> =
+          <i>a</i> = <i>r</i>. Thus, <i>A</i> = <font face=
+          "symbol">p</font><i>r</i><sup>2</sup>. The angular speed
+          <font face="symbol">w</font> is equal to the angle
+          corresponding to a full circle, which is 2<font
+          face="symbol">p</font> rad, divided by the period <i>T</i>.
+        </p>
+        <p>
+          <u>Comment</u>. The expression for <i>dA</i>/<i>dt</i> in
+          terms of <i>r</i> and <font face="symbol">w</font> for a
+          general motion is derived in the section <a href=
+          "#Derivation">Derivation of Expression for Areal
+          Speed</a> of the Appendix.
+        </p>
+        <p>
+          <b>Exercise 7</b>. For the settings defined in Equation
+          (1') above and your value for the areal speed obtained in
+          Exercise 3, do the following calculations. Use the
+          general expression (A6) for <i>dA</i>/<i>dt</i> derived
+          in the Appendix to calculate the planet's angular speed
+          when the planet is closest to the sun (perihelion),
+          farthest from the sun (aphelion), and at the top of the
+          orbit where the minor axis intersects the ellipse.
+          Compare your answers to those provided by the applet.
+        </p>
+        <p>
+          <u>Hint</u>. To determine the distances sun-planet in the
+          three positions, refer to Figure 3 above. To evaluate
+          <i>e</i> in terms of the eccentricity and semi-major
+          axis, use Equation (8) above.
+        </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p>
+      </li>
+      <a name="Acceleration">
+        <div class="sectionheading"><li>The Planet's Acceleration</div>. 
+        <br>
+          <b>Exercise 1</b>. Click Reset. Set the eccentricity and
+          semi-major axis to the values
+        <p align="center">
+          <font face="symbol">e</font> = 0.400 <img src=
+          "images/small.gif" alt="space" height="1" width="20"> and
+          <img src="images/small.gif" alt="space" height="1"
+             width="20"><i>a</i> = 1.0 AU. <img src=
+             "images/small.gif" alt="space" height="1" width="20">
+             (10)
+        </p>
+        <p>
+          Display the planet's acceleration vector. PLAY the motion,
+          and observe how the acceleration vector changes.  Describe
+          in words how the direction and magnitude of the acceleration
+          vary while the planet makes one revolution around the sun.
+        </p>
+        <p>
+          <b>Exercise 2</b>. Determine the dependence of the
+          magnitude <i>a</i> of the acceleration of the planet on
+          the distance <i>r</i> from the sun to the planet. Let the
+          applet display its data, and get values for <i>a</i> and
+          <i>r</i> at three or more points along the orbit.
+        </p>
+        <p>
+          Repeat this for at least two more orbits, with different
+          eccentricities and/or semi-major axes. For each orbit,
+          find an equation that gives <i>a</i> in terms of
+          <i>r</i>. Then predict what the corresponding equation
+          will be for yet another orbit and check your prediction.
+        </p>
+        <p>
+          <u>Hint</u>. Evaluate the product <i>ar</i><sup>2</sup>
+          for every point at which you observe <i>a</i> and
+          <i>r</i>.
+        </p>
+        <p>
+          <b>Question 1</b>. The acceleration that you observe is
+          caused by the gravitational force exerted by the sun on
+          the planet. Are your observations consistent with this
+          statement? If so, why?
+        </p>
+		  <p>
+          <u>Hint</u>.  Think of what you know about the magnitude and
+          direction of this force.
+		  </p>
+        <p>
+          <b>Answer</b>. The only force acting on the planet is the
+          force exerted on it by the sun. This is true at least in the
+          applet, because there are no other objects around that could
+          be interacting with the planet. (In reality, other planets
+          also exert forces on a given planet, but these forces are a
+          lot weaker than the force exerted by the sun.) According to
+          Newton's law of universal gravitation, the force exerted by
+          the sun on the planet is directed towards the sun and has
+          magnitude
+        </p>
+        <p align="center">
+          <i>F<sub>grav</sub></i> =
+          <i>GMm</i>/<i>r</i><sup>2</sup>. <img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (11)
+        </p>
+        <p>
+          Here <i>G</i> is the <i>universal gravitational
+          constant</i>, which has the value
+        </p>
+        <p align="center">
+          <i>G</i> = 6.67&times;10<sup>-11</sup> N m<sup>2</sup>
+          kg<sup>-2</sup>. <img src="images/small.gif" alt="space"
+          height="1" width="20"> (12)
+        </p>
+        <p>
+          <i>M</i> is the mass of the sun and <i>m</i> the mass of
+          the planet.
+        </p>
+        <p>
+          Newton's second law of motion applied to the planet gives
+          the equation
+        </p>
+        <p align="center">
+          <img src="images/F.gif" alt="vector F" align=
+          "bottom"><sub>grav</sub> = <i>m</i> <img src=
+          "images/a.gif" alt="vector a" align=
+             "bottom">.<img src="images/small.gif" alt="space"
+             height="1" width="40"> (13)
+        </p>
+        <p>
+          This equation implies that the planet's acceleration is
+          in the same direction as the force exerted on the planet
+          by the sun, which is towards the sun at all times.
+        </p>
+        <p>
+          Equation (13) and Equation (11) combined imply that the
+          magnitude of the acceleration is equal to
+        </p>
+        <p align="center">
+          <i>a</i> = <i>GM</i>/<i>r</i><sup>2</sup>.<img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (14)
+        </p>
+        <p>
+          Equation (14) says that the magnitude of the planet's
+          acceleration is inversely proportional to
+          <i>r</i><sup>2</sup> and that the proportionality
+          constant, <i>GM</i>, does not depend on what the orbit is
+          and what planet it is, because the planet's mass <i>m</i>
+          does not enter into this constant. You should have been
+          able to observe these facts when doing Exercise 2.
+        </p>
+        <p>
+          <b>Question 2</b>. At a given instant, is <i>a</i> =
+          <i>v</i><sup>2</sup>/<i>r</i>, where <i>v</i> is the
+          planet's speed at that instant? Would there be any reason
+          for this equation to be true? When would you expect this
+          equation to be true? Test your prediction with the
+          applet.
+        </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p>
+      </li>
+      <a name="Circular"></a>
+        <div class="sectionheading"><li>Kepler's Three Laws for the
+        Case of Uniform Circular Motion</div>.
+        <br>
+          Kepler's three laws can be derived by applying Newton's
+          second law to the planet with the gravitational force
+          exerted by the sun as the force acting on the planet. The
+          mathematics involved in the derivation is easiest if one
+          uses calculus. (Newon, in his Principia, did the
+          derivation entirely in geometrical terms, even though he
+          was one of the inventers of calculus!) A derivation for
+          general elliptical orbits will not be given here.
+
+        <p>
+          For the case of circular orbits, the derivation of
+          Kepler's three laws is not difficult and does not need
+          calculus. Let's go through the derivation for circular
+          orbits.
+        </p>
+        <p>
+          <u>Kepler's First Law</u>. What needs to be shown is that
+          a planet can revolve around the sun in a circular orbit
+          with the sun at the center of the orbit. (The two focal
+          points coincide with the center of the circle when the
+          eccentricity is zero.)
+        </p>
+        <p>
+          The argument begins with Newton's second law applied to
+          the planet, as in Equation (13) above. Suppose a circular
+          orbit of radius <i>r</i> is possible and that the planet
+          moves in it with constant speed <i>v</i>. Then we know
+          from the kinematics of uniform circular motion that the
+          acceleration is directed towards the center of the
+          circle. Thus, Equation (13) is satisfied as far as the
+          directions of the vectors on both sides of the equation
+          are concerned if the sun is at the center of the circle
+          and the planet's speed is constant.
+        </p>
+        <p>
+          Equation (13) must be satisfied also with respect to the
+          magnitudes of both sides of the equation. The magnitude of
+          its left-hand side given by Expression (11).  From the
+          kinematics of uniform circular motion, we know that the
+          magnitude of the acceleration is equal to
+        </p>
+        <p align="center">
+          <i>a</i> = <i>v</i><sup>2</sup>/<i>r</i>. <img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (15)
+        </p>
+        <p>
+          Equation (13) can be satisfied if the speed <i>v</i> has the
+          right value. This proves that circular planetary motion is
+          possible.
+        </p>
+        <p>
+          For future reference, let's work out what the speed
+          <i>v</i> must be to make the magnitudes of the two sides
+          of Equation (13) equal.
+        </p>
+        <p>
+          Taking magnitudes of both sides of Equation (13),
+          dividing both sides by <i>m</i>, and using for <i>a</i>
+          Expression (15) gives
+        </p>
+        <p align="center">
+          <i>GM</i>/<i>r</i><sup>2</sup> =
+          <i>v</i><sup>2</sup>/<i>r</i>. <img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (16)
+        </p>
+        <p>
+          We could solve this equation for <i>v</i> if we had to
+          and calculate the speed necessary to keep a planet moving
+          in a circle of radius <i>r</i> around the sun.
+        </p>
+        <p>
+          <b>Exercise 1</b>. Approximate both the orbits of Earth and
+          Mars by circular orbits of radii 1.0 AU and 1.5 AU,
+          respectively. The speed of Earth is 2<font face=
+          "symbol">p</font> AU/Year. What is the speed of Mars in
+          astronomical units? You do not need to know the value of
+          <i>GM</i> to work out the answer.
+        </p>
+		  <p>
+          <b>Exercise 2</b>.  From the data for Earth's orbit given in
+          Exercise 1, determine the value of the constant <i>GM</i> in
+          astronomical units.
+		  </p>
+        <p>
+          <u>Kepler's Second Law</u>. We have seen that a planet
+          can orbit the sun in a circle if the planet has the right
+          speed and if the sun is at the center of the circle.
+        </p>
+        <p>
+          It is self-evident, that the areal speed will be constant
+          in this case.
+        </p>
+        <p>
+          <u>Kepler's Third Law</u>. Kepler's third law follows
+          from Equation (16) above if we substitute
+        </p>
+        <p align="center">
+          <i>v</i> = 2<font face=
+          "symbol">p</font><i>r</i>/<i>T</i><img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (17)
+        </p>
+        <p>
+          where <i>T</i> is the planet's period. 2<font face=
+          "symbol">p</font><i>r</i> is the circumference of the
+          circle, which is the distance traveled by the planet
+          during time <i>T</i>.
+        </p>
+        <p>
+          Substituting Expression (17) into Equation (16) gives
+        </p>
+        <p align="center">
+          <i>GM</i>/<i>r</i><sup>2</sup> = (2<font face=
+          "symbol">p</font><i>r</i>/<i>T</i>)<sup>2</sup>/<i>r</i>
+          = (2<font face=
+          "symbol">p</font>)<sup>2</sup><i>r</i>/<i>T</i><sup>2</sup>.
+          <img src="images/small.gif" alt="space" height="1"
+             width="40"> (18)
+        </p>
+        <p>
+          This equation can be rewritten as
+        </p>
+        <p align="center">
+          <i>GM</i>/(2<font face="symbol">p</font>)<sup>2</sup>
+          &times; <i>T</i><sup>2</sup> = <i>r</i><sup>3</sup> .
+          <img src="images/small.gif" alt="space" height="1"
+             width="40"> (19)
+        </p>
+        <p>
+          This is Kepler's third law for circular motion. The
+          square of the period is proportional to the cube of the
+          radius. The proportionality constant is the same for all
+          possible orbits. It is determined by the mass of the sun,
+          apart from the universal gravitational constant.
+        </p>
+        <p>
+          Although we have not proved Kepler's third law for
+          elliptical orbits, the same proportionality constant
+          <i>GM</i>/(2<font face="symbol">p</font>)<sup>2</sup>
+          applies in all cases. Of course, <i>r</i> must then be
+          replaced by the semi-major axis <i>a</i>. Thus, Kepler's
+          third law in general is
+        </p>
+        <p align="center">
+          &nbsp;
+        </p>
+        <p align="center">
+          <i>GM</i>/(2<font face="symbol">p</font>)<sup>2</sup>
+          &times; <i>T</i><sup>2</sup> = <i>a</i><sup>3</sup> .
+          <img src="images/small.gif" alt="space" height="1"
+             width="40"> (20)
+        </p>
+        <p>
+          For Earth, <i>a</i> = 1 AU and <i>T</i> = 1 Year, by
+          definition. These parameters must satisfy Kepler's third
+          law as well. Thus,
+        </p>
+        <p align="center">
+          <i>GM</i>/(2<font face="symbol">p</font>)<sup>2</sup>
+          &times; 1 Year<sup>2</sup> = 1 AU<sup>3</sup> .
+             <img src="images/small.gif" alt="space" height="1"
+             width="40"> (21)
+        </p>
+        <p>
+          For this equation to be correct, the numerical value of
+          <i>GM</i>/(2<font face= "symbol">p</font>)<sup>2</sup> must
+          be 1 when using AU and Year as units. Including units,
+        </p>
+        <p align="center">
+          <i>GM</i>/(2<font face="symbol">p</font>)<sup>2</sup> = 1
+          AU<sup>3</sup> Year <sup>-2</sup> .<img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (22)
+        </p>
+        <p>
+          <b>Exercise 3</b>. Use either Equation (21) or (22) to work
+          out the mass of the sun. Use 1 AU =
+          1.496&times;10<sup>11</sup> m and 1 Year =
+          3.156&times;10<sup>7</sup> s. The value of the
+          gravitational constant <i>G</i> in SI-units is given in
+          Equation (12) above.
+        </p>
+        <p>
+          <u>Comment 1</u>. Substituting Expression (22) into Kepler's
+          third law (20) shows that in units of AU and Year this law
+          has the simple form
+        </p>
+        <p align="center">
+          (1 AU<sup>3</sup> Year <sup>-2</sup>) &times;
+          <i>T</i><sup>2</sup> = <i>a</i><sup>3</sup> .
+             <img src="images/small.gif" alt="space" height="1"
+             width="40"> (23)
+        </p>
+        <p>
+          If one is interested only in numerical values, one can write
+          Equation (23) as
+        </p>
+        <p align="center">
+          <i>T</i><sup>2</sup> = <i>a</i><sup>3</sup>, <img src=
+          "images/small.gif" alt="space" height="1" width=
+          "20">where <i>a</i> in AU and <i>T</i> in Year .
+             <img src="images/small.gif" alt="space" height="1"
+             width="40"> (24)
+        </p>
+        <p>
+          In this form, Kepler's third law was already stated in
+          Equation (3) above.
+        </p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p>
+    <p align="center">
+      <b>&gt;&gt;&gt;&gt;&gt; Appendix &lt;&lt;&lt;&lt;&lt;</b>
+    </p>
+    <p>
+      <img src="images/small.gif" alt="space" height="10" width=
+      "1"> <a name="Definitions"></a>
+    </p>
+    <div class="sectionheading">
+      Definitions of Radian Measure of Angle, Angular Speed, Areal
+      Speed
+    </div>
+    <p>
+      The quantities needed in the definitions of the quantities in
+      the title of this section are listed below and are illustrated
+      in Figure A1.
+    </p>
+    <p align="center">
+      <img src="images/arealvelderive.jpg" alt=
+      "Areal Velocity Derivation">
+    </p>
+    <p align="center">
+      <b>Figure A1</b>
+    </p>
+    <p>
+      Definitions of symbols:
+    </p>
+    <ul>
+      <li>
+        <font face="symbol">D</font><i>t</i>: time interval during
+        which the planet moves from point P to point P';
+      </li>
+      <li>
+        <i>s</i>: distance travelled by planet during time interval
+        <font face="symbol">D</font><i>t</i>;
+      </li>
+      <li>
+        <font face="symbol">Dq</font>: angle through which the
+        radius vector sun-to-planet moves during <font face=
+        "symbol">D</font><i>t</i>;
+      </li>
+      <li>
+        <i>b</i>: length of the circular arc from P to Q centered
+        at S with radius <i>r</i>; note that in the configuration
+        illustrated, <i>s</i> is greater than <i>b</i>, maybe by
+        10%;
+      </li>
+      <li>
+        <i>r</i>: distance SP, which is the distance sun-planet at
+        the moment we wish to evaluate the areal and angular
+        speeds; <i>r</i> is also equal to the distance SQ;
+      </li>
+      <li>
+        <font face="symbol">D</font><i>A</i>: area of the
+        "triangle" SPP', which is the area swept over by the radius
+        vector sun-to-planet during <font face=
+        "symbol">D</font><i>t</i>; the word "triangle" is in quotes
+        because the side PP' is not a straight line, but a segment
+        of the planet's curved trajectory.
+      </li>
+    </ul>
+	 <br>
+    <ol>
+      <li>
+        <u>Radian measure of an angle</u>. The <i>radian
+        measure</i> of the angle <font face="symbol">Dq</font> is
+        given by the ratio 
+        <p align="center">
+          <font face="symbol">Dq</font> = b/r . <img src=
+          "images/small.gif" alt="space" height="1" width="40">
+          (A1)
+        </p>
+        <p>
+          Example: If <i>b</i> = 0.6 AU and <i>r</i> = 4.0 AU, then
+          <font face="symbol">Dq</font> = 0.6/4.0 = 0.15 rad.
+        </p>
+        <p>
+          Note that angles in radians can be treated like
+          dimensionless numbers in a dimensional analysis because
+          their measure is the ratio of two dimensionally equal
+          quantities, namely, the ratio of two lengths.
+        </p>
+      </li>
+      <li>
+        <u>Average angular speed and angular speed</u>. The
+        <i>average angular speed</i> during the time interval
+        <font face="symbol">D</font><i>t</i>, <font face=
+        "symbol">w</font><sub>av</sub>, is defined by the following
+        ratio: 
+        <p align="center">
+          <font face="symbol">w</font><sub>av</sub> =
+             <font face="symbol">Dq</font>/<font face=
+             "symbol">D</font><i>t</i> . <img src=
+             "images/small.gif" alt="space" height="1" width="40">
+             (A2)
+        </p>
+        <p>
+          The <i>angular speed at a given instant</i>, <font
+             face="symbol">w</font>, is the limit of the average
+             angular speed as the size <font face=
+             "symbol">D</font><i>t</i> of the time interval containing
+             the given instant goes to zero.
+        </p>
+        <p>
+          It is customary when dealing with angular speed to
+          measure angles in radians. The SI-unit of angular speed
+          is rad/s.
+        </p>
+      </li>
+      <li>
+        <u>Average areal speed and areal speed</u>. The <i>average
+        areal speed</i> during the time interval <font face=
+        "symbol">D</font><i>t</i>,
+        (<i>dA</i>/<i>dt</i>)<sub>av</sub>, is defined by the
+        following ratio: 
+        <p align="center">
+          (<i>dA</i>/<i>dt</i>)<sub>av</sub> = <font face=
+          "symbol">D</font><i>A</i>/<font face=
+          "symbol">D</font><i>t</i> . <img src="images/small.gif"
+          alt="space" height="1" width="40"> (A3)
+        </p>
+        <p>
+          The <i>areal speed at a given instant</i>,
+          <i>dA</i>/<i>dt</i>, is the limit of the average areal speed
+          as the size <font face= "symbol">D</font><i>t</i> of the
+          time interval containing the given instant goes to zero.
+        </p>
+      </li>
+      <li>
+        <u>Average speed and speed</u>. For comparison and good
+        measure, let's contrast the preceding definitions to those of
+        average speed and speed. 
+        <p>
+          The <i>average speed</i> during the time interval
+          <font face="symbol">D</font><i>t</i>,
+          <i>v</i><sub>av</sub>, is defined by the following ratio:
+        </p>
+        <p align="center">
+          <i>v</i><sub>av</sub> = s/<font face=
+          "symbol">D</font><i>t</i> . <img src="images/small.gif"
+          alt="space" height="1" width="40"> (A4)
+        </p>
+        <p>
+          The <i>speed at a given instant</i>, <i>v</i>, is the limit
+          of the average speed as the size <font face=
+          "symbol">D</font><i>t</i> of the time interval containing
+          the given instant goes to zero.
+        </p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="space"
+           border="0" align="top"></a>
+    </p><a name="Derivation"></a> 
+    <div class="sectionheading">
+      Derivation of Expression for Areal Speed
+    </div><br>
+     <u>Introductory comments</u>. The expression for the areal
+    speed <i>dA</i>/<i>dt</i> of a particle in terms of the radius
+    <i>r</i> and the angular speed <font face="symbol">w</font> is
+    basically a matter of geometry and has nothing to do with the
+    dynamics, i.e., forces, governing the particle's motion.
+    Therefore, the expression that is now going to be derived is
+    very general and by no means restricted to just planetary
+    motion. 
+    <p>
+      All quantities involved in the expression, radius, angular
+      speed, and areal speed, are relative to a reference point. In
+      Figure A2 below, this point is point S, the location of the
+      sun, but the reference point could be chosen anywhere else as
+      well.
+    </p>
+    <p align="center">
+      <img src="images/arealvelderive.jpg" alt=
+      "Areal Velocity Derivation">
+    </p>
+    <p align="center">
+      <b>Figure A2</b>
+    </p>
+    <p>
+      <u>Derivation</u>. The derivation is based on the geometry
+      illustrated in Figure A2. The symbols in Figure A2 are
+      explained following the identical earlier Figure A1. It will be
+      assumed that you know the definitions of the radian measure of
+      an angle, and of angular speed and areal speed as presented in
+      the preceding section.
+    </p>
+    <p>
+      The area <font face="symbol">D</font><i>A</i> of the triangle
+      SPP' can be approximated by the area of the triangle SPQ. (The
+      word "triangle" is used here because the arcs PP' and PQ
+      approach straight lines as <font face="symbol">D</font><i>t</i>
+      and <font face="symbol">Dq</font> go to zero.) In making this
+      approximation, the area of the small triangle PP'Q is neglected.
+      In the limit as <font face="symbol">D</font><i>t</i> and <font
+      face="symbol">Dq</font> go to zero, the error due to this
+      approximation vanishes. Reason: in this limit, the area of
+      triangle PP'Q becomes negligible in comparison to that of SPQ.
+    </p>
+    <p>
+      The length <i>b</i> of the base PQ of the triangle SPQ is
+      equal to <i>r</i><font face="symbol">Dq</font> if
+         <font face="symbol">Dq</font> is in radians. This follows
+         from Definition (A1) of the radian measure of angles.
+    </p>
+    <p>
+      As <font face="symbol">Dq</font> goes to zero, the base PQ
+      approaches a straight line, and the triangle SPQ with curved
+      base PQ approaches an isosceles triangle with a straight
+      base. Also, the height of this triangle, extending from the
+      midpoint of the base to point S, becomes indistinguishable
+      from the side <i>r</i>.
+    </p>
+    <p>
+      The area of a triangle is equal to
+      &frac12;&times;base&times;height. Therefore, in the limit as
+      <font face="symbol">Dq</font> goes to zero, we can evaluate
+      the area of the triangle SPQ as
+      &frac12;&times;<i>r</i><font face=
+      "symbol">Dq</font>&times;<i>r</i>. Thus, when approaching
+      this limit, we can use
+    </p>
+    <p align="center">
+      <font face="symbol">D</font><i>A</i> = &frac12;
+      <i>r</i><sup>2</sup><font face="symbol">Dq</font>,
+         <img src="images/small.gif" alt="space" height="1" width=
+         "20">for <img src="images/small.gif" alt="space" height=
+         "1" width="10"><font face="symbol">Dq</font> <img src=
+         "images/rightarrow.gif" alt="Right Arrow" align="bottom">
+         0. <img src="images/small.gif" alt="space" height="1"
+         width="40"> (A5)
+    </p>
+    <p>
+      Dividing both sides of Equation (A5) by <font face=
+      "symbol">D</font><i>t</i>, going to the limit, and writing
+      <i>dA</i>/<i>dt</i> for <font face=
+      "symbol">D</font><i>A</i>/<font face=
+      "symbol">D</font><i>t</i> and <font face="symbol">w</font>
+      for <font face="symbol">Dq</font>/<font face=
+      "symbol">D</font><i>t</i>, gives for the areal speed at point
+      P
+    </p>
+    <p align="center">
+      <i>dA</i>/<i>dt</i> = &frac12;
+         <i>r</i><sup>2</sup><font face="symbol">w</font> .
+         <img src="images/small.gif" alt="space" height="1" width=
+         "40"> (A6)
+    </p>
+    <p>
+      Nowhere in this derivation did we use the fact that the
+      particle is moving in an ellipse. Therefore, Expression (A6)
+      for the areal speed of a particle is valid for any curve and
+      any motion along that curve. The point S in general is an
+      arbitrary fixed reference point. The value of the areal speed
+      at a given instant, as those of <i>r</i> and <font face=
+      "symbol">w</font>, will depend on the choice of point S, but
+      the form of Relation (A6) will not.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="images/top.gif" alt="Back to Top"
+      border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

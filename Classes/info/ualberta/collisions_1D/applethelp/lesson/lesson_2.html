@@ -1,0 +1,1033 @@
+<html>
+<head>
+<title>Lesson</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../../libraries/styles/mapstyle.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" class="general" onLoad="MM_preloadImages('../../../libraries/buttons/lesson_up.gif')">
+<h1>Lesson 2 - Elasticity and Conservation of Kinetic Energy</h1>
+<h2>The Collisions 1D applet simulates elastic and inelastic one-dimensional collisions 
+  in both the lab and centre  of mass frames.</h2>
+<hr noshade align="center">
+<p><b>Prerequisites</b></p>
+<p>Students should have a basic understanding of vector and scalar quantities, 
+  and should be able to define kinetic energy qualitatively and algebraically. 
+  Students should also have an understanding of conservation of momentum and equation 
+  manipulation.</p>
+<p><b>Learning Outcomes</b></p>
+<p>In this lesson you will learn about the elasticity of a collision and the conservation 
+  of kinetic energy. Students will be able to define, compare and contrast elastic 
+  and inelastic collisions. Students will also be able to compare vector and scalar 
+  conservation laws and predict the results of a collision using these conservation 
+  laws. </p>
+<p><b>Instructions</b> </p>
+<p>Students should know how the applet functions, as described in Help and ShowMe. 
+  The applet should be open. The step-by-step instructions on this page are to 
+  be done in the applet. You may need to toggle back and forth between instructions 
+  and applet if your screen space is limited. </p>
+<hr noshade align="center">
+
+<p><a name="contents"></a><b>Contents</b> </p>
+<table width="100%" border="0">
+  <tr> 
+    <td valign="top"> 
+      <ul class="general">
+        <li><a href="#1">Background</a></li>
+        <li><a href="#2">1D Collisions and Kinetic Energy</a></li>
+        <li><a href="#3">Elastic and Inelastic Collisions</a></li>
+        <li><a href="#4">Analysing Collisions</a></li>
+        <li><a href="#5">Summary</a></li>
+      </ul>
+    </td>
+    <td> 
+      <!--<div align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image201','','../../../libraries/buttons/lesson_up.gif',1)" onClick="MM_openBrWindow('lesson_1.pdf','','resizable=yes,width=600,height=600')"><img name="Image201" border="0" src="../../../libraries/buttons/lesson_down.gif" width="133" height="40"></a></div>-->
+    </td>
+  </tr>
+</table>
+<hr noshade align="center">
+<p class="rightanswer"><a name="1"></a>Background</p>
+<p>In a previous lesson you looked at something called momentum. As you remember, 
+  momentum is a vector. In this lesson, however, we will be focusing on a scalar 
+  quantity - kinetic energy. We will investigate the role of kinetic energy in 
+  collisions and decide whether it is also conserved. But before we look at collisions 
+  and kinetic energy, let's review momentum and kinetic energy. </p>
+<ol>
+  <li>In one or two sentences, describe what momentum is. How is momentum calculated?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Explain the Law of Conservation of Momentum.<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>What is the difference between potential and kinetic energy?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>How is kinetic energy calculated?<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Two bumper cars, each with a mass of 50 kg are headed toward each other 
+    with speeds of 6 km/hr. 
+    <ol type="a">
+      <li>What is the momentum of each car? Do the cars have the same 
+        momentum? <br>
+        <br>
+        <br>
+      </li>
+      <li>What is the total momentum of the system?<br>
+        <br>
+        <br>
+      </li>
+      <li>What is the kinetic energy of each car? Do the cars have the same kinetic 
+        energy?<br>
+        <br>
+        <br>
+      </li>
+      <li>What is the total kinetic energy of the system?</li>
+    </ol>
+  </li>
+</ol>
+<p align="right"><br>
+  <a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a><br>
+</p>
+<p class="rightanswer"><a name="2"></a>1D Collisions and Kinetic Energy </p>
+<p>Kinetic energy is energy of motion. Any object that is moving not only has 
+  momentum, but also has kinetic energy. In previous lessons, you discovered that 
+  the total momentum of a closed, isolated system is conserved during a collision. 
+  But, what about kinetic energy - is it also conserved? Use the applet to help 
+  you answer the following questions. On the applet, un-check <b>Show CM</b> and 
+  <b>Show CM Frame</b>.</p>
+<ol start="6">
+  <li>Using the applet, investigate five different collisions between the same 
+    objects and complete the tables below. For each collision, you are verifying 
+    that momentum is conserved and checking to see if kinetic energy is conserved. 
+    To view the collision information, press the data button ( <img src="../../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+    ). To set up the collisions, follow these steps: 
+    <ul>
+      <li>press the <b>options</b> buttons 
+        <ul>
+          <li>make sure that under <b>Collision Settings</b>, e is set to <b>random</b></li>
+          <li>under <b>Particle Settings</b>, select <b>input</b> <nobr>( <img src="fig07a.png" width="52" height="17" border="1" align="absmiddle"> 
+            )</nobr> for both particles and give them the same mass</li>
+        </ul>
+      </li>
+      <li>pressing the new button <nobr>( <img src="new.png" width="24" height="18" border="1" align="absmiddle"> 
+        )</nobr> will generate collisions with new e values, but will maintain 
+        the masses that you have specified.</li>
+      <li>adjust the velocity slider to vary the initial velocity of the blue 
+        mass.<br>
+        <br>
+      </li>
+    </ul>
+    <p>Do not worry about what e represents - this will be discussed later. The 
+      value of e will be listed with the other applet information.<br>
+    </p>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e 
+            = _____ </b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span> </div>
+        </td>
+        <td width="80"><span class="general">p<sub>final</sub><br>
+          (kg&middot;m/s) </span></td>
+        <td width="80"><span class="general">E<sub>k initial</sub><br>
+          (J) </span></td>
+        <td width="80"><span class="general">E<sub>k final</sub><br>
+          (J) </span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Total</span></td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e 
+            = _____ </b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span> </div>
+        </td>
+        <td width="80"><span class="general">p<sub>final</sub><br>
+          (kg&middot;m/s) </span></td>
+        <td width="80"><span class="general">E<sub>k initial</sub><br>
+          (J) </span></td>
+        <td width="80"><span class="general">E<sub>k final</sub><br>
+          (J) </span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Total</span></td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e 
+            = _____ </b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span> </div>
+        </td>
+        <td width="80"><span class="general">p<sub>final</sub><br>
+          (kg&middot;m/s) </span></td>
+        <td width="80"><span class="general">E<sub>k initial</sub><br>
+          (J) </span></td>
+        <td width="80"><span class="general">E<sub>k final</sub><br>
+          (J) </span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Total</span></td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e 
+            = _____ </b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span> </div>
+        </td>
+        <td width="80"><span class="general">p<sub>final</sub><br>
+          (kg&middot;m/s) </span></td>
+        <td width="80"><span class="general">E<sub>k initial</sub><br>
+          (J) </span></td>
+        <td width="80"><span class="general">E<sub>k final</sub><br>
+          (J) </span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Total</span></td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e 
+            = _____ </b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span> </div>
+        </td>
+        <td width="80"><span class="general">p<sub>final</sub><br>
+          (kg&middot;m/s) </span></td>
+        <td width="80"><span class="general">E<sub>k initial</sub><br>
+          (J) </span></td>
+        <td width="80"><span class="general">E<sub>k final</sub><br>
+          (J) </span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Total</span></td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">---</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+        <td bgcolor="#FFFFCA" width="80">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+  </li>
+  <li> Now, look at the information in your tables. 
+    <ol type="a">
+      <li>Is momentum conserved in each collision?<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>Is kinetic energy conserved in each collision?<br>
+        <br>
+      </li>
+    </ol>
+  </li>
+</ol>
+<ol>
+  <ol>
+  </ol>
+</ol>
+<p><br>
+  In a collision, momentum is always conserved, but not kinetic energy. Sometimes, 
+  the kinetic energy is nearly conserved and in other collisions, it is hardly 
+  conserved at all. What is going on? To answer this question, we must consider 
+  is happening to the objects during a collision. <br>
+</p>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a> 
+</p>
+<p class="rightanswer"><a name="3"></a>Elastic and Inelastic Collisions</p>
+<p>During a collision, energy changes form. As objects interact and collide, they 
+  change shape and are distorted. As this occurs, the kinetic energy of the colliding 
+  bodies is converted into potential energy, or dissipated as sound or heat. The 
+  extent to which energy is converted back to kinetic energy after the collision 
+  determines the &quot;<b>elasticity</b>&quot; of the collision. </p>
+<p>There is a spectrum of elasticity: collisions can range from being perfectly 
+  elastic to perfectly inelastic. As collisions become more and more inelastic, 
+  less and less kinetic energy is conserved.</p>
+<table width="75%" border="0" align="center">
+  <tr>
+    <td><img src="fig02a.png" width="114" height="323"></td>
+    <td> 
+      <ul>
+        <li><span class="general"><b>Perfectly Elastic Collisions<br>
+          </b> In a perfectly elastic collision, the total kinetic energy of the 
+          system is conserved. Perfectly elastic collisions generally occur only 
+          at the subatomic level<br>
+          <br>
+          </span></li>
+        <li><span class="general"><b>Inelastic Collisions</b><br>
+          In an inelastic collision, some kinetic energy is lost, generally as 
+          sound or thermal energy. This is a broad range and most collisions fall 
+          within this class.<br>
+          <br>
+          </span></li>
+        <li><span class="general"><b>Perfectly Inelastic Collisions:</b> <br>
+          In a perfectly inelastic collision (also called completely inelastic), 
+          the colliding objects stick together upon impact. There is the greatest 
+          loss of kinetic energy in this type of collision.</span></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<ol start="8">
+  <li>Imagine throwing a super-ball (a very bouncy ball) against the wall. 
+    <ol type="a">
+      <li>Describe the shape of the ball before, during and after the collision.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>Describe what happens to the kinetic energy of the ball during the interaction. 
+        Is the kinetic energy of the ball conserved? If not, what happened to 
+        it? <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+  <li>Now, imagine throwing a blob of playdough at the wall. 
+    <ol type="a">
+      <li>Describe the shape of the blob before, during and after the 
+        collision.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>Describe what happens to the kinetic energy of the blob during the interaction. 
+        Is the kinetic energy of the blob conserved? If not, what happened to 
+        it?<br>
+        <br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+</ol>
+<p>Now that we have discussed the idea of elasticity, let's return to the collisions 
+  you performed earlier. This time, we will look at what e represents.<br>
+</p>
+<ol start="10">
+  <li>For each of your collisions, calculate the percentage of kinetic energy 
+    lost during the collision and fill in the following table. The percentage 
+    lost is simply the loss in kinetic energy (the change in kinetic energy) divided 
+    by the total initial kinetic energy.<br>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Collision #</span></div>
+        </td>
+        <td width="175"> 
+          <div align="center"><span class="general">total initial kinetic energy 
+            <br>
+            (J) </span></div>
+        </td>
+        <td width="175"> 
+          <div align="center"><span class="general">total final kinetic energy<br>
+            (J) </span></div>
+        </td>
+        <td width="175"> 
+          <div align="center"><span class="general">% loss in kinetic energy</span></div>
+        </td>
+        <td width="175"><span class="general">e</span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">1</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp;&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp; &nbsp;&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp;&nbsp; &nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp;&nbsp; &nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">2</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp; &nbsp;&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp; &nbsp;&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp;&nbsp; &nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="175"> 
+          <div align="center">&nbsp;&nbsp; &nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">3</span></td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">4</span></td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">5</span></td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+        <td bgcolor="#FFFFCA" width="175">&nbsp;&nbsp; </td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li>Look at the table you just filled out. For each collision, you determined 
+    what percentage of total kinetic energy was lost during the collision. How 
+    does this number compare to the value of e? What is the relationship between 
+    percentage loss in kinetic energy and e? </li>
+</ol>
+<ol>
+  <p><br>
+    <br>
+  </p>
+</ol>
+<p>&nbsp;</p>
+<p>In the previous question, you should have seen that as loss in kinetic energy 
+  increases, e becomes smaller and smaller. e is a measure of how 
+  much kinetic energy is lost during a collision - it is an indicator of the elasticity 
+  of the collision. By definition, e is the <b>coefficient of restitution</b> 
+  and is the ratio of the final velocities to the initial velocities of the colliding 
+  objects:</p>
+<p align="center"><img src="eqn13.gif" width="130" height="58"> </p>
+<p>The value of e ranges from 1.0 to 0. For a perfectly elastic collision, e has 
+  a value of 1.0. For a perfectly inelastic collision, e has a value of 0. <br>
+</p>
+<table width="60%" border="1" align="center" cellspacing="0" cellpadding="5">
+  <tr>
+    <td bgcolor="#FFFFCA"> 
+      <div align="center"><span class="general" align="center"><b>Elasticity of 
+        Collisions</b> <br>
+        <br>
+        </span> </div>
+      <div align="center"></div>
+      <p><span class="general" align="center">The <b>coefficient of restitution</b>, 
+        e, is a measure of the elasticity of a collision. For a <b>perfectly 
+        elastic </b>collision, kinetic energy is conserved and <nobr>e = 1.</nobr> 
+        For a<b> perfectly inelastic</b> collision, the objects stick together 
+        and kinetic energy is not conserved, and <nobr>e = 0.</nobr></span> 
+      <p align="center"><img src="eqn13.gif" width="130" height="58"></p>
+    </td>
+  </tr>
+</table>
+<ol start="12">
+  <li>Agree or disagree with the following statement: In a perfectly inelastic 
+    collision (e = 0), all kinetic energy is lost and the total final kinetic 
+    energy is 0. Support your answer with examples.<br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Prove that e must be 0 for a perfectly inelastic collision.<br>
+    <br>
+    <br>
+  </li>
+</ol>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a><br>
+</p>
+<p class="rightanswer"><a name="4"></a>Analysing Collisions</p>
+<p>We have now looked at two aspects of collisions: conservation of momentum and 
+  elasticity. We saw that in any collisions, momentum is always conserved (as 
+  long as there are no external forces acting on the system). Kinetic energy, 
+  however, is not always conserved - the elasticity of the collision is our clue 
+  to how much kinetic energy is conserved. These two pieces of information about 
+  a collision provides us with greater ability to analyse collisions and predict 
+  their outcomes. </p>
+<p>In this section you will use both sets of equations to solve questions about 
+  collisions. These questions require several steps, but if you work carefully 
+  and follow a systematic approach (like the four-step method), they are easy 
+  to solve. For every question, use the applet to help you visualise the question 
+  and check you answer. Let's do an example together first</p>
+<p><b>Example:</b><br>
+<blockquote>Object 1, with a mass of 3.0 kg, is travelling to the right at 6.1 
+  m/s. It collides with object 2 which is at rest and has a mass of 8.0 kg. If 
+  e = 0.95, what is the final velocity of each object?</blockquote>
+<p><b>Solution: </b></p>
+<ol>
+  <li><b>Plan-it:</b> Initially, only m<sub>1</sub> is moving and the total initial 
+    momentum is directed to the right. During the collision, m<sub>1</sub> hits 
+    m<sub>2</sub> and pushes it into motion - m<sub>2</sub> will move to the right. 
+    But what happens to m<sub>1</sub>? This collision is almost elastic (e = 0.95) 
+    and since m<sub>2</sub> is much more massive than m<sub>1</sub>, we can expect 
+    that m<sub>1</sub> bounces off m<sub>2</sub> and moves to the left. Playing 
+    the applet confirms this prediction.<br>
+    <img src="fig03a.png" width="340" height="88" vspace="10" hspace="40"> <br>
+  </li>
+  <li><b>Set-it-Up:</b> First of all, let's list all the known and unknown information:<br>
+    <img src="eqn15.gif" width="249" height="101" vspace="10" hspace="40"> <br>
+    We have two unknowns that we must solve for: v<sub>1f</sub> and v<sub>2f</sub>. 
+    But we also have two sets of equations: the law of conservation of momentum 
+    and our elasticity condition:<br>
+    <br>
+    <table width="80%" border="0">
+      <tr> 
+        <td valign="top"><img src="eqn16.gif" width="310" height="82"></td>
+        <td><img src="eqn17.gif" width="298" height="146"></td>
+      </tr>
+    </table>
+    <br>
+    Now, we substitute equation 2 into equation 1 to develop an expression for 
+    v<sub>2f</sub>: <br>
+    <img src="eqn18.gif" width="372" height="168" vspace="10" hspace="40"><br>
+    <br>
+  </li>
+  <li><b>Solve-it:</b> Now, we can substitute known values into equation 3 and 
+    solve for v<sub>2f</sub>:<br>
+    <img src="eqn19.gif" width="485" height="50" vspace="10" hspace="40"><br>
+    Now that we know v<sub>2f</sub>, we can substitute this value into equation 
+    2 and solve for v<sub>1f</sub>:<br>
+    <img src="eqn20.gif" width="238" height="98" vspace="10" hspace="40"> <br>
+    After the collision, object 1 moves to the <b>left</b> at 2.6 m/s and object 
+    2 moves to the <b>right</b> at 3.2 m/s.<br>
+    <br>
+  </li>
+  <li><b>Think-About-it:</b> Our answer is verified with the applet. Furthermore, 
+    our answer matches our prediction.<br>
+    <br>
+  </li>
+</ol>
+<p>Now, it is your turn! For each question, assume that the collisions are head-on 
+  and that the system is a closed, isolated system.</p>
+<ol start="14">
+  <li>Object 1, with a mass of 12.0 kg, is travelling to the right at 6.0 m/s. 
+    It collides with object 2 which is at rest and has a mass of 3.5 kg. If the 
+    collision is perfectly elastic, what is the final velocity of each object?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>In a collision where e = 0.25, object A (mass = 5.0 kg ) collides with object 
+    B (mass = 5.0 kg). If object A was initially travelling to the right at 10.0 
+    m/s and object B was at rest, what is the final velocity of each object?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Two objects, both with a mass of 7.0 kg, collide in a partially inelastic 
+    collision, where e=0.8. Initially, object 1 was moving to the right at 3.2 
+    m/s and object 2 was at rest. After the collision, what is the final velocity 
+    of each object?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Object 1 (mass = 2.0 kg) is moving to the right at 9.23 m/s. It collides 
+    with object 2 (mass = 9.0 kg) which is at rest. If e = 0.78, what is the final 
+    velocity of each object?<br>
+    <br>
+	<br>
+    <br>
+    <br>
+    <br>
+    <br></li>
+ 
+</ol>
+<p class="rightanswer" align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="5"></a>Summary</p>
+<p>In this lesson you looked at the total kinetic energy of a system before and 
+  after a collision. You discovered that kinetic energy is <b>not</b> always conserved 
+  in a collision. The key points covered in this lesson are:</p>
+<ul>
+  <li>Kinetic energy is &quot;energy of motion&quot;. Every object that is moving 
+    has kinetic energy:<br>
+    <img src="eqn11.gif" width="90" height="41" vspace="10" hspace="40"> </li>
+  <li>In a collision, the total kinetic energy of the system is not necessarily 
+    conserved. Kinetic energy can be converted to other forms of energy, resulting 
+    in a loss of kinetic energy.</li>
+  <li>Whenever an object is distorted in a collision, there is a loss of kinetic 
+    energy. </li>
+  <li>The <b>elasticity</b> of a collision is a measure of how much kinetic energy 
+    is conserved. </li>
+  <li>The <b>coefficient of restitution</b>, e, is calculated by:<br>
+    <img src="eqn13.gif" width="130" height="58" vspace="10" hspace="40"> <br>
+    <ul>
+      <li><b>e = 1 </b>- perfectly elastic collision (all kinetic energy is conserved)</li>
+      <li><b>0 &lt; e &lt; 1</b> - inelastic collision (some kinetic energy is 
+        converted to other forms)</li>
+      <li><b>e = 0 </b>- perfectly inelastic collision (objects stick together)<br>
+        <br>
+      </li>
+    </ul>
+  </li>
+  <li>Using both the conservation of momentum and the elasticity condition of 
+    a collisions allows us to analyse collisions when there are two unknowns.</li>
+</ul>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+</body>
+</html>

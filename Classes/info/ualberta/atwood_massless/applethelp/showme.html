@@ -1,0 +1,313 @@
+<html>
+<head>
+<title>showme_atwood1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../libraries/styles/mapstyle.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div class="sectionheading">
+  <h1>Show Me - Atwood</h1>
+  <h2>The applet Atwood simulates the motion of two masses connected by a massless, 
+    ideal string which passes over a massless pulley.</h2>
+</div>
+<hr noshade color="#C0C0C0">
+<p>
+<div class="sectionheading">
+  <p><span class="general">Preamble</span></p>
+  <p class="general">This applet can be used to illustrate the physics of the 
+    Atwood Pulley. Among the concepts that can be studied are the tensions in 
+    supporting strings as well as energy and energy conservation concepts.</p>
+</div>
+<p><span class="general">This page is designed to get you started using the applet. 
+  The applet should be open. The step-by-step instructions on this page are to 
+  be done in the applet. You may need to toggle back and forth between instructions 
+  and applet if your screen space is limited. </span>
+<hr noshade color="#C0C0C0">
+<p>
+<div class = "sectionheading"><span class="general"><a name="contents"></a>Contents</span></div>
+<p>
+<ul>
+  <li><span class="general"><a href="#accel">Finding the acceleration of the falling 
+    masses</a></span></li>
+  <li><span class="general"><a href="#tension">Tensions and FBD's</a></span></li>
+  <li><span class="general"><a href="#pot">Working With Potential Energy</a></span></li>
+  <li><span class="general"><a href="#total">Find the Potential, Kinetic and Total 
+    Energy of the System</a></span></li>
+  <li><span class="general"><a href="#variables">Defining New Variables to Plot</a><br>
+    </span></li>
+</ul>
+<p><span class="general"><br>
+  </span></p>
+<h2><a name="accel"></a>Finding the acceleration of the falling masses</h2>
+<h2></h2>
+<table width="95%" border="0">
+  <tr> 
+    <td width="81%" valign="top" rowspan="2"> 
+      <h2> </h2>
+      <p> 
+      <ol>
+        <li><span class="general">The applet does not give the accelerations directly 
+          but it does provide sufficient information for you to calculate the 
+          acceleration of the masses. The information needed to do this is the 
+          time t and the distance traveled by mass 1. This data is given in the 
+          upper left corner of the drawing panel. As an example, adjust the size 
+          of the masses to be 300 g and 700 g respectively (<img src="fig9.png" width="356" height="42" align="absmiddle">). 
+          Next press the play button (<img src="fig2a.png" width="19" height="20" align="absmiddle">) 
+          and wait. The masses begin to move. Wait until the animation stops. 
+          The displacement of mass 1 and the time taken for this appear in the 
+          upper left corner of the panel (see bottom figure). </span></li>
+        <li><span class="general">In this case the time of motion was 0.760 s 
+          and the distance that mass 1 traveled was 1.133 m. </span></li>
+        <li><span class="general">If we recall that the distance - time relationship 
+          for an object accelerating from rest is <img src="atwood1_eqn1.gif" width="93" height="40" align="absmiddle"> 
+          and that we can rearrange this to give us <img src="atwood1_eqn2.gif" width="78" height="66" align="absmiddle">, 
+          then it is a straight forward calculation to show that acceleration 
+          a = 3.92 m/s<sup>2</sup>.</span> </li>
+      </ol>
+    </td>
+    <td width="19%" valign="top"> 
+      <p><img src="fig9a.png" width="141" height="256"></p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="19%" valign="top"><span class="general"><img src="fig10.png" width="197" height="40" align="absmiddle"></span></td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2><a name="tension"></a>Tensions and FBD's</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td width="68%" valign="top" class="general">
+      <ol>
+        <li>A Free Body Diagram (FBD) for each mass can be produced by pressing 
+          the Free Body Diagram button (<img src="fig2d.png" width="18" height="20" align="absmiddle">). 
+          When you do this the images of the masses will fade slightly and force 
+          vectors representing the weight and tension will appear (see figure 
+          on the right). The hand indicates that mass 2 is held before release. 
+          In this case the tension in the strings is due entirely to the weight 
+          of mass 1.</li>
+      </ol>
+    </td>
+    <td width="32%"><img src="fig11.png" width="197" height="256"></td>
+  </tr>
+  <tr> 
+    <td width="68%" valign="top" class="general">
+      <ol>
+        <li value="2"> You should note that when you press the play button (<img src="fig2a.png" width="19" height="20" align="absmiddle">), 
+          the supporting hand disappears and the masses can now move. The tensions 
+          shown in the strings will change - try this with several different mass 
+          combinations.</li>
+      </ol>
+    </td>
+    <td width="32%"><img src="fig11a.png" width="193" height="232"></td>
+  </tr>
+  <tr> 
+    <td width="68%" valign="top"> 
+      <ol>
+        <li value="3" class="general">The tensions in the supporting strings are 
+          not shown. They can, however, be easily calculated by first finding 
+          the acceleration for each mass and then applying Newton's 2nd Law. For 
+          example, in the previous discussion of acceleration we determined that 
+          mass 1 was accelerating upward at 3.92 <span class="general"> m/s<sup>2</sup>.</span> 
+          If we use the FBD for mass 1 (shown on the left) and if we assign up 
+          as the positive direction, the following force-equation is implied:<br>
+          <img src="atwood1_eqn3.gif" width="141" height="35" align="absmiddle">, 
+          and since <img src="atwood1_eqn4.gif" width="100" height="35" align="absmiddle">,we 
+          find that <img src="atwood1_eqn5.gif" width="285" height="35"><br>
+          Since mass 1 = 0.300 kg and a = 3.92 <span class="general"> m/s<sup>2</sup></span>, 
+          we find that T<sub>1</sub> = 4.12 N. We leave it for you to show that 
+          T<sub>2</sub> is also 4.12 N.</li>
+      </ol>
+    </td>
+    <td width="32%"><img src="fig12.png" width="50" height="125"></td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<p>&nbsp;</p>
+<h2><a name="pot"></a>Working With Potential Energy</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td rowspan="2" width="69%" valign="top" class="general"> 
+      <ol>
+        <li>When you run the applet Atwood you will see a horizontal line labeled 
+          &quot;Ep Reference&quot;. This line is used to define a position at 
+          which the two masses have zero potential energy. You can capture this 
+          line by positioning the mouse over it and then, holding down the left-mouse 
+          button, drag up or down. When you &quot;capture&quot; the line it will 
+          fade slightly as shown.<br>
+          To illustrate this, adjust the masses so that mass 1 = 300 g, mass 2 
+          = 700 g.</li>
+      </ol>
+      <p>&nbsp; </p>
+    </td>
+    <td width="31%"> 
+      <p align="center"><img src="fig13.png" width="96" height="68"></p>
+      <p class="figure" align="center">EP Reference not yet &quot;captured&quot; 
+        by the mouse</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="31%"> 
+      <p align="center"><img src="fig13a.png" width="97" height="78"></p>
+      <p class="figure" align="center">EP Reference has been&quot;captured&quot; 
+        by the mouse</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="69%" valign="top" class="general">
+      <ol>
+        <li value="2">Each mass has a yellow dot which indicates the center of 
+          mass for each body. To see how to use the EP reference line effectively, 
+          position the EP Reference line so that it passes through the yellow 
+          dot (center of mass) for mass 1. </li>
+      </ol>
+    </td>
+    <td width="31%"> 
+      <div align="center"><img src="fig13b.png" width="103" height="65"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="69%" valign="top"> 
+      <ol>
+        <li value="3"><span class="general">Press the play button (<img src="fig2a.png" width="19" height="20" align="absmiddle">), 
+          and wait until the motion stops and then press the View Graph button 
+          (<img src="fig2g.png" width="23" height="24" align="absmiddle">). Produce 
+          a graph with time on the x-axis and the potential energy of mass 1 (m1 
+          EP) on the y-axis. You should see a graph very similar to the one appearing 
+          on the right. Note that the potential energy for mass 1 starts at zero 
+          - just as we would expect since we put the EP Reference line at this 
+          point. Also, note that when the motion stopped, mass 1 had ascended 
+          to a point 1.133 m above the reference line. Since <img src="atwood1_eqn6.gif" width="121" height="38" align="absmiddle">(where 
+          E<sub>p1</sub> is the potential energy of mass 1 and h is the height 
+          through which it moved), we can insert the numbers to find that:</span></li>
+      </ol>
+      <p align="center"><span class="general">E<sub>p1</sub> = (0.300 kg)(9.81 <span class="general"> 
+        m/s<sup>2</sup></span>)(1.133 m) = 3.33 J.</span></p>
+      <ol>
+        <li value="4" class="general">You can verify this calculation by inspecting 
+          the graph on the right.</li>
+      </ol>
+    </td>
+    <td width="31%"> 
+      <div align="center"><img src="fig14.png" width="242" height="346"></div>
+    </td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2><a name="total"></a>Find the Potential, Kinetic and Total Energy of the System 
+</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td width="60%" valign="top" class="general"> 
+      <ol>
+        <li>Set up the Atwood pulley so that mass 1 = 250 g and mass 2 = 750 g 
+          (this occurs automatically since the total mass is fixed at 1.00 kg). 
+          Position the EP Reference line at the center of mass of the 250 g mass. 
+          You should have a set up similar to the one shown on the right.</li>
+        <li> Press play (<img src="fig2a.png" width="19" height="20" align="absmiddle">) 
+          and note the distance through which each mass moves when the motion 
+          stops. You will see that mass 1 rises 1.134 m while mass 2 drops 1.134 
+          m.</li>
+      </ol>
+    </td>
+    <td width="40%"><img src="fig15.png" width="143" height="266"></td>
+  </tr>
+  <tr> 
+    <td width="60%" valign="top" class="general"> 
+      <ol>
+        <li value="3">Next, press the View Graph button and prepare 4 graphs(You 
+          should see something similar to what appears on the right.): 
+          <ul>
+            <li> time - mass1 EP</li>
+            <li>time - mass 2 EP</li>
+            <li>time - mass1 Ek</li>
+            <li>time - mass 2 Ek<br>
+            </li>
+          </ul>
+        </li>
+        <li>You may need to resize the graph but when you do you can easily inspect 
+          the graph and verify that the values appearing are correct. For example, 
+          since mass 1 is 0.250 kg and rose through 1.134 m, it is easy to see 
+          that:<img src="atwood1_eqn6.gif" width="121" height="38" align="absmiddle">, 
+          = (0.250kg)(9.81 <span class="general"> m/s<sup>2</sup></span>)(1.134 
+          m) = 2.78 J. By clicking on graph 1 and positioning the mouse over top 
+          this graph it is easy to see that after 0.684 s, the potential energy 
+          of mass 1 is 2.78 J. You can find the other energies by repeating this 
+          process for the appropriate graph.</li>
+      </ol>
+      <p><br>
+      </p>
+    </td>
+    <td width="40%"><img src="fig15a.png" width="253" height="374"></td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2><a name="variables"></a>Defining New Variables to Plot</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td width="69%" class="general" valign="top"> 
+      <ol>
+        <li class="general">A powerful feature of the grapher is the ability to 
+          create new variables that are not listed in the original drop-down menu 
+          of variables to plot. Since we plotted the potential and kinetic energy 
+          terms for the two masses in the previous example, it is instructive 
+          to ask &quot;What would the sum of all of these terms look like?&quot;. 
+          To do this, close the graph and press the data collection button (<img src="fig3.png" width="92" height="20" align="absmiddle">). 
+          A drop-down menu appears (<img src="fig7a.png" width="113" height="45" align="absmiddle">) 
+          - choose &quot;Select Data&quot;. A dialogue box like the one shown 
+          on the right will appear. Since you want to create an expression which 
+          does not appear in those listed, press &quot;Add&quot;.</li>
+      </ol>
+    </td>
+    <td width="31%"><img src="fig7b.png" width="293" height="221"></td>
+  </tr>
+  <tr> 
+    <td width="69%" class="general" valign="top"> 
+      <ol>
+        <li value="2">After pressing &quot;OK&quot; (<img src="fig7d.png" width="89" height="33" align="absmiddle">), 
+          a new dialogue box opens. Fill in the blank spaces the same way as shown 
+          on the right. Be very carefully to type the variables exactly as they 
+          appear in the list of available variables. You can only build equations 
+          out of the preexisting set of variables. When you are finished, press 
+          OK. You have now created a variable called &quot;Total Energy&quot; 
+          and it is available for plotting.</li>
+      </ol>
+    </td>
+    <td width="31%"><img src="fig7c.png" width="292" height="222"></td>
+  </tr>
+  <tr> 
+    <td width="69%" class="general" valign="top">
+      <ol>
+        <li value="3">Now you are ready to plot &quot;Total Energy&quot;. To do 
+          this, you will need to add one more equation to the graph. Press the 
+          small &quot;+&quot; button at the bottom of the graph panel (see figure 
+          on the right). A new graph, labeled &quot;undefined graph&quot; appears 
+          at the bottom of the previous list of 4 graphs.</li>
+      </ol>
+    </td>
+    <td width="31%"><img src="fig7e.png" width="121" height="97"></td>
+  </tr>
+  <tr> 
+    <td width="69%" class="general" valign="top"> 
+      <ol>
+        <li value="4">Now, proceed as you would with any other graph. Note that 
+          this time when you press the &quot;X axis&quot; or &quot;Y axis&quot; 
+          buttons a new variable appears in the list - &quot;Total Energy&quot;. 
+          Select time for the X axis and Total Energy for the Y axis. </li>
+        <li>Next, press reset (<img src="fig2b.png" width="22" height="20" align="absmiddle">) 
+          and then press play (<img src="fig2a.png" width="19" height="20" align="absmiddle">). 
+          This will &quot;update&quot; the graph and also use the new variable 
+          that you just defined. When finished you should see a graph very similar 
+          to what appears on the right. </li>
+      </ol>
+    </td>
+    <td width="31%"><img src="fig7f.png" width="255" height="236"></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+
+</body>
+</html>
