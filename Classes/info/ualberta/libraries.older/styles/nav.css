@@ -1,0 +1,58 @@
+BODY
+{    
+    BACKGROUND-COLOR: #e8FFe8;
+    BACKGROUND-ATTACHMENT: fixed;
+    COLOR: #e8ffe8; 
+    FONT-FAMILY: Arial, Helvetica, "Sans Serif";
+    FONT-SIZE: 12px;
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+
+TD
+{
+	BORDER-WIDTH: 1px;
+	BORDER-STYLE: outset;
+	
+	TEXT-ALIGN: centre ;
+	VERTICAL-ALIGN: middle;
+   FONT-FAMILY: Arial, Helvetica, Sans Serif;
+   FONT-SIZE: 12px;
+}
+
+A:link
+{
+   COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+A:visited
+{
+    COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+A:active
+{
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+A:hover
+{
+	COLOR: #000000;
+	TEXT-DECORATION: underline;
+}
+
+.button
+{
+    BACKGROUND-COLOR: transparent;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans Serif;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold;
+	 WIDTH: 100%;
+	 HEIGHT: 100%;
+ 	 CURSOR: hand;
+}
+

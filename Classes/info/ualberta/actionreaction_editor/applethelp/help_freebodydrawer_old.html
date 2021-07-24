@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../libraries/styles/mapstyle.css">
+ <SCRIPT LANGUAGE = "JAVASCRIPT" src="../../../../../styles/openWindow.js"> </SCRIPT>  </head>
+
+<body bgcolor="#FFFFFF">
+<h1>How to Use FreeBody Drawer and Editor</h1>
+<p>&nbsp;</p>
+<h2>How to Open and Use a Project</h2>
+<p>This is easy. Just click on the projects tab and select the appropriate listed 
+  project. In the sample shown below, you have 5 possible projects to choose from. 
+  The left hand column gives the user editing control over the vectors that you 
+  draw on the image which appears. After you have loaded a project, follow these 
+  simple steps:</p>
+<table width="95%" border="0">
+  <tr> 
+    <td width="55%"><img src="../applethelp1/img4.png" width="501" height="457"></td>
+    <td width="45%" valign="top"> 
+      <ul>
+        <li>To draw a new vector make sure the &quot;draw vectors&quot; radio 
+          button is selected.</li>
+        <li>To name a vector type in the text box on the top, right hand side. 
+          Press enter and the name will appear in the text area, lower right.</li>
+        <li>To change the colour of the vector press the colour icon at the top 
+          right and select desired colour.</li>
+        <li>To change the length or direction of the vector select the set vector 
+          head(s) button. A small circular hot-spot will appear and you can drag 
+          the vector by placing the mouse over this point and dragging.</li>
+        <li>To change the location of the vector choose the set vector origin(s) 
+          button and repeat the above.</li>
+        <li>To delete a vector select it with either of the last two buttons and 
+          then press the &quot;X&quot; button. Rreset removes ALL vectors.</li>
+        <li>After you have drawn your FBD press the done button. The FBD icon 
+          will now become active and you can press this to see the instructor 
+          drawn FBD.</li>
+        <li>The button labeled FBD's will expose a visual menu of the FBD's in 
+          your project. You can load any one of these scenarios by clicking on 
+          them. </li>
+      </ul>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h1>How to Make a Project - Using FreeBody Editor</h1>
+<h2>Getting Started </h2>
+<p>The editor uses the same interface that is used in FreeBodyDrawer. The only 
+  difference is contained in the controls which appear under theFile menu selection. 
+  The following figure illustrates the editor side menu:</p>
+<table width="95%" border="0">
+  <tr>
+    <td width="65%"><img src="img5.png" width="605" height="458"></td>
+    <td width="35%" align="left" valign="top">
+      <p>Use new project to start a brand new project file (see the note following 
+        this on file stucture)</p>
+      <p>Open project allows you to open an existing project file and import project 
+        allows you to combine existing projects.</p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h2>Project Files and the Underlying File Stucture</h2>
+<table width="93%" border="1">
+  <tr> 
+    <td width="24%"><img src="img1.png" width="180" height="118" border="2" align="left"></td>
+    <td width="76%"> 
+      <p>It is essential that all FBD files be contained in a common folder (called 
+        projects in this example). Each project is a combination of a project 
+        file (created by the editor when you save the project) and an image file. 
+        It is important that the image file have a specific name of the format: 
+      </p>
+      <ul>
+        <li> 
+          <p>project file: <i><b>filename</b></i></p>
+        </li>
+        <li> 
+          <p>project image file folder: <i><b>filename_images</b></i></p>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%"><img src="img2.png" width="125" height="204"></td>
+    <td width="76%" valign="top">Notice, for example that project_1 is accompanied 
+      by the folder project_1_images. You can assign any valid name you wish to 
+      the project file but you must also store all images for that project in 
+      an appropriately named folder.</td>
+  </tr>
+  <tr> 
+    <td width="24%">&nbsp;</td>
+    <td width="76%">&nbsp;</td>
+  </tr>
+</table>
+<h2>The HTML Parameters that call Your Projects</h2>
+<p>The HTML file which calls FreeBodyDrawer contains a parameter setting that 
+  names the projects that you wish to load. This may seem cumbersome but it allows 
+  the user to set up different instances of the applet that call only the projects 
+  you wish. A sample code snippet is shown below:</p>
+<p align="center">&lt;PARAM NAME = &quot;projects&quot; VALUE =&quot;project_1,project_2&quot;&gt; 
+</p>
+<p>In this example only the projects named project_1 and project_2 would be loaded 
+  by the applet FreeBodyDrawer. Note carefully how you change the HTML file. Every 
+  instance of the project parameter must be changed to reflect the projects you 
+  wish to load. Since this applet uses the Sun plugin, there are 4 different locations 
+  in the file that need to be changed. It is recommended that you make a back 
+  up of the file before editing it and inspec the file carefully before hand so 
+  that you see where the project params are called.</p>
+<h2>&nbsp;</h2>
+<p>&nbsp; </p>
+</body>
+</html>

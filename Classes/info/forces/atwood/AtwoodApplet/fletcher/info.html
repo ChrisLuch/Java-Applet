@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - Fletcher's Trolley
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Fletcher's Trolley
+    </div>
+    <div class="sectionheading">
+      The applet simulates the motion of two blocks connected by a
+      string that is guided over a pulley.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica"><map name="map0">
+                <area href="#ControlButtons" alt="" shape="rect"
+                coords="55,408,79,432">
+                 
+                <area href="#ControlButtons" alt="" shape="rect"
+                coords="104,408,128,432">
+                 
+                <area href="#ControlButtons" alt="" shape="rect"
+                coords="351,408,375,432">
+                 
+                <area href="#Data" alt="" shape="rect"
+                      coords="201,408,225,432">
+                 
+                <area href="#Fbd" alt="" shape="rect" coords=
+                "249,408,273,432">
+                 
+                <area href="#Fbd" alt="" shape="rect" coords=
+                "98,187,122,211">
+                 
+                <area href="#Fbd" alt="" shape="rect" coords=
+                "320,112,344,136">
+                 
+                <area href="#Magnifier" alt="" shape="rect"
+                      coords="293,408,317,432">
+                 
+                <area href="#Sliders" alt="" shape="rect"
+                      coords="175,368,199,392">
+                 
+                <area href="#Speedometer" alt="" shape="rect"
+                coords="176,316,200,340">
+                 
+                <area href="#Platform" alt="" shape="rect"
+                      coords="214,265,238,289">
+                 
+                <area href="#EnergyBar" alt="" shape="rect"
+                      coords="336,216,360,240">
+                 
+                <area href="#Block1" alt="" shape="rect"
+                      coords="73,15,97,39">
+              </map> <img border="0" src="FletcherHelp.gif"
+                   alt="Fletcher Help" usemap="#map0"></font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view the explanation of the
+      corresponding item.</b>
+    </p>
+    <p>
+      A number of assumptions underlie the applet. These are
+      described in "Assumptions".
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="ControlButtons"></a> 
+    <ol>
+         <div class="sectionheading"><li>
+              Basic Control Buttons
+         </div>
+        <p>
+          There are four basic control buttons. They are, from left
+          to right:
+        </p>
+        <dl>
+          <dd>
+            <img src="Rewind.gif" alt="Rewind" align="top">
+            <u>Rewind</u>. Resets the simulation to the initial
+            position with the previously chosen initial values. If
+            you have the particle path displayed, Rewind will allow
+            you to compare paths traversed under different
+            conditions, e.g., different initial velocities. 
+            <p>
+              After clicking Rewind, click Play to restart the
+              motion.
+            </p>
+          </dd>
+          <dd>
+            <img src="Play.gif" alt="Play" align="top">
+            <u>Play/Pause</u>. Starts the motion. 
+            <p>
+              After Play has been clicked, the button will change
+              into the Pause button <img src="Pause.gif" alt=
+              "Pause" align="top">.
+            </p>
+            <p>
+              Clicking Pause will freeze the motion. To resume the
+              motion, click Play once more.
+            </p>
+          </dd>
+          <dd>
+            <img src="Step.gif" alt="Step" align="top">
+            <u>Step</u>. Lets you step through the motion in equal
+            time steps.
+          </dd>
+          <dd>
+            <p>
+              <img src="Reset.gif" alt="Reset" align="top">
+              <u>Reset</u>. Resets the applet to its default
+              setting.
+            </p>
+            <p>
+              Adjustments in the initial conditions can only be
+              made after first clicking REWIND or RESET.
+            </p>
+          </dd>
+        </dl>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+      <a name="Data"></a> 
+        <div class="sectionheading"><li>
+           Data <img src="Data.gif" alt= "Data Button" align="top">
+        </div>
+        <p>
+          Selecting the Data button will open the Data box shown
+          below. The box can be closed by clicking the "X" in the
+          upper right-hand corner or by clicking the Data button a
+          second time. The box can be dragged across the window.
+        </p>
+        <p align="center">
+          <img src="FletcherData.gif" alt="Data Box">
+        </p>
+        <p>
+          The Data box displays the following values.
+        </p>
+        <ul>
+          <li>
+            <i>g</i>: magnitude of the acceleration due to gravity,
+          </li>
+          <li>
+            <i>m</i><sub>1</sub>: mass of Block 1; this mass is
+            fixed at 600 g
+          </li>
+          <li>
+            <i>R</i>: radius of the pulley wheel; <i>R</i> has a
+            fixed value equal to 0.500 m; the pulley wheel is
+            assumed to be a solid disk of uniform mass density
+          </li>
+          <li>
+            <i>I</i>: moment of inertia of the pulley wheel; the
+            moment of inertia is taken to be equal to
+            (<i>M</i>/2)<i>R</i><sup>2</sup> where <i>M</i> is the
+            mass of the pulley
+          </li>
+        </ul><br>
+         
+        <ul>
+          <li>
+            <i>t</i>: time elapsed from the start of the motion
+          </li>
+          <li>
+            <i>v</i>: instantaneous speed of the blocks
+          </li>
+          <li>
+            <i>a</i>: magnitude of the acceleration of the blocks
+          </li>
+        </ul><br>
+         
+        <ul>
+          <li>
+            <i>T</i><sub>1</sub>: tension in the string on the side
+            of the pulley leading to Block 1
+          </li>
+          <li>
+            <i>T</i><sub>2</sub>: tension in the string on the side
+            of the pulley leading to Block 2
+          </li>
+        </ul><br>
+         
+        <ul>
+          <li>
+            <i>KE<sub>1</sub></i>: the kinetic energy of block 1,
+          </li>
+          <li>
+            <i>KE<sub>2</sub></i>: the kinetic energy of block 2,
+          </li>
+          <li>
+            <i>KE<sub>pulley</sub></i>: the kinetic energy of the
+            pulley,
+          </li>
+          <li>
+            <i>PE<sub>2</sub></i>: the potential energy of block 2
+            (more correctly: the potential energy of the pair
+            consisting of block 2 and the earth),
+          </li>
+          <li>
+            <i>E</i>: the mechanical energy of the system, which is
+            the sum of the four precedinig energies.
+          </li>
+        </ul>
+	<p>
+	  The two tension values are displayed in the Data box only
+	  when the free-body diagrams are displayed.  See the
+	  following Point 3.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0"></a>
+        </p>
+      </li>
+       <a name="Fbd"></a>
+        <div class="sectionheading"><li>
+          Free-Body Diagrams <img src="FBD.gif" alt="FBD Button" align="top">
+        </div>. 
+        <p>
+          The FBD toggle button will display/hide the free-body
+          diagrams for the two blocks. The diagrams can be dragged
+          by clicking on their center points and dragging.
+        </p>
+        <p>
+          The free-body diagrams for Blocks 1 and 2 are shown in
+          the following snapshot.
+        </p>
+        <p align="center">
+          <img src="fletcher_fbds.jpg" alt="Free-Body Diagrams">
+        </p>
+        <p>
+          The free-body diagrams in the snapshot above apply at a
+          moment when the blocks are in motion. The diagrams look
+          different when the blocks are being dragged. In the latter
+          case, force vectors whose magnitudes are undetermined are
+          shown dimmed and their labels are shown with question
+          marks. The free-body diagrams also look different when the
+          blocks are held before the start of the motion or when Block
+          2 is resting on the platform. For details, please go to
+          "ShowMe".
+        </p>
+	<p>
+          Values for the tensions <i>T</i><sub>1</sub> and
+          <i>T</i><sub>2</sub> are displayed in the Data box.  See
+          Point 2 above.  These values are replaced by question marks
+          when unknown forces are present in the physical situation
+          that is being simulated.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0"></a>
+        </p>
+      </li>
+       <a name="Magnifier"></a> 
+        <div class="sectionheading"><li>
+         Magnifier <img src="Magnifier.gif" alt="Magnifier" align="top">
+        </div>
+        <p>
+          The Magnifier button allows you to change the scale of
+          the energy bar. Clicking on the button repeatedly will
+          let you cycle through the magnification factors 1X, 2X,
+          3X, 4X, 0.5X, and back to 1X.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0"></a>
+        </p>
+      </li>
+       <a name="Sliders"></a>
+        <div class="sectionheading"><li>
+          Sliders
+        </div>
+        <p>
+          There are two sliders, shown in the following image.
+          Clicking on a slider to the left or right of the slider
+          tab allows fine adjustment of the slider setting.
+        </p>
+        <p align="center">
+          <img src="FletcherSliders.gif" alt="Sliders">
+        </p>
+        <p>
+          Clicking on the Input Dialog button <img src=
+          "SliderButton.gif" alt="Input Dialog Button" align=
+          "top"> of a slider will open a dialog for entering an
+          exact value for the slider setting. The dialog for the
+          slider that sets the mass of Block 2 is illustrated
+          below. The range in which values can be entered, from 200
+          g to 2000 g in this case, is indicated above the data
+          entry field.
+        </p>
+        <p align="center">
+          <img src="M2SliderEntryField.gif" alt="Input Dialog Field">
+        </p>
+        <p>
+          The two sliders allow you to adjust the values of the
+          following quantities.
+        </p>
+        <ul>
+          <li>
+            <u>Mass of Block 2</u>. The mass <i>m</i><sub>2</sub>
+            of Block 2, the downward moving block, can be varied
+            between 200 g and 2000 g, in steps of 1 g. The mass of
+            Block 1, the horizontally moving block, is fixed at 600
+            g.
+          </li>
+          <li>
+            <u>Mass of Pulley</u>. The mass <i>M</i> of the pulley
+            can be varied between 0 and 2.00 kg, in 0.01 kg steps.
+            Since the pulley radius <i>R</i> is fixed, the pulley
+            mass will determine the moment of inertia <i>I</i> of
+            the pulley. <i>I</i> can be calculated from <i>M</i>
+            via <i>I</i> = 0.5<i>MR</i><sup>2</sup>. The values of
+            <i>R</i> and <i>I</i> are listed in the Data box.
+          </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0"></a>
+        </p>
+      </li>
+       <a name="Speedometer"></a>
+        <div class="sectionheading"><li>
+          Speedometer
+        </div>
+        <p align="center">
+          <img src="speedometer.gif" alt="Speedometer">
+        </p>
+        <p>
+          The speedometer indicates the speed <i>v</i> of the
+          blocks by a red needle moving horizontally. The range of
+          the speedometer is from 0 to 10 m/s. The value of the
+          speed is displayed in the Data box (Point 2).
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top" border="0"></a>
+        </p>
+      </li>
+       <a name="Platform"></a>
+        <div class="sectionheading"><li>
+          Platform
+        </div>
+        <p>
+          The yellow platform can be dragged up or down to
+          positions of either positive or negative elevation
+          <i>h</i>.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" border="0"></a>
+        </p>
+      </li>
+       <a name="EnergyBar"></a>
+        <div class="sectionheading"><li>
+          Energy Bar
+        </div>
+        <p>
+          The values of the energies are displayed graphically by
+          means of an energy bar:
+        </p>
+        <p align="center">
+          <img src="fletcherenergybar.jpg" alt="Energy Bar">
+        </p>
+        <p>
+          The individual energies are color-coded. The total height
+          of the energy bar, measured from the zero-level indicated
+          by the short horizontal line across the energy bar,
+          represents the energy <i>E</i>. In the situation
+          represented above, the moment of inertia of the pulley
+          and therefore the kinetic energy of the pulley are zero.
+          Therefore the energy bar contains no segment for the
+          pulley's kinetic energy.
+        </p>
+        <p>
+          The energy bar can be scaled by clicking the magnifier
+          button <img src="Magnifier.gif" alt="Magnifier Button"
+          align="top"> repeatedly.
+        </p>
+        <p>
+          <b>Note</b>. The potential energy is 0 when <i>h</i> = 0.
+          For details, please go to "Assumptions".
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0"></a>
+        </p>
+      </li>
+       <a name="Block1"></a>
+        <div class="sectionheading"><li>
+          Moving the Blocks
+        </div>
+        <p>
+          Initially, or after clicking REWIND or RESET, you can
+          move Block 1 by clicking on it and dragging it. Block 2
+          will automatically move also, so that the connecting
+          string stays taut. A marker next to the <i>h</i>-scale
+          displays the elevation of the lower edge of Block 2.
+        </p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0"></a>
+    </p>
+    <hr>
+  </body>
+</html>

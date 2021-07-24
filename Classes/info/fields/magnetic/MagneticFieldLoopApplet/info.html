@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - Magnetic Field Due To Current Loops
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Magnetic Field Due To Current In One Or Several Circular Loops 
+    </div>
+    <div class="sectionheading">
+      The applet simulates the magnetic field due to current in a
+    circular wire loop or due to current in several such loops arranged coaxially.  
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica">
+	        <map name="fpmap0">
+
+                <area href="#Loops" shape="rect" coords=
+                "35,328,59,352">
+
+                <area href="#Vector" shape="rect" coords=
+                "98,328,122,352">
+
+                <area href="#Vector" shape="rect" coords=
+                "262,151,286,175">
+                 
+                <area href="#Field" shape="rect" coords=
+                "158,328,182,352">
+                 
+                <area href="#Field" shape="rect"
+                      coords="160,208,184,232">
+                 
+                <area href="#Stop" shape="rect" coords=
+                "222,328,246,352">
+
+                <area href="#Grid" shape="rect"
+                      coords="283,330,307,354">
+
+                <area href="#Data" shape="rect" coords=
+                "345,329,369,353">
+                 
+                <area href="#Reset" shape="rect" coords=
+                "408,329,432,353">
+ 
+                <area href="#LoopRadiusSlider" shape="rect" coords=
+                "62,296,86,320">
+
+                <area href="#CurrentSlider" shape="rect"
+                      coords="132,297,156,321">
+                 
+                <area href="#ScaleSlider" shape="rect"
+                      coords="244,295,268,319">
+
+                <area href="#AccuracySlider" shape="rect"
+                      coords="322,296,346,320">
+
+                </map> 
+
+		<img border="0" src="../MFimages/MagneticLoopAppletHelp.gif"
+                   alt="Magnetic Field Due To Coaxial Loops Help" usemap="#fpmap0">
+	      </font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view the explanation of the
+      corresponding item</b>.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Loops"></a>
+    <ol>
+        <div class="sectionheading"><li>
+          Loops <img src="../MFimages/Loops.gif" alt="Loops"
+               align="top">
+        </div>
+        <p align="center">
+          <img src="../MFimages/ThreeLoops.gif" alt="Three Loops">
+        </p>
+        <p>
+          When the Loops toggle button is selected, you can select
+          circular wire loops from a set of 21 coaxial loops.  The
+          loops are in a plane perpendicular to the screen and only
+          the two points where a loop is intersecting the plane of the
+          window are shown.  The common axis of the set of coaxial
+          loops is in the plane of the screen.  It is taken to be the
+          <i>x</i>-axis.
+	</p>
+	<p>
+          Unselected loops are shown in grey.  To select a loop, click
+          on either one of the two points where the loop intersects
+          the screen. Selected loops are shown in a copper color.
+          In the image above, three loops are selected and the two
+          points where the left-most selected loop intersects the
+          screen are indicated by black arrows.  
+	</p>
+	<p>
+          The applet displays and calculates the resultant magnetic
+          field vector (in blue) due to the current in all selected
+          loops, at a field point whose position can be varied. (The
+          Vector button needs to be selected for the field vector to
+          be displayed.)
+	</p>
+	<p>
+	  Clicking on a selected loop will deselect the loop.
+        </p>
+        <p>
+          All loops carry the same current.  All loops have the same
+          radius, and the spacing between any two neighboring loops is
+          the same for any two such loops.
+        </p>
+        <p>
+          If the Loops button is not selected, the applet
+          automatically selects all 21 loops and calculates and
+          displays the resultant magnetic field due to the currents in
+          all 21 loops.
+        </p>
+        <p>
+          To select several adjoining loops at once, select the
+          Loops button, click with the mouse on one loop and
+          drag over all loops you want to select.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="Vector"></a> 
+        </li> 
+	<div class="sectionheading"><li>
+	Magnetic Field Vector At Variable Field Point <img
+	src="../MFimages/Vector.gif" alt="Field Vector" align="top">
+	</div>
+	<p>
+          The physical situation simulated by the applet is
+          essentially three-dimensional.  However, at field points in
+          the plane of the screen the field vectors also lie in the
+          plane of the screen if, as is the case in the applet, the
+          current loops are perpendicular to the screen and the axis
+          of the loops is in the screen.  See the field point and
+          magnetic field vector in the image below. Since the magnetic
+          field has rotational symmetry around the common axis of the
+          current loops, it is sufficient to show only the magnetic
+          field in the plane of the screen.
+        </p>
+	<p align="center">
+          <img src="../MFimages/LoopAxis.gif" alt="Field Vector and Axis">
+        </p>
+        <p>
+          The blue field vector is the resultant magnetic field vector
+          due to the currents in all selected loops (three in the
+          preceding image).  The vector can be displayed/hidden by
+          means of the Vector toggle button.
+        </p>
+	<p>
+	  The field point can be moved anywhere in the window by
+	  clicking on it and dragging.  Clicking elsewhere in the
+	  window will cause a second field point with field vector to
+	  be established at the point clicked, etc.  The image at the
+	  very beginning of this Help document shows six field points
+	  and field vectors.  Clicking on any existing field point
+	  with the mouse will make this the active field point and
+	  allow it to be dragged.  The active field point and magnetic
+	  field vector at this point are shown in blue, the inactive
+	  ones in grey.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="Field"></a> 
+	</li>
+        <div class="sectionheading"><li>
+           Field Line <img src="../MFimages/FieldLine.gif"
+          alt="Field Line" align="top">
+        </div>
+        <p>
+          When this toggle button is selected, the magnetic field line
+          through the active field point will be drawn in blue. However,
+          since the computations required to draw a field line are
+          extensive, it may take several seconds before the field line
+          gets drawn completely.  The time required to draw a field
+          line depends on the field point and, of course, the speed of
+          your computer.  The speed with which the line is drawn can
+          be increased, with a corresponding loss of accuracy, or
+          decreased, with a corresponding gain of accuracy, by means
+          of the Speed/Accuracy slider.  See Point 11 below.
+	</p>
+	<p>
+          Dragging a field point that has a field line drawn through
+          it will cause the field line to be dragged along.  However,
+          since a new field line has to be computed, it may take
+          several seconds before the field line actually follows the
+          point.
+        </p>
+	<p>
+          A pattern of several field lines can be drawn by clicking at
+          a point, selecting the Field Line button to have the field
+          line drawn, then clicking at another point, etc.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="Stop"></a>
+        </li>
+        <div class="sectionheading"><li>
+           Stop <img src="../MFimages/Stop.gif"
+          alt="Stop" align="top">
+        </div>
+        <p>
+          The calculation and drawing of a field line can take a
+          number of seconds because of the large number of
+          calculations involved.  (See preceding Point 3.) Clicking
+          the Stop button will stop these calculations before the
+          entire field line is drawn.  The Stop button is active only
+          while a field line is being drawn.
+	</p>
+	<p>
+          Also, for certain field points, the calculation of the field
+          line may not be accurate enough to create a closed field
+          line.  In that case, the program will continue calculating
+          and may never stop unless the Stop button is clicked.  If
+          the field line does not close, one can click the Stop button
+          and set the Speed/Accuracy slider (see Point 11) to a higher
+          accuracy and repeat the calculation.  If the accuracy
+          setting is high enough, the field line will usually close.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="Grid"></a>
+        </li>
+        <div class="sectionheading"><li>
+           Grid <img src="../MFimages/Grid.gif"
+          alt="Grid" align="top">
+        </div>
+        <p>
+          The Grid toggle button lets you display/hide a coordinate grid
+          with <i>x</i> and <i>y</i> axes.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="Data"></a> 
+	</li>
+        <div class="sectionheading"><li>
+          Data <img src="../MFimages/Data.gif" alt="Data" align="top">
+        </div>
+        <p align="center">
+          <img src="../MFimages/LoopDataBox.gif" alt="Data Box">
+        </p>
+        <p>
+          The Data toggle button lets you display/hide the Data box
+          shown above. The vertical dimensions of the box can be
+          resized by dragging the green rectangle in the lower
+          right-hand corner of the box up or down. The box can be
+          closed by clicking on the little green box marked by an "X"
+          in the upper right-hand corner. The box can be dragged to
+          another location in the window by clicking anywhere else in
+          the box and dragging.  A green scroll bar inside the box
+          allows scrolling through information about individual
+          segments.
+        </p>
+        <p>
+          The Data box contains the following information.
+        </p>
+        <ul>
+          <li>
+            <font face="symbol">m<sub>0</sub>/4p</font>: universal constant in Biot-Savart law
+          </li>
+          <li>
+            <i>I</i>: current in A
+          </li>
+          <li>
+            <i>a</i>: loop radius in m
+          </li>
+          <li>
+            P: (<i>x</i>,<i>y</i>,<i>z</i>): Cartesian coordinates of the draggable
+            field point in m
+          </li>
+          <li>
+            when the Loops button is selected, an insert in the
+            Data box contains the following information for each
+            loop: 
+            <ul>
+              <li>
+                <i>i</i>: loop label; increasing from left to right, with <i>i</i> = 0 for the
+              loop whose center is at the origin, negative values
+              of <i>i</i> for loops to the left of the origin and
+              positive <i>i</i> for loops to the right of the
+              origin 
+              </li> 
+              <li>
+                <i>X<sub>i</sub></i>: <i>x</i>-coordinate of the
+                center of Loop <i>i</i> in m </li> <li>
+                (<i>B<sub>x</sub></i>,<i>B<sub>y</sub></i>,<i>B<sub>z</sub></i>)<i><sub>i</sub></i><img
+                src="../MFimages/small.gif" alt="space" height="1"
+                width="4">: Cartesian components of the magnetic field
+                vector at the chosen field point due to Loop <i>i</i> in units of 10<sup>-7</sup> T
+                </li> 
+             </ul>
+                (if the Loops button is not selected,
+                the Loops Insert into the Data box is absent) </li>
+            <li>
+            <img src="../MFimages/Bcap.gif" alt="vector B">: 
+            resultant magnetic field vector at given field point due
+            to the currents in all selected loops in units of 10<sup>-7</sup> T
+            </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <p>
+          <a name="Reset"></a>
+        </p>
+	</li>
+        <div class="sectionheading"><li>
+          Reset <img src="../MFimages/Reset.gif" alt="Reset" align="top">
+        </div>
+        <p>
+          Resets the applet to its default setting.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <p>
+          <a name="LoopRadiusSlider"></a>
+        </p>
+	</li>
+        <div class="sectionheading"><li>
+          Loop Radius Slider <img src="../MFimages/LoopRadiusSlider.gif"
+               alt="Loop Radius Slider" align="top">
+        </div>
+        <p>
+          The slider lets you to vary the radius <i>a</i> of the loops
+          in the range from 1.0 cm to 20.0 cm, in steps of 0.1 cm.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a name="CurrentSlider"></a>
+        </p>
+        <div class="sectionheading">
+          Current Slider <img src="../MFimages/MFCurrentSlider.gif"
+               alt="Current Slider" align="top">
+        </div>
+        <p>
+          The Current Slider allows you to vary the current between
+          -10.0 A and 10.0 A, in steps of 0.1 A.  This is the
+          conventional current.  The current is positive if its
+          direction in the loops is counter-clockwise (positive sense)
+          when the loops are viewed from the positive end of the
+          <i>x</i>-axis, negative if the current direction is
+          clockwise.  Display the grid to view the direction of the
+          <i>x</i>-axis.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a name="ScaleSlider"></a>
+        </p>
+        <div class="sectionheading">
+          Vector Scale Slider <img src="../MFimages/MFVectorScaleSlider.gif"
+               alt="Vector Scale Slider" align="top">
+        </div>
+        <p>
+	  The length of the arrow representing the magnetic field
+	  vector can be varied by means of this slider in a range from
+	  1 to 1000, in steps of 1.
+	</p>
+        <p align="right">
+          <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a name="AccuracySlider"></a>
+        </p>
+        <div class="sectionheading">
+          Speed/Accuracy Slider <img src="../MFimages/LoopAccuracySlider.gif"
+               alt="Speed/Accuracy Slider" align="top">
+        </div>
+        <p>
+          As discussed in Points 3 and 4 above, extensive calculations
+          are required in drawing a field line.  The calculations
+          involve a numerical approximation whose accuracy can be
+          improved by using more steps of smaller step size, with a
+          corresponding increase in time required (and decrease in
+          speed) to complete the calculations.  The Speed/Accuracy
+          slider allows you to adjust the point of this trade-off.
+          The range of the slider is from 5/1 for maximum
+          speed/minimum accuracy to 1/5 for minimum speed/maximum
+          accuracy.
+	</p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="../MFimages/top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>Show Me</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../libraries/styles/mapstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" class="general">
+
+<h1>Show Me - Collisions 2D</h1>
+
+<h2>The Collisions 2D applet simulates elastic and inelastic two-dimensional collisions 
+  in both the lab and centre  of mass frames.</h2>
+<hr noshade align="center">
+
+<p><b>Preamble </b> </p>
+
+<p>This applet illustrates conservation of momentum and elasticity in two dimensional 
+  collisions. As well, it shows how collisions may be viewed from a lab frame 
+  and centre  of mass frame.</p>
+
+<p>This page is designed to get you started using the applet. The applet should 
+  be open. The step-by-step instructions on this page are to be done in the applet. 
+  You may need to toggle back and forth between instructions and applet if your 
+  screen space is limited. </p>
+<hr noshade align="center">
+<a name="contents"></a><b>Contents</b> 
+<ul class="general">
+  <li><a href="#1">Setting Collision Conditions</a></li>
+  <li><a href="#2">Looking at Collision Data</a></li>
+  <li><a href="#3">Setting the Impact Parameter</a></li>
+  <li><a href="#4">Collisions in the Lab Frame</a></li>
+  <li><a href="#5">Advanced Features </a> 
+    <ul>
+      <li><a href="#5a">Angular Momentum</a></li>
+      <li><a href="#5b">Printing</a></li>
+    </ul>
+  </li>
+</ul>
+<hr noshade align="center">
+
+<p class="rightanswer"><a name="1"></a>Setting Collision Conditions</p>
+<p><img src="fig06a.png" width="370" height="196" border="1" align="right" vspace="10" hspace="20">Pressing 
+  the options button ( <img src="../../libraries/buttons/options.png" width="24" height="18" border="1" align="absmiddle"> 
+  ) opens the <b>Collisions Applet Options</b> box. This box allows you to choose 
+  the collision type (1D or 2D) and control the elasticity of the collision (e) 
+  and the masses of each object. </p>
+<p>By default, the collision type will be set as two dimensional. The elasticity 
+  and masses are set to random - if you run a new collision, the applet will randomly 
+  generate new values. To enter a specific value, select input <nobr>(<img src="fig07a.png" width="52" height="17" border="1" align="absmiddle">).</nobr> 
+  The entry box will become active (turn white) and you can enter a value. Press 
+  the <img src="../../libraries/buttons/check.png" width="20" height="18" border="1" align="absmiddle"> 
+  button to close the box. If you have entered specific values, the applet will 
+  keep these values for subsequent collisions.</p>
+<p align="right">&nbsp;</p>
+<p align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+
+<p class="rightanswer"><a name="2">Looking at Collision Data</a></p>
+<p>Pressing the data button <nobr>( <img src="../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+  ) </nobr>opens the <b>Collisions Applet Data</b> box. This box lists all important 
+  information about the collision - the initial and final velocities, masses, 
+  radii, scatter angles, coefficient of restitution, angular momentum.... As well, 
+  the data in this box immediately updates when you change collision conditions 
+  - you can this use this as a collision calculator. Practice using this feature 
+  of the applet:</p>
+<ol>
+  <li>Press the data button. Move the data box to the side so that the applet 
+    controls are not covered up.</li>
+  <li>Adjust the velocity. Look at the data box and see how the values for velocity 
+    immediately update.</li>
+  <li>Adjust the impact parameter slider and notice that the final velocities 
+    and the scatter angle change</li>
+  <li>Press the options button <nobr>( <img src="../../libraries/buttons/options.png" width="24" height="18" border="1" align="absmiddle"> 
+    ):</nobr> 
+    <ul>
+      <li> vary the masses of the balls and see how the data immediately updates</li>
+      <li>set e = 0 and notice that three more pieces of data are now listed: 
+        <b>angular momentum</b> for each ball and <b>angular velocity</b> and 
+        <b>moment of inertia</b> for the CM</li>
+    </ul>
+  </li>
+</ol>
+<p align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+
+
+<p class="rightanswer"><a name="3"></a>Setting the Impact Parameter</p>
+<p><img src="fig10a.png" width="142" height="132" align="right">The impact parameter 
+  controls the degree to which the objects are in line with each other. The value 
+  of the impact parameter is calculated by:</p>
+<p align="center"><img src="eqn1.gif" width="109" height="46"></p>
+<p>where b is the distance between the centre of the objects, r<sub>1</sub> is 
+  the radius of the blue object , r<sub>2</sub> is the radius of the green object 
+  and. The angle <font face="Symbol">F</font> is the angle for the change in momentum. 
+  The diagram to the right shows angle <font face="Symbol">F</font>. Notice that 
+  adjusting the slider displaces the blue object from the centre line. Practice 
+  using this feature:</p>
+<ul>
+  <ul>
+    <li>Vary the impact parameter between 1.0 and -1.0</li>
+    <li>If the impact parameter is a positive number, the blue object is above 
+      the centre line</li>
+    <li> If the impact parameter is a negative number, the blue object is below 
+      the centre line</li>
+    <li>If the impact parameter is 0, the blue mass is on the centre line and 
+      the collision with be head on (and 1-dimensional)</li>
+    <li>If the impact parameter is &plusmn;1, the objects &quot;miss&quot; each 
+      other and there is no collision</li>
+  </ul>
+</ul>
+<p>By adjusting the impact parameter, you are adjusting the scatter angles. To 
+  set scatter angles to specific values, look at the data listed in the data box 
+  (press the data button to open this). Adjust the impact parameter until the 
+  scatter angle you desire is achieved.</p>
+<p align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="4"></a>2D Collisions in the Lab Frame</p>
+<p>The lab frame shows 2D collisions from a laboratory frame of reference. Let's 
+  run an example collision and examine this feature of the applet.</p>
+<p><b>Example:</b> <b>Perfectly Elastic Collision Analysed in the Lab Frame<br>
+  </b>A 3.0 kg ball is moving to the right with a speed of 5.0 m/s. It runs into 
+  a 10.0 kg ball that is at rest. After the collision, the 3.0 kg mass is now 
+  moving with a speed of 3.25 m/s, at an angle of 113&deg; to its original direction. 
+  What is the speed and direction of the 10.0 kg mass after the collision?</p>
+<p>First, let's use the applet to analyse the collision:</p>
+<ol class="general">
+  <li>Press the options button <nobr>( <img src="../../libraries/buttons/options.png" width="24" height="18" border="1" align="absmiddle"> 
+    ) </nobr>and set the applet conditions to match the questions. Set e to 1.0. 
+    (To numerically enter values, check the Input option, <nobr><img src="fig07a.png" width="52" height="17" border="1" align="absmiddle"> 
+    and</nobr> enter the specific values in the space provided).<br>
+  </li>
+  <li>Set the initial velocity of the blue ball to 5.0 m/s.</li>
+  <li>To vary the scatter angle for the blue mass, you must adjust the impact 
+    parameter: 
+    <ul>
+      <li>press the data button, <nobr>( <img src="../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+        )</nobr> and look at the scatter angle for the blue mass</li>
+      <li>adjust the impact parameter until the scatter angle is as close as possible 
+        to 113&deg; (you should discover that when the scatter angle is 113&deg;, 
+        the final velocity of the blue mass is 3.25 m/s)</li>
+      <li>when you have the angle set right, the impact parameter is 0.43<br>
+      </li>
+    </ul>
+  </li>
+  <li>Play the applet. You should notice the following: 
+    <ul>
+      <li><b>Before:</b> the blue ball moves to the right and the green ball is 
+        at rest<br>
+        <img src="fig12a.png" width="245" height="60" vspace="10"><br>
+      </li>
+      <li><b>After:</b> the blue ball bounces off, moving up and toward the left. 
+        The green ball begins to move down and to the right. The blue ball travels 
+        faster than the green ball.<br>
+        <img src="fig12b.png" width="262" height="128" vspace="10"><br>
+      </li>
+    </ul>
+  <li>Press the data button, <nobr>( <img src="../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+    )</nobr> to view the collision information. The final velocities and scatter 
+    angles have been highlighted in the image below:<br>
+    <img src="fig12c.png" width="244" height="310" border="0" vspace="10" hspace="40"> 
+</ol>
+<p class="general">You should see that the green mass moves with a speed of 2.08 
+  m/s and at an angle of -25.47&deg;. Since this angle is negative, it means that 
+  the ball's direction is below the centre line. Now, let's verify the applet 
+  and make sure we can calculate the same information:</p>
+<ol class="general">
+  <li>First, list the known and unknown variables. Since this is a 2D collision, 
+    we also list the horizontal (x) and vertical (y) components of the velocities:<br>
+    <img src="eqn6.gif" vspace="10" hspace="20" width="328" height="210"><br>
+  </li>
+  <li>Momentum be conserved in both the x and y directions. So, we set up two 
+    sets of equations - one to solve for the green ball's final velocity in the 
+    x-direction and the other to solve for final velocity in the y-direction:<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Conservation of momentum in the x-direction:</b></span><br>
+          <img src="eqn2.gif" vspace="10" hspace="20" width="357" height="165"></td>
+        <td><span class="general"><b>Conservation of momentum in the y-direction:</b></span><br>
+          <img src="eqn3.gif" width="306" height="165" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li>Now we substitute in the known values into equations 1 and 2:<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Green ball's final velocity in the x-direction:</b></span><br>
+          <img src="eqn4.gif" vspace="10" hspace="20" width="409" height="146"></td>
+        <td><span class="general"><b>Green ball's final velocity in the y-direction:</b></span><br>
+          <img src="eqn5.gif" width="273" height="146" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li>Now that we know the final velocity in the x and y directions, we can determine 
+    the total final velocity of the green mass and its direction:<br>
+    <br>
+    <table width="90%" border="0">
+      <tr valign="top"> 
+        <td><span class="general"><b>Green ball's final velocity:</b></span><br>
+          <img src="eqn7.gif" vspace="10" hspace="20" width="248" height="117"></td>
+        <td><span class="general"><b>Direction of motion:</b></span><br>
+          <img src="eqn8.gif" width="281" height="146" vspace="10" hspace="20"></td>
+      </tr>
+    </table>
+    <br>
+    We discover that after the collision, the green ball travels with a speed 
+    of 2.1 m/s, at an angle 26&deg; to the horizontal. Our calculations match 
+    the applet.</li>
+</ol>
+<p class="general" align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="5"></a>Advanced Features</p>
+<p><a name="5a"></a><b>Angular Momentum</b></p>
+<p>Angular momentum must also be conserved in a collision. We are most concerned 
+  with angular momentum when the collision is completely inelastic. In this case, 
+  the objects stick together. If the collision is <b>not</b> head-on, the system 
+  begins to rotate to conserve angular momentum. Investigate this feature of the 
+  applet now:</p>
+<ul>
+  <li>Set the impact parameter so that the collision is 2D (any value other than 
+    0 or &plusmn;1)</li>
+  <li>Press the options button ( <img src="../../libraries/buttons/options.png" width="24" height="18" border="1" align="absmiddle"> 
+    ) and set the value of e to 0</li>
+  <li>Play the applet - you should see that when the objects collide, they begin 
+    to rotate as a system<br>
+    <img src="fig11a.png" width="244" height="67" vspace="10" hspace="40"> </li>
+  <li>Press the data button <nobr>( <img src="../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+    ).</nobr> You should see that the applet now calculate the angular momentum for each 
+    object, the angular velocity and the moment of inertia.</li>
+</ul>
+<p align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<table width="100%" border="0" >
+  <tr> 
+    <td width="*" valign="top"><b><span class="general"><a name="5b"></a>Printing 
+      the Screen:</span></b><span class="general"><br>
+      If you have access to a printer you can print the display panel by right 
+      mouse clicking once in the display panel. A menu will appear just like the 
+      one shown on the right. Select the print option. &nbsp; &nbsp;</span></td>
+    <td align="center" valign="top" width="180"><img src="../../libraries/buttons/menu_4a.png" width="152" height="170" border="1" vspace="5" hspace="5"></td>
+  </tr>
+</table>
+<p align="right"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p align="right">&nbsp;</p>
+</body>
+</html>

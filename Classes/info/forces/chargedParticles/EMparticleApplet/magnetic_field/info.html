@@ -1,0 +1,289 @@
+<HTML>
+ <HEAD>
+  <TITLE>Help - Particle in Magnetic Field</TITLE>
+  <meta http-equiv="Content-Type" content="text/html;
+charset=iso-8859-1">
+  <LINK REL=stylesheet TYPE="text/css" HREF="../../../../../../styles/infostyle.css">
+ </HEAD>
+ <BODY>
+
+<div class="title">Help - Particle in Magnetic Field</div>
+
+<p><div class="sectionheading">The applet simulates the motion of a
+charged particle in a uniform magnetic field.</div>
+
+<hr noshade color="#C0C0C0">
+<a name="Top">
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <p align="left">
+<font face="Arial,Helvetica">
+
+<map name="FPMap0">
+<area href="#ControlButtons" shape="rect" coords="6,286,30,310">
+<area href="#ControlButtons" shape="rect" coords="82,286,106,310">
+<area href="#ControlButtons" shape="rect" coords="143,286,167,310">
+<area href="#ControlButtons" shape="rect" coords="430,286,454,310">
+<area href="#Trace" shape="rect" coords="213,285,237,309">
+<area href="#Trace" shape="rect" coords="181,46,205,70">
+<area href="#Velocity" shape="rect" coords="282,287,306,311">
+<area href="#Velocity" shape="rect" coords="303,32,327,56">
+<area href="#Data" shape="rect" coords="361,286,385,310">
+<area href="#Data" shape="rect" coords="426,52,450,76">
+<area href="#Bdirection" shape="rect" coords="214,138,238,162">
+<area href="#Sliders" shape="rect" coords="243,196,267,220">
+</map>
+
+<img border="0" src="BAppletHelp.jpg" usemap="#FPMap0"></a>
+
+     </td>
+    </tr>
+  </table>
+</div>
+
+<p><b>Click on a number to view the explanation of the corresponding
+item</b>.
+
+<hr noshade color="#C0C0C0">
+
+<p>
+
+<ol>
+
+  <div class="sectionheading">
+  <li>
+    <a  name="ControlButtons">Basic Control Buttons</a></div>
+
+        <p>
+          There are four basic control buttons. One of these, the
+          Play/Pause button, is a dual button. The buttons are,
+          from left to right:
+        </p>
+        <dl>
+          <dd>
+
+            <img src="Rewind.gif" alt="Rewind" align="top"> Returns
+            the simulation to the starting point with the
+            previously chosen initial values and system parameters.
+            Rewind makes it easy to compare motions that differ in
+            the setting of just one parameter. After clicking
+            Rewind, click Play to restart the motion or Step to go
+            through the motion one step at a time.
+          </dd>
+          <dd>
+           <p>
+            <img src="Play.gif" alt="Play" align="top"> Clicking
+            the Play button starts the motion of the particle. 
+           </p> 
+			  <p>
+              <img src="Pause.gif" alt="Pause" align="top"> After
+              the Play button has been clicked, it changes into a
+              Pause button. Click the Pause button if you want to
+              get a 'snapshot' of the motion at a given instant.
+              When the Pause button has been clicked, it reverts
+              into the Play button. To resume the motion, click
+              Play once more.
+            </p>
+          </dd>
+          <dd>
+           <p>
+            <img src="Step.gif" alt="Step" align="top"> Lets you
+            step through the motion in equal time steps.
+           </p>
+          </dd>
+          <dd>
+           <p>
+            <img src="Reset.gif" alt="Reset" align="top"> Resets
+            the applet to its default setting. The button is on the
+            far right so that it does not get pressed accidentally
+            in place of Rewind. 
+           </p>
+
+            <p>
+              Adjustments in the initial conditions and system
+              parameters can only be made after first clicking
+              REWIND or RESET.
+            </p>
+          </dd>
+        </dl>
+    </li>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+	 <p>
+
+	 <div class="sectionheading"><li><a name="Trace"> Particle's Path
+	 <img src="Trace.gif" align="top"></a></div>
+
+	 <p>Displays or hides the charged particle's path in cyan.  The path is shown in
+	 the following snapshot.
+
+	 <p align="center"><img src="Bpath.jpg"></p>
+
+	 <p>The path is not erased when you click Rewind.</li>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+    <p>
+
+    <div class="sectionheading"><li><a name="Velocity"> Velocity
+    Vector <img src="VelocityVector.gif" alt="Velocity Vector" align="top"></a></div>
+
+	 <p>Displays or hides the velocity vector (magenta).  See snapshot
+	 in Number 2 above.</li>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+	 <p>
+
+    <div class="sectionheading"><li><a name="Data">Data <img src="Data.gif" alt="Da
+	 ta" align="top"></a></div>
+
+        <p>
+          The Data toggle button displays/hides the Data box shown
+          below. The Data box can also be closed by clicking in the
+          little square marked by an "X" in the top right corner of
+          the box. The Data box can be dragged anywhere within the
+          applet window.
+        </p>
+        <p align="center">
+          <img src="Bdata.gif" alt="Data Box">
+        </p>
+        <p>
+          The following quantities are displayed in the Data box in SI-Units.  The units are not indicated.
+        </p>
+        <ul>
+
+          <li>
+            <i>r</i>: the radius of the charged particle's circular orbit in the magnetic field. The radius is given by
+
+    <p align="center"><i>r</i> = <i>mv</i>/(<i>|q|B</i>).</p>
+
+    <p>Note that the four sliders for <i>m</i>, <i>v</i>, <i>q</i>, and <i>B</i>
+    are arranged in the order in which this ratio is written.</p>
+
+          </li>
+          <li>
+            <i>T</i>: the period of the particle's circular orbit.  It is equal to
+
+    <p align="center">T = 2&pi;<i>r</i>/<i>v</i> = 2&pi;<i>m</i>/(<i>|q|B</i>).</p>
+          </li>
+       </ul>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+<p>	
+    <div class="sectionheading"><li><a name="Bdirection"
+    align="top">Direction of the Magnetic Field </a> <img
+    src="Bdirection.gif" alt="Field direction" align="top"></div>
+
+	 <p>Cycles through three possible directions of the magnetic field:
+
+	 <p><ul>
+
+	 <li>out of screen (indicated by small circles)</li>
+
+	 <li>into screen (indicated by small x's)</li>
+
+	 <li>to the right (indicated by small arrows pointing right)
+
+	 </ul>
+
+	 <p>The following snapshot shows the particle in a magnetic field
+	 pointing out of the screen, towards the viewer.
+
+	 <p align="center"><img src="Bpath.jpg"></p></li>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+	 <p>
+
+	 <a name="Sliders"></a>
+        <div class="sectionheading"><li>
+              Sliders
+        </div>
+
+        <p>
+          There are five sliders, shown in the following image.
+          Clicking on a slider to the left or right of the slider
+          tab allows fine adjustment of the slider setting.
+        </p>
+        <p align="center">
+          <img src="BSliders.gif" alt="Sliders">
+        </p>
+        <p>
+          Clicking on the Input Dialog button <img src=
+          "SliderButton.gif" alt="Input Dialog Button" align=
+          "top"> of a slider will open a dialog for entering an
+          exact value for the slider setting. The dialog for the
+          <i>v</i>-slider is illustrated below. The range in which
+          values can be entered, from 0 to 300 m/s in this
+          case, is indicated above the data entry field.
+        </p>
+
+        <p align="center">
+          <img src="vSliderEntryField.gif" alt=
+          "Input Dialog Field">
+        </p>
+        <p>
+          The five sliders in the control panel allow you to adjust
+          the values of the following quantities.
+        </p>
+        <ul>
+          <li>
+            <u>Zoom</u>. Allows you to vary the screen magnification between 1/10 times
+            to 10 times.
+          </li>
+          <li>
+            <u>Mass</u>. Allows you to vary the mass <i>m</i> of the particle in integer
+            steps from 1 kg to 3 kg.  The units are not indicated.
+          </li>
+          <li>
+            <u>Speed</u>. The incoming speed <i>v</i> of the
+            particle can be varied between 0 and 300 m/s
+            in steps of 1 m/s. The units are not indicated.
+
+    <p><b>Note</b>.  The direction of the initial velocity is always
+    to the right and cannot be adjusted.  Its magnitude, the speed,
+    can be adjusted only with this slider, not be dragging the tip of
+    the velocity vector. 
+    </p>
+          </li>
+			   <u>Charge</u>.  Allows you to vary the charge of the particle in
+				integer steps from -3 C to 3 C.  The units are not indicated.
+          </li>
+          <li>
+		     <u>Magnitude of the magnetic field</u>. Allows you to vary the magnitude <i>B</i> of 
+           the magnetic field in steps of 0.01 T from 0 to 3.00 T.  The units are not indicated. 
+          </li>
+
+</ol>
+
+<p align="right"><a href="#Top"><img src="top.gif" border ="0"
+align="top"></a></p>
+
+<hr noshade color="#C0C0C0">
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

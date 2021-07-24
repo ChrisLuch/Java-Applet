@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      ShowMe - Projectile Motion: One Ball
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../../styles/showmestyle.css">
+  </head>
+  <body>
+    <div class="title">
+      ShowMe - Projectile Motion: One Ball
+    </div>
+    <div class="sectionheading">
+      The applet shows a ball performing projectile motion with or without
+      air resistance
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      This page is designed to get you started using the applet.
+      The applet should be open. The step-by-step instructions on
+      this page are to be done in the applet. You may need to
+      toggle back and forth between instructions and applet if your
+      screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#InitialSetting">Setting the Ball's Initial
+      Position and Velocity</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#BallMotion">Observing the Ball's Motion</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Step">Stepping Through the Motion</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width=
+      "20"><a href="#Target">Setting a Target and Measuring Point
+      Coordinates</a>
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width="20"><a href=
+      "#AirResistance">Including Air Resistance</a>
+    </p>
+    <p>
+      <a name="InitialSetting"></a>
+    </p><br>
+     
+    <div class="sectionheading">
+      Setting the Ball's Initial Position and Velocity
+    </div>
+    <p>
+      <b>Exercise 1 (Initial Position)</b>. Reset <img src=
+      "Reset.gif" alt="Reset" align="top"> the applet.
+    </p>
+    <p>
+      Press the Data button <img src="Data.gif" alt="Data"
+         align="top"> to display the Data box. It displays the
+         ball's <i>x</i> and <i>y</i> position coordinates. They
+         are updated when you drag the ball.
+    </p>
+    <p>
+      Click on the ball, and drag it to the initial position
+      (<i>x</i>,<i>y</i>) = (20.0, 10.0) m, as shown in Figure 1
+      below. You may find this easier to do if you display the grid
+      by pressing the Grid toggle button <img src="Grid.gif"
+         alt="Grid" align="top">. (The grid is not shown in Figure
+         1.)
+    </p>
+    <p>
+      It also helps to adjust one coordinate at a time. Drag the
+      ball to <i>x</i> = 20.0 m without worrying about the
+      <i>y</i>-coordinate. Then, hold down the Shift key while
+      dragging the ball. Now the ball will move only vertically,
+      and it will be much easier to adjust its initial
+      <i>y</i>-coordinate to 10.0 m. The <i>x</i>-coordinate will
+      remain unchanged while the Shift key is held down.
+    </p>
+    <p align="center">
+      <img src="OneBallInitial.gif" alt="Initial Conditions">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      Notice the shadow balls on the <i>x</i> and <i>y</i> axes.
+      They move with the ball and are projections of the ball onto
+      the two axes. Their positions represent the ball's <i>x</i>
+      and <i>y</i> coordinates.
+    </p>
+    <p>
+      <b>Exercise 2 (Initial Velocity)</b>. The magenta arrow
+      represents the ball's velocity. Adjust the initial velocity
+      so that its magnitude is 20 m/s and its direction forms an
+      angle &theta; with the positive
+      <i>x</i>-axis equal to 60<sup>o</sup>. Do this by typing
+      these values in the third and fourth velocity data fields,
+      shown at the bottom of Figure 1, and then press the ENTER key
+      on the keyboard.
+    </p>
+    <p>
+      Notice how the display of the <i>x</i> and <i>y</i>
+      components of the ball's velocity is automatically adjusted
+      to <i>v<sub>x</sub></i> = 10.0 m/s and <i>v<sub>y</sub></i> =
+      17.3 m/s. You can enter values in any of the four velocity
+      data fields. When you press ENTER, the values in the other
+      fields are adjusted automatically so that they are
+      consistent.
+    </p>
+    <p>
+      You can adjust the initial velocity also by dragging the tip
+      of the velocity vector. The four velocity data fields will be
+      adjusted accordingly.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="BallMotion"></a>
+    </p>
+    <div class="sectionheading">
+      Observing the Ball's Motion
+    </div>
+    <p>
+      <b>Exercise 1</b>. REWIND the applet, display the Data box,
+      and make sure that the ball's initial position and velocity
+      are as in the previous section. These values are listed
+      below. Otherwise, RESET the applet and then adjust the applet
+      to these values.
+    </p>
+    <ul>
+      <li>
+        <i>x</i>(0) = 20.0 m
+      </li>
+      <li>
+        <i>y</i>(0) = 10.0 m
+      </li>
+      <li>
+        <i>v</i>(0) = 20.0 m/s
+      </li>
+      <li>
+        &theta;(0) = 60<sup>o</sup>
+      </li>
+    </ul>
+    <p>
+      Make sure that the ball has no air resistance. This will be
+      the case if the drag coefficient <i>C</i> is set to 0 with
+      the Drag Coefficient slider.
+    </p>
+    <p>
+      PLAY the motion. Display the ball's path by pressing the
+      Trace toggle button <img src="Trace.gif" alt="Trace"
+         align="top">.
+    </p>
+    <p>
+      When the ball has disappeared from the applet window, REWIND
+      <img src="Rewind.gif" alt="Rewind" align="top"> the applet
+      and click PLAY once more to watch the motion again.
+    </p>
+    <p>
+      Observe how the shadow ball on the <i>x</i>-axis moves to the
+      right with constant velocity. Observe how the shadow ball on
+      the <i>y</i>-axis performs an up-and-down motion like a ball
+      thrown straight up
+    </p>
+    <p>
+      <b>Exercise 2</b>. REWIND the applet, and press the
+      Components toggle button <img src="Components.gif" alt=
+      "Components" align="top"> to display the horizontal and
+      vertical components of the velocity vector. PLAY the motion
+      again and PAUSE it on the way up. Figure 2 below illustrates
+      what you see if you PAUSE the motion at <i>t</i> = 0.87 s.
+    </p>
+    <p align="center">
+      <img src="OneBallMotion1.gif" alt="Motion Paused">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      <b>Exercise 3</b>. REWIND the applet. This time, STEP
+      <img src="Step.gif" alt="Step" align="top"> through the
+      motion by clicking the Step button repeatedly.
+    </p>
+    <p>
+      Observe that the horizontal component of the velocity vector
+      remains constant and, correspondingly, that the value of
+      <i>v<sub>x</sub></i> in the data panel stays constant at 10.0
+      m/s. The vertical component of the velocity is continually
+      decreasing in magnitude on the way up, changes direction at
+      the top, and then is continually increasing in magnitude on
+      the way down. Correspondingly, the values of
+      <i>v<sub>y</sub></i> in the data panel are continually
+      decreasing. (Even when they are negative they are decreasing.
+      E.g., -10 is <b>less</b> than -5.)
+    </p>
+    <p>
+      <b>Exercise 4</b>. REWIND the applet. This time, set the
+      <i>x</i>-component of the ball's velocity to 20 m/s without
+      changing the <i>y</i>-component. Then PLAY the motion. Observe
+      that the ball is now moving more quickly in the horizontal
+      direction, but that its vertical motion is unaffected.
+    </p>
+    <p>
+      To observe this in detail, REWIND the applet and then STEP it
+      forward to the time at which you paused the motion in Exercise
+      2.  Here, this is at <i>t</i> = 0.87 s.  Figure 3 below shows
+      the applet at <i>t</i> = 0.87 s.  The vertical position of the
+      ball is <i>y</i> = 21.34 m, compared to <i>y</i> = 21.36 in
+      Figure 2, and the <i>y</i>-component of velocity is 8.8 m/s in
+      both Figures 2 and 3. Also, the two trajectories have the same
+      height.
+     </p>
+	  <p>
+	   The slight discrepancy of 0.02 m in the value of <i>y</i> in
+      Figures 2 and 3 is the result of a round-off in the
+      <i>y</i>-component of the velocity.  When the applet calculates
+      <i>v<sub>y</sub></i> from <i>v</i> and <font
+      face="symbol">q</font> as in Exercise 2, it works with the exact
+      value of <i>v<sub>y</sub></i>, which to four decimals is 17.3205
+      m/s, but displays <i>v<sub>y</sub></i> only to one decimal as
+      17.3 m/s in the data field.  In Exercise 4, when the value of
+      <i>v<sub>x</sub></i> is changed to 20.0 m/s and ENTER is
+      pressed, the applet takes the value of <i>v<sub>y</sub></i> =
+      17.3 m/s that is displayed in the Data field to be exact.
+    </p>
+    <p align="center">
+      <img src="OneBallMotion2.gif" alt="Motion Comparison">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      <b>Exercise 5</b>. As a final element of the motion, observe
+      the ball's acceleration. Do so by selecting the Vectors
+      toggle button <img src="Vectors.gif" alt="Vectors" align=
+      "top"> and checking Acceleration in the panel that opens up.
+      The acceleration vector will be shown as an orange arrow.
+    </p>
+    <p>
+      Replay the previous two motions, and observe the acceleration
+      vector each time. To replay the motions, click REWIND and set
+      the initial velocity component in the <i>x</i>-direction
+      equal to either 10.0 m/s or 20.0 m/s, without changing the
+      initial <i>y</i>-component. Then PLAY the motion. Observe
+      that the acceleration vector is constant throughout each
+      motion and is the same for both motions.
+    </p>
+    <p>
+      Replay the two motions once more, but this time display the
+      components of the velocity vector. Since the
+      <i>x</i>-component of the velocity is constant, all changes
+      in the velocity are due to those in the <i>y</i>-component.
+      Observe the behaviour of the velocity vector and of its
+      <i>y</i>-component during the motion. The tips of both should
+      be moving downward at a constant rate, when the ball is on
+      its way up, right at the top, and when it is on its way down.
+      Remember that acceleration is the rate at which the tip of
+      the velocity vector is moving.
+    </p>
+    <p>
+      In this simulation where there is no air resistance, the
+      ball's acceleration is equal to the acceleration due to
+      gravity. You can vary the magnitude <i>g</i> of the
+      acceleration due to gravity, and therefore the magnitude of
+      the ball's acceleration, between 0 and 20 m/s<sup>2</sup> by
+      means of the g-slider. Replay the two motions for another
+      value of <i>g</i>, and again observe the acceleration and the
+      motions of the tip of the velocity vector and its
+      <i>y</i>-component.
+    </p>
+    <p>
+      Also observe that a smaller value of <i>g</i> results in a
+      higher trajectory.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <div class="sectionheading">
+      <a name="Step">Stepping Through the Motion</a>
+    </div>
+    <p>
+      <b>Exercise 1</b>. Rewind the applet, set
+      <i>v<sub>x</sub></i> to 20 m/s, and make sure the
+      <i>y</i>-component of the initial velocity is still 17.3 m/s.
+      Step <img src="Step.gif" alt="Step" align="top"> through the
+      motion by clicking the Step button repeatedly until you reach
+      the same elapsed time as in Figure 3, namely, <i>t</i> = 0.87
+      s. Adjust the Time Step slider to large time steps at first,
+      say, 0.20 s, and then to 0.01-s time steps as you approach
+      <i>t</i> = 0.87 s.
+    </p>
+    <p>
+      Compare the position and velocity values displayed by your
+      applet to those shown in Figure 3 above.
+    </p>
+    <p>
+      Fine-tuned stepping through a motion is useful in determining
+      the time required for the ball to reach a certain position,
+      e.g., its maximum height, the time required to drop back down
+      to the <i>x</i>-axis, or the time required to reach a target.
+      (About targets, see the next section.)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p><a name="Target"></a> 
+    <div class="sectionheading">
+      Setting a Target and Measuring Point Coordinates
+    </div>
+    <p>
+      <b>Exercise 1</b>. Select the Target button <img src=
+      "Target.gif" alt="Target Button" align="top">. Then click
+      anywhere in the applet window. A bull's eye target
+         <img src="OneBalltarget.gif" alt="Target" align="top">
+         will be placed at the point clicked. The
+         (<i>x</i>,<i>y</i>)-coordinates of the target's location
+         will be displayed as long as the mouse button is
+         depressed. Click on a target, and drag it with the mouse.
+         Click on the target without dragging, and the target will
+         removed, but only if the Target button is still selected.
+    </p>
+    <p>
+      <b>Exercise 2</b>. The Coordinates button <img src=
+      "Coordinates.gif" alt="Coordinates button" align="top">
+      functions like the target button. Select it, and click
+      anywhere in the applet window. A small "+" will be placed at
+      the point clicked, and the (<i>x</i>,<i>y</i>)-coordinates of
+      the point will be displayed. The coordinates remain displayed
+      after the mouse button is released. With the Coordinates
+      button selected, click on a point marked by a "+", and drag
+      it to a new location. Click on the "+" without dragging it,
+      and the "+" and its coordinates will be removed, but only if
+      the Coordinates button is selected.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Reset the applet. Set a target, and find
+      an initial velocity so that the ball will hit the target.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p><a name="AirResistance"></a> 
+    <div class="sectionheading">
+      Including Air Resistance
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET the applet, and drag the ball away
+      from the origin to a point where it has some white space
+      around it.
+    </p>
+    <p>
+      Keep the ball's mass equal to <i>m</i> = 0.4 kg, and set the
+      velocity to a magnitude of 20 m/s with a direction angle of
+      30<sup>o</sup> in all three cases. One after the other, make the
+      following three settings of the magnitude <i>g</i> of the
+      acceleration due to gravity and of the drag coefficient
+      <i>C</i>.
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width="20">(a)
+      <i>g</i> = 9.8 m/s<sup>2</sup>, <i>C</i> = 0
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width="20">(b)
+      <i>g</i> = 0, <i>C</i> = 0.020 kg/m
+    </p>
+    <p>
+      <img src="small.gif" alt="space" height="1" width="20">(c)
+      <i>g</i> = 9.8 m/s<sup>2</sup>, <i>C</i> = 0.020 kg/m
+    </p>
+    <p>
+      Display the Vector panel and check Velocity and Acceleration.
+      Observe the ball's acceleration and velocity vectors for each of
+      the settings (a) - (c). The applet should display the three
+      configurations shown in Figure 4 below.
+    </p>
+    <p align="center">
+      <img src="OneBallAccVelVectors.gif" alt="Acceleration and Velocity">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      Observe that the orange acceleration vector in Part (c) of
+      Figure 4 is the vector sum of the acceleration vectors in
+      Parts (a) and (b).
+    </p>
+	 <p>
+      Then display the force of gravity (green arrow) and force of air
+      resistance (red arrow) acting on the ball in the three cases (a)
+      to (c).
+    <p>
+      <b>Exercise 2</b>. Set <i>g</i> back to zero without changing
+      any of the other settings. You should see display (b) in
+      Figure 4. Now double the magnitude of the velocity vector
+      from 20 m/s to 40 m/s by entering the new value in the data
+      panel and pressing the ENTER (RETURN) key on the keyboard.
+      Move the ball if necessary to have a full view of both the
+      velocity and acceleration vectors. Observe that while the
+      velocity vector doubles in length, the acceleration vector
+      quadruples in length. The magnitude of the acceleration due
+      to air resistance is proportional to the square of the ball's
+      speed in this applet.
+    </p>
+    <p>
+      Drag the velocity vector by its tip and observe the direction
+      of the acceleration vector.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Vary the ball's mass by means of the
+      Mass slider.
+    </p>
+    <p>
+      Set <i>g</i> = 0 and <i>C</i> = 0.020 kg/m, and observe both the
+      force of air resistance and the acceleration due to air
+      resistance as you vary the mass.  The force of air resistance
+      should be constant as you vary the mass, but the acceleration
+      due to air resistance should vary in inverse proportion to the
+      mass.
+    </p>
+	 <p>
+      Set <i>g</i> = 9.8 m/s<sup>2</sup> and <i>C</i> = 0, and and
+      observe both the force of gravity and the acceleration due to
+      gravity as you vary the mass.  The force of gravity should vary
+      in proportion to the mass, but the acceleration due to gravity
+      should be constant as you vary the mass.
+	 </p>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

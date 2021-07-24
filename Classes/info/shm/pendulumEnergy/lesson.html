@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Simple Harmonic Motion Pendulum Energy
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Energy Conservation in Simple Harmonic Motion
+      (Pendulum)
+    </div>
+    <div class="sectionheading">
+      The applet simulates the motion of a simple pendulum and
+      energy conservation in this system.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      The applet simulates the motion of a simple pendulum in its
+		simple-harmonic-motion (SHM) approximation.  Students should
+		be familiar with the general properties of
+      SHM and the sense in which SHM is a
+      good approximation to the motion of a simple pendulum at
+      small amplitude. In particular, they should be familiar with
+      the SHM-approximation to the displacement and velocity of a
+      simple pendulum as a function of time. Students should be
+      familiar with the concepts of kinetic and potential energy
+      and energy conservation.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will learn how to use energy conservation to obtain
+      information about the potential energy of a simple pendulum.
+      They will be able to describe the time dependence of the
+      potential energy when the pendulum is oscillating and to
+      explain how the potential energy depends on the displacement
+      of the pendulum from its equilibrium position. They will
+      learn that the energy of the simple pendulum is proportional
+      to the square of the amplitude of oscillation of the
+      pendulum.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="20"><a href="#KineticEnergy">Kinetic Energy as a
+      Function of Time</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="20"><a href="#PotentialEnergy">Potential Energy as a
+      Function of Time</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="20"><a href="#PotvsPos">Potential Energy as a Function
+      of Position</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="20"><a href="#Energy">Energy as a Function of
+      Amplitude</a>
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height=
+      "20" width="1">
+    </p><a name="KineticEnergy"></a> 
+    <div class="sectionheading">
+      Kinetic Energy as a Function of Time
+    </div>
+    <p>
+      Figure 1 below illustrates the <i>x</i>-axis that will be
+      used to describe the motion of the simple pendulum.
+    </p>
+    <p align="center">
+      <img src="../pendulumImages/PendulumXAxis.gif" alt=
+      "x-axis for pendulum motion">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      We will use the bob's <i>x</i>-coordinate as the pendulum's
+      position. The origin of the <i>x</i>-axis, <i>x</i> = 0, is
+      at the bob's equilibrium position at the bottom of the swing.
+    </p>
+    <p>
+      For small amplitudes, the time dependence of the bob's
+      <i>x</i>-coordinate is to a good approximation SHM. In the
+      simulation and in this lesson, the time dependence of the
+      bob's <i>x</i>-coordinate is taken to be SHM exactly.
+    </p>
+    <p>
+      The kinetic energy <i>KE</i> of a simple pendulum is a
+      function of the time <i>t</i>. Let's find out how <i>KE</i>
+      depends on <i>t</i>.
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet. Set the amplitude to
+      <i>A</i> = 0.50 m and the length of the pendulum to <i>L</i> =
+      3.00 m. Keep the mass of the pendulum bob and the magnitude of
+      the acceleration due to gravity at their default values of
+      <i>m</i> = 0.50 kg and <i>g</i> = 9.8 m/s<sup>2</sup>,
+      respectively.
+    </p>
+    <p>
+      PLAY the motion from the pendulum's default position, which has
+      the pendulum bob at its right-most position, at <i>x</i> =
+      <i>A</i>, and observe the motion. Sketch graphs of both the
+      bob's position (<i>x</i>) and velocity (<i>v<sub>x</sub></i>)
+      vs. time (<i>t</i>). On the graphs, mark the points where the
+      bob passes its far right, far left, and equilibrium positions.
+    </p>
+    <p>
+      When done, display the applet's <i>x</i> vs. <i>t</i> and
+      <i>v<sub>x</sub></i> vs. <i>t</i> graphs to check your
+      graphs.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, REWIND the applet
+      and PLAY the motion again. Observe the size of the kinetic
+      energy column during the motion, and sketch the kinetic energy
+      <i>KE</i> of the oscillating pendulum vs. <i>t</i>.  You may
+      find it helpful to Step through the motion. On the graph, mark
+      the points where the bob passes its far right, far left, and
+      equilibrium positions. Make sure your graph is consistent with
+      the <i>v<sub>x</sub></i> vs. <i>t</i> graph obtained in Exercise
+      1. When done, display the applet's
+      <i>KE</i> vs. <i>t</i> graph to check your graph.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Write down general expressions in symbols
+      for the bob's position <i>x</i>(<i>t</i>) and velocity
+      <i>v<sub>x</sub></i>(<i>t</i>) at time <i>t</i> for the
+      motion played in Exercises 1 and 2 in terms of the amplitude
+      <i>A</i>, angular frequency <font face="symbol">w</font>, and
+      time <i>t</i>. If you have difficulty with this Exercise,
+      review the Lesson accompanying the applet "Simple Harmonic
+      Motion (Pendulum)".
+    </p>
+    <p>
+      Using the expression for <i>v<sub>x</sub></i>(<i>t</i>),
+      write down an expression for <i>KE</i>(<i>t</i>) in terms of
+      <i>A</i>, &omega;, the mass <i>m</i>,
+      and, of course, <i>t</i>.
+    </p>
+    <p>
+      <b>Answer</b>. For the kinetic energy, you should obtain
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="180"><i>KE</i>(<i>t</i>) =
+      (<i>m</i>/2)<i>A</i><sup>2</sup>&omega;<sup>2</sup> <i>sin</i><sup>2</sup>
+      &omega;<i>t</i><img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(1)
+    </p>
+    <p>
+      <b>Exercise 4</b>. REWIND the applet, and STEP through the
+      motion until the bob is as close to its equilibrium point as
+      possible (the energy column would be entirely red at the
+      equilibrium point). Record the value of the kinetic energy at
+      this point from the Data box. Calculate this value using
+      Equ.(1) above and compare your result to the value of
+      <i>KE</i> in the Data box.
+    </p>
+    <p>
+      Calculate the kinetic energy at another instant during the
+      pendulum's motion. Also, click Rewind, change some of system
+      parameters, and Step the system to a time of your choice.
+      Calculate the kinetic energy at these times from Equ.(1).
+      Compare your values with those displayed in the Data box.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt=
+      "Back To Top" border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="PotentialEnergy"></a>
+    </p>
+    <div class="sectionheading">
+      Potential Energy as a Function of Time
+    </div>
+    <p>
+      The potential energy of the simple pendulum is strictly
+      speaking the gravitational potential energy of the
+      pendulum-earth system. We will refer to it as the "potential
+      energy of the pendulum" for short. Similarly, we will refer
+      to the energy of the pendulum-earth system as the "energy of
+      the pendulum".
+    </p>
+    <p>
+      The mechanical energy <i>E</i>, <i>energy</i> for short, of
+      the simple pendulum stays constant during the pendulum's
+      motion (if the motion is undamped, as it is in the applet).
+      One says the energy is <i>conserved</i>. The energy is the
+      sum of kinetic and potential energy,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="240"><i>E</i> = <i>KE</i> + <i>PE</i>. <img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(2)
+    </p>
+    <p>
+      PLAY the motion and observe how there is an ongoing
+      conversion of potential into kinetic energy or vice versa
+      during the motion such that the sum of the two energies
+      remains constant.
+    </p>
+    <p>
+      In this section, you will use Equ.(2) together with Equ.(1)
+      to obtain information about the time dependence of the
+      potential energy.
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet. Set the amplitude to
+      <i>A</i> = 0.50 m and the length of the pendulum to <i>L</i> =
+      3.00 m. Keep the mass of the pendulum bob and the magnitude of
+      the acceleration due to gravity at their default values of
+      <i>m</i> = 0.50 kg and <i>g</i> = 9.8 m/s<sup>2</sup>,
+      respectively. These are the same settings as at the beginning of
+      the preceding section.
+    </p>
+    <p>
+      PLAY the motion, and sketch a graph of the potential energy
+      as function of time. Mark the points where the bob passes its
+      far right, far left, and equilibrium positions. When done,
+      compare your sketch to the graph drawn by the applet.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Continuing from Exercise 1, determine the
+      value of the potential energy at the bob's far right and far
+      left positions and the value of the mechanical energy as
+      follows.
+    </p>
+    <p>
+      The potential energy of any system is defined up to an
+      additive constant whose value one can choose freely to suit
+      one's convenience. In the applet, as is commonly done for the
+      present system, this constant is chosen so that the potential
+      energy of the pendulum is 0 when the pendulum is at its
+      equilibrium position. Therefore, at this point, the
+      mechanical energy <i>E</i> is equal to the kinetic energy
+      <i>KE</i>.
+    </p>
+    <p>
+      When the bob is either at its far right or far left
+      positions, the bob is momentarily at rest and therefore its
+      kinetic energy equal to zero. Thus, Equ.(2) implies that
+      <i>E</i> = <i>PE</i> at this point.
+    </p>
+    <p>
+      Therefore, since <i>E</i> is constant during the motion, the
+      potential energy at the far right or far left is equal to the
+      kinetic energy when the bob is passing its equilibrium
+      position, which is the maximum kinetic energy:
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE<sub>right,left</sub></i> = <i>E</i> =
+      <i>KE<sub>max</sub></i>. <img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(3)
+    </p>
+    <p>
+      Use Equ.(3) combined with Expression (1) for the kinetic
+      energy, to derive a general expression for the potential
+      energy at the far right or far left of the motion and for the
+      energy <i>E</i>. Hint: what is the maximum value of
+      <i>sin</i><sup>2</sup> &omega;<i>t</i>?
+    </p>
+    <p>
+      <b>Answer</b>. Since the maximum value of the sine function
+      and that of its square are equal to 1, Equ.(1) implies
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE<sub>right,left</sub></i> = <i>E</i> =
+      (<i>m</i>/2)<i>A</i><sup>2</sup>&omega;<sup>2</sup>. <img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(4)
+    </p>
+    <p>
+      Use Equ.(4) to calculate the values of
+      <i>PE<sub>right,left</sub></i> and <i>E</i> for the present
+      applet settings. Compare your results to the values in the
+      Data box and also with the value of the kinetic energy near
+      the equilibrium point determined in Exercise 4 of the
+      previous section. The latter may not be quite equal to
+      <i>KE<sub>max</sub></i> if you stopped the motion not exactly
+      at the equilbrium point.
+    </p>
+    <p>
+      <b>Exercise 3</b>. In the Lesson "Simple Harmonic Motion
+      (Pendulum)" accompanying the Pendulum applet it is shown that
+      the angular frequency &omega; is related to
+      the magnitude due to gravity <i>g</i> and the length <i>L</i> of
+      the pendulum by
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="240">&omega;<sup>2</sup> =
+      <i>g</i> / <i>L</i> .<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(5)
+    </p>
+    <p>
+      Substitute this expression for &omega;<sup>2</sup> into Equ.(4) to obtain an
+      expression for the energy in terms of <i>m</i>, <i>g</i>,
+      <i>L</i>, and <i>A</i>.
+    </p>
+    <p>
+      The result is
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE<sub>right,left</sub></i> = <i>E</i> =
+      (1/2)(<i>mg</i>/<i>L</i>)<i>A</i><sup>2</sup> .<img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(6)
+    </p>
+    <p>
+      Substitute the present values into Equ.(6) and check if the
+      resulting value of <i>PE<sub>right,left</sub></i> agrees with
+      that obtained in Exercise 2.
+    </p>
+    <p>
+      <b>Exercise 4</b>. Substitute Expression (1) for the kinetic
+      energy into Equ.(2) to obtain an expression for the potential
+      energy at time <i>t</i>. Into the resulting equation for
+      <i>PE</i>(<i>t</i>), substitute Expression (4) for <i>E</i>
+      and simplify. You should obtain the following equation for
+      <i>PE</i>(<i>t</i>):
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE</i>(<i>t</i>) =
+      (<i>m</i>/2)<i>A</i><sup>2</sup>&omega;<sup>2</sup> [1 - <i>sin</i><sup>2</sup>
+      &omega;<i>t</i>] .<img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(7)
+    </p>
+    <p>
+      Using Equ.(5), this can be rewritten as
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE</i>(<i>t</i>) =
+      (1/2)(<i>mg</i>/<i>L</i>)<i>A</i><sup>2</sup> [1 -
+      <i>sin</i><sup>2</sup> &omega;<i>t</i>]
+      .<img src="../pendulumImages/small.gif" alt="space"
+         height="1" width="40">(8)
+    </p>
+    <p>
+      Simplify Equ.(8) by using the standard trigonometric identity
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>sin</i><sup>2</sup> &theta; + <i>cos</i><sup>2</sup> &theta;
+		= 1 .<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(9)
+    </p>
+    <p>
+      Equ.(8) will simplify to
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE</i>(<i>t</i>) =
+      (1/2)(<i>mg</i>/<i>L</i>)<i>A</i><sup>2</sup>
+      <i>cos</i><sup>2</sup> &omega;<i>t</i>
+      .<img src="../pendulumImages/small.gif" alt="space"
+         height="1" width="40">(10)
+    </p>
+    <p>
+      Check that the graph you sketched in Exercise 1 is consistent
+      with this equation. Explain in words why you think the two
+      are consistent. Discuss whether Equ.(10) has the right
+      behavior at the far right, far left, and equilibrium
+      positions of the motion.
+    </p>
+    <p>
+      PLAY and PAUSE the motion at some instant, and use Equ.(10)
+      to calculate the value of <i>PE</i> at this instant. Compare
+      your result to that shown in the Data box.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt=
+      "Back To Top" border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="PotvsPos"></a>
+    </p>
+    <div class="sectionheading">
+      Potential Energy as Function of Position
+    </div>
+    <p>
+      In Exercise 3 of the section "Kinetic Energy as a Function of
+      Time", you were asked to write down a general expression for
+      the position of the pendulum bob as a function of time,
+      assuming the motion starts at <i>t</i> = 0 with the bob in
+      its far right position.
+    </p>
+    <p>
+      The equation is
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>x</i>(<i>t</i>) = <i>A</i> <i>cos</i>
+      &omega;<i>t</i> .<img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(11)
+    </p>
+    <p>
+      Substitute this expression for <i>x</i>(<i>t</i>) into
+      Equ.(10) to obtain an expression for the potential energy as
+      function of position, instead of time. The result will be
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>PE</i>(<i>x</i>) = (1/2)(<i>mg</i>/<i>L</i>)
+      <i>x</i><sup>2</sup> .<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(12)
+    </p>
+    <p>
+      <b>Exercise 1</b>. Sketch <i>PE</i> vs. <i>x</i> between
+      <i>x</i> = -<i>A</i> and <i>x</i> = <i>A</i>. What is the
+      name of this kind of a curve?
+    </p>
+    <p>
+      <b>Exercise 2</b>. Discuss if Equ.(12) is consistent with
+      Equ.(6).
+    </p>
+    <p>
+      <b>Exercise 3</b>. RESET the applet. Set the amplitude to
+      <i>A</i> = 0.50 m and the length of the pendulum to <i>L</i> =
+      3.00 m. Keep the mass of the pendulum bob and the magnitude of
+      the acceleration due to gravity at their default values of
+      <i>m</i> = 0.50 kg and <i>g</i> = 9.8 m/s<sup>2</sup>,
+      respectively. These settings were used previously.
+    </p>
+    <p>
+      Drag the pendulum bob all the way to the left, by clicking on
+      the bob and dragging. The bob should be at <i>x</i> = -0.50
+      m. Calculate the corresponding value of <i>PE</i> from
+      Equ.(12), and compare your result to the value in the Data
+      box.
+    </p>
+    <p>
+      Drag the weight to the right to <i>x</i> = -0.40 m, and again
+      calculate <i>PE</i>. Observe the blue potential energy column
+      and the rate at which it changes. Continue doing this for
+      <i>x</i> = -0.30 m, <i>x</i> = -0.20 m, <i>x</i> = -0.10 m,
+      <i>x</i> = 0, and then for positive <i>x</i> in steps of 0.10
+      m. Make a table of the values of <i>PE</i> vs. <i>x</i>.
+      Discuss where the rate at which <i>PE</i> changes is
+      greatest: near the far right of the oscillation, or near the
+      far left or near the equilibrium point.
+    </p>
+    <p>
+      For each 0.10-m interval, calculate the average slope
+      &Delta;<i>PE</i> / &Delta;<i>x</i> of the potential energy curve over
+      the interval from <i>x</i> to <i>x</i> + 0.10 m, and compare
+      this average slope to the <i>x</i>-component of the net force
+      acting on the bob at the midpoint of this interval, i.e., at
+      <i>x</i> + 0.05 m. To calculate the net force, use the
+      expression for the acceleration <i>a<sub>x</sub></i> derived
+      in an Appendix to the Lesson accompanying the applet "Simple
+      Harmonic Motion (Pendulum)",
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="240"><i>a<sub>x</sub></i> = - (<i>g</i>/<i>L</i>) x ,
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="40">(13)
+    </p>
+    <p>
+      and multiply by the mass <i>m</i>.
+    </p>
+    <p>
+      <b>Answer</b>. You should find that
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>F<sub>x,mid</sub></i> = - &Delta;<i>PE</i> /
+		&Delta;<i>x</i><img src=
+      "../pendulumImages/small.gif" alt="space" height="1"
+         width="40">(14)
+    </p>
+    <p>
+      for each of the 0.10-m intervals. Note the minus sign in this
+      equation. When the slope of the potential energy curve is
+      positive, the net force is negative. Does that make sense?
+    </p>
+    <p>
+      You could make the <i>x</i>-interval smaller and smaller and
+      would find Equ.(14) to be true always. In the limit of
+      vanishing interval size, the average slope over an interval
+      would become the slope at a point. This way one can prove
+      that
+    </p>
+    <blockquote>
+      The <i>x</i>-component of the net force acting on the
+      pendulum bob at a given displacement <i>x</i> from
+      equilibrium is equal to the negative slope at that point of
+      the potential energy taken as a function of <i>x</i>.
+    </blockquote>
+    <p>
+      The mathematical symbol for slope (also called
+      <i>derivative</i>), as applied to the present case, is
+      <i>dPE</i> / <i>dx</i>. With this notation,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>F<sub>x</sub></i> = - <i>dPE</i> /
+      <i>dx</i><img src="../pendulumImages/small.gif" alt="space"
+      height="1" width="40">(15)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt=
+      "Back To Top" border="0" align="top"></a>
+    </p>
+    <p>
+      <a name="Energy"></a>
+    </p>
+    <div class="sectionheading">
+      Energy as a Function of Amplitude
+    </div>
+    <p>
+      Equ.(6) above gives the energy of the simple pendulum in
+      terms of the amplitude <i>A</i>, the mass <i>m</i>, the
+      magnitude <i>g</i> of the acceleration due to gravity, and
+      the length <i>L</i> of the pendulum. Note that the energy
+      depends on the <b>square</b> of the amplitude, not the first
+      power of the amplitude.
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet, and set the amplitude to
+      <i>A</i> = 0.17 m, the length of the pendulum to <i>L</i> =
+      3.00 m, and the mass of the pendulum bob to <i>m</i> = 1.00
+      kg. Keep the magnitude of the acceleration due to gravity at
+      its default value of <i>g</i> = 9.8 m/s<sup>2</sup>. Display
+      the Data box.
+    </p>
+    <p>
+      Record the value of the energy <i>E</i>. Vary the amplitude
+      with the slider from 0.17 m to 0.51 m, i.e., by a factor of
+      3, and record the corresponding values of <i>E</i> for
+      several values of the amplitude along the way. Plot a graph
+      of <i>E</i> vs. <i>A</i> and demonstrate that it exhibits the
+      quadratic dependence on <i>A</i> from Equ.(6).
+    </p>
+    <p>
+      <u>Comment</u>. The pendulum's potential energy is really
+      gravitational potential energy. The gravitational potential
+      energy of the bob is equal to <i>mgh</i> where <i>h</i> is
+      the bob's elevation above the bob's bottom position. One can
+      show that this expression is consistent with Expression (12)
+      for the potential energy by showing that, for small
+      amplitudes,
+    </p>
+    <p>
+      <img src="../pendulumImages/small.gif" alt="space" height="1"
+      width="200"><i>mgh</i> = (1/2)(<i>mg</i>/<i>L</i>)
+      <i>x</i><sup>2</sup> .<img src="../pendulumImages/small.gif"
+      alt="space" height="1" width="40">(16)
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../pendulumImages/top.gif" alt=
+      "Back To Top" border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

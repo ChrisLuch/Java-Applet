@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - SHM Pendulum Energy
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Energy Conservation in Simple Harmonic Motion
+      (Pendulum)
+    </div>
+    <div class="sectionheading">
+      The applet simulates the motion of a simple pendulum and energy
+      conservation in this system. 
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a>
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica"><a name=
+              "image"><map name="fpmap0">
+                <area href="#ControlButtons" shape="rect"
+                      coords="64,398,88,422">
+
+                <area href="#ControlButtons" shape="rect"
+                      coords="122,398,146,422">
+
+                <area href="#ControlButtons" shape="rect"
+                      coords="503,398,527,422">
+
+                <area href="#Vectors" shape="rect" coords=
+                "245,398,269,422">
+
+                <area href="#Vectors" shape="rect" coords=
+                "260,176,284,200">
+
+                <area href="#Data" shape="rect" coords=
+                "306,398,330,422">
+                 
+                <area href="#Data" shape="rect" coords=
+                "120,164,144,188">
+
+                <area href="#Graphs" shape="rect" coords=
+                "372,398,396,422">
+                 
+                <area href="#Zoom" shape="rect" coords=
+                "437,400,461,424">
+                 
+                <area href="#Sliders" shape="rect" coords=
+                "56,362,80,386">
+                 
+                <area href="#Sliders" shape="rect" coords=
+                "221,362,245,386">
+                 
+                <area href="#Sliders" shape="rect" coords=
+                "336,362,360,386">
+
+                <area href="#Sliders" shape="rect" coords=
+                "486,362,510,386">
+
+                <area href="#Energy" shape="rect" coords=
+                "485,237,509,261">
+
+              </map> <img border="0"
+                   src="../pendulumImages/PEHelp.gif" alt="Pendulum
+                   Energy Help" usemap="#fpmap0"></a></font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view its explanation</b>.
+    </p>
+    <hr noshade color="#C0C0C0">
+     <a name="ControlButtons"></a>
+    <ol>
+        <div class="sectionheading"><li>
+              Basic Control Buttons
+        </div>
+        <p>
+          There are four basic control buttons. They are, from left
+          to right:
+        </p>
+        <dl>
+          <dd>
+            <img src="../pendulumImages/Play.gif" alt="Play" align="
+            top">/<img src="../pendulumImages/Pause.gif" alt="Pause" align="
+            top"> <u>Play/Pause</u>. Clicking <img src="
+            ../pendulumImages/Play.gif" alt="Play" align="top"> starts the
+            motion. 
+            <p>
+              After Play has been clicked, the button will change into
+              the Pause button <img src=" ../pendulumImages/Pause.gif"
+              alt="Pause" align="top">. 
+            </p>
+				<p>
+				  Click it if you want to take a 'snapshot' of the motion
+              at a given instant. To resume the motion, click Play
+              once more.
+            </p>
+          </dd>
+          <dd>
+            <img src="../pendulumImages/Step.gif" alt="Step" align="top">
+            <u>Step</u>. Lets you step through the motion in equal
+            time steps.
+          </dd>
+          <dd>
+           <p>
+            <img src="../pendulumImages/Rewind.gif" alt="Rewind" align="top">
+            <u>Rewind</u>. Resets the simulation to the starting point
+            with the previously chosen system parameters.  After
+            clicking Rewind, click Play to restart the motion.
+           </p>
+
+          </dd>
+          <dd>
+            <img src="../pendulumImages/Reset.gif" alt="Reset" align="top">
+            <u>Reset</u>. Resets the applet to its default setting.
+            <p>
+              Adjustments in the system parameters can only be made
+              after first clicking REWIND or RESET.
+            </p>
+          </dd>
+        </dl>
+        <p align="right">
+          <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back to Top"
+               border="0" align="top"></a>
+        </p>
+        </li>
+        <a name="Vectors"></a>
+        <div class="sectionheading"><li>
+          Vectors <img src="../pendulumImages/Vectors.gif"
+          alt="Vectors Button" align="top">
+        </div>
+        <p align="center">
+          <img src="../pendulumImages/SHMPendEnVecs.gif">
+        </p>
+        <p>
+          Selecting the Vectors toggle button displays the Vector
+          panel illustrated above.  By checking any of the three
+          checkboxes on the panel, different vectors can be displayed.
+          In the example above, the position vector and the velocity
+          vector of the oscillating pendulum bob are checked, the
+          latter so that it is shown with its tail end fixed at the
+          origin, which is on the vertical through the pendulum bob's
+          equilibrium position.  These two vectors are shown in the
+          image at the Top.
+        </p>
+		  <p>
+          The following vectors can be displayed:
+		  </p>
+        <ul>
+          <li>
+            <u>position</u>: position vector of the pendulum bob;
+            color: cyan
+          </li>
+          <li>
+            <u>velocity at origin</u>: horizontal component of velocity
+            of the oscillating pendulum bob; the tail end of the
+            vector is fixed on the vertical through the bob's
+            equilibrium point; color: magenta
+          </li>
+          <li>
+            <u>velocity at pendulum bob</u>: velocity vector of the
+            oscillating pendulum bob, shown with its tail end
+            attached to the bob; this is the actual
+            velocity of the bob in the bob's circular trajectory, which
+				is nearly but not quite the same as its horizontal component displayed
+            when you select the velocity-at-orign vector; 
+            color: magenta
+          </li> 
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back to Top"
+               border="0" align="top"></a>
+        </p>
+        </li>
+	     <a name="Data"></a>
+        <div class="sectionheading"><li>
+          Data <img src="../pendulumImages/Data.gif" alt="Data Button" align="top">
+        </div>
+        <p align="center">
+          <img src="../pendulumImages/PEData.gif" alt="PE Data Box">
+        </p>
+        <p>
+          The Data toggle button displays/hides the Data box shown
+          above. If you click on the Data box and drag, you can move
+          the Data box anywhere on the screen or even off the screen.
+        </p>
+        <p>
+          The Data box lists the following data.
+        </p>
+        <p>
+          <u>Top half</u>. Constants of the motion and initial
+          values.
+        </p>
+        <ul>
+          <li>
+            &omega;: angular frequency
+          </li>
+          <li>
+            &delta;: phase angle; equal to
+            &theta;(0) (see below)
+          </li>
+          <li>
+            <i>x</i>(0): horizontal displacement of pendulum bob from
+            equilibrium at <i>t</i> = 0
+          </li>
+          <li>
+            <i>v<sub>x</sub></i>(0): horizontal velocity component of
+            pendulum bob at <i>t</i> = 0
+          </li>
+          <li>
+            &beta;(0): initial deflection angle of the
+            pendulum string from the vertical; positive for deflection
+            to the right, negative for deflection to the left
+          </li>
+          <li>
+            <i>PE</i>(0): potential energy of the pendulum at <i>t</i> = 0
+          </li>
+          <li>
+            <i>KE</i>(0): kinetic energy of the pendulum at <i>t</i> = 0
+          </li>
+          <li>
+            <i>E</i>(0): mechanical energy of the pendulum
+          </li>
+        </ul>
+        <p>
+          <u>Note about &delta; = &theta;(0) and
+          <i>x</i>(0)</u>. The phase angle &delta; and the initial displacement
+          <i>x</i>(0) can be chosen before starting the motion by
+          dragging the pendulum left or right. The initial velocity
+          <i>v<sub>x</sub></i>(0), initial potential energy
+          <i>PE</i>(0), initial kinetic energy <i>KE</i>(0), and
+          energy <i>E</i> are adjusted accordingly.
+        </p>
+        <p>
+          <u>Bottom half</u>. Values of time-dependent quantities
+          at time <i>t</i>.
+        </p>
+        <ul>
+          <li>
+            <i>t</i>: time 
+	       </li> 
+          <li> 
+          &theta;(t):
+          phase angle of the pendulum bob at time <i>t</i>; the pendulum bob's
+          displacement <i>x</i>(<i>t</i>) from equilibrium at time
+          <i>t</i> is related to the phase angle and the amplitude
+          <i>A</i> by <i>x</i>(<i>t</i>) = <i>A cos</i> &theta;(t) =
+			 <i>A cos</i> (&omega;<i>t</i> + &delta;)
+          </li>
+	       <li>
+            <i>x</i>(<i>t</i>): horizontal component of the pendulum
+          bob's displacement from equilibrium at time <i>t</i> 
+          </li>
+          <li>
+            <i>v<sub>x</sub></i>(<i>t</i>): horizontal component of
+          the pendulum bob's velocity at time <i>t</i> 
+	       </li>
+          <li>
+            &beta;(t): deflection angle at time <i>t</i>
+            of the pendulum string from the vertical; positive for
+            deflection to the right, negative for deflection to the
+            left
+          </li>
+          <li>
+            <i>PE</i>(<i>t</i>): potential energy of the oscillating
+            weight at time <i>t</i>
+           </li>
+          <li>
+            <i>KE</i>(<i>t</i>): kinetic energy of the oscillating
+           weight at time <i>t</i> 
+          </li> 
+        </ul> 
+        <p align="right"> 
+          <a href="#Top"><img src="../pendulumImages/top.gif" alt="Back To
+           Top" border="0" align="top"></a>
+        </p>
+	</li>
+        <a name="Graphs"></a> 
+        <div class="sectionheading"><li> Graphs
+        <img src="../pendulumImages/Graphs.gif" alt="Graphs" border="0"
+        align="top"> 
+        </div>
+        <p>
+          The Graphs toggle button displays/hides the graph panel
+          which lets you select the graphs you want to have
+          displayed. The graph panel is shown below.
+        </p>
+        <p align="center">
+          <img src="../pendulumImages/PEGraphPanel.gif" alt="Graph Panel">
+        </p>
+        <p>
+          The panel lets you select three states for each of the
+          graphs of the following five variables: position, velocity,
+          potential energy, kinetic energy, and mechanical energy:
+        </p>
+        <dl>
+          <dd>
+            <img src="../pendulumImages/eye.gif" alt="Eye" align="top"> <u>Visibility
+            checkbox</u>. When this is selected, the graph of the
+            respective variable is displayed. 
+            <p>
+              With check marks as in the panel illustrated above, the
+              position and velocity graphs are displayed.
+            </p>
+          </dd>
+          <dd>
+            <img src="../pendulumImages/move.gif" alt="Move" align="top"> <u>Move graph
+            checkbox</u>. When this is selected, the graph of the
+            respective variable can be dragged anywhere in the
+            applet window. 
+            <p>
+              With check marks as in the panel illustrated above, the
+              position graph can be moved.
+            </p>
+          </dd>
+          <dd>
+            <img src="../pendulumImages/reset.gif" alt="Reset" align="top"> <u>Reset graph
+            button</u>. When this button is clicked, any graphs of
+            the respective variable will be erased, but the axes
+            will remain visible.
+          </dd>
+        </dl>
+        <p>
+          In each graph, the time <i>t</i> on the horizontal axis is
+          in units of seconds (s).  The time axis has divisions that
+          are multiples of &pi;, e.g., &pi/2.  Don't let these divisions
+			 mislead you into thinking that the time axis is in units of rad.
+			 It is in units of seconds.  E.g., the division &pi;/2 s means 1.57 s.
+          </p>
+        <p align="right">
+          <a href="#Top"><img src="../pendulumImages/top.gif"
+          alt="Back To Top" border="0" align="top"></a>
+        </p>
+	</li>
+	<a name="Zoom"></a>
+        <div class="sectionheading"><li>
+           Zoom <img src="../pendulumImages/Zoom.gif" alt="Zoom" align="top">
+        </div>
+        <p>
+          The Zoom toggle button lets you display the vectors and
+          graphs in standard size or reduced size. The size reduction
+          affects position, velocity, potential energy, kinetic
+          energy, and mechanical energy as follows.
+        </p>
+        <ul>
+          <li>
+            <u>Position Vector</u>: no reduction.
+          </li>
+          <li>
+            <u>Velocity Vector</u>: reduction by a factor of 2.
+          </li>
+          <li>
+            <u>Potential Energy</u>: reduction of the graph by a
+          factor of 2 and of the potential energy portion of the
+          energy bar by a factor of 4.  
+          </li>
+          <li>
+            <u>Kinetic Energy</u>: reduction of the graph by a factor
+          of 2 and of the kinetic energy portion of the energy bar
+          by a factor of 4.  
+	       </li>
+          <li>
+            <u>Mechanical Energy</u>: reduction of the graph by a
+          factor of 2 and of the overall height of the energy bar by a
+          factor of 4.
+	       </li> 
+        </ul>
+	        <p align="right"> <a href="#Top"><img
+           src="../pendulumImages/top.gif" alt="Back To Top"
+           border="0" align="top"></a>
+           </p>
+	     </li>
+	     <a name="Sliders"></a>
+        <div class="sectionheading"><li>
+              Sliders
+        </div>
+        <p>
+          <img src="../pendulumImages/SHMPendulumSliders.gif" alt="Sliders" align="top">
+			   </p>
+        <p>
+          There are four sliders in all.  They are described below,
+          in the order from left to right.
+		  </p>
+        <p>
+          You can adjust a slider setting either by dragging the
+          slider tab or by entering an exact value in the slider input
+          dialog.
+        </p>
+        <p>To enter an exact value, click on the Input Dialog button
+          <img src="../pendulumImages/SliderButton.gif" alt="Input Dialog
+          Button" align="top"> of the slider to open the dialog.  The
+          dialog for the Amplitude slider is illustrated below.  The
+          range in which values can be entered, from 0.17 m to 0.52 m
+          in this case, is indicated above the data entry field.
+        </p>
+        <p align="center">
+         <img src="../pendulumImages/ASliderEntryField.gif" alt="Input Dialog Field">
+         </p>
+        <p>
+          Clicking on a slider to the left or right of the slider tab
+          allows fine adjustment of the slider setting.
+        </p>
+    <ul>
+     <li>
+        <p> 
+          <u>Amplitude Slider</u>. This slider lets you adjust the
+          amplitude <i>A</i> of the pendulum bob's motion in the range
+          from 0.17 m to 0.52 m, in steps of 0.52 m.
+        </p>
+        <p>
+          The radius of the reference circle is equal to the
+          amplitude.
+        </p>
+		  </li>
+		  <li>
+        <p>
+          <u>Mass Slider</u>.  This slider lets you adjust the mass
+          <i>m</i> of the pendulum bob between 0.50 kg and 1.00 kg, in
+          steps of 0.01 kg. (The pendulum string is assumed to be
+          massless.)
+        </p>
+		  </li>
+        <li>
+        <p>
+          <u>Length Slider</u>. This slider lets you adjust the length
+          <i>L</i> of the pendulum in the range from 1.00 m to 2.00 m,
+          in steps of 0.01 m.
+        </p>
+		  </li>
+	     <li>
+        <p>
+          <u>g Slider</u>.  This slider lets you adjust the magnitude <i>g</i>
+          of the acceleration due to gravity between 0 and 20.0
+          m/s<sup>2</sup>, in steps of 0.1 m/s<sup>2</sup>. 
+        </p>
+        </li>
+	  </ul>
+        <p align="right">
+          <a href="#Top"><img src="../pendulumImages/top.gif"
+               alt="Back To Top" border="0" align="top"></a>
+        </p>
+       </li>
+       <a name="Energy"></a>
+        <div class="sectionheading"><li>
+          Energy Bar
+        </div>
+        <p align="center">
+          <img src="../pendulumImages/PEEnergyBar.gif" alt="Energy Bar">
+        </p>
+	<p>
+	  A vertical column in the lower right-hand corner of the
+	applet window displays the potential energy <i>PE</i> of the
+	oscillating pendulum bob in blue and the kinetic energy <i>KE</i> in
+	red.
+	</p>
+	<p>
+	 The potential energy is taken to be zero when the bob is
+	 at its equilibrium position.  The zero energy level is at the
+	 bottom of the applet window.
+	</p> 
+      </li> 
+     </ol> 
+     <p align="right"> <a href="#Top"><img
+      src="../pendulumImages/top.gif" alt="Back To Top" border="0"
+      align="top"></a>
+     </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - Circular Motion Energy
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Force and Energy in Circular Motion
+    </div>
+    <div class="sectionheading">
+      The applet simulates uniform and non-uniform circular motion of
+      a masspoint, the masspoint's velocity and acceleration, the
+      net force acting on the mass point, and the masspoint's kinetic
+      energy.  Simulated also are the radial (centripetal) and
+      tangential components of the acceleration and force.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica"><map name="fpmap0">
+                <area href="#Control" shape="rect" coords=
+                "75,400,99,424">
+                 
+                <area href="#Control" shape="rect" coords=
+                "143,400,167,424">
+                 
+                <area href="#Control" shape="rect" coords=
+                "432,400,466,424">
+                 
+                <area href="#Data" shape="rect" coords=
+                "274,400,298,424">
+                 
+                <area href="#Vectors" shape="rect" coords=
+                "354,400,378,424">
+                 
+                <area href="#Vectors" shape="rect" coords=
+                "103,19,127,43">
+                 
+                <area href="#Sliders" shape="rect" coords=
+                "218,336,242,360">
+                 
+                <area href="#Energy" shape="rect" coords=
+                "435,240,459,264">
+              </map> <img border="0" src="CircularMotionEnergyHelp.gif"
+              alt="Circular Motion Help" usemap="#fpmap0"></font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view the explanation of the
+      corresponding item</b>.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Control"></a> 
+    <ol>
+        <div class="sectionheading"><li>
+              Basic Control Buttons
+        </div>
+        <p>
+          There are four basic control buttons. They are, from left
+          to right:
+        </p>
+        <dl>
+          <dd>
+            <p>
+              <img src="../CircApplet/Rewind.gif" alt="Rewind" align="top">
+              <u>Rewind</u>. Resets the simulation to the starting
+              point with the previously chosen values for the
+              system parameters. After clicking Replay, click Play
+              to restart the motion.
+            </p>
+          </dd>
+          <dd>
+            <img src="../CircApplet/Play.gif" alt="Play" align=
+                "top">/<img src="../CircApplet/Pause.gif" alt="Pause" align=
+                "top"> <u>Play/Pause</u>. Clicking <img src=
+                "../CircApplet/Play.gif" alt="Play" align="top"> starts the
+                motion. 
+            <p>
+              After Play has been clicked, the button will change
+              into the Pause button <img src="../CircApplet/Pause.gif" alt=
+              "Pause" align=" top">. Click it if you want to take a
+              'snapshot' of the motion at a given instant. To
+              resume the motion, click Play once more.
+            </p>
+          </dd>
+          <dd>
+            <img src="../CircApplet/Step.gif" alt="Step" align="top">
+            <u>Step</u>. Lets you step through the motion in equal
+            time steps. The step size can be adjusted with the Time
+            Step slider. See Point 6. In the Incremental mode (see
+            Point 7), one must Step through the motion. Continuous
+            Play is disabled.
+          </dd>
+          <dd>
+            <p>
+              <img src="../CircApplet/Reset.gif" alt="Reset" align="top">
+              <u>Reset</u>. Resets the applet to its default
+              setting.
+            </p>
+            <p>
+              Adjustments in the system parameters can only be made
+              after first clicking REPLAY or RESET.
+            </p>
+          </dd>
+        </dl>
+        <p align="right">
+          <a href="#Top"><img src="../CircApplet/top.gif" alt="Back To Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+        <a name="Data"></a>
+        <div class="sectionheading"><li>
+              Data <img src="../CircApplet/Data.gif" alt="Data Button" align=
+              "top">
+        </div>
+        <p align="center">
+          <img src="CMEnergyDataBox.gif" alt="CM Data Box">
+        </p>
+        <p>
+          The Data box lists the following data, as illustrated in the
+          preceding image.
+        </p>
+        <p>
+          <u>Top section</u>. Constants of the motion and initial
+          values.
+        </p>
+        <ul>
+          <li>
+            <font face="symbol">d</font>: initial phase angle;
+            equal to <font face="symbol">q</font>(0) (see below)
+          </li>
+          <li>
+            <i>a</i><sub>tan</sub>(0): absolute value of the
+            tangential component of the acceleration of the mass
+            point at <i>t</i> = 0
+          </li>
+          <li>
+            <i>KE</i>(0): absolute value of the kinetic energy of the
+            mass point at <i>t</i> = 0
+          </li>
+        </ul>
+        <p>
+          <u>Note</u>. The phase angle <font face=
+          "symbol">d</font> can be chosen before starting the
+          motion by dragging the mass point in its circular orbit.
+        </p>
+        <p>
+          <u>Bottom section</u>. Values of time-dependent quantities
+          at time <i>t</i>.
+        </p>
+        <ul>
+          <li>
+            <i>t</i>: time elapsed since the beginning of the
+            motion
+          </li>
+          <li>
+            <font face="symbol">q</font>(t): phase angle of mass
+            point at time <i>t</i>; <font face="symbol">q</font>(0)
+            = <font face="symbol">d</font>
+          </li>
+          <li>
+            <font face="symbol">w</font>(t): angular velocity of
+            mass point at time <i>t</i>
+          </li>
+          <li>
+            <i>v</i>(<i>t</i>): "circle velocity" of the mass point
+            at time <i>t</i>; the circle velocity is a scalar
+            quantity that can take on both positive and negative
+            values; it is positive for counter-clockwise motion and
+            negative for clockwise motion; its absolute value is
+            equal to the speed of the mass point
+          </li>
+          <li>
+            <i>F</i><sub>tan</sub>(<i>t</i>): absolute value of the
+            tangential component of the net force acting on the mass
+            point at time <i>t</i>
+          </li>
+          <li>
+            <i>F</i><sub>rad</sub>(<i>t</i>): absolute value of the
+            radial component of the net force acting on the mass point
+            at time <i>t</i>
+          </li>
+          <li>
+            <i>W</i>: net work done on the mass point between <i>t</i>
+            = 0 and time <i>t</i>
+          </li>
+          <li>
+            <i>KE</i>(<i>t</i>): absolute value of the kinetic energy
+            of the mass point at time <i>t</i>
+          </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="../CircApplet/top.gif" alt="Back To Top"
+          border="0" align="top"></a>
+        </p>
+      </li>
+        <a name="Vectors"></a>
+        <div class="sectionheading"><li>
+              Vector <img src="../CircApplet/CMVectors.gif" alt=
+              "Vectors Button" align="top">
+        </div>
+        <p align="center">
+          <img src="CMEnergyVectorPanel.gif" alt="Vector Panel">
+        </p>
+        <p>
+          The Vectors toggle button lets you display/hide the Vector
+          Panel illustrated above. Selecting a vector in this panel
+          will cause that vector to be displayed. In the panel
+          illustrated, the velocity of the mass point and the net
+          force acting on the mass point and the components of the net
+          force are selected.  The corresponding vectors are shown in
+          the image at the top of this Help document.
+        </p>
+        <p>
+          The following items are available in the panel:
+        </p>
+        <ul>
+          <li>
+            <u>position</u>: position vector of mass point; shown
+            in cyan
+          </li>
+          <li>
+            <u>velocity</u>: velocity vector of mass point, drawn with
+            its tail end at the mass point; shown in magenta
+          </li>
+          <li>
+            <u>acceleration</u>: acceleration vector of mass point,
+            drawn with its tail end at the origin; shown in orange
+          </li>
+          <li>
+            <u>acc. comps.</u>: radial and tangential acceleration
+            component vectors, drawn with their tail ends at the
+            origin; shown in pale orange
+          </li>
+          <li>
+            <u>force</u>: net force acting on mass point; shown in
+            blue
+          </li>
+          <li>
+            <u>force components</u>: radial and tangential
+            component vectors of the net force; shown in pale blue
+          </li>
+        </ul>
+        <p align="right">
+          <a href="#Top"><img src="../CircApplet/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p><a name="Sliders"></a>
+      </li>
+        <div class="sectionheading"><li>
+              Sliders
+        </div>
+        <p>
+          There are eight sliders in all, arranged in two rows of four
+          each. Clicking on a slider to the left or right of the
+          slider tab allows fine adjustment of the slider setting.
+        </p>
+	<p>Clicking on the Input Dialog button <img
+	  src="../CircApplet/SliderButton.gif" alt="Input Dialog Button"
+	  align= "top"> of a slider will open a dialog for entering an
+	  exact value for the slider setting.  The dialog for the
+	  <i>r</i>-slider is illustrated below.  The range in which
+	  values can be entered, from 0.10 m to 0.30 m in this case,
+	  is indicated above the data entry field.
+        </p>
+	<p align="center">
+         <img src="../CircApplet/rSliderEntryField.gif" alt="Input Dialog Field">
+	</p>
+        <p>
+          <u>First Row</u>
+        </p>
+        <ul>
+          <li>
+            <img src="../CircApplet/CMRadius.gif" alt="Radius Slider" align=
+            "top"><br>
+            lets you set the radius <i>r</i> of the circle on which
+            the mass point is moving between 0.10 m and 0.30 m<br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMAngvel.gif" alt="Angular Velocity Slider"
+            align="top"><br>
+            lets you set the initial angular velocity
+                <font face="symbol">w</font>(0) between 0.50 rad/s
+                and 2.00 rad/s<br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMCircvel.gif" alt="Circle Velocity Slider"
+            align="top"><br>
+            lets you set the initial circle velocity <i>v</i>(0) of
+            the mass point in the range from
+                 <nobr><i>r</i><img src="../CircApplet/small.gif" alt="space"
+                 height="1" width="3">&#215;<font face=
+                 "symbol">w</font>(0)<sub>min</sub></nobr> to
+                 <nobr><i>r</i><img src="../CircApplet/small.gif" alt="space"
+                 height="1" width="3">&#215;<font face=
+                 "symbol">w</font>(0)<sub>max</sub></nobr>; thus,
+                 setting the <i>r</i>-slider to a different value
+                 will affect the range of the <i>v</i>(0)-slider;
+                 for an explanation of the term "circle velocity"
+                 see under Point 2, "Data"<br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMTimestep.gif" alt="Time Step Slider"
+                align="top"><br>
+            lets you set the size of the time step <font face=
+            "symbol">D</font><i>t</i> by which the Step button
+            advances the motion between 0.01 s and 1.00 s
+          </li>
+        </ul><br>
+        <br>
+         
+        <p>
+          <u>Second Row</u>
+        </p>
+        <ul>
+          <li>
+            <img src="../CircApplet/CMMass.gif" alt="Mass Slider" align=
+            "top"><br>
+            lets you set the mass <i>m</i> of the mass point between
+            0.50 kg and 2.00 kg; the width of the dot representing the
+            mass point increases as the mass value increases
+	    <br><img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMAngacc.gif" alt=
+            "Angular Acceleration Slider" align="top"><br>
+            lets you set the initial angular acceleration
+            <font face="symbol">a</font>(0) between -0.50
+            rad/s<sup>2</sup> and 0.50 rad/s<sup>2</sup><br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMSpeedchange.gif" alt="dv/dt Slider"
+                align="top"><br>
+            lets you set the initial rate of change of the circle
+            velocity <i>dv</i>/<i>dt</i>(0) between
+            <nobr><i>r</i><img src="../CircApplet/small.gif" alt="space"
+                 height="1" width="3">&#215;<font face=
+                 "symbol">a</font>(0)<sub>min</sub></nobr> to
+                 <nobr><i>r</i><img src="../CircApplet/small.gif" alt="space"
+                 height="1" width="3">&#215;<font face=
+                 "symbol">a</font>(0)<sub>max</sub></nobr>; thus,
+                 setting the <i>r</i>-slider to a different value
+                 will affect the range of the <i>dv</i>/<i>dt</i>
+                 (0)-slider; for an explanation of the term "circle
+                 velocity" see under Point 2,
+                 "Data"<br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1">
+          </li>
+          <li>
+            <img src="../CircApplet/CMZoom.gif" alt="Zoom Slider" align=
+            "top"><br>
+            lets you set the size of the scale factor for
+            displaying vectors and the energy column between 1 and 20; the
+            different items will be affected as follows:<br>
+            <img src="../CircApplet/small.gif" alt="vertical space" height="5"
+            width="1"><br>
+            <u>position</u> - no change<br>
+            <u>velocity</u> - proportional to scale factor<br>
+            <u>acceleration</u> - proportional to square of scale
+            factor<br>
+            <u>force</u> - proportional to square of scale factor
+            <br>
+            <u>kinetic energy bar</u> - proportional to scale factor</u>
+            <br>
+          </li>
+        </ul><br>
+        <br>
+         
+        <p align="right">
+          <a href="#Top"><img src="../CircApplet/top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p><a name="Energy"></a>
+      </li>
+        <div class="sectionheading"><li>
+              Kinetic Energy Bar <img src="CMEnergyBar.gif"
+              alt="Energy Bar" align="top">
+        </div>
+        <p>
+          The red bar in the lower right-corner of the applet
+          represents the kinetic energy of the mass point.
+        </p>
+        <p>
+          The height of the bar is proportional to the scale factor
+          set by the Zoom slider.  The seting of the Zoom slider also
+          affects the lengths of the velocity, acceleration, and force
+          vectors.
+        </p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="../CircApplet/top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

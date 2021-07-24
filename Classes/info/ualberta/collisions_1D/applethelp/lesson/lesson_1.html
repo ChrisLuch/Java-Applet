@@ -1,0 +1,969 @@
+<html>
+<head>
+<title>Lesson</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../../libraries/styles/mapstyle.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" class="general" onLoad="MM_preloadImages('../../../libraries/buttons/lesson_up.gif')">
+<h1>Lesson 1 - Conservation of Momentum</h1>
+<h2>The Collisions 1D applet simulates elastic and inelastic one-dimensional collisions 
+  in both the lab and centre  of mass frames.</h2>
+<hr noshade align="center">
+<p><b>Prerequisites</b></p>
+<p>Students should have a basic understanding of motion, velocity, vectors and 
+  equation manipulation.</p>
+<p><b>Learning Outcomes</b></p>
+<p>In this lesson you will learn about momentum and one dimensional collisions. 
+  Students will be able to define and calculate the momentum of an object. Students 
+  will also be able to qualitatively explain and quantitatively show that momentum 
+  is conserved in 1D collisions. As well, students will be able to approximate 
+  the results of a collision using conservation laws.</p>
+<p><b>Instructions</b> </p>
+<p>Students should know how the applet functions, as described in Help and ShowMe. 
+  The applet should be open. The step-by-step instructions on this page are to 
+  be done in the applet. You may need to toggle back and forth between instructions 
+  and applet if your screen space is limited. </p>
+<hr noshade align="center">
+
+<p><a name="contents"></a><b>Contents</b> </p>
+<table width="100%" border="0">
+  <tr> 
+    <td valign="top"> 
+      <ul class="general">
+        <li><a href="#1">Background</a></li>
+        <li><a href="#2">What is momentum?</a></li>
+        <li><a href="#3">Conservation of Momentum</a></li>
+        <li><a href="#4">Analysing Collisions</a></li>
+        <li><a href="#5">Summary</a></li>
+      </ul>
+    </td>
+    <td> 
+      <!--<div align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image201','','../../../libraries/buttons/lesson_up.gif',1)" onClick="MM_openBrWindow('lesson_1.pdf','','resizable=yes,width=600,height=600')"><img name="Image201" border="0" src="../../../libraries/buttons/lesson_down.gif" width="133" height="40"></a></div>-->
+    </td>
+  </tr>
+</table>
+<hr noshade align="center">
+<p class="rightanswer"><a name="1"></a>Background</p>
+<p>In physics, there are two important kinds of quantities: vectors and scalars. 
+  You should already know the difference between the two. Understanding vectors 
+  is important when you study momentum. As review, answer the following questions.</p>
+<ol>
+  <li>What is a scalar? Give two examples.<br>
+    <br>
+  </li>
+  <li>What is a vector? Give two examples.<br>
+    <br>
+  </li>
+  <li>Two soccer players are running toward each other, each with a speed of 10.0 
+    km/hr. Do they have the same velocity? Why or why not?</li>
+</ol>
+<p>In your study of momentum and collisions, you must also be aware of <b>systems</b>. 
+  A system is a collection of two or more objects and there are different types 
+  of systems that you must know about: 
+<ul>
+  <li><b>Closed system: </b>no mass enters of leaves the system</li>
+  <li><b>Isolated system:</b> no external forces act on the system and no energy 
+    leaves the system.</li>
+  <li><b>Open system:</b> mass may enter or leave the system and external forces 
+    may influence the system.</li>
+</ul>
+<p>In this lessons when we examine the momentum of a system, it is important that 
+  the system under investigation is a closed, isolated system. It is easy to tell 
+  if a system is closed. However, it is a bit more difficult to determine if a 
+  system is isolated - you must be aware of any external forces that may be acting 
+  on the system. </p>
+<ol start="4">
+  <li>For the following questions, you are told what comprises the system. State 
+    whether or not the system is isolated. If the system is not isolated, identify 
+    the external force that is acting upon the system. 
+    <ol type="a">
+      <li>Two basketballs (the system) are moving vertically in the air. One of 
+        the balls is falling down, while the other has just been thrown upward. 
+        The two balls run into each other as they move.<br>
+        <br>
+        <br>
+      </li>
+      <li>Two cars (the system) are skidding along a gravel road and end up colliding 
+        with each other.<br>
+        <br>
+        <br>
+      </li>
+      <li>Two skaters (the system) are coasting along frictionless ice and are 
+        headed straight for each other. They end up crashing into each other. 
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+</ol>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a><br>
+</p>
+<p class="rightanswer"><a name="2"></a>What is Momentum?</p>
+<p>We use the word &quot;momentum&quot; in our everyday language to describe various 
+  events, such as sporting events, political campaigns or economic trends. However, 
+  regardless of what is being described, the word &quot;momentum&quot; always 
+  implies movement or the impetus for motion. For example, when we say, &quot;the 
+  underdogs have gained the momentum&quot;, we mean that that team is &quot;on 
+  the move&quot; and will be difficult to stop - the greater the momentum, the 
+  harder it is to stop the team.</p>
+<p>In physics, momentum has a similar meaning. Simply put, momentum is &quot;mass 
+  in motion&quot;, or a measure of how much motion an object has. Algebraically, 
+  momentum is defined as the product of an object's mass and velocity, <img src="eqn2.gif" align="absmiddle" width="53" height="22">. 
+  Since velocity is a vector, so too is momentum. The direction of the momentum 
+  vector is in the same direction as the velocity.</p>
+<table width="60%" border="1" cellpadding="5" align="center" cellspacing="0">
+  <tr> 
+    <td bgcolor="#FFFFCA"> 
+      <p align="center"><span class="general"><b>Momentum </b></span></p>
+      <p align="center"><img src="eqn2.gif" align="absmiddle" width="53" height="22"></p>
+      <p><span class="general">Momentum is &quot;mass in motion&quot;. Every object 
+        that is moving has momentum. Momentum is a vector and is in the same direction 
+        as the velocity.</span><span class="general"></span></p>
+    </td>
+  </tr>
+</table>
+<ol start="5">
+  <li>Calculate the momentum of: 
+    <ol type="a">
+      <li> a 10.0 kg bird that is flying 8.0 m/s east.<br>
+        <br>
+      </li>
+      <li>a 70.0 kg object travelling west at 5.0 m/s.<br>
+        <br>
+      </li>
+      <li>a 500.0 kg truck that is at rest.<br>
+        <br>
+      </li>
+      <li>a 200 kg car travelling 100 km/hr west.<br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+  <li>Which of the following have a greater magnitude of momentum? 
+    <ol type="a">
+      <li>a 500.0 kg truck travelling at 60 km/hr or a 200.0 kg car travelling 
+        at 60 km/hr?<br>
+        <br>
+      </li>
+      <li>a 15.0 kg object travelling to the right at 5.0 m/s or a 15.0 kg object 
+        travelling to the left at 5.0 m/s?<br>
+        <br>
+      </li>
+      <li>a 500.0 kg truck travelling at 60 km/hr or a 200 kg car travelling at 
+        150 km/hr?<br>
+        <br>
+      </li>
+      <li>a 500.0 kg truck at rest or a 200 kg car at rest?<br>
+        <br>
+      </li>
+      <li>a 200 kg truck at rest or a mosquito flying at 2 m/s?<br>
+        <br>
+      </li>
+    </ol>
+  </li>
+</ol>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a><br>
+</p>
+<p class="rightanswer"><a name="3"></a>Conservation of Momentum</p>
+<p>Any object that is moving has velocity, and also momentum. But what happens 
+  if two or more objects collide? What happens to the velocity or the momentum 
+  of each object? Let's explore this question with the applet. For the following 
+  questions, un-check <b>Show CM</b> and <b>Show CM Frame</b>.</p>
+<ol start="7">
+  <li>Using the applet, perform five different collisions and complete the following 
+    tables. To generate a new collision, either set your own conditions or press 
+    the new button ( <img src="new.png" width="24" height="18" border="1" align="absmiddle"> 
+    ). To view the collision information, press the data button ( <img src="../../../libraries/buttons/data.png" width="24" height="18" border="1" align="absmiddle"> 
+    ). <br>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 1</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 2</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 3</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 4</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td colspan="8"> 
+          <div align="left"><span class="general"><b>Collision 5</b></span></div>
+        </td>
+      </tr>
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td> 
+          <div align="center"><span class="general">Object</span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">mass<br>
+            (kg) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>initial</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">v<sub>final</sub><br>
+            (m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            v<br>
+            (m/s) </span> </div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>initial</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general">p<sub>final</sub><br>
+            (kg&middot;m/s) </span></div>
+        </td>
+        <td width="80"> 
+          <div align="center"><span class="general"><font face="Symbol">D</font> 
+            p<br>
+            (kg&middot;m/s) </span></div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Blue </span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"> 
+          <div align="center"><span class="general">Green</span></div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+        <td bgcolor="#FFFFCA" width="80"> 
+          <div align="center">&nbsp; </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+  </li>
+  <li>Now, look at the information you recorded and calculated in the previous 
+    question. Can you see any interesting relationships between what happens to 
+    the blue mass and the green mass? 
+    <ol type="a">
+      <li>Is there a relationship between the change in velocity of the blue mass 
+        and the green mass? If yes, describe the relationship.<br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>Is there any connection between the change in momentum of the blue mass 
+        and the green mass? If yes, describe the relationship.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+</ol>
+<p>You should see an interesting connection between the change in momentum of 
+  each mass: the changes in momentum should be equal, but opposite. For example, 
+  if the blue mass has an increase in momentum, than the green mass has a decrease 
+  in momentum, by the same amount. This connection leads us to an important concept 
+  about momentum and what happens to the total momentum of a system in a collision. 
+  Let's explore this idea a little more.</p>
+<ol start="9">
+  <li>If the change in momentum of one object is exactly equal, but opposite to 
+    the change in momentum of another object, what does that indicate about the 
+    total momentum of the system? <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>If the total momentum of a system before a collision is equal to the total 
+    momentum of a system after a collision, then we say that <b>momentum is conserved</b>. 
+    For the five collisions you performed earlier, check that momentum is conserved:<br>
+    <br>
+    <table width="80%" border="1" cellspacing="0">
+      <tr bgcolor="#DFDFFF" align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">Collision #</span></td>
+        <td><span class="general">total initial momentum<br>
+          <img src="eqn8.gif" width="65" height="28"> <br>
+          (kg&middot;m/s)</span></td>
+        <td><span class="general"> total final momentum<br>
+          <img src="eqn10.gif" width="60" height="28"> <br>
+          (kg&middot;m/s)</span></td>
+        <td><span class="general">Is momentum conserved?</span></td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">1</span></td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">2</span></td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">3</span></td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">4</span></td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+      </tr>
+      <tr align="center" valign="middle"> 
+        <td bgcolor="#DFDFFF"><span class="general">5</span></td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+        <td bgcolor="#FFFFCA">&nbsp;</td>
+      </tr>
+    </table>
+    <br>
+  </li>
+  <li>You have discovered that within a closed and isolate system, the change 
+    in momentum of one object is equal and opposite to the change in momentum 
+    of another object. You have also seen that the total momentum of a closed 
+    and isolated system is conserved in a collision. Now, starting with your discovery 
+    that the change in momentum of one object is equal and opposite to the change 
+    of another <nobr>(<img src="eqn9.gif" width="90" height="26" align="absmiddle" hspace="5">)</nobr> 
+    algebraically derive the conservation of momentum. <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+</ol>
+<p>You have just discovered one of the most important laws in physics - the Law 
+  of Conservation of Momentum. This law governs all physical interactions - it 
+  is considered to be one of the fundamental laws of physics. The law of conservation 
+  of momentum has been used to investigate and analyse all types of interactions, 
+  from the subatomic world of electrons, protons and even smaller things, all 
+  the way up to the astronomical world of planets, stars and galaxies. This law 
+  is one of the key laws that governs the way our world works.</p>
+<table width="60%" border="1" cellpadding="5" align="center" cellspacing="0">
+  <tr> 
+    <td bgcolor="#FFFFCA"> 
+      <p align="center"><span class="general"><b>The Law of Conservation of Momentum</b></span></p>
+      <p align="center"><img src="eqn3.gif" align="absmiddle" width="141" height="28"></p>
+      <p><span class="general">For any closed, isolated system, the total momentum 
+        does not change. In a collision, momentum is conserved - the total momentum 
+        before the collision is equal to the total momentum after the collision.</span><span class="general"></span></p>
+    </td>
+  </tr>
+</table>
+<p>In a collision, the total momentum of a system is conserved, as long as no 
+  external forces act on the system. There are, however, different <b>types</b> 
+  of collisions - sometimes objects bounce off each other, while other times, 
+  the objects stick together. In an <b>elastic</b> collision the total kinetic 
+  energy of the system is conserved. In an <b>completely inelastic </b>collision 
+  the objects stick together upon impact and travel as one whole unit after the 
+  collision. You will learn about the differences between these types of collisions 
+  in another lesson.</p>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="4"></a>Analysing Collisions</p>
+<p>In the previous section you discovered that the total momentum of a system 
+  is conserved, as long as there are no external forces acting on a system. Let's 
+  use the conservation of momentum to analyse the following collisions. When solving 
+  multi-step questions, it is useful to follow a four-step method:</p>
+<ul>
+  <li><b>Plan-it</b> - make sure you understand the question. It helps to draw 
+    a diagram and predict what you think will happen.</li>
+  <li><b>Set-it-Up</b> - list all the known and unknown information and determine 
+    which laws or equations to use. By rearranging equations, develop expressions 
+    for the unknown(s).</li>
+  <li><b>Solve-it</b> - substitute in known values and solve for the unknown(s)</li>
+  <li><b>Think-About-it </b>- think about your answer. Does it make sense? If 
+    possible, check you answer with the applet.</li>
+</ul>
+<p></p>
+<p>Let's do an example question together:</p>
+<p><b>Example:</b><br>
+  
+<blockquote>A 2.0 kg mass, moving to the right at 2.97 m/s collides inelastically 
+  with a 10.0 kg mass that is at rest. If the objects stick together, what is 
+  the velocity of the system after the collision?</blockquote>
+<p><b>Solution: </b></p>
+<ol>
+  <li><b>Plan-it:</b> Initially, m<sub>1</sub> moves to the right and m<sub>2 
+    </sub>is at rest. After the collision, the objects stick together and move 
+    as one great big mass (m<sub>1</sub>+m<sub>2</sub>). Since the total initial 
+    momentum is directed to the right, the total final momentum must also be directed 
+    to the right. Since the objects stick together, they both move to the right.<br>
+    <img src="fig01a.png" width="340" height="88" vspace="10" hspace="40"><br>
+  </li>
+  <li><b>Set-it-up:</b> Motion to the right is positive. Our unknown information 
+    is the final velocity of the system, v<sub>f</sub>.<br>
+    <img src="eqn4.gif" width="278" height="77" vspace="10" hspace="40"><br>
+    We will use the Law of Conservation of Momentum to solve this question. We 
+    need to solve for v<sub>f</sub>:<br>
+    <img src="eqn5.gif" width="245" height="164" vspace="10" hspace="40"> <br>
+    <br>
+  </li>
+  <li><b>Solve-it:</b> Now, we simply substitute in the known values and calculate 
+    v<sub>f</sub><sub></sub>:<br>
+    <img src="eqn6.gif" width="365" height="50" vspace="10" hspace="40"> <br>
+    After the collision, the system moves to the right at 0.50 m/s.<br>
+    <br>
+  </li>
+  <li><b>Think-About-it</b>: We predicted that the system would move to the right 
+    - our answer agrees with our prediction. You can also run this scenario on 
+    the applet to check the answer (set e=0). <br>
+  </li>
+</ol>
+<p>Now it's your turn! For all questions, assume that the objects collide head-on 
+  and the system is a closed, isolated system.</p>
+<ol start="12">
+  <li>A 5.0 kg object is travelling to the right at 10.0 m/s. It hits a 7.0 kg 
+    that is initially at rest. After the collision, the 5.0 kg continues to move 
+    to the right, but now at 1.17 m/s. In what direction and with what speed is 
+    the other object moving?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>A 10.0 kg object has collided in a completely inelastic collision with a 
+    2.0 kg object that was initially at rest. After the collision, the system 
+    moves to the right at 2.56 m/s. What was the initial velocity of 10.0 kg object?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Object A, with a mass of 2.0 kg, is travelling to the right at 15.0 m/s. 
+    Object B, with a mass of 12.5 kg, is travelling to the left, also at 15.0 
+    m/s. If the two objects stick together upon impact, what is the final velocity 
+    of the system?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>When you shoot a gun, it &quot;kicks back&quot;, or recoils. 
+    <ol type="a">
+      <li>Using conservation of momentum, explain why a gun recoils when you shoot 
+        it.<br>
+        <br>
+        <br>
+      </li>
+      <li>If a 30 g bullet is shot from a 7.5 kg gun, and has a velocity of 300 
+        m/s, what is the recoil velocity of the gun?<br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </li>
+    </ol>
+  </li>
+  <li>A 250 g firecracker explodes into two pieces. The first piece, 97 g, flies 
+    off to the right at 16 m/s. What is the velocity of the second piece?<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </li>
+  <li>Are the following collisions possible? Why or why not? 
+    <ol type="a">
+      <li>An object, with mass m, initially travelling to the right collides inelastically 
+        with another object, also mass m, that is at rest. After the collision 
+        the system moves together to the left.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>An object, A<sub></sub>, initially travelling to the right collides 
+        with another object, B<sub></sub>, that is at rest. After the collision, 
+        A moves back to the left and B remains at rest.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>An object, A<sub></sub>, initially travelling to the right collides 
+        with another object, B<sub></sub>, that is at rest. Object B is more massive 
+        than object A. After the collision, A moves back to the left and B moves 
+        to the right.<br>
+        <br>
+        <br>
+        <br>
+      </li>
+      <li>An object is travelling to the right and collides with another object 
+        that is at rest. After the collision, both object travel to the right, 
+        but at different speeds.</li>
+    </ol>
+  </li>
+</ol>
+<p>&nbsp;</p>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+<p class="rightanswer"><a name="5"></a>Summary</p>
+<p>In this lesson, you investigated the momentum of a closed, isolated system 
+  during a collision. You have discovered one of the fundamental laws that governs 
+  physical processes: the Law of Conservation of Momentum. The key points you 
+  learned in this lesson are:</p>
+<ul>
+  <li>In a collision between two objects, the change in momentum of one object 
+    is equal and opposite to the change in momentum of the other object:<br>
+    <img src="eqn9.gif" width="90" height="26" vspace="10" hspace="40"> </li>
+  <li>the total momentum of a system is conserved during a collision. The Law 
+    of Conservation of Momentum states:<br>
+    <img src="eqn3.gif" width="141" height="28" vspace="10" hspace="40"> </li>
+  <li>We can analyse collisions and determine initial velocities, or predict final 
+    velocities by applying the conservation of momentum.</li>
+</ul>
+<p align="right"><a href="#contents"><img src="../../../libraries/images/top.gif" width="65" height="18" border="0"></a></p>
+</body>
+</html>

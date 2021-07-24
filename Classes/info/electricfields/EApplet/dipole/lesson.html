@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Lesson - Electric Dipole Field
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/lessonstyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Lesson - Electric Field Due To Two Point Charges
+    </div>
+    <div class="sectionheading">
+      The applet simulates the electric field and the equipotential
+      lines (Curves) accompanying two electric point charges.
+    </div>
+    <hr noshade color="#C0C0C0">
+    <p>
+      <b>Prerequisites</b>
+    </p>
+    <p>
+      Students should be familiar with the concept of charge and
+      Coulomb's law of electrostatics and the electric field due to
+      a point charge.
+    </p>
+    <p>
+      <b>Learning Outcomes</b>
+    </p>
+    <p>
+      Students will have an opportunity to review the definition of
+      the electric field and the characteristics of the electric
+      field due to a point charge. They will learn to construct the
+      electric field due to two point charge sources as a
+      superposition of the fields due to the individual point
+      charge sources. They will have an opportunity to review the
+      concept of electric potential, its relation to the electric
+      field, and lines of equal electric potential and will learn
+      about the patterns of such lines due to two point charge
+      sources.
+    </p>
+    <p>
+      <b>Instructions</b>
+    </p>
+    <p>
+      Students should know how the applet functions, as described
+      in Help and ShowMe.
+    </p>
+    <p>
+      The applet should be open. The step-by-step instructions in
+      the following text are to be done in the applet. You may need
+      to toggle back and forth between instructions and applet if
+      your screen space is limited.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div class="sectionheading">
+      Contents
+    </div>
+    <p>
+      <img src="../images/small.gif" alt="space" height="1" width=
+         "20"><a href="#Laws">Laws, Theorems, Definitions</a><br>
+       <img src="../images/small.gif" alt="space" height="1" width=
+         "40"><a href="#CoulombLaw">Coulomb's Law of
+         Electrostatics</a><br>
+       <img src="../images/small.gif" alt="space" height="1" width=
+         "40"><a href="#Theorem">Theorem on Electric Forces Exerted
+         by Charged Spheres</a><br>
+       <img src="../images/small.gif" alt="space" height="1" width=
+         "40"><a href="#ElField">Definition of Electric Field and
+         Electric Field Lines</a><br>
+       <img src="../images/small.gif" alt="space" height="1" width=
+         "40"><a href="#ElPotential">Electric Potential and
+         Equipotential Lines</a><br>
+       <img src="../images/small.gif" alt="space" height="1" width=
+         "40"><a href="#Superposition">Superposition of Forces and
+         Fields</a>
+    </p>
+    <p>
+      <img src="../images/small.gif" alt="space" height="1" width=
+         "20"><a href="#PointSourceFields">The Electric Field Due
+         to a Point Charge</a>
+    </p>
+    <p>
+      <img src="../images/small.gif" alt="space" height="1" width=
+         "20"><a href="#SourceFields">Superposition of Two Source
+         Fields</a>
+    </p>
+    <p>
+      <img src="../images/small.gif" alt="space" height="1" width=
+         "20"><a href="#FieldLines">Electric Field Lines</a>
+    </p>
+    <p>
+      <img src="../images/small.gif" alt="space" height="1" width=
+         "20"><a href="#EquipotentialLines">Equipotential Lines</a>
+    </p>
+    <p>
+      <img src="../images/small.gif" alt="space" height="10" width="1">
+    </p>
+    <p>
+      <a name="Laws"></a>
+    </p>
+    <div class="sectionheading">
+      Laws, Theorems, Definitions
+    </div>
+    <ul>
+      <li>
+        <a name="CoulombLaw"><b>Coulomb's Law of
+        Electrostatics</b></a> 
+        <blockquote>
+          Any two particles carrying electric charges
+          <i>q<sub>1</sub></i> and <i>q<sub>2</sub></i> exert
+          electrostatic forces on each other. If the two charges
+          have the same sign, the particles exert repulsive forces
+          on each other. If they have opposite sign, the forces are
+          attractive. The force exerted on Particle 1 has the same
+          magnitude <i>F</i> as the force exerted on Particle 2,
+          equal to 
+          <p align="center">
+            <i>F</i> =
+            <i>k</i>|<i>q<sub>1</sub></i>||<i>q<sub>2</sub></i>| /
+            <i>d</i><sup>2</sup><img src="../images/small.gif"
+            alt="space" height="1" width="40"> (1)
+          </p>
+          <p>
+            where <i>d</i> is the separation between the two
+            particles and <i>k</i> is a universal constant whose
+            value is
+          </p>
+          <p align="center">
+            <i>k</i> = 8.988&times;10<sup>9</sup> N m<sup>2</sup>
+            C<sup>-2</sup>. <img src="../images/small.gif"
+               alt="space" height="1" width="40"> (2)
+          </p>
+        </blockquote>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+          align="top"></a>
+        </p>
+      </li>
+      <li>
+        <a name="Theorem"><b>Theorem on Forces Exerted by
+        Spheres</b></a> 
+        <p>
+          Coulomb's law of electrostatics describes forces that two
+          <b>point</b> particles exert on each other. A spherical
+          object, like the source object in the present applet, is
+          not a point particle, and Coulomb's law does not directly
+          give the force exerted by a spherical object on a (point)
+          particle. However, one can prove the following theorem
+          which states that a charged sphere behaves like a point
+          particle under certain conditions.
+        </p>
+        <blockquote>
+          Let <img src="../images/F.gif" alt="vector F" align="bottom"> denote the
+          electrostatic force exerted by a charged sphere of radius
+          <i>R</i> on a particle at a distance <i>d</i> from the
+          center of the sphere. If the total charge <i>Q</i>
+          residing on the sphere is uniformly distributed
+          throughout the sphere and if <i>d</i> is equal to or
+          greater than <i>R</i>, i.e., if the particle is outside
+          the sphere, then <img src="../images/F.gif" alt="vector F" align="bottom">
+                      is the same as if all of the charge <i>Q</i>
+                      were concentrated at the center of the
+                      sphere. In particular, the magnitude <i>F</i>
+                      of this force is equal to 
+          <p>
+            <img src="../images/small.gif" height="1" width=
+            "60"><i>F</i> = <i>k|Q||q|</i> / <i>d</i><sup>2</sup>,
+            <img src="../images/small.gif" alt="space"  height="1" width=
+            "20"><i>d</i> &gt; <i>R</i>.<img src=
+            "../images/small.gif" alt="space" height="1" width="40"> (3)
+          </p>
+        </blockquote>
+        <p align="right">
+          <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+          align="top"></a>
+        </p>
+      </li>
+      <li>
+        <a name="ElField"><b>Definition of Electric Field and
+        Electric Field Lines</b></a> 
+        <blockquote>
+          If <img src="../images/F.gif" alt="vector F" align="bottom"> is the
+          electric force exerted on a test particle of charge
+          <i>q</i> at some point in space, then the ratio 
+          <p align="center">
+            <img src="../images/E.gif" alt="vector E" align="bottom"> = <img src=
+            "../images/F.gif" alt="vector F" align="bottom"> / <i>q</i> <img src=
+            "../images/small.gif" alt="space" height="1" width="40"> (4)
+          </p>
+          <p>
+            is called the <i>electric field</i> at the given point.
+          </p>
+        </blockquote>
+        <p>
+          <u>Comment 1</u>. Since the force <img src=
+          "../images/F.gif" alt="vector F" align="bottom"> is proportional to the
+          charge <i>q</i>, the electric field <img src=
+          "../images/E.gif" alt="vector E" align="bottom"> is independent of <i>q</i>
+          and characterizes an "electric intensity" at the given
+          point in space that is present without the test particle
+          and does not depend on any properties of the test
+          particle.
+        </p>
+        <p>
+          <u>Comment 2</u>. The SI-unit of the electric field is
+          N/C.
+        </p>
+        <p>
+          <u>Comment 3</u>. The electric field is defined at all
+          points in space. It is therefore not a single vector, but
+          a "vector-valued function defined on space". This simply
+          means that to describe the electric field one must
+          specify the vectors <img src="../images/E.gif" alt="vector E" align=
+          "bottom"> at all points in space.
+        </p>
+        <p>
+          <u>Comment 4</u>. An <i>electric field line</i> is a line
+          (not a straight line in general) that indicates the
+          direction of the electric field vectors at points along
+          the line.
+        </p>
+        <blockquote>
+          The electric field vector at a given point along an
+          <i>electric field line</i> is tangential to the line at
+          that point.
+        </blockquote>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+          align="top"></a>
+        </p>
+      </li>
+      <li>
+        <a name="ElPotential"><b>Electric Potential and
+        Equipotential Lines</b></a> 
+        <p>
+          A static electric field, i.e., a field accompanying one
+          or more source charges at rest, has the property that it
+          can be derived from a simpler field called the
+          <i>electric potential</i>. The electric potential field
+          is simpler because it is a scalar field, not a vector
+          field like the electric field. The electric potential
+          field assigns a scalar quantity to any given point in
+          space called the <i>electric potential at that point</i>.
+          The SI-unit of the electric potential is the volt (V).
+        </p>
+        <p>
+          How can a scalar field give rise to a vector field? A
+          static electric field is constructed from its electric
+          potential field as follows.
+        </p>
+        <blockquote>
+          Suppose you know the electric potential field and want to
+          know the electric field vector at a given point P. Look
+          at the electric potential in the neighborhood of P. Find
+          the direction leading away from P in which the electric
+          potential decreases more rapidly than in any other
+          direction. This is the direction in which the electric
+          vector at P points. 
+          <p>
+            The magnitude <i>E</i> of the electric vector at P is
+            equal to the magnitude of the distance-rate-of-change
+            of the electric potential,
+          </p>
+          <p align="center">
+            <img src="../images/ElFieldDefinition.gif">
+               <img src="../images/small.gif" alt="space" height="1" width=
+               "40"> <img src="../images/MFFive.gif">
+          </p>
+          <p>
+            where |&Delta;<i>V</i>| / <i>d</i>
+            is calculated in the direction of the electric field
+            vector at P. Here |&Delta;<i>V</i>| equals |<i>V</i>(P') -
+            <i>V</i>(P)| where P' is a point near P that lies in
+            the direction of most rapid change of <i>V</i> away
+            from P and <i>d</i> is the distance between P and P'.
+          </p>
+          <p>
+            If the electric potential is constant throughout a
+            small neighborhood of P or if the electric potential
+            has a maximum or minimum at P, the electric field at P
+            is zero.
+          </p>
+        </blockquote>
+        <p>
+          <u>Comment 1</u>. Equation (5) implies the SI-unit V/m
+          for the electric field. Another SI-unit for the
+          electric field is N/C, as mentioned in Comment 2 under
+          "Definition of Electric Field and Electric Field Lines"
+          above.
+        </p>
+        <p>
+          <u>Comment 2</u>. In general, the potential in the
+          vicinity of a given point P will be decreasing in some
+          directions, increasing in others, and remain constant
+          along a line through P dividing the directions of
+          decreasing and increasing potential. This dividing line
+          is the "equipotential line" through P.
+        </p>
+        <blockquote>
+          An <i>equipotential line</i> is a line along which the
+          electric potential is constant.
+        </blockquote>
+        <p>
+          Such lines are not straight in general. In the present
+          case of a point charge field, the equipotential lines are
+          circles that have the point charge at their center.
+        </p>
+        <p>
+          Note that one is dealing with equipotential <b>lines</b>
+          when considering only <b>two</b> dimensions. In three
+          dimensions, one has equipotential <b>surfaces</b>. In the
+          present case of a point charge field, the equipotential
+          surfaces are spheres that have the point charge at their
+          center.
+        </p>
+        <p>
+          <u>Comment 3</u>. The electric field vector at a given
+          point is always perpendicular to the equipotential line
+          through that point. As a consequence, electric field
+          lines and equipotential lines cross at right angles at
+          any given point.
+        </p>
+        <p>
+          <u>Comment 4</u>. Electric equipotential lines are
+          analogous to lines of equal altitude on a topographic
+          map. The steepest downhill direction is the direction in
+          which these lines are closest together, i.e., the
+          direction in which the altitude decreases most rapidly.
+          This is the direction of the field vector.
+        </p>
+      </li>
+      <li style="list-style: none">
+        <p align="right">
+          <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+          align="top"></a>
+        </p>
+        <p>
+          <a name="Superposition"></a>
+        </p>
+      </li>
+      <li>
+        <b>Superposition of Forces and Fields</b> 
+        <p>
+          If several forces are acting on a particle, the force
+          vectors must be added to give the total force acting on
+          the particle. This is called <i>superposition of
+          forces</i>.
+        </p>
+        <p>
+          In Definition (4) of the electric field <img src=
+          "../images/E.gif" alt="vector E" align="bottom">, the force
+          <img src= "../images/F.gif" alt="vector F" align="bottom">
+          acting on a test particle at a given point is the total
+          electric force acting on the test particle. This total force
+          is the sum of the forces due to all source charges creating
+          the field. Therefore, the electric field vector at a given
+          point is equal to the sum of the electric field vectors due
+          to the individual source charges. This is called the
+          <i>superposition of electric field vectors</i>.
+        </p>
+        <p>
+          The entire electric field (set of field vectors at all
+          points in space) is the superposition of the electric
+          fields due to the individual source charges creating the
+          field.
+        </p>
+      </li>
+    </ul>
+    <p align="right">
+      <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="PointSourceFields"></a>
+    </p>
+    <div class="sectionheading">
+      The Electric Field Due to a Point Charge
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above,
+      read the sections on
+    </p>
+    <ul>
+      <li>
+        Coulomb's Law of Electrostatics,
+      </li>
+      <li>
+        Theorem on Electric Forces Exerted by Charged Spheres,
+      </li>
+      <li>
+        Definition of Electric Field and Electric Field Lines.
+      </li>
+    </ul>
+    <p>
+      <b>Question 1</b>. What is the expression for the magnitude
+      <i>E</i> of the electric field due to a sphere of uniform
+      charge density and total charge <i>Q</i> that gives <i>E</i>
+      at a distance <i>d</i> from the center of the sphere for a
+      field point outside the sphere?
+    </p>
+    <p>
+      What is the direction of the field vector at this point for
+      different signs of the source charge?
+    </p>
+    <p>
+      <b>Answer</b>. Taking magnitudes on both sides of Definition
+      (4) and substituting Expression (3) for <i>F</i> gives the
+      following expression for <i>E</i>:
+    </p>
+    <p>
+      <img src="../images/small.gif" height="1" width="60"><i>E</i>
+      = <i>k|Q|</i> / <i>d</i><sup>2</sup>, <img src=
+      "../images/small.gif" height="1" width="40"><i>d</i> &gt;
+      <i>R</i>.<img src="../images/small.gif" height="1" width=
+      "40"> (6)
+    </p>
+    <p>
+      The direction of the field vector <img src="../images/E.gif"
+      alt="vector E" align="bottom"> is towards the center of the
+      sphere if <i>Q</i> is negative and away from the center of the
+      sphere if <i>Q</i> is positive. Why? Base your answer on the
+      definition of the electric field and the direction of the force
+      exerted by the source on a positive test charge.
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="../images/Reset.gif"
+         align="top"> the applet.
+    </p>
+    <p>
+      Set one of the source charges equal to zero. That way, you
+      will be looking at the electric field due to a single point
+      charge source.
+    </p>
+    <p>
+      Click on a point in the applet window to create a field point
+      with electric field vector at that point. Drag the point and
+      observe how the vector changes. Make sketches of what you
+      observe, paying attention to both the magnitude and the
+      direction of the electric field vector and the locations of
+      the source and the field point. Are your observations about
+      magnitude and direction of the field vector consistent with
+      the answer to Exercise 1?
+    </p>
+    <p>
+      You may want to adjust the setting of the Vector Length
+      Multiplier slider to have the field vectors represented by
+      longer arrows.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="SourceFields"></a>
+    </p>
+    <div class="sectionheading">
+      Superposition of Two Source Fields
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above,
+      read the section on "Superposition of Forces and Fields".
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="../images/Reset.gif"
+         align="top"> the applet.
+    </p>
+    <p>
+      Click on a point in the applet window to create a field point
+      with electric field vector at that point, and select the
+      Components button <img src="../images/Components.gif" alt="Components"
+         align="top"> to display the electric field vectors due to
+         the two source objects. See Figure 1 below for an
+         illustration.
+    </p>
+    <p align="center">
+      <img src="../images/DFComponentFields.gif">
+    </p>
+    <p align="center">
+      <b>Figure 1</b>
+    </p>
+    <p>
+      Based on the Answer to Question 1 of the preceding section on
+      "The Electric Field Due To A Point Charge", explain why the
+      individual field vectors in Figure 1 due to the two source
+      objects have the magnitudes and directions shown. No
+      calculations are required, but you should explain why the red
+      arrow is roughly twice as long as the blue arrow.
+    </p>
+    <p>
+      Given the two individual field vectors, explain how one can
+      obtain the total field vector.
+    </p>
+    <p>
+      <b>Exercise 2</b>. Drag the field point, and observe how the
+      total vector and the two individual vectors change. For two
+      more positions of the field point, sketch your observations
+      of the three vectors in your Notebook. Again, provide the
+      same kinds of explanation as in Exercise 2.
+    </p>
+    <p>
+      You may want to adjust the setting of the Vector Length
+      Multiplier slider to have the field vectors represented by
+      longer arrows.
+    </p>
+    <p>
+      <b>Exercise 3</b>. Move the field point back to a position
+      close to that shown in Figure 1 above. Independently vary the
+      two source charges <i>Q</i><sub>1</sub> and
+      <i>Q</i><sub>2</sub> while keeping the field point and the
+      source objects fixed. For each of the following three cases,
+      sketch the configurations of the field point with its three
+      field vectors and the source objects. Indicate the values of
+      the source charges.
+    </p>
+    <ul>
+      <li>
+        <i>Q</i><sub>1</sub> &gt; 0, <i>Q</i><sub>2</sub> &gt; 0,
+      </li>
+      <li>
+        <i>Q</i><sub>1</sub> &gt; 0, <i>Q</i><sub>2</sub> &lt; 0,
+      </li>
+      <li>
+        <i>Q</i><sub>1</sub> &lt; 0, <i>Q</i><sub>2</sub> &lt; 0.
+      </li>
+    </ul>
+    <p>
+      In each case, explain your observations for all three
+      vectors. Although exact measurements of the distances of the
+      field point from the source objects and of lengths of vector
+      arrows are not required, judge these quantities by eye and
+      explain your observations as quantitatively as possible.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="FieldLines"></a>
+    </p>
+    <div class="sectionheading">
+      Electric Field Lines
+    </div>
+    <p>
+      <b>Exercise 1</b>. RESET <img src="../images/Reset.gif"
+         alt="Reset" align="top"> the applet.
+    </p>
+    <p>
+      Move the source objects reasonably close together, as in
+      Figure 2 below, and click in the applet window somewhere
+      between the two source objects to set a field point there.
+      Click the Field-Line button <img src=
+      "../images/FieldLine.gif" align="top"> to draw a green field
+      line through the field point. (In Figure 2, three such field
+      lines are shown, along with three equipotential lines. Ignore
+      the latter for the time being.)
+    </p>
+    <p align="center">
+      <img src="../images/DFFieldLinesPotCurves.gif">
+    </p>
+    <p align="center">
+      <b>Figure 2</b>
+    </p>
+    <p>
+      In your Notebook, sketch the field line connecting the source
+      objects, and explain the shape of the line. Why is the field
+      line not straight as in the case of a single point charge?
+      For help in re-constructing the field line, display the field
+      vectors due to the individual sources by clicking the
+      Components button <img src="../images/Components.gif"
+         align="top"> and move the field point along the field
+         line.
+    </p>
+    <p>
+      You may need to increase the setting of the Vector Length
+      Multiplier slider to get arrows of a good size.
+    </p>
+    <p>
+      <b>Exercise 2</b>. RESET the applet.
+    </p>
+    <p>
+      Set the two source charges to
+    </p>
+    <ul>
+      <li>
+        <i>Q</i><sub>1</sub> = 50
+      </li>
+      <li>
+        <i>Q</i><sub>2</sub> = -10
+      </li>
+    </ul>
+    <p>
+      Set several field points as in Figure 3 below, and display
+      the field lines through these points.
+    </p>
+    <p align="center">
+      <img src="../images/DFUnequalQField.gif">
+    </p>
+    <p align="center">
+      <b>Figure 3</b>
+    </p>
+    <p>
+      Sketch and explain the pattern of field lines. In particular,
+      try to explain why some field lines don't return to one of
+      the source charges.
+    </p>
+    <p>
+      <b>Question 1</b>. What would you expect the electric field
+      to look like at large distances from the source charges, in
+      all directions, if the source charges are unequal as in
+      Exercise 2?
+    </p>
+    <p>
+      Try to simulate this with the applet by moving the source
+      charges as close together as possible, selecting field points
+      that are far from the source charges, and displaying field
+      lines through these field points.
+    </p>
+    <p>
+      Sketch the field pattern you observe. Compare it to the field
+      pattern for a single point charge source. What would you
+      expect the magnitude <i>E</i> of the electric field to be
+      equal to at a large distance <i>d</i> from both source
+      charges?
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <p>
+      <a name="EquipotentialLines"></a>
+    </p>
+    <div class="sectionheading">
+      Equipotential Lines
+    </div>
+    <p>
+      <b>Task 1</b>. Under "Laws, Theorems, Definitions" above,
+      read the section on "Electric Potential and Equipotential
+      Lines".
+    </p>
+    <p>
+      <b>Exercise 1</b>. RESET the applet.
+    </p>
+    <p>
+      Move the source charges closer together, as in Figure 4
+      below, and display three field lines (green curves) and
+      equipotential lines (red loops) as in Figure 4 by setting
+      three field points as shown and clicking the Field-Line
+      <img src="../images/FieldLine.gif" align="top"> and
+      Equipotential-Line <img src="../images/EquipotentialLine.gif"
+      align="top"> buttons each time.
+    </p>
+    <p align="center">
+      <img src="../images/DFFieldLinesPotCurves.gif">
+    </p>
+    <p align="center">
+      <b>Figure 4</b>
+    </p>
+    <p>
+      Sketch the pattern of field lines equipotential lines in your
+      Notebook, and explain why the equipotential lines are the way
+      they are.
+    </p>
+    <p>
+      For help with the explanation, move a field point along one
+      of the equipotential lines and observe the direction of the
+      field vector at that point and the direction of the
+      equipotential line at that point.
+    </p>
+    <p>
+      <b>Question 1</b>. Which one of the three equipotential loops
+      in Figure 4 has the largest electric potential, the innermost
+      one or the outermost one?
+    </p>
+    <p>
+      <b>Answer</b>. The innermost loop has the largest potential
+      because the electric field points from high to low potential.
+      Note the direction of the field vector arrows in Figure 4.
+    </p>
+    <p>
+      <b>Question 2</b>. Based on the pattern of the three loops of
+      constant electric potential, where along these loops is the
+      magnitude <i>E</i> of the electric field the greatest?
+    </p>
+    <p>
+      <b>Answer</b>. <i>E</i> is greatest where the lines of
+      electric potential are closest together, i.e., where an
+      imaginary line connecting the two source objects intersects
+      the equipotential lines.
+    </p>
+    <p>
+      This is so because of Equ.(5),
+    </p>
+    <p align="center">
+      <img src="../images/ElFieldDefinition.gif">
+    </p>
+    <p>
+      If one calculates <i>E</i> at a field point using the values
+      of the electric potential on two equipotential lines close to
+      that field point, then the ratio &Delta;<i>V</i> / <i>d</i> will be largest at a
+      point where the distance <i>d</i> between the equipotential
+      lines has the smallest value.
+    </p>
+    <p>
+      <b>Exercise 2</b>. RESET the applet.
+    </p>
+    <p>
+      Move the two source charges closer to each other and set
+      their values to the unequal values used in Exercise 2 of the
+      preceding section "Electric Field Lines",
+    </p>
+    <ul>
+      <li>
+        <i>Q</i><sub>1</sub> = 50
+      </li>
+      <li>
+        <i>Q</i><sub>2</sub> = -10
+      </li>
+    </ul>
+    <p>
+      Set some field points and display the electric field lines
+      and equipotential lines through these points similar to what
+      is shown in Figure 5 below.
+    </p>
+    <p align="center">
+      <img src="../images/DFUnequalQPot.gif">
+    </p>
+    <p align="center">
+      <b>Figure 5</b>
+    </p>
+    <p>
+      Sketch the pattern of field lines and equipotential lines,
+      and explain the pattern of equipotential lines in terms of
+      the pattern of electric field lines.
+    </p>
+    <p>
+      In particular, explain why the "far out" equipotential lines
+      seem to be looping around <b>both</b> source objects. Refer
+      to your answers in Exercise 2 and Question 1 of the preceding
+      section "Electric Field Lines".
+    </p>
+    <p>
+      <u>Comment</u>. The electric potential field due to two (or
+      several) source charges is the superposition (sum) of the
+      electric potential fields due to the individual source
+      charges, as is true for the electric field. However, this
+      superposition cannot be represented easily in graphical form
+      because the electric potential is a scalar, not a vector like
+      the electric field. It is, however, very useful in
+      calculations. Adding scalars is easier than adding vectors.
+    </p>
+    <p align="right">
+      <a href="#Top"><img src="../images/top.gif" alt="Back To Top" border="0"
+           align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>

@@ -1,0 +1,432 @@
+<html>
+<head>
+<title>showme_fbddrawer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../libraries/styles/mapstyle.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div class="sectionheading">
+  <h1>Show Me - Free Body Editor</h1>
+  <h2>The applet Free Body Editor allows you to add and edit your own images to 
+    be used with the applet Free Body Drawer.</h2>
+</div>
+<hr noshade color="#C0C0C0">
+<p>
+<div class="sectionheading">
+  <p><span class="general">Preamble</span></p>
+  <p class="general">This applet can be used to create FBD's to be analyzed using 
+    the related applet - Free Body Drawer. It is assumed that you have instructor-level 
+    access to the files on your network or computer system.</p>
+</div>
+<p><span class="general">This page is designed to get you started using the applet. 
+  The applet should be open. The step-by-step instructions on this page are to 
+  be done in the applet. You may need to toggle back and forth between instructions 
+  and applet if your screen space is limited. </span>
+<hr noshade color="#C0C0C0">
+<p>
+<div class = "sectionheading"><span class="general"><a name="contents"></a><span class="general">Contents</span></span></div>
+<p>
+<ul>
+  <li class="general"><a href="#terms"><font face="Arial, Helvetica, sans-serif">Important 
+    Terminology</font></a></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#structure">Project 
+    Files and Underlying File Structure</a></font></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#create"> 
+    How to Create a Project</a></font></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#edit" ">How 
+    to Edit Your Project</a></font></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#editFBD">How 
+    to Edit FBD's</a></font></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#combine">How 
+    to Combine Projects</a></font></li>
+  <li class="general"><font face="Arial, Helvetica, sans-serif"><a href="#export">How 
+    to &quot;Export&quot; Your Project</a></font></li>
+</ul>
+<h2><a name="terms"></a>Important Terminology</h2>
+  <table width="95%" border="0">
+  <tr valign="top"> 
+    <td class="general" width="21%" height="111">Projects and Project Files</td>
+    <td class="general" width="79%" height="111">This applet (and its related 
+      applet Free Body Drawer) make use of a specific set of files: Projects and 
+      Project images. A project file is a single file that contains instructions 
+      that tell the related applet, Free Body Drawer, what images to load, how 
+      to draw FBD's on these images and what text comments to display about each 
+      image. Each project has a single project file that is contained in a folder 
+      called projects. This folder is on the same level as the applet itself and 
+      <b>should not be moved</b>. This is discussed in detail in the section <i>Project 
+      Files and the Underlying File Structure.</i></td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="21%">Project Images</td>
+    <td class="general" width="79%">Associated with a project are graphic files 
+      in either GIF or JPG formats. It is assumed that you have access to third 
+      party graphics packages that you will use to create or capture images. In 
+      the present version of both Free Body Editor and Drawer, images must be 
+      340 pixels by no more than 400 pixels. To ensure optimal presentation quality 
+      you should ensure that all images have a width of 340 pixels.</td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="21%">FBD's</td>
+    <td class="general" width="79%">FBD's or Free Body Diagrams are the vector 
+      diagrams that you place on top of the images that you have selected as project 
+      images. Information about FBD's and their associated image files are stored 
+      in the project file.</td>
+  </tr>
+</table>
+<h2><a name="structure"></a>Project Files and the Underlying File Structure</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td width="24%" valign="top"><img src="img1.png" width="180" height="118" border="2" align="left"></td>
+    <td width="76%" class="general"> 
+      <p>It is essential that all FBD files be contained in a common folder (called 
+        projects in this example). Each project is a combination of a project 
+        file (created by the editor when you save the project) and an image file. 
+        It is important that the image file have a specific name of the format: 
+      </p>
+      <ul>
+        <li> 
+          <p>project file: <i><b>filename</b></i></p>
+        </li>
+        <li> 
+          <p>project image file folder: <i><b>filename_images</b></i></p>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top"><img src="img2.png" width="125" height="204"></td>
+    <td width="76%" valign="top" class="general"> 
+      <p>Notice, for example that project_1 is accompanied by the folder project_1_images. 
+        You can assign any valid name you wish to the project file but you must 
+        also store all images for that project in an appropriately named folder.</p>
+      <h2>For Example...</h2>
+      <p>You have created a project called myproject1. All of the images that 
+        you use for this project must be in a folder called myproject1_images 
+        and this folder must be on the same level as the project file myproject1.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top">&nbsp;</td>
+    <td width="76%" class="general">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h2> <a name="create"></a>How to Create a Project</h2>
+<p class="general">&nbsp;</p>
+<table width="95%" border="0">
+  <tr> 
+    <td width="77%" valign="top" class="general"> 
+      <ol>
+        <li>We are going to create two projects called<b> myproject1</b> and <b>myproject2</b>. 
+          These projects will be stored as individual files within the projects 
+          folder. Before you start, however, you need to create two image folders 
+          called <i><b>myproject1_images</b></i> and <i><b>myproject2_images</b></i>. 
+          Look at the file structure shown on the right and compare it with the 
+          file structure from the previous section.</li>
+      </ol>
+    </td>
+    <td width="23%" valign="top"><img src="fig6.png" width="156" height="134"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top" class="general"> 
+      <ol>
+        <li value="2">Next, place two image files in each of the folders that 
+          you just created. Either copy or move the files fig1.jpg and fig2.jpg 
+          into myproject1_images and fig3.jpg and fig4.jpg into myproject2_images. 
+          You may create your own files or use the files that are contained in 
+          the root of the projects folder.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr> 
+    <td width="77%" valign="top" class="general"> 
+      <ol start="3">
+        <li>You are now ready to create the project files. To do this, press the 
+          &quot;File&quot; item on the upper left corner of the applet and select 
+          &quot;New Project&quot; as shown on the right. Alternately, if you have 
+          just opened the applet and there are no previous projects loaded you 
+          can begin to load images immediately by pressing the &quot;add FBD&quot; 
+          button (<img src="fig3.png" width="32" height="20" align="absmiddle">) 
+          in the FBD editing panel.</li>
+      </ol>
+    </td>
+    <td width="23%" valign="top"> 
+      <p><img src="fig2.png" width="182" height="162"></p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="77%" valign="top" class="general"> 
+      <ol start="4">
+        <li>Press &quot;add FBD&quot; (<img src="fig3.png" width="32" height="20" align="absmiddle">) 
+          and follow the directory that opens until you come to the folder myproject1_images. 
+          Open this folder and select fig1.jpg. You should see something similar 
+          to the menu shown on the right.</li>
+      </ol>
+    </td>
+    <td width="23%" valign="top"><img src="fig7.png" width="339" height="135"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" valign="top" class="general"> 
+      <ol start="5">
+        <li>On the left hand side of the applet you should see the label &quot;fig1&quot; 
+          appear in the FBD Description field as well as in the FBDs in project 
+          list as shown on the right. The image will load in the FBD Drawing Area.</li>
+        <li>The default description is always just the file name. You may wish 
+          to give this a more informative name. Simply type this information in 
+          the FBD Description field. This information will update in the FBDs 
+          in project list and will be saved when you create the project. Practice 
+          this to see how you could use this feature.</li>
+        <li>Repeat the steps from #4-6 and add fig2.jpg to your project.</li>
+      </ol>
+    </td>
+    <td width="23%" valign="top"><img src="fig8.png" width="138" height="145"></td>
+  </tr>
+  <tr> 
+    <td width="23%" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="77%" valign="top" class="general"> 
+      <ol>
+        <li value="8">You are now ready to create your project! The &quot;FBDs 
+          in project&quot; list should contain two entries at this point. Now, 
+          simply open the file menu in the upper left corner of the applet and 
+          select &quot;Save Project&quot; (<img src="fig9.png" width="108" height="21" align="absmiddle">). 
+          You should save the project as myproject1 (no extension)<b> HOWEVER 
+          - before doing this make sure that you are saving the file in the proper 
+          location</b>. You will most likely be within an image folder at this 
+          point so you will need to go back one level and save you project file 
+          there. This is shown on the right.</li>
+        <li>Congratulations! You have created a project. Now repeat these steps 
+          and create the project myproject2 and include the files fig3.jpg and 
+          fig4.jpg. In the next section we will look at how to edit these files 
+          to create usable FBD's.</li>
+      </ol>
+    </td>
+    <td width="23%" valign="top"><img src="fig10.png" width="250" height="353"></td>
+  </tr>
+</table>
+<p class="general"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2><a name="edit"></a>How to Edit Your Project</h2>
+<table width="95%" border="0">
+  <tr valign="top"> 
+    <td class="general" width="74%"> 
+      <ol>
+        <li>Load project &quot;<b>mproject1</b>&quot; by choosing <img src="fig9a.png" width="123" height="24" align="absmiddle">) 
+          and choose the image shown on the right (You can choose any other image 
+          if you wish - this is just for illustrative purposes.)</li>
+        <li>Under &quot;FBD Description&quot; you may choose to change or edit 
+          the text description of this applet. Simply type an appropriate descriptor 
+          here. <br>
+        </li>
+        <li>The drawing panel is now active and you can use the mouse to draw 
+          anywhere on this image. The applet is, by default, in the draw new vectors 
+          mode (<img src="fig4.png" width="126" height="31" align="absmiddle">). 
+          To create a vector simply position the mouse where you wish to begin 
+          the vector (&quot;tail of the vector&quot;) and then press the left-mouse-button 
+          and drag in the direction and to the length you wish.</li>
+      </ol>
+      <p>&nbsp;</p>
+    </td>
+    <td width="26%"><img src="fig11.png" width="318" height="237"></td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="74%"> 
+      <ol>
+        <li value="3">As an example, try drawing in a vector that will be used 
+          to represent the weight of the coin. Position the mouse near the center 
+          of the coin and drag straight down. You should see something similar 
+          to the figure on the right.</li>
+        <li>If you are &quot;happy&quot; with this vector you can continue and 
+          draw more vectors if appropriate. How to edit the vector you just made 
+          is discussed in the next section.</li>
+        <li>Let's assume that you are happy with the vector just made but would 
+          like to give it a better label than &quot;vector 1&quot;. To do this 
+          first note that in the &quot;selected vectors&quot; panel on the right 
+          vector 1 is highlighted (its also the only vector there so far). This 
+          means that vector 1 is &quot;selected&quot; and you can modify its name 
+          simply by typing the name you want to use in the space under &quot;Selected 
+          Vector Name&quot; <img src="fig8d.png" width="141" height="55" align="absmiddle">. 
+          Type in Weight or any other name you think is appropriate.</li>
+      </ol>
+    </td>
+    <td width="26%"><img src="fig12.png" width="317" height="237"></td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="74%"> 
+      <ol>
+        <li value="6">The figure on the right shows the Free Body Diagram with 
+          the remaining two forces drawn in. Try to duplicate this. If you forget 
+          to type in the name of one of the vectors, take a look at the next section 
+          to see how to edit vectors.</li>
+      </ol>
+    </td>
+    <td width="26%"><img src="fig13.png" width="314" height="232"></td>
+  </tr>
+</table>
+<h2><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></h2>
+<h2><a name="editFBD"></a>How to Edit my Free Body Diagrams</h2>
+<table width="95%" border="0">
+  <tr> 
+    <td class="general" colspan="2" valign="top"> 
+      <ol>
+        <li>Once you have constructed a free body diagram you may wish to alter 
+          it. You can: 
+          <ul>
+            <li>reposition the vectors to make them easier to see (some people 
+              even argue that the <i>correct </i>way to draw a FBD is to draw 
+              the forces from a point that is NOT drawn on the body itself)</li>
+            <li>change the length or direction of a vector</li>
+            <li>change the colour of the vector to make it more legible</li>
+            <li>rename a vector</li>
+          </ul>
+        </li>
+        <li value="2">As an example let's modify the FBD that you made in the 
+          previous section. In particular we will want to move the vectors to 
+          make them more legible, and change their colours.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="79%" valign="top"> 
+      <ol>
+        <li value="3">Let's start by selecting the vectors. To do this, click 
+          on the current name of the vector. This makes that vector &quot;active&quot; 
+          and allows you to then edit it. For example, let's reposition the inward 
+          force vector. So, first select Inward Force (see figure on the right).</li>
+      </ol>
+    </td>
+    <td class="general" width="21%"> 
+      <div align="left"><img src="fig14.png" width="133" height="97"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td class="general" rowspan="2" valign="top" width="79%"> 
+      <ol>
+        <li value="4">Next, press the &quot;set vector origin(s)&quot; button 
+          (<img src="fig4b.png" width="133" height="32" align="absmiddle">). 
+          You may now drag this vector to any location you wish. Do the same for 
+          the remaining two vectors. For example, move the FBD to the white space 
+          below the image. You should see something similar to the diagram on 
+          the right.</li>
+        <li>At this stage you may wish to change the colour of each vector. Both 
+          the Weight and Normal Force vectors are OK but the Inward force vector 
+          is illegible. Change its colour to red.</li>
+        <li>To do this you will need to once again select the vector that you 
+          want to change and then press the color icon (<img src="fig5.png" width="27" height="30" align="absmiddle">). 
+          This opens the colour editing panel. Simply click on the colour that 
+          you want and then press &quot;OK&quot; to close the colour dialogue. 
+          The vector and its label will now appear in the newly selected colour. 
+        </li>
+      </ol>
+      <p>&nbsp;</p>
+    </td>
+    <td class="general" width="21%" valign="top"><img src="fig15.png" width="171" height="116"></td>
+  </tr>
+  <tr> 
+    <td class="general" width="21%" valign="top"><img src="fig16.png" width="159" height="133"></td>
+  </tr>
+  <tr> 
+    <td class="general" colspan="2" valign="top"> 
+      <ol>
+        <li value="7">Finish creating and editing the other FBD's in your project 
+          and then save the project by selecting <img src="fig9.png" width="108" height="21" align="absmiddle"> 
+          from the file menu choices.</li>
+      </ol>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2><a name="combine"></a>How to Combine Projects</h2>
+<ol>
+  <li><span class="general">Recall that the &quot;projects&quot; consist of a 
+    project file and its associated image files. You can combine two or more projects 
+    by using the &quot;Import Project&quot; option (<img src="fig17.png" width="111" height="22" align="absmiddle">) 
+    which appears in the file operations menu. To use &quot;Import Project&quot; 
+    you simply select the appropriate project file. To add another project to 
+    this one, again select &quot;Import Project&quot; and select the new project. 
+    You will now see the FBD's from that project listed with those from the first 
+    project. You can continue this as many times as you wish and create a very 
+    large project file.</span></li>
+  <li><span class="general">When you have finished combining the projects you 
+    must save this new project and also create its corresponding image file. You 
+    must then put copies of the images from the project image files used to create 
+    this new project into its own project image file folder</span></li>
+</ol>
+<p><span class="general"><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></span></p>
+<h2><a name="export"></a>How to &quot;Export&quot; Your Project</h2>
+<p class="general">It is assumed that you have instructor-level access to the 
+  files on your network or computer system. <b>In order to make your project files 
+  available to the applet Free Body Drawer you must do two things:</b></p>
+<table width="95%" border="0">
+  <tr> 
+    <td colspan="2" class="general"> 
+      <div align="left"> 
+        <ol>
+          <li>You must upload all project and project image files to your server 
+            and place them in exactly the same relative position as they reside 
+            on your own machine. If you are not running this from a server but 
+            locally then this step will not be necessary.</li>
+          <li>Since we ultimately want the projects that we create to be used 
+            by the applet Free Body Drawer we will need to modify the HTML file 
+            that calls Free Body Drawer. The projects that Free Body Drawer can 
+            &quot;see&quot; are set with an HTML &lt;PARAM&gt; tag in the file 
+            <b>actionreaction.html . </b>This is the file that calls the applet 
+            <b>Free Body Drawer</b>.</li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" width="34%"> 
+      <ol>
+        <li value="3"> 
+          <div align="left">This is what the param tag looks like </div>
+        </li>
+      </ol>
+    </td>
+    <td width="66%" class="general"><font color="#FF0000"><b>&lt;param name = 
+      &quot;projects&quot; value =&quot;FBD,project_1,project_2&quot;&gt;</b></font></td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" colspan="2"> 
+      <ol>
+        <li value="4">In order to make your new projects (myproject1 and myproject2) 
+          visible to the applet you will need to replace the string &quot; FBD,project_1,project_2&quot; 
+          with either an augmented of otherwise modified version of this.</li>
+      </ol>
+      </td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general"> 
+      <ol>
+        <li value="5">For example, to add the projects &quot;myproject1 and myproject2&quot; 
+          , the parameter would now look like what is shown on the right . When 
+          you run Free Body Drawer and select a project, you will see five projects 
+          listed.</li>
+        <li>The easiest way to change this is to use either NotePad or an HTML 
+          editor and do a search and replace on all instances of the string &quot;<font color="#FF0000"><b>FBD,project_1,project_2</b></font>&quot;. 
+          This occurs twice in the HTML file.</li>
+      </ol>
+      <b></b></td>
+    <td class="general"><b><font color="#FF0000">&lt;param name = &quot;projects&quot; 
+      value =&quot;FBD,project_1,project_2, myproject1, myproject2 &quot;&gt;</font></b></td>
+  </tr>
+  <tr valign="top"> 
+    <td class="general" colspan="2">
+      <ol>
+        <li value="7"><b>BE EXTREMELY CAREFUL</b> editing this file! You are strongly 
+          encouraged to first save a backup version of this file. When you have 
+          completed these changes save the file actionreaction.html and upload 
+          this (if necessary) to your server and replace the old version of this 
+          file.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<p><a href="#contents"><img src="../../libraries/images/top.gif" width="65" height="18" align="right" border="0"></a></p>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+</body>
+</html>
