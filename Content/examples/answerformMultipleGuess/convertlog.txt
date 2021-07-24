@@ -1,3 +1,0 @@
-Applet Conversion June 12, 2000 4:35:51 PM MDT
-/home/httpd/html/compass/map1.2/content/examples/multiguess/answerform.html  Processing...Done  Applets Found:  1
-All Done  Files Processed:  1  Applets Found:  1
