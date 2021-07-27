@@ -1,0 +1,65 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Hans Laue">
+   <title>Energy Conservation: Fletcher's Trolley, Page 3</title>
+   <LINK REL=stylesheet TYPE="text/css"HREF="../../../../../styles/contentstyle.css">
+</head>
+<body>
+
+<div class="title">Energy Conservation in Fletcher's Trolley</div>
+
+<p>Since both blocks are at rest initially, the initial energy of the
+system is</p>
+
+<p><spacer type=Horizontal" size="19"><i>E<sub>in</sub></i> =
+<i>KE<sub>1,in</sub></i> + <i>KE<sub>2,in</sub></i> +
+<i>PE<sub>in</sub></i>,</p>
+
+<p><spacer type=Horizontal" size=45">= 0 + 0 +
+<i>m<sub>2</sub>gh<sub>in</sub></i></p>
+
+<p>and the final energy when both blocks have the same speed <i>v</i>
+is</p>
+
+<p><spacer type=Horizontal" size="8"><i>E<sub>fin</sub></i> =
+<i>KE<sub>1,fin</sub></i> + <i>KE<sub>2,fin</sub></i> +
+<i>PE<sub>fin</sub></i>,</p>
+
+<p><spacer type=Horizontal" size=34">= [(<i>m<sub>1</sub></i> +
+<i>m<sub>2</sub></i>)/2]<i>v<sup>2</sup></i> +
+<i>m<sub>2</sub>gh<sub>fin</sub></i>.</p>
+
+<p>Equating the two energies and isolating the term with <i>v</v>
+gives</p>
+
+<p><spacer type=Horizontal" size=5">[(<i>m<sub>1</sub></i> +
+<i>m<sub>2</sub></i>)/2]<i>v<sup>2</sup></i> =
+<i>m<sub>2</sub>g</i>(<i>h<sub>in</sub></i> -
+<i>h<sub>fin</sub></i>)</p>
+
+<p>whence 
+
+<p><spacer type=Horizontal" size=5"><i>v<sup>2</sup></i> =
+2[<i>m<sub>2</sub></i>/(<i>m<sub>1</sub></i> +
+<i>m<sub>2</sub></i>)]<i>g</i>(<i>h<sub>in</sub></i> -
+<i>h<sub>fin</sub></i>).</p>
+
+<p>In the case where <i>h<sub>fin</sub></i> = 0, this reduces to </p>
+
+<p><spacer type=Horizontal" size=5"><i>v<sup>2</sup></i> =
+2[<i>m<sub>2</sub></i>/(<i>m<sub>1</sub></i> +
+<i>m<sub>2</sub></i>)]<i>g</i>(<i>h<sub>in</sub></i>.</p>
+
+<p>Substituting the given values, this gives</p>
+
+<p><spacer type=Horizontal" size=5"><i>v<sup>2</sup></i> =
+2[0.4/(0.6 + 0.4)]x9.8x2.5 = 19.6 (m/s)<sup>2</sup>.</p>
+
+<p>Taking the square root, gives for the speed when block 2 reaches
+<i>h</i> = 0</p>
+
+<p align="center"><i>v<sub>fin</sub></i> = 4.4 m/s.</p>
+
+</body>
+</html>
