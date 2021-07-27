@@ -1,23 +1,46 @@
 <html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html;
-charset=iso-8859-1">
-</head>
+  <head>
+    <title>Untitled Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
 
 
 
- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">
+ <!-- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">
   <frameset cols="400,*" border="0" framespacing="0" scrolling = "NO" noresize>
      <frame src="applet.html" name="Applet">
     <frame src="page1.html" name="Text">
   </frameset>
   <frame src = "page_browser.html"  noresize scrolling = "NO">
- </frameset>
+ </frameset> -->
+  <body>
+    <div class="container">
+      <iframe 
+        src="applet.html" 
+        name="Applet" 
+        frameborder="0" 
+        height="95%" 
+        width="49%"
+        >
+      </iframe>
+      <iframe 
+        src="page1.html" 
+        name="Text" 
+        frameborder="0" 
+        height="95%" 
+        width="49%" 
+        scrolling="no"
+        >
+      </iframe>
+      <iframe 
+        src="page_browser.html"
+        frameborder="0" 
+        height="5%" 
+        width="100%" 
+        scrolling="no"
+        >
+      </iframe>
+    </div>
+  </body>
 
-
-<noframes>
-<body bgcolor="#999999">
-</body>
-</noframes>
 </html>
