@@ -1,1 +1,0 @@
-To change the language of the applet, you need to make two changes.  Change #1Set the language__________________language selections...1: English2: French3: Spanish&language=2&Change #2Show language indicator__________________Change 0 to 1 to show language indicator and 1 to 0 to hide...&language_eng=0&&language_fre=1&&language_spa=0&
