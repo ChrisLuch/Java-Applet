@@ -10,7 +10,7 @@ A:hover {
 
 BODY {
    background-color: #FFCC99; 
-   font-family:Arial,Helvetica;
+   font-family: 'Times New Roman', Times, serif;
    padding: 8px 8px 0em 8px; 
    border: 0em;
   }
@@ -21,6 +21,7 @@ BODY {
    font-size: 14pt;
    font-weight: bold;
    text-transform: capitalize;
+   
   }
 
 .subtitle {

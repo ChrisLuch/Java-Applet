@@ -1,16 +1,16 @@
-A:link {
+/* A:link {
 	text-decoration: ;
 	}
 A:visited {
 	text-decoration: ;
-	}
+	} */
 A:hover {
 	text-decoration: underline;
 	}
 
 BODY {
    background-color: white; 
-   font-family:Arial,Helvetica;
+   font-family: 'Times New Roman', Times, serif;
    padding: 8px 8px 0em 8px; 
    border: 0em;
   }
@@ -21,6 +21,7 @@ BODY {
    font-size: 14pt;
    font-weight: bold;
    text-transform: capitalize;
+   text-decoration: underline;
   }
 
 .subtitle {
@@ -28,20 +29,21 @@ BODY {
    color: blue;
    font-weight: bold;
    text-transform: capitalize;
+   text-decoration: underline;
   }
 
 .sectionheading {
    text-align: left;
    color: blue;
    font-weight: bold;
-   text-transform: ;
+   /* text-transform: ; */
   }
 
 .subsectionheading {
    text-align: left;
    color: black;
    font-weight: bold;
-   text-transform: ;
+   /* text-transform: ; */
   }
 
 UL {
