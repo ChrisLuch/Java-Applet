@@ -2,18 +2,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
-		<frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">   
+		<!-- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">   
          <frame src="page1_text.html" name=MAIN>
 			<frame src="pagebrowser.html" noresize scrolling = "NO">
 		</frameset> 
+ -->
 
-<noframes>
-<body bgcolor="#ffffff">
-<font face="Arial,Helvetica">
-Your browser does not support frames...
-</font>
+		<div class="container">
+			<iframe
+			  src="page1_text.html"
+			  name="MAIN"
+			  frameborder="0"
+			  width="100%"
+			  height="95%"
+			>
+			</iframe>
+			<iframe src="pagebrowser.html" frameborder="0" width="100%" height="5%">
+			</iframe>
+		  </div>
 </body>
 
-</noframes>
 
 </html>
