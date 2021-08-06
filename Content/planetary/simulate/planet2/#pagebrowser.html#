@@ -3,6 +3,8 @@
 <title>PageBrowser</title>
 <meta http-equiv="Content-Type" content="main/html; charset=iso-8859-1">
 <LINK REL=stylesheet TYPE="text/css" HREF="../../../../styles/pagebrowser.css">
+<script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+<script> cheerpjInit();</script>
 </head>
 
 <body topmargin=0 leftmargin=0 marginwidth=0 marginheight=0 >
