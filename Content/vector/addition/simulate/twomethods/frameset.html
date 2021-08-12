@@ -1,17 +1,30 @@
 <html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
+  <head>
+    <title>Untitled Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
 
 
 
-  <frameset cols="400,*" border="1" framespacing="1"> 
-    <frame src="applet.html" name="APPLET_SIDE" noresize scrolling = "NO">
-    <frame src="page1.html" name="TEXT_SIDE">
-  </frameset>
-
-<noframes><body bgcolor="#999999">
-
-</body></noframes>
+    <!-- <frameset cols="400,*" border="1" framespacing="1"> 
+      <frame src="applet.html" name="APPLET_SIDE" noresize scrolling = "NO">
+      <frame src="page1.html" name="TEXT_SIDE">
+    </frameset> -->
+  <body bgcolor="#999999">
+    <iframe 
+        src="applet.html" 
+        name="APPLET_SIDE" 
+        height="100%" 
+        width="60%" 
+        frameborder="0"
+        >
+        </iframe>
+        <iframe 
+        src="page1.html"
+        name="TEXT_SIDE" 
+        height="100%" 
+        width="39%" 
+        frameborder="0"
+        >
+  </body>
 </html>
