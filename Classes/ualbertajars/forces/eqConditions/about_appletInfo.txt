@@ -1,0 +1,1 @@
+This applet simulates a situation in which a ladder is propped up against a brick wall with a person on it.  You can experiment with different angles for the ladder as well as change the  masses and coefficient of friction.
