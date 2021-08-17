@@ -1,16 +1,35 @@
 <html>
- <head>
-  <title>Page Browser Test</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
- </head>
+    <head>
+        <title>Page Browser Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    </head>
 
- <frameset cols = "375,*" border = "0">
-  <frame src="../../../../../styles/content.html" name = "APPLET_SIDE" noresize scrolling = "NO">
-  <frame src="../../../../../styles/content.html" name = "TEXT_SIDE" noresize>
- </frameset>
+    <!-- <frameset cols = "375,*" border = "0">
+    <frame src="../../../../../styles/content.html" name = "APPLET_SIDE" noresize scrolling = "NO">
+    <frame src="../../../../../styles/content.html" name = "TEXT_SIDE" noresize>
+    </frameset> -->
 
- <noframes>
-  <body bgcolor="#FFFFFF">Your browser does not support frames... Too Bad...</body>
- </noframes>
+    
+    <body bgcolor="#FFFFFF">
+        <!-- Your browser does not support frames... Too Bad... -->
+        <iframe 
+            src="applet4.html" 
+            name="APPLET_SIDE" 
+            height="99%" 
+            width="60%" 
+            frameborder="0"
+            >
+        </iframe>
+        <iframe 
+            src="page1.html" 
+            name="TEXT_SIDE" 
+            height="99%" 
+            width="39%" 
+            scrolling="yes" 
+            frameborder="0"
+            >
+        </iframe>
+    </body>
+    
 
 </html>
