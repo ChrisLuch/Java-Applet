@@ -1,17 +1,31 @@
 <html>
-<head>
-<title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
 
-  <frameset cols = "375,*" border = "0">
-		<frame src="applet_circ.html" name = "APPLET_SIDE" scrolling = "NO">
-		<frame src="text_a.html" name = "TEXT_SIDE">
-  </frameset>
+    <!-- <frameset cols = "375,*" border = "0">
+      <frame src="applet_circ.html" name = "APPLET_SIDE" scrolling = "NO">
+      <frame src="text_a.html" name = "TEXT_SIDE">
+    </frameset> -->
 
-<noframes>
-<body>
-Your browser does not support frames... Too Bad...
-</body>
-</noframes>
+  <body>
+    <!-- Your browser does not support frames... Too Bad... -->
+    <iframe 
+      src="applet_circ.html" 
+      name="APPLET_SIDE"
+      frameborder="0"
+      height="100%"
+      width="60%"
+      >
+    </iframe>
+    <iframe 
+      src="text_a.html" 
+      name="TEXT_SIDE"
+      frameborder="0"
+      height="100%"
+      width="39%"
+      >
+    </iframe>
+  </body>
 </html>
