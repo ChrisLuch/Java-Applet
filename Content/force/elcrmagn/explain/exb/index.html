@@ -1,32 +1,33 @@
 <html>
-<head>
-<title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+
+  <!-- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO"> 
+    <frame src="frameset.html" name = "MAIN">
+    <frame src="page_browser.html" noresize scrolling = "NO">
+  </frameset> -->
 
 
-
- 
- 
- 
-
-
-<frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO"> 
-  <frame src="frameset.html" name = "MAIN">
-  <frame src="page_browser.html" noresize scrolling = "NO">
-
-
-
-  
- </frameset>
-
-
-
-<noframes>
-
-<body bgcolor="#F0F0EA">
-Your browser does not support frames... Too Bad...
-</body>
-
-</noframes>
+  <body bgcolor="#F0F0EA">
+    <!-- Your browser does not support frames... Too Bad... -->
+    <div class="container">
+      <iframe 
+        src="frameset.html" 
+        name="MAIN"
+        frameborder="0"
+        height="94%"
+        width="100%"
+      >
+      </iframe>
+      <iframe 
+        src="page_browser.html" 
+        frameborder="0"
+        height="5%"
+        width="100%"
+        >
+      </iframe>
+    </div>
+  </body>
 </html>
