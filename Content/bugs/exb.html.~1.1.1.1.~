@@ -1,0 +1,511 @@
+<html>
+  <head>
+    <title>ExB</title> 
+  </head>
+
+  <body>
+    <div align=center>
+      <font size=+3> 
+		</font>
+	ExB<br>
+		&amp <br>
+	 </div>
+
+	 <br>
+	 <br>
+
+
+	 url: <a href="force/">content/force</a> <br>
+	 <br>
+	 <blockquote>
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE/BUG 2001.09.12.001 <br>
+
+        </font> <!-- brief description --> <p>There are several
+        changes and enhancements required as detailed below.  In
+        addition, Gary wants a version with only a single particle (no
+        2 or 12 particle options).  Let's call this 'Particle in
+        Electric Field (Reduced)'.  Otherwise, this applet is like the others.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/electric">Force/Electromagnetic/Simulate/Electric</a> <br>
+
+        </p>
+
+		  <p>Details:<br>
+
+		  <ul>
+
+		  <li>The data table at top right should have the colon
+          immediately after the variable symbol, not just before the
+          value.  At present, there are two colons in the line for the
+          time t.  Delete the second one.  Add a space before m/s^2
+          after the acceleration value.</li>
+
+			 <p>
+
+			 <li>Change the color of the velocity vector from green to
+			 magenta.  Change the color of the velocity components from
+			 black to the new official color.</li>
+
+			 <p>
+
+			 <li>For Gary's one-particle applet, provide separate sliders
+			 for q and m, not a single q/m slider.  The q-slider should
+			 let you set values of the charge in integer steps from -5 C
+			 to 5 C.  The m-slider should let you enter mass values in
+			 integer steps from 1 to 5 kg.  The value of q/m should be
+			 printed out in C/kg in the control box area, somewhere near
+			 the two sliders in a logical place.</li>
+
+			 <p>
+
+			 <li>The charge sign toggle button should be deleted, because
+			 we can set the sign now with the q-slider.</li>
+
+
+			 <p>
+
+			 <li>Try to re-arrange the various items on the control panel
+			 in a more logical and pleasing manner.  E.g., the two
+			 buttons controlling the velocity and its components should
+			 be added to the collection of the other buttons on the
+			 left.</li>
+
+			 <p>
+
+			 <li>Delete the question-mark Help button, and add a MAP logo
+			 bar with drop-down menu and Info file.</li>
+
+
+			 <p>The following changes affect only the 2-particle and
+			 12-particle modes and can be implemented later.  Maybe it
+			 would be easiest to make a totally separate 1-particle
+			 applet for Gary, starting with a copy of the existing applet
+			 and stripping everything that is not needed.</p>
+
+			 <li>In the 2-particle mode, there should be two velocity
+			 vectors visible initially.  Currently there is only one
+			 vector visible and adjustable.  When one runs the simulation
+			 and clicks REPLAY, a second mustard vector becomes visible.
+			 It should be visible and adjustable right from the
+			 start.
+
+			 <p>In this mode, de-activate the velocity-components button,
+			 and let the display-velocity button act on both velocity
+			 vectors, so that either both of them are displayed or
+			 hidden.  (At present, the button does not do anything in
+			 this mode.)  If both are displayed, keep them displayed
+			 during the motion.  (At present, only the velocity vector of
+			 particle 1 moves along with the particle.)</li>
+
+			 <p>
+
+			 <li>In the 12-particle mode, de-activate both the
+			 display-velocity and velocity-components buttons.</li>
+
+			 <p>
+
+			 <li>In the 12-particle mode, REPLAY does not work properly.
+			 It does not move the particle back to the origin and, if one
+			 changes the field direction, the new motion is not oriented
+			 relative to the new direction.</li>
+		  </ul>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.09.12 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+	 <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.06.002 <br>
+
+        </font> <!-- brief description -->
+        <p>
+          In the E-applet, the animation is incorrect when <E> is
+          something other then the default value.
+        </p>
+
+		  <p>The motion does not respond to settings of the |q|/m slider.</p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/electric">Force/Electromagnetic/Simulate/Electric</a> <br>
+
+        <p>
+         When the <E>-vector is set to a vector that is rotated
+         counter-clockwise a bit and the velocity vector is changed to
+         be perpendicular to the new <E>, and the charge is negative,
+         the trajectory is not a parabola with the field direction at
+         its axis.  It crosses over the field direction.  Perhaps the
+         value of <E> is not properly implemented in the animation.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           2001.06.06 and 2001.09.12 Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        RFE 2001.06.06.002 STATUS: OPEN<br>
+
+        </font> <!-- brief description -->
+        <p>
+          In the B-applet, re-arrange the sliders so that they suggest
+          the ratio m*v/(q*B).</p>
+
+<p>
+
+			 Delete the unit 'C' with the q-slider.  Relable the Mass
+			 slider with 'm'.  Change the 'r' prinout.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a> <br>
+
+        <p>
+		   Move the v-slider to the right of the m-slider.  Move the
+		   B-slider to the right of the q-slider.  This way the
+		   arrangement of the 4 sliders is in the order of the ratio
+		   m*v/(q*B) that is equal to the radius r that is printed out
+		   above.</p>
+
+			<p>
+			Make sure that this arrangement works also for the
+			small-scale version of the applet in the Explain It item.  It
+			may be useful to move the B and the 1X buttons underneath the
+			other buttons.</p>
+
+			<p>
+			Delete the unit 'C' in the q-slider.  None of the other
+			sliders have units.</p>
+  
+			<p>
+			Change the printout of 'r' to reflect the way 'r' is
+			calculated.  Thus, write</p>
+
+			<p>
+			
+			r = (m*v)/(q*B) = ...</p>
+
+			<p>Don't write any of the multiplication signs or
+			parentheses. Write 9 in front of a fraction that is written
+			with a real horizontal fraction bar and has 'mv' on top and
+			'qB' on the bottom.</p>
+
+			<p>Instead of the label 'Mass' for the m-slider use 'm', to
+			be consistent with what is done for the other sliders and to
+			introduce the symbols.
+
+			
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.06) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.09.12 STATUS: OPEN
+
+        </font> <!-- brief description --> <p>Changing values with the
+        sliders does not always lead to correct values of r as printed
+        out at top right.</p>
+
+		  <p>Delete the question mark button for Help and add the MAP
+		  logo bar and link it to an info page.
+
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+         <p>url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a>
+
+<!-- a longer explanation of the problem or request -->
+
+       <p>Details:<br> The default values of m, v, q, B are 1, 1, 3,
+		 2.  Change m to 2, v to 3, and observe the corresponding
+		 changes for r.  At this point, you should have r = 9.  Now just
+		 click on the q-slider without moving it.  The applet changes
+		 the value of r to 4.5.  Of course, the value should stay at 9.
+		 I have not checked if the animation displays a radius equal to
+		 4.5 or 9.</p>
+
+		 <p>The values of r that should be displayed are given by the
+		 equation in the preceding RFE, namely, r = (m*v)/(q*B).
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+			  2001.09.12 Hans Laue
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUG 2001.06.06.004 <br>
+
+        </font> <!-- brief description -->
+        <p>
+         In the B-applet, it can happen that clicking on the slider
+         when q = 3 will produce a change in r-value, both the printed
+         r-value and the simulated r-value.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/magnetic">Force/Electromagnetic/Simulate/Magnetic</a> <br>
+
+        <p>
+		   When m=2, v=3, q=3, B=2, an r-value of 9 is displayed, which
+		   is correct.  If one now clicks on the q slider, the slider
+		   tab, the r-value changes to 4.5 while the q value remains at
+		   9.  If one now changes the q-value to 1, the r-value
+		   increases by a factor of 3 to 13.5.  Thus, things are
+		   consistent from this point on, if one takes 4.5 as correct.
+		   The system behaves as if the scale factor of 9 in front of
+		   the formula m*v/(q*B) has become reset.
+
+			This effect does not occur for other settings of m, v, q, B.
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.06) Hans Laue <br>
+        </p>
+
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+      <li>
+        <!-- request or bug number --> <font color=red>
+        BUGS/RFES 2001.06.14.001 <br>
+
+        </font> <!-- brief description -->
+        <p>
+		    This is a copy of an email message dated 01-05-25 requesting
+		    a number of changes to the ExB applet.  I am reproducing the
+		    email message below.
+        </p>
+
+        <!-- the url that this rfe or bug relates to (might be multiple urls here)-->
+
+        url: <a
+href="force/elcrmagn/simulate/exb">Force/Electromagnetic/Simulate/ExB Drift</a> <br>
+
+        <p>
+		  Here are my thoughts on the ExB applet.  I am assuming that
+things are programmed via a Galilean transformation to the drift
+frame.  The steps should be as follows.
+
+<p>I will use the &#60...&#62 notation to denote a vector, e.g.,
+&#60v&#62 to denote a velocity and v the magnitude of the velocity.
+
+<p>I will use vp to denote the numerical value of the variable v expressed in
+pixels and vu to denote the numerical value of v expressed in some given
+unit of v.  ('u' stands for unit.)  Similarly, Ep and Eu for the numerical
+values of E in pixels and in E-units, etc.
+
+<p>
+
+<ol>
+
+<li>One gets &#60vin&#62 in pixels from the green arrow.  This yields vinp and
+the angle of &#60vin#62.</li>
+
+<p>
+
+<li>One calculates the drift velocity &#60u&#62 = &#60E&#62X&#60B&#62
+in whatever units E and B may be given.  First, one obtains Ep from
+the red arrow and then transforms Ep by means of a scale factor to a
+new Eu.  Let the maximum value of this new Eu be 0.001, say.  (I think
+the program has 0.5 at present.)  And let the minimum value of Bu be
+1.  Then this would give a maximum value of uu = 0.001.  (The reason I
+am choosing these funny values is that u must be much less than the
+speed of light for the equations to be physically accurate, and I am
+taking the speed of light equal to 1, in u-units.  It would not matter
+if in the simulation we chose uu to be much bigger than 0.001, but it
+helps me in visualising things if I use uumax = 0.001.)</li>
+
+<p> 
+
+<li>Before going to the next step one must now invent a scale factor
+that translates the pixel units of &#60vin&#62 to u-units.  Suppose we
+want uumax = 0.001 to be represented by 50 pixels.  Then vu = 1
+corresponds to 50,000 vp and 1 vp corresponds to 2x10^-5 vu.  Thus, if
+&#60vin&#62 is 100 pixels long, then vinp = 100 and vinu = 0.002.</li>
+
+<p>
+
+<li>In the following, let us work with a velocity scale factor such that a
+numerical value of vp = 1 corresponds to vu = 0.00002 and with an E-field
+scale factor such that an Ep = 120 (or some value like this) corresponds
+to Eu = 0.001.</li>
+
+<p>
+
+<li>Now calculate &#60v'in&#62 = &#60v&#62 - &#60u&#62, where
+&#60v'in&#62 is the initial velocity in the drift frame.  Here v and u
+must be in the same units, either pixel units or u-units.  v'in will
+then be in these units as well.</li>
+
+<p>
+
+<li>Now calculate the orbit in the drift frame.  This is done by
+calculating &#60v'(t)&#62 rotating the vector by 90 deg, and multiplying it by
+a suitable scale factor C to get a display that fits on the screen.  The
+resulting vector is denoted <r'(t)>.  It is the position vector in the
+drift frame.  The scale factor C used here is unrelated to the other scale
+factors and is quite arbitrary because it simply determines the scale of
+the representation in position space.  One cannot make a 'mistake' by
+choosing C incorrectly, other than that the circle in which the particle
+moves might be too large or too small for inspection.</li>
+
+<p>To calculate &#60v'(t)&#62, one can use closed expressions of the
+form v'x = v'in*cos w*t and v'y = v'in*sin w*t, where v'in = const
+(calculated in Step 3) and w = (q/m)*B. w too needs to have a scale
+factor D which will determine the speed of the animation, i.e., the
+rate at which the particle is performing one revolution.
+
+<p>Did Jonathan use closed expressions like these or did he use a
+numerical integration?  If one does a numerical integration, one must
+use for the acceleration <a> the vector product (q/m)
+&#60v&#62X&#60B&#62, i.e., ax = (q/m)*B*v*y and ay = -(q/m)*B*v*x.
+Again, there needs to be a scale factor introduced into these
+equations that will determine the speed of the animation.  (Varying
+the scale factor is equivalent to varying the size of the integration
+time step dt because the expressions for ax and ay are multiplied by
+dt.)
+
+<p>Step 4 yields &#60r'(t)&#62, the position vector of the particle in
+the drift frame, e.g.,
+
+<p>x'(t) = C*v'in*sin D*w*t.  
+
+<p>It is assumed here that w is calculated in u-units for q/m and B and v'in
+is calculated in u-units as well.  C is chosen so that x' and y' are in
+pixel units.</li>
+
+<p>
+
+<li>Now calculate &#60r(t)&#62 = &#60r'(t)&#62 + &#60u&#62*t, the
+position vector in the lab frame.  We want &#60r(t)&#62 in pixel units
+and must make sure that the two terms &#60r'(t)&#62 and &#60u&#62*t are
+both in pixel units.  We already have &#60r'(t)&#62 in pixel units.
+
+<p>The speed of a point on the &#60r'&#62-circle in pixels per time unit is
+C*v'inu*D*wu.  We must introduce a scale factor F that translates uu to up
+= F*uu such that
+
+<p>C*v'inu*D*wu/up = v'inu/uu.
+
+<p>Thus, 
+
+<p>C*v'inu*D*wu/(F*uu) = (v'inu/uu) * (C*D*wu/F) = v'inu/uu
+
+<p>whence
+
+<p>C*D*wu/F = 1 or F = C*D*wu.
+
+<p>Thus, we get &#60r(t)&#62p = &#60r'(t)&#62p + F*&#60u&#62u*t.</li>
+
+</ol>
+
+        <br>
+           <!-- The Date, and bug-reporter / enhancement-requester-->
+           (2001.06.14) Hans Laue <br>
+        </p>
+        <!-- Other Comments (there may be lots of these) -->
+        <p>
+
+           <br>
+           <!-- The Date, and commenter -->
+
+           <br>
+        </p>
+
+      </li>
+      <!--      ... to here.            -->
+      <!-- **************************** -->
+    <p>
+
+</blockquote>
+
+
+
+  </body>
+
+
+</html>
