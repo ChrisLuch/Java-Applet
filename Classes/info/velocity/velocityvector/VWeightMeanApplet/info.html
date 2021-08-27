@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content=
+    "HTML Tidy for Linux/x86 (vers 1st February 2003), see www.w3.org"
+          name="generator">
+    <title>
+      Help - Weighted Average Speed
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <link rel="stylesheet" type="text/css" href=
+    "../../../../../styles/infostyle.css">
+  </head>
+  <body>
+    <div class="title">
+      Help - Average Speed As A Weigthed Average
+    </div>
+
+    <div class="sectionheading">
+      The applet simulates that the average speed of an object during
+      a time interval is the weighted average of the object's speeds
+      in portions of that time interval.  
+    </div>
+    <hr noshade color="#C0C0C0">
+    <a name="Top"></a> 
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <p align="left">
+              <font face="Arial,Helvetica">
+	        <map name="fpmap0">
+                
+		<area href="#BasicControl" shape="rect" coords=
+                "64,480,90,504">
+
+                <area href="#BasicControl" shape="rect" coords=
+                "547,480,561,504">
+
+                <area href="#Trace" shape="rect" coords=
+                "163,480,187,504">
+
+                <area href="#Trace" shape="rect" coords=
+                "414,34,438,58">
+
+                <area href="#VelocityVector" shape="rect" coords=
+                "268,482,292,506">
+
+                <area href="#CarImage" shape="rect"
+                      coords="96,40,120,64">
+
+	        <area href="#CarImage" shape="rect"
+                      coords="363,481,387,505">
+
+		<area href="#Data" shape="rect"
+                      coords="452,480,476,504">
+
+                <area href="#Sliders" shape="rect"
+                      coords="182,412,206,436">
+                      
+                <area href="#Graphs" shape="rect" coords=
+                "514,426,538,550">
+ 
+                <area href="#MotionSense" shape="rect" coords=
+                "516,380,540,404">
+
+                </map> 
+
+		<img border="0" src="WeightedAverageHelp.gif"
+                   alt="Weighted Average Speed Help" usemap="#fpmap0">
+	      </font>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      <b>Click on a number to view the explanation of the
+      corresponding item</b>.
+    </p>
+    <hr noshade color="#C0C0C0">
+    <a name="BasicControl"></a> 
+    <ol>
+        <div class="sectionheading"><li>
+          Basic Control Buttons
+        </div>
+        <p>
+          There are two basic control buttons:
+        </p>
+        <dl>
+          <dd>
+            <img src="Play.gif" alt="Play" align="top">
+            <u>Play/Pause</u>. Starts the motion. 
+            <p>
+              After Play has been clicked, the button will change
+              into the Pause button <img src=
+              "Pause.gif" alt="Pause" align="top">.
+            </p>
+	    <p>  
+	      Clicking Pause will freeze the motion. To resume the
+              motion, click Play once more.
+            </p>
+          </dd>
+          <dd>
+            <img src="Reset.gif" alt="Reset" align="top">
+            <u>Reset</u>. Resets the applet to its default setting.
+          </dd>
+        </dl>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back To Top"
+               border="0" align="top"></a>
+        </p>
+        <a name="Trace"></a>
+        </li>
+        <div class="sectionheading"><li>
+          Trace <img src="Trace.gif" alt="Trace"
+               align="top">
+        </div>
+        <p>
+         The Trace toggle button lets you display/hide the path
+         traveled by the object (car).
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="VelocityVector"></a>
+        </li>
+        <div class="sectionheading"><li>
+          Velocity <img src="Velocity.gif" alt="Velocity Vector" align="top">
+        </div>
+        <p>
+         The Velocity toggle button lets you display/hide the arrow
+         representing the moving object's velocity vector.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+        <a name="CarImage"></a>
+        </li>
+        <div class="sectionheading"><li>
+           Image <img src="Image.gif"
+          alt="Image" align="top">
+        </div>
+        <p>
+         The Image toggle button lets you display/hide the image of the car.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+          <a name="Data"></a>
+	</li>
+        <div class="sectionheading"><li>
+          Data <img src="Data.gif" alt="Data"
+               align="top">
+        </div>
+	<p align="center">
+	  <img src="WADataBox.gif" "Data Box">
+        </p>
+        <p>
+          The Data toggle button lets you display/hide the Data box.
+          The box can be dragged to a convenient location by clicking
+          on it and dragging.  The green scroll bar on the right lets
+          you scroll through the list of bins.
+	</p>
+	<p>
+          The Data box contains information in numerical form that the
+          graph of accumulated time vs. speed shown below displays
+          graphically.
+	</p>
+	<p align="center">
+         <img src="WeightedAverageGraph.gif" alt="Weighted Average Graph">
+	</p>
+	<p>
+          The five columns of the Data box contain the following information.
+	</p>
+        <ul>
+         <li>
+          <u>Column 1: Bin Number</u>.  The speed of the moving object
+	 (car) can be varied between 0 and 50 m/s.  This interval can
+	 be divided into a number of equally wide bins by using the
+	 Number-of-Bins slider.  The bins are numbered starting with
+	 No.0 for the bin with the smallest speeds including 0 m/s.
+	 (The information for Bin 0 is not visible in the image of the
+	 Data box above.  
+	 </li>
+	 <li>
+          <u>Column 2: Accumulated Time <i>t</i> in s</u>. The
+	 object's speed can be varied.  In general, if the motion is
+	 observed during a time interval of duration <i>T</i>, the
+	 object's speed takes on values that lie in different bins,
+	 sometimes returning to values in a given bin repeatedly.  The
+	 Accumulated Time for a bin is the total time elapsed within
+	 the time interval <i>T</i> during which the object's speed
+	 has a value in the given bin.  The total of all accumulated
+	 bin times is equal to time <i>T</i> and is listed at the
+	 bottom of Column 2.  
+	 </li> 
+	 <li>
+          <u>Column 3: Bin Interval in m/s</u>.  This is the range of
+	 speeds for a given bin.  The range is open on the left and
+	 closed on the right.  E.g., in the image of the Data box
+	 above, Bin 4 is the speed interval (8.0,10.0].  It contains
+	 all speeds between 8.0 m/s and 10.0 m/s, not including 8.0
+	 m/s but including 10.0 m/s.  The Bin-0 interval, containing
+	 the value 0 m/s, is closed at both ends. Notice the rounded
+	 parentheses to denote the open end of the interval and the
+	 square parentheses for the closed end.  
+	 </li> 
+	 <li>
+          <u>Column 4: Bin Speed <i>v</i> in m/s</u>.  This is the
+	 speed at the mid-point of the bin.  E.g., the bin speed for
+	 Bin 4 is equal to 9.0 m/s.  
+	 </li>
+	 <li>
+          <u>Column 5: <i>v</i>*<i>t</i> in m</u>.  This is the
+	 product of the bin speed <i>v</i> and the accumulated time
+	 <i>t</i> for a given bin.  It is equal to the distance that
+	 would have been traveled by the object if it had maintained
+	 the bin speed throughout the amount of accumulated time
+	 <i>t</i>.  The total bin distance <i>s<sub>bin</sub></i>,
+	 which is the sum of the distances <i>v</i>*<i>t</i> for all
+	 bins, is listed at the bottom of Column 5.  
+	 </li> 
+	 </ul>
+	<p>
+         Below the five columns and the Totals of Columns 2 and 5,
+         three additional values are listed:
+        </p>
+	<p>
+         <ul>
+	  <li>
+           <u>Distance traveled (exact value)</u>.  This is the total
+	  distance <i>s</i> traveled in the entire time interval
+	  <i>T</i>.  It is in general not equal to the the sum
+	  <i>s<sub>bin</sub></i> of the bin distances
+	  <i>v</i>*<i>t</i>.  
+	  </li>
+	  <li>
+	   <u>Bin Speed Average</u>.  This is equal to the total bin
+	  distance <i>s<sub>bin</sub></i> divided by the total
+	  accumulated time <i>T</i>.  
+	  </li> 
+	  <li>
+	   <u>Average Speed (exact value)</u>.  This is the true value
+         of the average speed.  The bin speed average would be equal
+         to it if one took infinitely many bins of vanishing width.
+         </li> 
+	</ul>
+	</p>
+        <p align="right"> 
+         <a href="#Top"><img
+	 src="top.gif" alt="Back to Top" border="0" align="top"></a>
+        </p>
+          <a name="Sliders"></a>
+        </li>
+        <div class="sectionheading"><li>
+           Sliders
+        </div>
+        <p>
+          There are two sliders, shown in the following image.
+          Clicking on a slider to the left or right of the slider
+          tab allows fine adjustment of the slider setting.
+        </p>
+        <p align="center">
+          <img src="WABinsSlider.gif" alt="Bins Slider">
+          <br><img src="WASpeedSlider.gif" alt="Speed Slider">
+        </p>
+        <p>
+          Clicking on the Input Dialog button <img src=
+          "SliderButton.gif" alt="Input Dialog Button" align=
+          "top"> of a slider will open a dialog for entering an
+          exact value for the slider setting. The dialog for the
+          <i>Speed</i>-slider is illustrated below. The range in which
+          values can be entered, from 0 m/s to 50.0 m/s in this
+          case, is indicated above the data entry field.
+        </p>
+        <p align="center">
+          <img src="SpeedSliderEntryField.gif" alt=
+          "Input Dialog Field">
+        </p>
+        <p>
+          The two sliders in the control panel allow you to adjust
+          the values of the following quantities.
+        </p>
+	<ul>
+          <li>
+          <u>Number of Bins</u>.  The number of bins into which the
+         speed interval from 0 to 50 m/s can be divided can be set to
+         any number from 1 to 50 by means of this slider.  All bins
+         have the same width.  
+	  </li> 
+          <li>
+          <u>Speed</u>. The moving object (car) can move
+          counter-clockwise or clockwise on an oval track.  The speed
+          of the motion is set by the Speed Slider.  The range of the
+          speed is from 0 to 50.0 m/s, in steps of 0.1 m/s.
+          </li>
+	</ul>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+          <a name="Graphs"></a>
+	</li>
+        <div class="sectionheading"><li>
+          Speed vs. Time Graph <img src="WASpeed_Time.gif" alt="Speed vs. Time Graph" align="top">
+        </div>
+        <div class="sectionheading">
+          Accumulated Time vs. Speed Graph <img src="WAAccumulatedTime.gif"
+               alt="Accumulated Time" align="top">
+        </div>
+        <p>
+         When the Speed vs. Time checkbox is checked, a graph of the
+         moving object's speed vs. time is displayed as in the
+         following image.  
+	<p align="center"> 
+	  <img src="SpeedTimeGraph.gif" alt="Speed vs. Time Graph">
+        </p>
+	<p>
+         The graph displays two curves: instantaneous speed vs. time
+         in red and average speed from the beginning of the motion up
+         to the given instant in blue.  In an interval where the
+         latter is equal to the former, the blue graph representing
+         the latter is covered up by the red graph representing the
+         former.  In the image above, this is the case in the initial
+         interval from <i>t</i> = 0 to approximately <i>t</i> = 11 s.
+        </p>
+	<p>
+         The graph also indicates the average speed over the entire
+         time interval by a horizontal blue line and a corresponding
+         value on the vertical axis.
+	</p>
+	<p>
+          When the Accumulated Time vs. Speed checkbox is checked, the
+         graph of Accumulated Time vs. Speed is displayed as in the
+         following image.
+        </p>
+        <p align="center">
+          <img src="WeightedAverageGraph.gif" alt="Weighted Average Graph">
+        </p>
+        <p>
+         The graph displays the numerical information contained in the
+         Data box in graphical form.  See Point 2, "Data Box", for
+         details.  It also indicates the Bin Speed Average from the Data Box
+         by means of a blue arrow and a numerical value.
+        </p>
+        <p>
+         Both graphs can be dragged to a convenient location by
+         clicking in the area of the graph and dragging.
+        </p>
+        <p align="right">
+          <a href="#Top"><img src="top.gif" alt="Back to Top"
+          border="0" align="top"></a>
+        </p>
+          <a name="MotionSense"></a>
+        </li>
+        <div class="sectionheading"><li>
+           Direction of Motion <img src="WAMotionSense.gif"
+               alt="Direction of Motion" align="top">
+        </div>
+        <p>
+          The direction of the motion, whether counter-clockwise or
+          clockwise, can be chosen by clicking one of the two radio
+          buttons.
+        </p>
+      </li>
+    </ol>
+    <p align="right">
+      <a href="#Top"><img src="top.gif" alt="Back to Top"
+           border="0" align="top"></a>
+    </p>
+    <hr noshade color="#C0C0C0">
+  </body>
+</html>
