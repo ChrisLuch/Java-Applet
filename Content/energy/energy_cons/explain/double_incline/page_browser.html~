@@ -13,7 +13,7 @@
 <!-- SHANE'S VERSION-->
 
 <OBJECT classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
-WIDTH = "560" HEIGHT = "25"  codebase="http://java.sun.com/products/plugin/1.3/jinstall-112-win32.cab#Version=1,3,0">
+WIDTH = "100%" HEIGHT = "100%"  codebase="http://java.sun.com/products/plugin/1.3/jinstall-112-win32.cab#Version=1,3,0">
 <PARAM NAME = CODE VALUE = "ca.ucalgary.phas.map.contentNavigator.PageBrowser.class" >
 <PARAM NAME = CODEBASE VALUE = "../../../../../Classes" >
 <PARAM NAME = ARCHIVE VALUE = "ucalgaryjars/page_browser.jar,ucalgaryjars/utilities.jar" >
@@ -37,7 +37,7 @@ WIDTH = "560" HEIGHT = "25"  codebase="http://java.sun.com/products/plugin/1.3/j
 <PARAM NAME = "RESET_BUTTON_VISIBLE" VALUE  = "false">
 <COMMENT>
 <EMBED type="application/x-java-applet;version=1.3" java_CODE = "ca.ucalgary.phas.map.contentNavigator.PageBrowser.class" java_CODEBASE = "../../../../../Classes" java_ARCHIVE = "ucalgaryjars/page_browser.jar,ucalgaryjars/utilities.jar"
-	WIDTH = "560" HEIGHT = "25"
+	WIDTH = "100%" HEIGHT = "100%"
 	VERBOSE="false" LOAD_FIRST_PAGE_ON_INIT="true" PAGE_COUNT="22" FRAME_COUNT="1" FRAME_PAUSE_POLICY="true"
 	URL_BASE_RELATIVE_TO_DOC="true" URL_BASE_RELATIVE_TO_CODE="false" URL_BASE=""
 	FRAME_NAMES = "MAIN" MAIN_FRAME_URLS="page1.html,applet.html,page2.html,applet.html,page3.html,applet.html,page4.html,page5.html,applet.html,page6.html,page7.html,page8.html,page9.html,applet.html,page10.html,applet.html,page11.html,page12.html,applet.html,page13.html,page14.html,applet.html"
