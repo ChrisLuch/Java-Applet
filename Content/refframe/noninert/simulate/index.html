@@ -1,24 +1,22 @@
 <html>
-<head>
-<title>Disc Demo</title>
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
-<LINK REL=stylesheet TYPE="text/css" HREF="../../../../styles/borderstyle.css">
-</head>
+  <head>
+    <title>Disc Demo</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+    <LINK REL=stylesheet TYPE="text/css" HREF="../../../../styles/borderstyle.css">
+  </head>
 
- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">
-   <frameset cols = "395,*" border = "0">
-     <frame src="applet.html" name = "LEFT_SIDE" noresize scrolling = "NO">
-     <frame src="page1.html" name = "RIGHT_SIDE" noresize>
-   </frameset>
-   <frame src="pagebrowser.html" noresize scrolling = "NO">
- </frameset>
+  <!-- <frameset rows="*,35" cols="*" border="0" framespacing="0" frameborder="NO">
+    <frameset cols = "395,*" border = "0">
+      <frame src="applet.html" name = "LEFT_SIDE" noresize scrolling = "NO">
+      <frame src="page1.html" name = "RIGHT_SIDE" noresize>
+    </frameset>
+    <frame src="pagebrowser.html" noresize scrolling = "NO">
+  </frameset> -->
 
+  <body bgcolor="#F0F0EA">
+    <!-- Your browser does not support frames... Too Bad... -->
+    <iframe src="applet.html" name="LEFT_SIDE" height="99%" width="70%" frameborder="0"></iframe>
+    <iframe src="page1.html" name="RIGHT_SIDE" height="99%" width="29%" frameborder="0"></iframe>
+  </body>
 
-<noframes>
-
-<body bgcolor="#F0F0EA">
-Your browser does not support frames... Too Bad...
-</body>
-
-</noframes>
 </html>
