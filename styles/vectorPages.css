@@ -6,6 +6,7 @@ body {
     background-color: #333;
     min-height: 100vh;
     /* border-radius: 10px; */
+    overflow: hidden; 
 }
 
 .main {
@@ -15,8 +16,8 @@ body {
     /* margin-top: 30%; */
     /* min-height: 100vh; */
     color: white;
-    /* max-width: 600px;
-    overflow: scroll; */
+    /* max-width: 600px;*/
+    overflow: hidden; 
         
 }
 
