@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Capacitor Simulation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script
+      language="JAVASCRIPT"
+      src="../../../../../styles/openWindow.js"
+    ></script>
+    <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+    <script>
+      cheerpjInit();
+    </script>
+  </head>
+
+  <body
+    bgcolor="ffffff"
+    topmargin="0"
+    leftmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+  <!-- width and height, not percentages -->
+    <div align="center">
+      <applet
+        code="ca.ucalgary.phas.map.forces.chargedParticles.EMparticleApplet.class"
+        codebase="../../../../../Classes"
+        archive="ucalgaryjars/forces_charged_particles.jar,ucalgaryjars/utilities.jar,ucalgaryjars/page_browser.jar"
+        width="100"
+        height="100"
+        MAYSCRIPT="true"
+      >
+      <PARAM NAME="APPLET_MODE" VALUE="capacitor_energy">
+        <!--Acceptable values for "APPLET_MODE" are: (These are case-insensitive)
+        ---    exb
+        ---    exb_thomson
+        ---    exb_zoom
+        ---    magnetic_field
+        ---    electric_field
+        ---    capacitor
+        ---    capacitor_energy-->
+        <param name="USE_PAGE_BROWSER" value="false" />
+        <PARAM NAME="SINGLE_PAGE_MODE" VALUE="true" />
+        <param name="VERBOSE" value="false" />
+        <param name="HIDE_TOOLS" value="false" />
+        <param name="APPLET_NAME" value="Charged Particle in Capacitor" />
+        <param name="APPLET_NAME_FR" value="Particule chargee dans le Condensateur" />
+        <PARAM NAME = "HELP_URL" VALUE  = "../../../../../Classes/info/forces/chargedParticles/EMparticleApplet/capacitor_energy/applet_help.html" />
+      </applet>
+    </div>
+  </body>
+</html>
