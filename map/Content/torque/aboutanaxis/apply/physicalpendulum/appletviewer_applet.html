@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Torque Simulation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script
+      language="JAVASCRIPT"
+      src="../../../../../styles/openWindow.js"
+    ></script>
+    <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+    <script>
+      cheerpjInit();
+    </script>
+  </head>
+
+  <body
+    bgcolor="ffffff"
+    topmargin="0"
+    leftmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+  <!-- width and height, not percentages -->
+    <div align="center">
+      <applet
+        code="ca.ucalgary.phas.map.pendulum.PendulumDemo.class"
+        codebase="../../../../../Classes"
+        archive="ucalgaryjars/pendulum.jar,ucalgaryjars/utilities.jar,ucalgaryjars/page_browser.jar"
+        width="800"
+        height="800"
+        MAYSCRIPT="true"
+      >
+        <PARAM NAME="START_PAGE" VALUE="page1">
+        <!--Acceptable values for "START_PAGE" are: (These are case-insensitive)
+        ---    page1
+        ---    page2-->
+        <param name="PAGE_BROWSER_PRESENT" value="false" />
+        <PARAM NAME="SINGLE_PAGE_MODE" VALUE="true" />
+        <param name="VERBOSE" value="false" />
+        <param name="HIDE_TOOLS" value="false" />
+        <PARAM NAME="APPLET_NAME" VALUE="Pendulum" />
+        <PARAM NAME="HELP_URL" VALUE="../../../../../Classes/info/pendulum/PendulumDemo/info.html" />
+        <PARAM NAME="INFO_URL" VALUE="../../../../../Classes/info/pendulum/PendulumDemo/info.html" />
+      </applet>
+    </div>
+  </body>
+</html>
