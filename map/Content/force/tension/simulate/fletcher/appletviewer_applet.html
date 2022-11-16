@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Fletcher's Trolley</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script
+      language="JAVASCRIPT"
+      src="../../../../../styles/openWindow.js"
+    ></script>
+    <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+    <script>
+      cheerpjInit();
+    </script>
+  </head>
+
+  <body
+    bgcolor="ffffff"
+    topmargin="0"
+    leftmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+  <!-- width and height, not percentages -->
+    <div align="center">
+      <applet
+        code="ca.ucalgary.phas.map.forces.atwood.AtwoodApplet.class"
+        codebase="../../../../../Classes"
+        archive="ucalgaryjars/forces_atwood.jar,ucalgaryjars/utilities.jar,ucalgaryjars/page_browser.jar"
+        width="100"
+        height="100"
+        MAYSCRIPT="true"
+      >
+        <param name="MODE" value="fletcher" />
+        <!--Acceptable values for "MODE" are: (These are case-insensitive)
+        ---    single
+        ---    atwood
+        ---    fletcher
+        ---    fletcher_q
+        ---    free
+        ---    question
+        ---    question_drop
+        ---    question_accel1
+        ---    question_accel2-->
+        <param name="USE_PAGEBROWSER" value="false" />
+        <PARAM NAME="SINGLE_PAGE_MODE" VALUE="true" />
+        <param name="VERBOSE" value="false" />
+        <param name="HIDE_TOOLS" value="false" />
+        <param name="APPLET_NAME" value="Fletcher's Trolley" />
+        <param name="APPLET_NAME_FR" value="Chariot de Fletcher" />
+        <PARAM NAME="HELP_URL" VALUE="../../../../../Classes/info/forces/atwood/AtwoodApplet/fletcher/applet_help.html" />
+      </applet>
+    </div>
+  </body>
+</html>

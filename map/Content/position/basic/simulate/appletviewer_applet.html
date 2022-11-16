@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Position</title>
+    <script
+      language="JAVASCRIPT"
+      src="../../../../../styles/openWindow.js"
+    ></script>
+    <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+    <script>
+      cheerpjInit();
+    </script>
+  </head>
+  <body>
+    <!-- width and height, not percentages -->
+    <applet
+      code="ca.ucalgary.phas.map.kinematics.position.PositionApplet"
+      codebase="../../../../Classes"
+      archive="ucalgaryjars/kinematics_position.jar,ucalgaryjars/page_browser.jar,ucalgaryjars/utilities.jar,ucalgaryjars/vectorclasses.jar"
+      width="100"
+      height="100"
+      MAYSCRIPT="TRUE"
+    >
+      <param name="PAGE_BROWSER_PRESENT" value="false" />
+      <param name="APPMODE" value="Position" />
+      <!--Acceptable values for "appMode" are: (These are case-insensitive)
+      ---    displacement
+      ---    position
+      -->
+      <param name="APPLET_NAME" value="Position" />
+      <param name="HELP_URL" value="../../../../Classes/info/kinematics/position/PositionApplet/applet_help.html" />
+    </applet>
+  </body>
+</html>
