@@ -4,19 +4,33 @@
 <meta http-equiv="Content-Type" content="text/html;
 charset=iso-8859-1">
 </head>
-
- <frameset rows="*,35" cols="*" borders="0" framespacing="0" frameborder="NO">
-  <frameset cols="400,*" border="1" framespacing="1" scrolling = "NO" noresize>
-     <frame src="applet.html" name="Applet">
-    <frame src="page1.html" name="Text">
-  </frameset>
-  <frame src = "page_browser.html"  noresize scrolling = "NO">
- </frameset>
-
-
-
-<noframes>
 <body bgcolor="#999999">
+  <div class="container">
+    <iframe
+      src="applet.html"
+      name="Applet"
+      frameborder="0"
+      height="94%"
+      width="54%"
+    >
+    </iframe>
+    <iframe
+      src="page1.html"
+      name="Text"
+      frameborder="0"
+      height="94%"
+      width="45%"
+      scrolling="no"
+    >
+    </iframe>
+    <iframe
+      src="page_browser.html"
+      frameborder="0"
+      height="5%"
+      width="99%"
+      scrolling="no"
+    >
+    </iframe>
+  </div>
 </body>
-</noframes>
 </html>
